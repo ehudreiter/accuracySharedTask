@@ -8,6 +8,8 @@ For more information on the shared task, see https://www.aclweb.org/anthology/20
 * 1 August 2021: results announced
 * Sept 2021: presentation of shared task at INLG 2021
 
+For more information or to refister interest, please email Ehud Reiter at   e.reiter@abdn.ac.uk
+
 ## What is in this repo
 This repository contains an initial set of accuracy-annotated texts for the shared task.  We will expand the size of this set.
 * 21 texts produced by neural NLG systems, which describe basketball box score data for 21 NBA games.
