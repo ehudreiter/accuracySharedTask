@@ -1,4 +1,5 @@
-For more information on the shared task, see (https://www.aclweb.org/anthology/2020.inlg-1.28/)
+# Shared Task in Evaluating Accuracy
+For more information on the shared task, see https://www.aclweb.org/anthology/2020.inlg-1.28/
 
 ## Shared task schedule
 * 15 December 2020: Shared task officially launched at INLG 2020
@@ -14,5 +15,5 @@ This repository contains an initial set of accuracy-annotated texts for the shar
 * spreadsheet showing relevant pages on https://www.basketball-reference.com/ for the 21 games
 * human-written summaries for the 21 games
 
-Data for the games is available at (https://github.com/nlgcat/sport_sett_basketball)
+Data for the games is available at https://github.com/nlgcat/sport_sett_basketball
 
