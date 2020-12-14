@@ -17,5 +17,5 @@ We will expand the size of this set.  Note that the numbering of the texts in th
 * word_docs: word documents used in human experiments.  Page 6 includes the texts (same as in texts directory) and links which human subjects can use to get data about the games
 * gold-standard markup list (GSML), which lists mistakes in these texts
 
-Data for the games is available at https://github.com/nlgcat/sport_sett_basketball and https://github.com/harvardnlp/boxscore-data.
-
+Data for the games is available at https://github.com/nlgcat/sport_sett_basketball (extended relational database) and https://github.com/harvardnlp/boxscore-data (original Rotowire JSON data).  The generated_text_info tab of https://github.com/ehudreiter/accuracySharedTask/blob/main/gsml.xlsx has ID's for SportSett, and line 
+numbers for Rotowire.
