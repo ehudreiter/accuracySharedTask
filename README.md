@@ -12,7 +12,7 @@ For more information or to refister interest, please email Ehud Reiter at   e.re
 
 ## What is in this repo
 This repository contains an initial set of 21 accuracy-annotated texts for the shared task, extracted from https://github.com/nlgcat/evaluating_accuracy
-We will expand the size of this set.  Note that the numbering of the texts in the initial set is from 5-18 and 22-28
+We will expand the size of this set; we may also make small changes to tokenisation.  Note that the numbering of the texts in the initial set is from 5-18 and 22-28
 * texts: the source texts produced by neural NLG systems, which describe basketball box score data
 * word_docs: word documents used in human experiments.  Page 6 includes the texts (same as in texts directory) and links which human subjects can use to get data about the games
 * gold-standard markup list (GSML), which lists mistakes in these texts
