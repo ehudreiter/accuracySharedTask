@@ -1,7 +1,7 @@
 # Shared Task in Evaluating Accuracy
 Our shared task focuses on techniques for evaluating the factual accuracy of texts produced by data-to-text systems.   We welcome submissions of both automatic metrics and human evaluation protocols for this task.
 
-As training and development data, we provide a set of generated texts which have been manually annotated to identify factual inaccuracies.  We will evaluate submissions to the shared task based on a separate test set of manually annotated texts, and report recall and precision compared to the test set annotations of inaccuracies.   This will be reported both overall, and for different types of factual inaccuracies, including incorrect numbers, incorrect names, incorrect words, and contextual errors. 
+As training and development data, we provide a set of generated texts which have been manually annotated to identify factual inaccuracies.  We will evaluate submissions to the shared task based on a separate test set of manually annotated texts, and will report recall and precision compared to the test set annotations of inaccuracies.   This will be reported both overall, and for different types of factual inaccuracies, including incorrect numbers, incorrect names, incorrect words, and contextual errors. 
 
 The texts we use are descriptions of basketball games produced three different neural NLG systems, from box-score data.  The descriptions are 300 words long on average.
 
@@ -14,7 +14,7 @@ For detailed information on the shared task, see https://www.aclweb.org/antholog
 * 1 August 2021: results announced
 * Sept 2021: presentation of shared task at INLG 2021
 
-For more information or to refister interest, please email Ehud Reiter at   e.reiter@abdn.ac.uk
+For more information or to register interest, please email Ehud Reiter at   e.reiter@abdn.ac.uk
 
 ## What is in this repo
 This repository contains an initial set of 21 accuracy-annotated texts for the shared task, extracted from https://github.com/nlgcat/evaluating_accuracy
