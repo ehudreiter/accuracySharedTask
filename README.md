@@ -10,7 +10,7 @@ For detailed information on the shared task, see https://www.aclweb.org/antholog
 ## Shared task schedule
 * 15 December 2020: Shared task officially launched at INLG 2020
 * 15 February 2021: deadline for notifying us that you intend to participate in the shared task (please email   e.reiter@abdn.ac.uk )
-* 15 June 2021: submission of techniques (algorithms and protocols).  Test set released, participants must give results within 2 weeks
+* 15 June 2021: submission of techniques (metrics and protocols).  We will release the test set, and ask participants to try their techniques on the test set and give us results within 2 weeks.   We will check the results and compute recall and precision statistics
 * 1 August 2021: results announced
 * Sept 2021: presentation of shared task at INLG 2021
 
