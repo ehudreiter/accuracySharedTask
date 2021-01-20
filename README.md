@@ -1,9 +1,13 @@
 # Shared Task in Evaluating Accuracy
-For more information on the shared task, see https://www.aclweb.org/anthology/2020.inlg-1.28/
+Our shared task focuses on techniques for evaluating the factual accuracy of texts produced by data-to-text systems.   We welcome submissions of both automatic metrics and human evaluation protocols for this task.
+
+As training and development data, we provide a set of generated texts which have been manually annotated to identify factual inaccuracies.  We will evaluate submissions to the shared task based on a separate test set of manually annotated texts, and report recall and precision compared to the test set annotations.   This will be reported both overall, and for different types of factual inaccuracies, including incorrect numbers, incorrect names, incorrect words, and contextual errors. 
+
+For detailed information on the shared task, see https://www.aclweb.org/anthology/2020.inlg-1.28/
 
 ## Shared task schedule
 * 15 December 2020: Shared task officially launched at INLG 2020
-* 15 February 2021: deadline for registration
+* 15 February 2021: deadline for notifying us that you intend to participate in the shared task (please email   e.reiter@abdn.ac.uk )
 * 15 June 2021: submission of techniques (algorithms and protocols).  Test set released, participants must give results within 2 weeks
 * 1 August 2021: results announced
 * Sept 2021: presentation of shared task at INLG 2021
