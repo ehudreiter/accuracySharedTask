@@ -17,12 +17,10 @@ For detailed information on the shared task, see https://www.aclweb.org/antholog
 For more information or to register interest, please email Ehud Reiter at   e.reiter@abdn.ac.uk
 
 ## What is in this repo
-This repository contains an initial set of 21 accuracy-annotated texts for the shared task, extracted from https://github.com/nlgcat/evaluating_accuracy
-We will expand the size of this set; we may also make small changes to tokenisation.  Note that the numbering of the texts in the initial set is from 5-18 and 22-28
+This repository contains an initial set of 21 accuracy-annotated texts for the shared task, extracted from https://github.com/nlgcat/evaluating_accuracy, plus 6 new texts annotated by the same method.  It is our intention to have a total of 60 texts available by the February 15th 2021 deadline, but we wanted to make what we have already available for participants to view.  Note that the numbering of the texts in the initial set is from 5-18 and 22-28, the final set will have sequential numbering from 1 to 60.
 * texts: the source texts produced by neural NLG systems, which describe basketball box score data
 * word_docs: word documents used in human experiments.  Page 6 includes the texts (same as in texts directory) and links which human subjects can use to get data about the games
-* gold-standard markup list (GSML), which lists mistakes in these texts
+* gold-standard markup list (GSML), which lists mistakes in these texts.  This is a comma separated file, with cells encased in double quotes.
 
-Data for the games is available at [SportSett](https://github.com/nlgcat/sport_sett_basketball) (extended relational database) or [Rotowire](https://github.com/harvardnlp/boxscore-data) (original Rotowire JSON data).  The generated_text_info tab of [gsml.xlsx](https://github.com/ehudreiter/accuracySharedTask/blob/main/gsml.xlsx) has ID's for SportSett, and line 
-numbers for Rotowire.
+Data for the games is available at [SportSett](https://github.com/nlgcat/sport_sett_basketball) (extended relational database) or [Rotowire](https://github.com/harvardnlp/boxscore-data) (original Rotowire JSON data).  GSML [gsml.xlsx](https://github.com/ehudreiter/accuracySharedTask/blob/main/gsml.csv) has ID's for SportSett, and line numbers for Rotowire.
 
