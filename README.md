@@ -41,9 +41,5 @@ The [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games
     LEFT JOIN games
     ON        games.id = games_rotowire_entries.game_id
     WHERE dataset_splits.name='test'
-    AND rotowire_entries.id IN (
-        720,
-        307,
-        409
-    )
+    AND rotowire_entries.id IN (720,307,409,497,286,154,367,366,231,208,638,308,668,565,562,654,213,220,105,512,138,681,260,392,379,415,727);
 ```
