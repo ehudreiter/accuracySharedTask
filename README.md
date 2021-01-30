@@ -38,8 +38,8 @@ Data for the games is available at [SportSett](https://github.com/nlgcat/sport_s
     ON        games.id = games_rotowire_entries.game_id
     WHERE dataset_splits.name='test'
     AND rotowire_entries.id IN (
-    720,
-    307,
-    409
+        720,
+        307,
+        409
     )
 ```
