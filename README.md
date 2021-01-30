@@ -25,6 +25,7 @@ This repository contains an initial set of 21 accuracy-annotated texts for the s
 Data for the games is available at [SportSett](https://github.com/nlgcat/sport_sett_basketball) (extended relational database) or [Rotowire](https://github.com/harvardnlp/boxscore-data) (original Rotowire JSON data).  Please note that SportSett currently does not included playoff games, whilst the original Rotowire partitions (and our annotated texts) do.  The [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv) file has line numbers for Rotowire (the test set), which can be used directly with Rotowire to obtain the JSON data, as well as the human authored text for the game if.  It also includes some additional information that was used in the creation of the MS Word documents (such as links to statistics websites).
 
 **SQL Query for SportSett to get game_ids from rotowire line numbers**
+```
     SELECT games.id AS game_id,
            rotowire_entries.rw_line AS line_number,
            rotowire_entries.summary AS gold_text
@@ -41,3 +42,4 @@ Data for the games is available at [SportSett](https://github.com/nlgcat/sport_s
     307,
     409
     )
+```
