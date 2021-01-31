@@ -21,10 +21,10 @@ This repository contains an initial set of 21 accuracy-annotated texts for the s
 * texts: the source [texts](https://github.com/ehudreiter/accuracySharedTask/blob/main/texts) produced by neural NLG systems, which describe basketball box score data
 * word_docs: word documents used in human experiments.  Page 6 includes the texts (same as in texts directory) and links which human subjects can use to get data about the games
 * gold-standard markup list ([gsml.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/gsml.csv)), which lists mistakes in these texts.  This is a comma separated file, with cells encased in double quotes.
-* Appropriate subset of Rotowire JSON: For convenience, we have included the file [shared_task.jsonl](https://github.com/ehudreiter/accuracySharedTask/blob/main/shared_task.jsonl) which includes the lines from the Rotowire test set, for each of our annotated documents.
-* Game information ([games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv)): Information on the games we annotated to create the GSML.
+* appropriate subset of Rotowire JSON: For convenience, we have included the file [shared_task.jsonl](https://github.com/ehudreiter/accuracySharedTask/blob/main/shared_task.jsonl) which includes the lines from the Rotowire test set, for each of our annotated documents.
+* game information ([games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv)): Information on the games we annotated to create the GSML.
 
-Data for all games in the is available at [Rotowire](https://github.com/harvardnlp/boxscore-data) (original Rotowire JSON data).  it is also available at[SportSett](https://github.com/nlgcat/sport_sett_basketball) (extended relational database).  Please note that SportSett currently does not included playoff games, but does provide much more information on regular season games.
+Data for all games is available at [Rotowire](https://github.com/harvardnlp/boxscore-data) (original Rotowire JSON data).  it is also available at[SportSett](https://github.com/nlgcat/sport_sett_basketball) (extended relational database).  Please note that SportSett currently does not included playoff games, but does provide much more information on regular season games.
 
 ### [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv) columns
 1. DOC_ID: The ID for the summary within our shared task.  These match the filenames in [texts](https://github.com/ehudreiter/accuracySharedTask/blob/main/texts).
