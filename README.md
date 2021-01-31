@@ -35,8 +35,8 @@ Data for all games is available at [Rotowire](https://github.com/harvardnlp/boxs
 6. DETOKENIZED_GENERATED_TEXT: The same as generated texts, but detokenized such that whitespace is as it should be in English.  This is what we gave to the Mechanical Turkers.
 7. DATE: The date from the [Rotowire](https://github.com/harvardnlp/boxscore-data) JSON format.  MM_DD_YY.
 8. BREF_BOX: A link to the box score and other statistics for the game, in https://www.basketball-reference.com/
-9. BREF_HOME: A link to the season schedule for the home team.
-10. BREF_VIS: A link to the season schedule for the visiting team.
+9. BREF_HOME: A link to the season schedule for the home team, in https://www.basketball-reference.com/
+10. BREF_VIS: A link to the season schedule for the visiting team, in https://www.basketball-reference.com/
 11. CALENDAR: A link to a calander for the month the game was played in (we provided this to Turkers for convenience).
 
 ### [gsml.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/gsml.csv) columns
