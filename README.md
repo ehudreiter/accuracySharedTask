@@ -28,7 +28,7 @@ For convenience, we have included the file [shared_task.jsonl](https://github.co
 
 The [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv) file has line numbers for Rotowire (the test set), as well as the human authored text for the game if.  It also includes some additional information that was used in the creation of the MS Word documents (such as links to statistics websites).
 
-### games.csv columns
+### [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv) columns
 1. DOC_ID: The ID for the summary within our shared task.  These match the filenames in [texts](https://github.com/ehudreiter/accuracySharedTask/blob/main/texts).
 2. HOME_NAME: The name of the home team.
 3. VIS_NAME: The name of the visiting team.
@@ -41,7 +41,7 @@ The [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games
 10. BREF_VIS: A link to the season schedule for the visiting team.
 11. CALENDAR: A link to a calander for the month the game was played in (we provided this to Turkers for convenience).
 
-### gsml.csv columns
+### [gsml.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/gsml.csv) columns
 1. TEXT_ID: The ID for the summary within our shared task.  These match the filenames in [texts](https://github.com/ehudreiter/accuracySharedTask/blob/main/texts).
 2. SENTENCE_ID: The sentence number with each summary (starting at 1, comes from WebAnno).
 3. ANNOTATION_ID: A global ID for the annotation (error).
@@ -54,7 +54,7 @@ The [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games
 10. CORRECTION: The correction given (if it could be substituted directly and be almost grammatically correct).
 11. COMMENT: If a direct CORRECTION cannot be made without a major rewrite of the sentence, or if the CORRECTION needs clarification.
 
-### shared_task.jsonl details
+### [shared_task.jsonl](https://github.com/ehudreiter/accuracySharedTask/blob/main/shared_task.jsonl) details
 This file is in the the same format as [Rotowire](https://github.com/harvardnlp/boxscore-data), except that each line contains a dictionary representing one game record.  This makes it easier to read than one massively long line.  Three keys were added:
 1. shared_task_document_id: maps to our TEXT_ID above.
 2. cleaned_text: the human authored (gold) text from the test set, cleaned as above.
