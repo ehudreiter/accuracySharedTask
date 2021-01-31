@@ -21,10 +21,10 @@ This repository contains an initial set of 21 accuracy-annotated texts for the s
 * texts: the source [texts](https://github.com/ehudreiter/accuracySharedTask/blob/main/texts) produced by neural NLG systems, which describe basketball box score data
 * word_docs: word documents used in human experiments.  Page 6 includes the texts (same as in texts directory) and links which human subjects can use to get data about the games
 * gold-standard markup list ([gsml.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/gsml.csv)), which lists mistakes in these texts.  This is a comma separated file, with cells encased in double quotes.
+* Appropriate subset of Rotowire JSON: For convenience, we have included the file [shared_task.jsonl](https://github.com/ehudreiter/accuracySharedTask/blob/main/shared_task.jsonl) which includes the lines from the Rotowire test set, for each of our annotated documents.
+* Game information ([games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv)): Information on the games we annotated to create the GSML.
 
-Data for the games is available at [SportSett](https://github.com/nlgcat/sport_sett_basketball) (extended relational database) or [Rotowire](https://github.com/harvardnlp/boxscore-data) (original Rotowire JSON data).  Please note that SportSett currently does not included playoff games, whilst the original Rotowire partitions (and our annotated texts) do.
-
-For convenience, we have included the file [shared_task.jsonl](https://github.com/ehudreiter/accuracySharedTask/blob/main/shared_task.jsonl) which includes the lines from the Rotowire test set, for each of our annotated documents.  This is in the format of one JSON entry per line (rather than one very long line like the original Rotowire dataset).  They are in the same order as [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv) and a key (shared_task_document_id) has also been added for reference.  Please note that the tokenization scheme in the gold texts within the JSON is slightly different from that which we annotated (we had to clean it up).  We have included clean gold texts in [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv) (CT: Still to add these).
+Data for all games in the is available at [Rotowire](https://github.com/harvardnlp/boxscore-data) (original Rotowire JSON data).  it is also available at[SportSett](https://github.com/nlgcat/sport_sett_basketball) (extended relational database).  Please note that SportSett currently does not included playoff games, but does provide much more information on regular season games.
 
 ### [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv) columns
 1. DOC_ID: The ID for the summary within our shared task.  These match the filenames in [texts](https://github.com/ehudreiter/accuracySharedTask/blob/main/texts).
@@ -54,6 +54,7 @@ For convenience, we have included the file [shared_task.jsonl](https://github.co
 
 ### [shared_task.jsonl](https://github.com/ehudreiter/accuracySharedTask/blob/main/shared_task.jsonl) details
 This file is in the the same format as [Rotowire](https://github.com/harvardnlp/boxscore-data), except that each line contains a dictionary representing one game record.  This makes it easier to read than one massively long line.  Three keys were added:
+
 1. shared_task_text_id: maps to our TEXT_ID above.
 2. cleaned_text: the human authored (gold) text from the test set, cleaned as above.
 2. cleaned_detokenized_text: the human authored (gold) text from the test set, cleaned and detokenized as above.
