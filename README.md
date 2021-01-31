@@ -26,8 +26,6 @@ Data for the games is available at [SportSett](https://github.com/nlgcat/sport_s
 
 For convenience, we have included the file [shared_task.jsonl](https://github.com/ehudreiter/accuracySharedTask/blob/main/shared_task.jsonl) which includes the lines from the Rotowire test set, for each of our annotated documents.  This is in the format of one JSON entry per line (rather than one very long line like the original Rotowire dataset).  They are in the same order as [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv) and a key (shared_task_document_id) has also been added for reference.  Please note that the tokenization scheme in the gold texts within the JSON is slightly different from that which we annotated (we had to clean it up).  We have included clean gold texts in [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv) (CT: Still to add these).
 
-The [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv) file has line numbers for Rotowire (the test set), as well as the human authored text for the game if.  It also includes some additional information that was used in the creation of the MS Word documents (such as links to statistics websites).
-
 ### [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv) columns
 1. DOC_ID: The ID for the summary within our shared task.  These match the filenames in [texts](https://github.com/ehudreiter/accuracySharedTask/blob/main/texts).
 2. HOME_NAME: The name of the home team.
