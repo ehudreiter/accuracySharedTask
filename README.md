@@ -54,7 +54,7 @@ For convenience, we have included the file [shared_task.jsonl](https://github.co
 
 ### [shared_task.jsonl](https://github.com/ehudreiter/accuracySharedTask/blob/main/shared_task.jsonl) details
 This file is in the the same format as [Rotowire](https://github.com/harvardnlp/boxscore-data), except that each line contains a dictionary representing one game record.  This makes it easier to read than one massively long line.  Three keys were added:
-1. shared_task_document_id: maps to our TEXT_ID above.
+1. shared_task_text_id: maps to our TEXT_ID above.
 2. cleaned_text: the human authored (gold) text from the test set, cleaned as above.
 2. cleaned_detokenized_text: the human authored (gold) text from the test set, cleaned and detokenized as above.
 
