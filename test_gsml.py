@@ -14,6 +14,7 @@ with open('games.csv', newline='') as csvfile, open('shared_task.jsonl') as fh:
   # Iterate the CSV rows
   for i, row in enumerate(reader):
     text_id = row[0]
+    print(text_id)
     home_name = row[1]
     vis_name = row[2]
     the_date = row[6]
@@ -51,7 +52,7 @@ with open('gsml.csv', newline='') as csvfile:
     start = int(row[6]) - 1
     end = int(row[7])
 
-    with open(f'/home/badger/Development/gsml/texts/{text_id}', 'r') as fh_t:
+    with open(f'texts/{text_id}', 'r') as fh_t:
       if text_id not in texts:
         texts[text_id] = fh_t.read().split()
       found = ' '.join(texts[text_id][start:end])

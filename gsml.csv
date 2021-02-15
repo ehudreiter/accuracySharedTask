@@ -1,520 +1,1177 @@
 TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
-"S005.txt","1","1","15","27","27","27","27","NUMBER","13",""
-"S005.txt","1","2","Hawks","31","31","31","31","NAME","Magic",""
-"S005.txt","2","3","one","27","27","64","64","NUMBER","zero",""
-"S005.txt","3","4","one","16","16","82","82","NUMBER","zero",""
-"S005.txt","4","5","one","24","24","108","108","NUMBER","zero",""
-"S005.txt","5","6","led","3","3","113","113","WORD","","did not lead in scoring"
-"S005.txt","5","7","bench","5","5","115","115","WORD","","Bazemore started"
-"S005.txt","5","8","27","7","7","117","117","NUMBER","8",""
-"S005.txt","6","9","second unit","5","6","133","134","WORD","starters",""
-"S005.txt","6","10","27","8","8","136","136","NUMBER","8",""
-"S005.txt","7","11","Orlando","7","7","154","154","NAME","Atlanta",""
-"S005.txt","7","12","one","18","18","165","165","NUMBER","zero",""
-"S005.txt","7","13","one","21","21","168","168","NUMBER","zero",""
-"S005.txt","8","14","one","24","24","194","194","NUMBER","zero",""
-"S005.txt","9","15","led","3","3","199","199","WORD","","did not lead in scoring"
-"S005.txt","9","16","second unit","5","6","201","202","WORD","","Bazemore started"
-"S005.txt","9","17","12","8","8","204","204","NUMBER","8",""
-"S005.txt","9","18","one","20","20","216","216","NUMBER","zero",""
-"S005.txt","10","19","back home","4","5","222","223","WORD","on the road",""
-"S005.txt","10","20","New York Knicks","11","13","229","231","NAME","Houston Rockets",""
-"S005.txt","10","21","Monday","15","15","233","233","NAME","Tuesday",""
-"S005.txt","10","22","Toronto Raptors","26","27","244","245","NAME","Utah Jazz",""
-"S005.txt","10","23","Friday","29","29","247","247","NAME","Monday",""
-"S005.txt","10","24","as well","31","32","249","250","WORD","","games are on different days"
-"S006.txt","1","25","defeated","9","9","9","9","WORD","lost to",""
-"S006.txt","1","26","Friday","22","22","22","22","NAME","Tuesday",""
-"S006.txt","2","27","double - digit favorite","9","12","32","35","NOT_CHECKABLE","",""
-"S006.txt","3","28","James Harden","5","6","46","47","CONTEXT","","James Harden plays for the Rockets"
-"S006.txt","3","29","win","23","23","64","64","WORD","loss",""
-"S006.txt","4","30","double figures","9","10","74","75","WORD","","Trevor Ariza scored 2 points"
-"S006.txt","4","31","four","18","18","83","83","NUMBER","zero",""
-"S006.txt","4","32","four","21","21","86","86","NUMBER","zero",""
-"S006.txt","5","33","Orlando Magic","11","12","102","103","NAME","Washington Wizards",""
-"S006.txt","6","34","without","6","6","116","116","WORD","","Brook Lopez  played in the game"
-"S006.txt","6","35","did n't have enough offense","12","16","122","126","CONTEXT","","The Nets won the game, so they did have enough offense"
-"S006.txt","6","36","Nets","22","22","132","132","NAME","Rockets",""
-"S006.txt","8","37","only other","5","6","167","168","WORD","","All 5 starters were in double figures for the Nets"
-"S006.txt","9","38","Atlanta Hawks","12","13","197","198","NAME","Philadelphia 76ers",""
-"S006.txt","9","39","Friday","15","15","200","200","NAME","Thursday",""
-"S007.txt","1","40","Sleep Train Arena","26","28","26","28","NAME","Golden 1 Center",""
-"S007.txt","2","41","seven","10","10","39","39","NUMBER","ten",""
-"S007.txt","2","42","one","16","16","45","45","NUMBER","zero",""
-"S007.txt","2","43","seven","46","46","75","75","NUMBER","ten",""
-"S007.txt","2","44","three","49","49","78","78","NUMBER","four",""
-"S007.txt","2","45","one","52","52","81","81","NUMBER","zero",""
-"S007.txt","3","46","only other","5","6","92","93","WORD","","The Thunder had 4 total players reach double digits"
-"S007.txt","5","47","11","14","14","167","167","NUMBER","8",""
-"S007.txt","5","48","four","29","29","182","182","NUMBER","three",""
-"S007.txt","6","49","21","25","25","213","213","NUMBER","6",""
-"S007.txt","6","50","27","35","35","223","223","NUMBER","20",""
-"S008.txt","1","51","Saturday","19","19","19","19","NAME","Monday",""
-"S008.txt","2","52","Saturday","11","11","31","31","NAME","Monday",""
-"S008.txt","2","53","six","16","16","36","36","NUMBER","zero",""
-"S008.txt","2","54","17","20","20","40","40","NUMBER","3",""
-"S008.txt","2","55","Tuesday","36","36","56","56","WORD","Monday",""
-"S008.txt","2","56","pull away","58","59","78","79","WORD","","The Grizzlies were outscored in the 2nd half"
-"S008.txt","3","57","Jazz","2","2","86","86","NAME","Grizzlies",""
-"S008.txt","3","58","five","37","37","121","121","NUMBER","zero",""
-"S008.txt","5","59","4","16","16","188","188","NUMBER","0",""
-"S008.txt","5","60","4","20","20","192","192","NUMBER","0",""
-"S008.txt","7","61","four","11","11","245","245","NUMBER","three",""
-"S008.txt","8","62","led","3","3","267","267","WORD","did not lead","Joe Ingles, Trey Lyles, and Shelvin Mack outscored Gordon Hayward"
-"S008.txt","8","63","Grizzlies","8","8","272","272","CONTEXT","Jazz",""
-"S008.txt","8","64","one","31","31","295","295","NUMBER","zero",""
-"S008.txt","9","65","Zach Randolph","1","2","302","303","CONTEXT","","Randolph plays for Memphis"
-"S008.txt","9","66","22","14","14","315","315","NUMBER","6",""
-"S008.txt","9","67","9","17","17","318","318","NUMBER","2",""
-"S008.txt","9","68","17","21","21","322","322","NUMBER","3",""
-"S008.txt","9","69","off the bench","27","29","328","330","WORD","as a starter",""
-"S008.txt","11","70","Trail Blazers","14","15","376","377","NAME","Bulls",""
-"S008.txt","11","71","Monday","17","17","379","379","NAME","Thursday",""
-"S009.txt","1","72","defeated","4","4","4","4","WORD","lost to",""
-"S009.txt","1","73","122","12","12","12","12","NUMBER","114",""
-"S009.txt","1","74","Tuesday","20","20","20","20","NAME","Friday",""
-"S009.txt","2","75","Bucks","10","10","31","31","NAME","Lakers",""
-"S009.txt","3","76","Bucks","5","5","46","46","NAME","Lakers",""
-"S009.txt","3","77","entirety","23","23","64","64","WORD","","They did not lead by 10+ points for the whole 2nd half"
-"S009.txt","4","78","key","3","3","72","72","WORD","","The Bucks had more rebounds than the Lakers"
-"S009.txt","4","79","Lakers","12","12","81","81","NAME","Bucks",""
-"S009.txt","4","80","29","14","14","83","83","NUMBER","53",""
-"S009.txt","4","81","17","22","22","91","91","NUMBER","20",""
-"S009.txt","5","82","four","11","11","104","104","NUMBER","two",""
-"S009.txt","6","83","D'Angelo Russell","1","2","117","118","NAME","Giannis Antetokounmpo","Giannis Antetokounmpo was the player of the game and scored 41 points"
-"S009.txt","6","84","41","13","13","129","129","NUMBER","14",""
-"S009.txt","6","85","11","22","22","138","138","NUMBER","4",""
-"S009.txt","6","86","20","26","26","142","142","NAME","9",""
-"S009.txt","7","87","Luol Deng","1","2","145","146","NAME","Nick Young",""
-"S009.txt","7","88","second","4","4","148","148","NUMBER","","Young was first on the team"
-"S009.txt","7","89","26","12","12","156","156","NUMBER","zero",""
-"S009.txt","7","90","three","15","15","159","159","NUMBER","two",""
-"S009.txt","7","91","two","18","18","162","162","NUMBER","four",""
-"S009.txt","8","92","only other","5","6","169","170","WORD","","The Lakers had 2 other starters in double figures"
-"S009.txt","9","93","road","8","8","195","195","WORD","home",""
-"S009.txt","9","94","New Orleans Pelicans","12","14","199","201","NAME","Sacramento Kings",""
-"S009.txt","9","95","Sunday","16","16","203","203","NAME","Tuesday",""
-"S009.txt","10","96","three","10","10","214","214","NUMBER","four",""
-"S009.txt","12","97","second","4","4","251","251","NUMBER","sixth",""
-"S009.txt","12","98","18","12","12","259","259","NUMBER","8",""
-"S009.txt","12","99","six","15","15","262","262","NUMBER","one",""
-"S009.txt","13","100","starter","7","7","274","274","WORD","bench player",""
-"S009.txt","13","101","18","15","15","282","282","NUMBER","8",""
-"S009.txt","13","102","five","18","18","285","285","NUMBER","1",""
-"S009.txt","14","103","win","8","8","298","298","WORD","loss",""
-"S009.txt","14","104","Friday","10","10","300","300","NAME","Saturday",""
-"S009.txt","14","105","Orlando Magic","17","18","307","308","NAME","Indiana Pacers",""
-"S010.txt","1","106","Friday","18","18","18","18","NAME","Wednesday",""
-"S010.txt","3","107","11","6","6","45","45","NUMBER","3",""
-"S010.txt","3","108","11","9","9","48","48","NUMBER","2",""
-"S010.txt","3","109","11","22","22","61","61","NUMBER","",""
-"S010.txt","4","110","53","18","18","81","81","NUMBER","32",""
-"S010.txt","5","111","Rebounding","1","1","89","89","WORD","",""
-"S010.txt","6","112","lost","10","10","127","127","WORD","won",""
-"S010.txt","6","113","struggle","22","22","139","139","WORD","","Their record has been improving"
-"S010.txt","9","114","only other","5","6","188","189","WORD","","4 starters scored 10+ pts"
-"S010.txt","10","115","home","7","7","210","210","WORD","road",""
-"S010.txt","10","116","Saturday","15","15","218","218","NAME","Thursday",""
-"S010.txt","11","117","win","19","19","238","238","WORD","loss",""
-"S010.txt","12","118","player of the game","5","8","244","247","WORD","","was not the best player"
-"S010.txt","12","119","12","16","16","255","255","NUMBER","6",""
-"S010.txt","13","120","second","4","4","264","264","NUMBER","third","Fournier was the third leading scorer"
-"S010.txt","14","121","double - double","5","7","285","287","WORD","","Vucevic did not have a double-double"
-"S010.txt","14","122","10","13","13","293","293","NUMBER","6",""
-"S010.txt","15","123","only other","5","6","300","301","WORD","","The Magic had 5 players reach double figures"
-"S010.txt","16","124","keep rolling","5","6","321","322","WORD","recover",""
-"S010.txt","16","125","Toronto Raptors","15","16","331","332","NAME","Houston Rockets",""
-"S011.txt","1","126","Tuesday","22","22","22","22","NAME","Wednesday",""
-"S011.txt","3","127","Hawks","2","2","56","56","NAME","Wizards",""
-"S011.txt","3","128","Wizards","10","10","64","64","NAME","Hawks",""
-"S011.txt","3","129","Wizards","21","21","75","75","NAME","Hawks",""
-"S011.txt","3","130","coast","25","25","79","79","WORD","","The Hawks had to win the 4th quarter in order to win the game"
-"S011.txt","5","131","14","11","11","135","135","NUMBER","12",""
-"S011.txt","5","132","12","17","17","141","141","NUMBER","14",""
-"S011.txt","6","133","Hawks","2","2","147","147","NAME","Wizards",""
-"S011.txt","8","134","double - double","5","7","206","208","WORD","","Wall did not have a double-dou"
-"S011.txt","8","135","54","17","17","218","218","NUMBER","40",""
-"S011.txt","8","136","14","20","20","221","221","NUMBER","8",""
-"S011.txt","9","137","double - double","3","5","231","233","WORD","","Millsap did not have a double-double"
-"S011.txt","9","138","11","33","33","261","261","NUMBER","7",""
-"S011.txt","10","139","double - double","5","7","268","270","WORD","","Millsap did not have a double-double"
-"S011.txt","10","140","21","18","18","281","281","NUMBER","13",""
-"S011.txt","10","141","12","21","21","284","284","NUMBER","7",""
-"S011.txt","11","142","double - double","3","5","289","291","WORD","","Beal did not have a double-double"
-"S011.txt","11","143","8","33","33","319","319","NUMBER","2",""
-"S011.txt","12","144","16","5","5","326","326","NOT_CHECKABLE","15",""
-"S011.txt","12","145","6","8","8","329","329","NOT_CHECKABLE","4",""
-"S011.txt","13","146","only other","2","3","336","337","WORD","","The Hawks had 4 others in double figures"
-"S011.txt","13","147","1","28","28","362","362","NUMBER","0",""
-"S011.txt","14","148","New Orleans Pelicans","12","14","390","392","NAME","Golden State Warriors",""
-"S011.txt","14","149","home","24","24","402","402","WORD","(on) the road",""
-"S011.txt","14","150","Cleveland Cavaliers","27","28","405","406","NAME","Charlotte Hornets",""
-"S011.txt","14","151","Friday","30","30","408","408","NAME","Thursday",""
-"S012.txt","1","152","Friday","19","19","19","19","NAME","Saturday",""
-"S012.txt","2","153","worst","15","15","36","36","WORD","","The Nuggets couldn’t be tied for the worst record because the Suns were worse"
-"S012.txt","2","154","21","31","31","52","52","NUMBER","15",""
-"S012.txt","2","155","25","33","33","54","54","NUMBER","32",""
-"S012.txt","3","156","Six","1","1","57","57","NUMBER","Five",""
-"S012.txt","7","157","Nuggets","2","2","159","159","NAME","Suns",""
-"S012.txt","7","158","led","9","9","166","166","WORD","","did not lead team in scoring"
-"S012.txt","10","159","Phoenix Suns","8","9","235","236","NAME","Memphis Grizzlies",""
-"S012.txt","10","160","Friday","11","11","238","238","NAME","Monday",""
-"S013.txt","1","161","Wednesday","22","22","22","22","NAME","Saturday",""
-"S013.txt","2","162","31","15","15","45","45","NUMBER","55",""
-"S013.txt","2","163","19","17","17","47","47","NUMBER","32",""
-"S013.txt","3","164","Magic","2","2","50","50","NAME","Cavaliers",""
-"S013.txt","6","165","4","17","17","181","181","NUMBER","0",""
-"S013.txt","6","166","5","20","20","184","184","NUMBER","0",""
-"S013.txt","6","167","7","22","22","186","186","NUMBER","0",""
-"S013.txt","6","168","five","28","28","192","192","NUMBER","one",""
-"S013.txt","6","169","21","32","32","196","196","NUMBER","13",""
-"S013.txt","7","170","2","18","18","216","216","NUMBER","0",""
-"S013.txt","7","171","2","20","20","218","218","NUMBER","0",""
-"S013.txt","7","172","four","26","26","224","224","NUMBER","seven",""
-"S013.txt","7","173","one","32","32","230","230","NUMBER","zero",""
-"S013.txt","7","174","29","36","36","234","234","NUMBER","26",""
-"S013.txt","8","175","4","17","17","253","253","NUMBER","0",""
-"S013.txt","8","176","5","20","20","256","256","NUMBER","0",""
-"S013.txt","8","177","7","22","22","258","258","NUMBER","0",""
-"S013.txt","8","178","five","26","26","262","262","NUMBER","one",""
-"S013.txt","8","179","21","29","29","265","265","NUMBER","13",""
-"S013.txt","9","180","Magic","16","16","305","305","NAME","Pistons",""
-"S014.txt","1","181","Friday","24","24","24","24","NAME","Saturday",""
-"S014.txt","6","182","37","5","5","160","160","NUMBER","48",""
-"S014.txt","6","183","the boards","21","22","176","177","WORD","","not a strong rebounder"
-"S014.txt","7","184","Lillard","1","1","179","179","NAME","McCollum",""
-"S014.txt","8","185","56","16","16","225","225","NUMBER","46",""
-"S014.txt","8","186","22","19","19","228","228","NUMBER","4",""
-"S014.txt","9","187","only other player","2","4","237","239","WORD","","There were 4 other players besides Lillard and McCollum"
-"S014.txt","9","188","came off the bench","16","19","251","254","WORD","","Bryant started"
-"S014.txt","10","189","far - and - away","3","7","283","287","WORD","","Bryant had other games that were arguably better than this one"
-"S014.txt","10","190","new season - high","21","24","301","304","WORD","","This was not Bryant’s season high to this point"
-"S014.txt","11","191","only other player","2","4","312","314","WORD","","The Lakers had 4 players in double figures"
-"S014.txt","11","192","two","37","37","347","347","NUMBER","four",""
-"S014.txt","12","193","first time he 's surpassed the 20 - point mark this season","4","15","356","367","WORD","",""
-"S014.txt","14","194","Jordan Clarkson","1","2","392","393","CONTEXT","","Clarkson started"
-"S014.txt","15","195","at home","9","10","466","467","WORD","on the road",""
-"S014.txt","15","196","Portland Trail Blazers","13","15","470","472","NAME","LA Clippers",""
-"S014.txt","15","197","Friday","17","17","474","474","NAME","Monday",""
-"S014.txt","15","198","travel","23","23","480","480","WORD","return",""
-"S014.txt","15","199","Sacramento","25","25","482","482","NAME","LA",""
-"S014.txt","15","200","Kings","29","29","486","486","NAME","Pacers",""
-"S014.txt","15","201","Friday","31","31","488","488","NAME","Sunday",""
-"S015.txt","1","202","Wednesday","22","22","22","22","NAME","Friday",""
-"S015.txt","2","203","hot start","7","8","36","37","WORD","","The Raptors were losing at halftime"
-"S015.txt","2","204","out - scoring","13","15","42","44","WORD","","The Raptors were losing at halftime"
-"S015.txt","2","205","64","18","18","47","47","NUMBER","50",""
-"S015.txt","2","206","52","20","20","49","49","NUMBER","55",""
-"S015.txt","3","207","50","11","11","66","66","NUMBER","58",""
-"S015.txt","3","208","38","13","13","68","68","NUMBER","39",""
-"S015.txt","3","209","home","31","31","86","86","WORD","","road game"
-"S015.txt","4","210","led","4","4","92","92","WORD","","did not lead team in scoring"
-"S015.txt","6","211","DeMarre Carroll","1","2","160","161","NAME","James Johnson",""
-"S015.txt","6","212","Gerald Green","29","30","188","189","CONTEXT","","Green played for the Heat"
-"S015.txt","6","213","second","58","58","217","217","NUMBER","","not second game ever"
-"S015.txt","9","214","back - to - back","16","20","278","282","WORD","","next game is not a back-to-back"
-"S015.txt","9","215","travel","23","23","285","285","WORD","","The Heat’s next game is at home"
-"S015.txt","9","216","Cleveland","25","25","287","287","NAME","Miami",""
-"S015.txt","9","217","Cavaliers","30","30","292","292","NAME","Trail Blazers",""
-"S015.txt","10","218","lost three straight games","4","7","300","303","WORD","","won prior game"
-"S015.txt","11","219","team - high","13","15","317","319","WORD","","did not score team high"
-"S015.txt","11","220","20","17","17","321","321","NUMBER","8",""
-"S015.txt","11","221","7","20","20","324","324","NUMBER","4",""
-"S015.txt","11","222","15","22","22","326","326","NUMBER","6",""
-"S015.txt","11","223","5","25","25","329","329","NUMBER","0",""
-"S015.txt","11","224","10","27","27","331","331","NUMBER","0",""
-"S015.txt","11","225","1","30","30","334","334","NUMBER","0",""
-"S015.txt","11","226","1","32","32","336","336","NUMBER","0",""
-"S015.txt","12","227","37","6","6","345","345","NUMBER","33",""
-"S015.txt","13","228","Timberwolves","17","17","380","380","NAME","Trail Blazers",""
-"S016.txt","1","229","Friday","25","25","25","25","NAME","Thursday",""
-"S016.txt","2","230","29","26","26","57","57","NUMBER","31",""
-"S016.txt","2","231","8","28","28","59","59","NUMBER","21",""
-"S016.txt","3","232","Jazz","2","2","62","62","NAME","Thunder",""
-"S016.txt","3","233","29","16","16","76","76","NUMBER","31",""
-"S016.txt","3","234","8","18","18","78","78","NUMBER","21",""
-"S016.txt","3","235","battled back","23","24","83","84","WORD","","The Thunder led the entire game"
-"S016.txt","3","236","59","39","39","99","99","NUMBER","55",""
-"S016.txt","3","237","42","41","41","101","101","NUMBER","37",""
-"S016.txt","3","238","24","49","49","109","109","NUMBER","18",""
-"S016.txt","4","239","led","4","4","117","117","WORD","","did not lead team in scoring"
-"S016.txt","4","240","game - high","12","14","125","127","WORD","","not the game high-scorer"
-"S016.txt","6","241","Gordon Hayward","1","2","234","235","CONTEXT","","Hayward played for the Jazz"
-"S016.txt","6","242","Derrick Favors","30","31","263","264","CONTEXT","","Favors played for the Jazz"
-"S016.txt","6","243","1","42","42","275","275","NUMBER","0",""
-"S016.txt","6","244","4","44","44","277","277","NUMBER","0",""
-"S016.txt","6","245","three","51","51","284","284","NUMBER","zero",""
-"S016.txt","6","246","three","54","54","287","287","NUMBER","two",""
-"S016.txt","6","247","29","58","58","291","291","NUMBER","22",""
-"S016.txt","7","248","six","4","4","297","297","NUMBER","three",""
-"S016.txt","7","249","Gordon Hayward","12","13","305","306","NAME","","Rodney Hood, Trey Lyles, or Trey Burke"
-"S016.txt","8","250","37","30","30","337","337","NUMBER","23",""
-"S016.txt","9","251","30","26","26","365","365","NUMBER","22",""
-"S016.txt","10","252","six","4","4","371","371","NUMBER","three",""
-"S016.txt","12","253","lost two in a row","5","9","434","438","WORD","","won the prior game"
-"S016.txt","13","254","host","5","5","444","444","WORD","travel to",""
-"S016.txt","13","255","Grizzlies","7","7","446","446","NAME","Timberwolves",""
-"S016.txt","14","256","couple","5","5","454","454","WORD","","The Thunder have one day off"
-"S016.txt","14","257","Tuesday","15","15","464","464","NAME","Saturday",""
-"S016.txt","14","258","Denver","17","17","466","466","NAME","Oklahoma City",""
-"S017.txt","1","259","Saturday","18","18","18","18","NAME","Tuesday",""
-"S017.txt","2","260","Monday","11","11","31","31","NAME","Tuesday",""
-"S017.txt","2","261","seven","16","16","36","36","NUMBER","seventeen",""
-"S017.txt","2","262","17","20","20","40","40","NUMBER","32",""
-"S017.txt","2","263","33","32","32","52","52","NUMBER","44",""
-"S017.txt","2","264","34","34","34","54","54","NUMBER","22",""
-"S017.txt","3","265","33","4","4","78","78","NUMBER","44",""
-"S017.txt","3","266","34","6","6","80","80","NUMBER","22",""
-"S017.txt","3","267","seven","16","16","90","90","NUMBER","seventeen",""
-"S017.txt","3","268","17","20","20","94","94","NUMBER","32",""
-"S017.txt","3","269","Barclays Center","25","26","99","100","NAME","Quicken Loans Arena",""
-"S017.txt","3","270","33","32","32","106","106","NUMBER","42",""
-"S017.txt","3","271","34","34","34","108","108","NUMBER","22",""
-"S017.txt","3","272","road","44","44","118","118","WORD","home",""
-"S017.txt","4","273","63","27","27","155","155","NUMBER","21",""
-"S017.txt","5","274","Cavs","8","8","171","171","NAME","Pistons",""
-"S017.txt","7","275","bench","5","5","209","209","WORD","starters",""
-"S017.txt","8","276","Morris","4","4","226","226","NAME","James",""
-"S017.txt","8","277","an","13","13","235","235","NUMBER","zero",""
-"S017.txt","8","278","a","16","16","238","238","NUMBER","zero",""
-"S017.txt","10","279","Richard Jefferson","1","2","264","265","NAME","LeBron James",""
-"S017.txt","10","280","one","27","27","290","290","NUMBER","zero",""
-"S017.txt","10","281","eight","34","34","297","297","NUMBER","two",""
-"S017.txt","11","282","a","15","15","320","320","NUMBER","zero",""
-"S017.txt","12","283","Kyle Korver","1","2","323","324","NAME","JR Smith",""
-"S017.txt","13","284","bench","5","5","342","342","WORD","","Jefferson was a starter"
-"S017.txt","14","285","Atlanta Hawks","10","11","365","366","NAME","Utah Jazz",""
-"S017.txt","14","286","Friday","13","13","368","368","NAME","Wednesday",""
-"S017.txt","14","287","Philadelphia 76ers","24","25","379","380","NAME","Utah Jazz",""
-"S017.txt","14","288","Friday","27","27","382","382","NAME","Thursday",""
-"S018.txt","2","289","42","12","12","42","42","NUMBER","45",""
-"S018.txt","2","290","29","18","18","48","48","NUMBER","44",""
-"S018.txt","5","291","39","13","13","137","137","NUMBER","52",""
-"S018.txt","5","292","13","16","16","140","140","NUMBER","16",""
-"S018.txt","5","293","three","19","19","143","143","NUMBER","six",""
-"S018.txt","6","294","triple - double of his own","6","11","151","156","WORD","","nobody previously mentioned had a triple-double, and Draymond didn’t have one either"
-"S018.txt","7","295","29","15","15","197","197","NUMBER","36",""
-"S018.txt","7","296","12","18","18","200","200","NUMBER","21",""
-"S018.txt","9","297","Josh Smith","13","14","245","246","NAME","","Jeff Green or Austin Rivers"
-"S018.txt","11","298","double - double","5","7","316","318","WORD","","Crawford did not have a double-double"
-"S018.txt","11","299","17","18","18","329","329","NUMBER","13",""
-"S018.txt","11","300","12","21","21","332","332","NUMBER","3",""
-"S018.txt","12","301","only other","2","3","336","337","WORD","","the Clippers had 3 others reach double figures"
-"S018.txt","13","302","Friday","16","16","398","398","NAME","Thursday",""
-"S018.txt","13","303","Clippers","20","20","402","402","NAME","Warriors",""
-"S018.txt","13","304","Minnesota Timberwolves","27","28","409","410","NAME","Dallas Mavericks",""
-"S022.txt","2","305","opposite directions","7","8","26","27","WORD","","teams have similar records and recent results"
-"S022.txt","3","306","8","7","7","41","41","NUMBER","7",""
-"S022.txt","3","307","10","10","10","44","44","NUMBER","16",""
-"S022.txt","3","308","8","23","23","57","57","NUMBER","","The final margin was more than 8 points"
-"S022.txt","6","309","Timberwolves","5","5","110","110","NAME","Pelicans",""
-"S022.txt","8","310","second","4","4","161","161","NUMBER","third",""
-"S022.txt","12","311","Friday","8","8","236","236","NAME","Sunday",""
-"S022.txt","12","312","Oklahoma City Thunder","14","16","242","244","NAME","Chicago Bulls",""
-"S022.txt","13","313","17th","23","23","272","272","NUMBER","",""
-"S022.txt","13","314","Verizon Center","26","27","275","276","NAME","Target Center",""
-"S022.txt","14","315","Minnesota","7","7","284","284","NAME","New Orleans",""
-"S023.txt","1","316","Wednesday","19","19","19","19","NAME","Sunday",""
-"S023.txt","3","317","11","19","19","56","56","NUMBER","","at least 30"
-"S023.txt","7","318","only other starter","5","7","135","137","WORD","","The Mavs had 4 starters in double figures"
-"S023.txt","9","319","double - double","5","7","177","179","WORD","","Julius Randle didn’t have a double-double"
-"S023.txt","10","320","Lakers","5","5","195","195","NAME","Mavericks",""
-"S023.txt","11","321","double figures","9","10","219","220","WORD","","Julius Randle didn’t score 10 points"
-"S023.txt","12","322","home","8","8","239","239","WORD","road",""
-"S023.txt","13","323","five","11","11","259","259","NUMBER","one","3-2 in last 5 games (lost prior two)"
-"S023.txt","15","324","second","4","4","306","306","NUMBER","first",""
-"S024.txt","1","325","Saturday","18","18","18","18","NAME","Friday",""
-"S024.txt","2","326","faint","20","20","39","39","WORD","","The Warriors had the best record in the league"
-"S024.txt","2","327","able to pierce","34","36","53","55","WORD","","The Kings lost this game"
-"S024.txt","2","328","Wednesday","41","41","60","60","NAME","Friday",""
-"S024.txt","2","329","Gregg Popovich","45","46","64","65","NAME","Steve Kerr",""
-"S024.txt","2","330","season - high","51","53","70","72","WORD","","this was not Sacramento’s season-high point total"
-"S024.txt","2","331","114","54","54","73","73","NUMBER","100",""
-"S024.txt","5","332","Skal Labissiere","1","2","115","116","CONTEXT","","Labissiere played for the Kings"
-"S024.txt","5","333","a","11","11","125","125","NUMBER","ten",""
-"S024.txt","6","334","Warriors","2","2","138","138","NAME","Kings",""
-"S024.txt","7","335","4","9","9","169","169","NUMBER","8",""
-"S024.txt","7","336","double - double","12","14","172","174","WORD","","Green did not have a double-double"
-"S024.txt","8","337","led","3","3","189","189","WORD","","did not score the most bench points"
-"S024.txt","10","338","Kings","5","5","229","229","NAME","Warriors",""
-"S024.txt","11","339","bench - leading","7","9","257","259","WORD","","Hield was a starter"
-"S024.txt","11","340","eight","17","17","267","267","NUMBER","seven",""
-"S024.txt","13","341","reserve","11","11","304","304","WORD","starting",""
-"S025.txt","2","342","Thursday","11","11","30","30","NAME","Friday",""
-"S025.txt","5","343","Avery Bradley","1","2","139","140","CONTEXT","","Bradley played for the Celtics"
-"S025.txt","7","344","David Lee","16","17","204","205","CONTEXT","","Lee played for the Spurs"
-"S025.txt","8","345","LaMarcus Aldridge","1","2","228","229","CONTEXT","","Aldridge played for the Spurs"
-"S026.txt","1","346","David West","11","12","11","12","NAME","Indiana Pacers",""
-"S026.txt","1","347","0","20","20","20","20","NUMBER","99",""
-"S026.txt","1","348","Wednesday","22","22","22","22","NAME","Tuesday",""
-"S026.txt","2","349","out - scoring","13","15","43","45","WORD","","did not outscore the Pacers in the quarter"
-"S026.txt","2","350","27","20","20","50","50","NUMBER","28",""
-"S026.txt","3","351","12","29","29","85","85","NUMBER","18",""
-"S026.txt","3","352","12","33","33","89","89","NUMBER","26",""
-"S026.txt","3","353","0","40","40","96","96","NUMBER","12",""
-"S026.txt","3","354","3","44","44","100","100","NUMBER","25",""
-"S026.txt","4","355","Dragic","10","10","115","115","NAME","Bledsoe",""
-"S026.txt","5","356","three","39","39","158","158","NUMBER","four",""
-"S026.txt","6","357","second","15","15","175","175","NUMBER","zeroth",""
-"S026.txt","8","358","second","4","4","243","243","NUMBER","zeroth",""
-"S026.txt","8","359","42","17","17","256","256","NUMBER","56",""
-"S026.txt","8","360","11","20","20","259","259","NUMBER","13",""
-"S026.txt","10","361","second","4","4","304","304","NUMBER","zeroth",""
-"S026.txt","12","362","second","4","4","362","362","NUMBER","zeroth",""
-"S026.txt","12","363","42","17","17","375","375","NUMBER","23",""
-"S026.txt","12","364","12","20","20","378","378","NUMBER","6",""
-"S026.txt","14","365","10","5","5","424","424","NUMBER","13",""
-"S026.txt","14","366","6","8","8","427","427","NOT_CHECKABLE","8",""
-"S026.txt","15","367","two","38","38","470","470","NUMBER","zero",""
-"S026.txt","16","368","15","5","5","477","477","NUMBER","8",""
-"S026.txt","16","369","6","8","8","480","480","NUMBER","2",""
-"S026.txt","17","370","starter","7","7","492","492","WORD","bench player",""
-"S026.txt","18","371","seven","31","31","530","530","NUMBER","two",""
-"S026.txt","19","372","home","9","9","544","544","WORD","(on) the road",""
-"S026.txt","19","373","Toronto Raptors","12","13","547","548","NAME","Dallas Mavericks",""
-"S026.txt","19","374","home","23","23","558","558","WORD","(on) the road",""
-"S026.txt","19","375","Brooklyn Nets","26","27","561","562","NAME","Portland Trail Blazers",""
-"S026.txt","19","376","Friday","29","29","564","564","NAME","Thursday",""
-"S027.txt","1","377","111","19","19","19","19","NUMBER","116",""
-"S027.txt","1","378","Wednesday","23","23","23","23","NAME","Sunday",""
-"S027.txt","2","379","Knicks","17","17","48","48","NAME","Rockets",""
-"S027.txt","3","380","Rockets","2","2","59","59","NAME","Knicks",""
-"S027.txt","5","381","second","4","4","153","153","NUMBER","",""
-"S027.txt","6","382","double - double","5","7","194","196","WORD","","Afflalo didn’t have a double-double"
-"S027.txt","6","383","45","17","17","206","206","NUMBER","35",""
-"S027.txt","7","384","only other","5","6","221","222","WORD","","three starters scored 10+ pts"
-"S027.txt","8","385","Wednesday","16","16","271","271","NAME","Monday",""
-"S027.txt","8","386","travel","22","22","277","277","WORD","stay",""
-"S027.txt","8","387","Charlotte","24","24","279","279","NAME","New York",""
-"S027.txt","8","388","Hornets","28","28","283","283","NAME","76ers",""
-"S028.txt","1","389","Saturday","17","17","17","17","NAME","Wednesday",""
-"S028.txt","2","390","run with the first - round win of the season","28","37","47","56","OTHER","","doesn’t make sense"
-"S028.txt","3","391","21","15","15","72","72","NUMBER","44",""
-"S028.txt","3","392","back - to - back","23","27","80","84","WORD","","not a back-to-back"
-"S028.txt","4","393","Wizards","4","4","100","100","NAME","Nets",""
-"S028.txt","4","394","31","6","6","102","102","NUMBER","9",""
-"S028.txt","4","395","quarter","20","20","116","116","WORD","half",""
-"S028.txt","4","396","Nets","24","24","120","120","NAME","Wizards",""
-"S028.txt","4","397","59","27","27","123","123","NUMBER","51",""
-"S028.txt","4","398","48","29","29","125","125","NUMBER","41",""
-"S028.txt","5","399","23 - point","9","11","140","142","NUMBER","","Beal scored 31"
-"S028.txt","5","400","2","24","24","155","155","NUMBER","6",""
-"S028.txt","5","401","two","27","27","158","158","NUMBER","twelve",""
-"S028.txt","5","402","two","30","30","161","161","NUMBER","one",""
-"S028.txt","7","403","Sean Kilpatrick","1","2","202","203","CONTEXT","","played for the Nets"
-"S028.txt","8","404","Brooklyn","7","7","224","224","NAME","Washington",""
-"S028.txt","10","405","Rondae Hollis-Jefferson","1","2","263","264","CONTEXT","","played for the Nets"
-"S028.txt","11","406","Jason Smith","1","2","286","287","CONTEXT","","plays for Washington"
-"S028.txt","12","407","Sean Kilpatrick","1","2","302","303","CONTEXT","","played for the Nets"
-"S028.txt","13","408","Nets","5","5","322","322","NAME","Wizards",""
-"S028.txt","15","409","Marcin Gortat","1","2","353","354","CONTEXT","","played for Washington"
-"S028.txt","17","410","Nets","2","2","396","396","NAME","Wizards",""
-"S028.txt","17","411","Detroit Pistons","11","12","405","406","NAME","Indiana Pacers",""
-"S028.txt","17","412","Phoenix Suns","25","26","419","420","NAME","Miami Heat",""
-"S031.txt","1","413","Wednesday","17","17","17","17","NAME","Sunday",""
-"S031.txt","2","414","Tuesday","11","11","29","29","NAME","Sunday",""
-"S031.txt","2","415","five","31","31","49","49","NOT_CHECKABLE","four",""
-"S031.txt","3","416","pull away","13","14","68","69","WORD","","The teams both scored 54 points in the 2nd half"
-"S031.txt","3","417","30","24","24","79","79","NUMBER","24",""
-"S031.txt","3","418","17","26","26","81","81","NUMBER","23",""
-"S031.txt","4","419","battled back","5","6","93","94","WORD","","The Celtics were ahead at halftime"
-"S031.txt","4","420","31","17","17","105","105","NUMBER","24",""
-"S031.txt","4","421","17","19","19","107","107","NUMBER","23",""
-"S031.txt","5","422","battled back","5","6","119","120","WORD","","The Celtics were ahead at halftime"
-"S031.txt","5","423","one - point","11","13","125","127","NUMBER","","The game was never within 3 points in the 4th quarter"
-"S031.txt","5","424","battled back","26","27","140","141","WORD","","The Celtics were ahead at halftime"
-"S031.txt","5","425","one - point","32","34","146","148","NUMBER","","The game was never within 3 points in the 4th quarter"
-"S031.txt","6","426","led","4","4","158","158","WORD","","Isaiah Thomas was the leading scorer"
-"S031.txt","9","427","led","3","3","221","221","WORD","","he was outscored by Marcus Smart"
-"S031.txt","9","428","three","11","11","229","229","NUMBER","ten",""
-"S031.txt","10","429","second place","5","6","242","243","NOT_CHECKABLE","",""
-"S031.txt","10","430","fourth","21","21","258","258","NOT_CHECKABLE","",""
-"S031.txt","11","431","Orlando Magic","12","13","277","278","NAME","Minnesota Timberwolves",""
-"S032.txt","1","432","defeated","10","10","10","10","WORD","lost to",""
-"S032.txt","1","433","Wednesday","24","24","24","24","NAME","Friday",""
-"S032.txt","2","434","Spurs","17","17","51","51","NAME","Blazers",""
-"S032.txt","3","435","50","20","20","80","80","NUMBER","45",""
-"S032.txt","3","436","Spurs","37","37","97","97","NAME","Blazers",""
-"S032.txt","3","437","45","40","40","100","100","NUMBER","50",""
-"S032.txt","4","438","16","12","12","123","123","NUMBER","12",""
-"S032.txt","4","439","12","18","18","129","129","NUMBER","16",""
-"S032.txt","5","440","Spurs","2","2","135","135","NAME","Blazers",""
-"S032.txt","5","441","LaMarcus Aldridge","12","13","145","146","NAME","","Damian Lillard"
-"S032.txt","6","442","three - point","19","21","166","168","WORD","three-point",""
-"S032.txt","8","443","three - point","23","25","224","226","WORD","free-throw",""
-"S032.txt","9","444","second","4","4","245","245","NUMBER","zeroth",""
-"S032.txt","9","445","54","17","17","258","258","NUMBER","61",""
-"S032.txt","9","446","13","20","20","261","261","NUMBER","20",""
-"S032.txt","11","447","Dallas Mavericks","12","13","311","312","NAME","Utah Jazz",""
-"S032.txt","11","448","Friday","15","15","314","314","NAME","Sunday",""
-"S032.txt","11","449","Golden State Warriors","26","28","325","327","NAME","Utah Jazz",""
-"S032.txt","11","450","Friday","30","30","329","329","NAME","Sunday",""
-"S035.txt","3","451","outscored","6","6","52","52","WORD","","The Thunder lost the second half"
-"S035.txt","3","452","46","9","9","55","55","NUMBER","45",""
-"S035.txt","3","453","34","11","11","57","57","NUMBER","46",""
-"S035.txt","4","454","34","18","18","85","85","NUMBER","32",""
-"S035.txt","9","455","second","4","4","165","165","NUMBER","third",""
-"S035.txt","9","456","eight","13","13","174","174","NUMBER","nine",""
-"S035.txt","10","457","double figures","13","14","192","193","WORD","","they didn’t score double figures"
-"S035.txt","10","458","1","20","20","199","199","NUMBER","","Sabonis scored 6 points"
-"S035.txt","11","459","off the bench","5","7","208","210","WORD","","Sabonis started the game"
-"S035.txt","11","460","five","13","13","216","216","NUMBER","four",""
-"S035.txt","12","461","Orlando Magic","12","13","230","231","NAME","Memphis Grizzlies",""
-"S035.txt","12","462","Monday","15","15","233","233","NAME","Thursday",""
-"S035.txt","13","463","best","12","12","246","246","WORD","","Miami was not one of the best teams over the previous 2 months"
-"S035.txt","13","464","10th win","27","28","261","262","NOT_CHECKABLE","","note: also impossible (10 wins in 8 games)"
-"S035.txt","14","465","off the bench","20","22","288","290","WORD","","Josh Richardson was a starter"
-"S035.txt","15","466","second","4","4","295","295","NUMBER","third",""
-"S035.txt","17","467","bench","5","5","328","328","WORD","starters",""
-"S035.txt","18","468","host","3","3","344","344","WORD","play at",""
-"S035.txt","18","469","Boston Celtics","5","6","346","347","NAME","Charlotte Hornets",""
-"S035.txt","18","470","Saturday","12","12","353","353","NAME","Thursday",""
-"S036.txt","1","471","afternoon","19","19","19","19","WORD","","game was played at 8:00 PM"
-"S036.txt","2","472","Wednesday","11","11","31","31","NAME","","Saturday"
-"S036.txt","2","473","seven","16","16","36","36","NUMBER","five",""
-"S036.txt","2","474","38","28","28","48","48","NUMBER","32",""
-"S036.txt","2","475","28","30","30","50","50","NUMBER","24",""
-"S036.txt","3","476","38","4","4","66","66","NUMBER","32",""
-"S036.txt","3","477","28","6","6","68","68","NUMBER","34",""
-"S036.txt","3","478","outperform","11","11","73","73","WORD","","no comparative statistics"
-"S036.txt","3","479","38","44","44","106","106","NUMBER","13",""
-"S036.txt","5","480","next","4","4","142","142","WORD","","Norman Powell was the 2nd leading scorer"
-"S036.txt","5","481","an","12","12","150","150","NUMBER","zero",""
-"S036.txt","6","482","an","18","18","173","173","NUMBER","zero",""
-"S036.txt","7","483","a","13","13","188","188","NUMBER","zero",""
-"S036.txt","8","484","Tyler Johnson","1","2","191","192","CONTEXT","","Johnson played for the Heat"
-"S036.txt","8","485","a","16","16","206","206","NUMBER","zero",""
-"S036.txt","9","486","an","18","18","226","226","NUMBER","zero",""
-"S036.txt","9","487","a","24","24","232","232","NUMBER","zero",""
-"S036.txt","10","488","matching 15 - point efforts","7","11","241","245","WORD","","Dion Waiters scored 20 points, and nobody else on the team scored 15"
-"S036.txt","11","489","led","3","3","275","275","WORD","","Ellington was not the leading bench scorer (Tyler Johnson)"
-"S036.txt","12","490","Atlanta Hawks","11","12","299","300","NAME","Dallas Mavericks",""
-"S036.txt","12","491","Friday","14","14","302","302","NAME","Monday",""
-"S036.txt","12","492","afternoon","15","15","303","303","WORD","","game is at 7:00 pm"
-"S036.txt","12","493","Atlanta","22","22","310","310","NAME","Indiana",""
-"S036.txt","12","494","Friday","25","25","313","313","NAME","Sunday",""
-"S036.txt","12","495","Hawks","30","30","318","318","NAME","Pacers",""
-"S056.txt","1","496","Wednesday","19","19","19","19","NAME","Saturday",""
-"S056.txt","2","497","red - hot","19","21","39","41","WORD","","The Clippers had lost 3 out of their last 4 games"
-"S056.txt","2","498","win","35","35","55","55","WORD","loss",""
-"S056.txt","2","499","defending champion","38","39","58","59","NOT_CHECKABLE","",""
-"S056.txt","2","500","Cleveland Cavaliers","40","41","60","61","NAME","Philadelphia 76ers",""
-"S056.txt","2","501","first round of the playoffs","49","53","69","73","WORD","","previous game was not a playoff game"
-"S056.txt","3","502","high - point man","5","8","79","82","WORD","","had the 2nd most points"
-"S056.txt","3","503","18","15","15","89","89","NUMBER","7",""
-"S056.txt","3","504","team - high","20","22","94","96","WORD","","Durant was not the Warrior’s high scorer"
-"S056.txt","6","505","Austin Rivers","1","2","156","157","CONTEXT","","Rivers played for the Clippers"
-"S056.txt","6","506","six","19","19","174","174","NUMBER","two",""
-"S056.txt","6","507","James Michael Felton","33","35","188","190","NAME","","His name is Raymond Felton"
-"S056.txt","8","508","Clippers","2","2","226","226","NAME","Warriors",""
-"S056.txt","10","509","JJ Thompson","1","2","272","273","NAME","","His name is Klay Thompson"
-"S059.txt","1","510","Saturday","18","18","18","18","NAME","Tuesday",""
-"S059.txt","2","511","monster","15","15","34","34","WORD","","The Warriors didn’t need, or have, and monster 2nd half to win this game"
-"S059.txt","2","512","escape","19","19","38","38","WORD","","The Warriors won easily"
-"S059.txt","7","513","second","4","4","147","147","NUMBER","fourth",""
-"S059.txt","8","514","Rudy Gobert","1","2","161","162","CONTEXT","","Gobert played for the Jazz"
-"S059.txt","9","515","led","3","3","178","178","WORD","","Thompson did not lead the Warriors in scoring"
-"S059.txt","11","516","Joe Johnson","1","2","218","219","CONTEXT","","Johnson played for the Jazz"
-"S059.txt","11","517","starter","7","7","224","224","WORD","","Johnson came off the bench"
-"S059.txt","12","518","Gordon Hayward","1","2","238","239","NAME","","Stephen Curry"
-"S059.txt","13","519","only other","5","6","263","264","WORD","","The Jazz had 4 total players in double figures"
+S001.txt,1,413,Wednesday,18,18,18,18,NAME,Friday,
+S001.txt,2,414,30,35,35,54,54,NUMBER,6,
+S001.txt,3,415,six,16,16,82,82,NUMBER,four,
+S001.txt,4,416,right behind him,4,6,94,96,WORD,,Horford was the 4th highest scorer
+S001.txt,5,417,12,11,11,120,120,NUMBER,6,
+S001.txt,5,418,double - double,14,16,123,125,WORD,,Crowder did not have a  double-double
+S001.txt,5,419,a,26,26,135,135,NUMBER,zero,
+S001.txt,9,420,led,3,3,191,191,WORD,,Olynyk was not the highest bench scorer
+S001.txt,9,421,10,8,8,196,196,NUMBER,7,
+S001.txt,9,422,pair,18,18,206,206,NUMBER,,Olynyk had 0 steals
+S001.txt,10,423,home,5,5,214,214,WORD,,The Lakers next game is on the road
+S001.txt,10,424,Detroit Pistons,11,12,220,221,NAME,New York Knicks,
+S001.txt,10,425,Friday,14,14,223,223,NAME,Monday,
+S001.txt,10,426,Toronto Raptors,25,26,234,235,NAME,LA Clippers,
+S001.txt,10,427,Wednesday,29,29,238,238,NAME,Sunday,
+S001.txt,10,428,night,30,30,239,239,WORD,afternoon,
+S002.txt,1,429,Atlanta Hawks,6,7,6,7,NAME,Cleveland Cavaliers,
+S002.txt,1,430,110,11,11,11,11,NUMBER,106,
+S002.txt,1,431,Saturday,18,18,18,18,NAME,Tuesday,
+S002.txt,2,432,struggling teams,6,7,26,27,WORD,,both teams have winning records
+S002.txt,3,433,Hawks,8,8,48,48,NAME,Cavaliers,
+S002.txt,3,434,37,10,10,50,50,NUMBER,27,
+S002.txt,3,435,20,12,12,52,52,NUMBER,26,
+S002.txt,4,436,21,17,17,75,75,NUMBER,22,
+S002.txt,4,437,19,27,27,85,85,NUMBER,6,
+S002.txt,5,438,struggle,22,22,113,113,WORD,,the Hawks have a winning recording
+S002.txt,6,439,17,13,13,127,127,NUMBER,7,
+S002.txt,7,440,behind,6,6,148,148,WORD,,Bazemore scored more points than Howard
+S002.txt,8,441,only other,5,6,164,165,WORD,,three starters scored in double figures
+S002.txt,9,442,bounce back,5,6,185,186,WORD,,incorrectly implies that Atlanta lost
+S002.txt,9,443,Sunday,8,8,188,188,NAME,Wednesday,
+S002.txt,9,444,Toronto Raptors,15,16,195,196,NAME,Chicago Bulls,
+S002.txt,10,445,three,11,11,208,208,NUMBER,four,
+S002.txt,10,446,struggle,22,22,219,219,WORD,,Cavs are 6-1
+S002.txt,11,447,led,12,12,232,232,WORD,,James didn’t lead the team in scoring
+S002.txt,12,448,second,4,4,248,248,NUMBER,first,
+S002.txt,12,449,four,15,15,259,259,NUMBER,one,
+S002.txt,13,450,11,13,13,277,277,NUMBER,12,
+S002.txt,14,451,off the bench,7,9,289,291,WORD,,Thompson was a starter
+S002.txt,14,452,25,12,12,294,294,NUMBER,zero,
+S002.txt,14,453,four,18,18,300,300,NUMBER,zero,
+S002.txt,15,454,Sunday,8,8,310,310,NAME,Friday,
+S002.txt,15,455,home,11,11,313,313,WORD,,next game is on the road
+S002.txt,15,456,Orlando Magic,15,16,317,318,NAME,Washington Wizards,
+S003.txt,1,457,Saturday,17,17,17,17,NAME,Sunday,
+S003.txt,2,458,came in to,29,31,48,50,WORD,,The Raptors left the contest with a 30 point victory
+S003.txt,2,459,Friday,32,32,51,51,NAME,Sunday,
+S003.txt,4,460,a,28,28,126,126,NUMBER,zero,
+S003.txt,8,461,third place,4,5,209,210,NOT_CHECKABLE,,
+S003.txt,8,462,seventh seed,20,21,225,226,NOT_CHECKABLE,,
+S003.txt,9,463,Charlotte,4,4,236,236,NAME,Toronto,
+S003.txt,9,464,Hornets,9,9,241,241,NAME,Nets,
+S003.txt,9,465,Friday,11,11,243,243,NAME,Tuesday,
+S003.txt,10,466,a,21,21,266,266,NUMBER,zero,
+S003.txt,11,467,next,4,4,272,272,WORD,,Gordon was not the next highest scorer
+S003.txt,11,468,10,7,7,275,275,NUMBER,7,
+S003.txt,11,469,12,11,11,279,279,NUMBER,1,
+S003.txt,11,470,double - double,14,16,282,284,WORD,,Gordon did not have a double-double
+S003.txt,11,471,a,26,26,294,294,NUMBER,zero,
+S003.txt,12,472,two,9,9,305,305,NUMBER,three,
+S003.txt,12,473,a,15,15,311,311,NUMBER,zero,
+S003.txt,13,474,next,4,4,317,317,WORD,,Gordon was not the next highest scorer
+S003.txt,13,475,10,7,7,320,320,NUMBER,7,
+S003.txt,13,476,double - double,14,16,327,329,WORD,,Gordon did not have a  double-double
+S003.txt,13,477,an,20,20,333,333,NUMBER,zero,
+S003.txt,13,478,a,23,23,336,336,NUMBER,zero,
+S003.txt,13,479,a,26,26,339,339,NUMBER,zero,
+S003.txt,14,480,reserve role,7,8,348,349,WORD,,Augustin was a starter
+S003.txt,14,481,11,12,12,353,353,NUMBER,0,
+S003.txt,15,482,last place,5,6,371,372,NOT_CHECKABLE,,unlikely with a 19-8 record
+S003.txt,16,483,Friday,6,6,386,386,NAME,Tuesday,
+S003.txt,16,484,Orlando Magic,12,13,392,393,NAME,Brooklyn Nets,
+S004.txt,3,485,16,20,20,72,72,NUMBER,7,
+S004.txt,4,486,Rebounding,1,1,78,78,WORD,,should be “Defense”
+S004.txt,4,487,24,20,20,97,97,NUMBER,39,
+S004.txt,5,488,43,16,16,120,120,NUMBER,47,
+S004.txt,5,489,24,18,18,122,122,NUMBER,43,
+S004.txt,7,490,D'Angelo Russell,1,2,153,154,NAME,Lou Williams,
+S004.txt,7,491,five,15,15,167,167,NUMBER,zero,
+S004.txt,7,492,five,18,18,170,170,NUMBER,six,
+S004.txt,8,493,only other,5,6,177,178,WORD,,two starters besides Russell had 10+ pts
+S004.txt,9,494,D'Angelo Russell,1,2,193,194,NAME,Lou Williams,
+S004.txt,9,495,five,15,15,207,207,NUMBER,zero,
+S004.txt,9,496,five,18,18,210,210,NUMBER,six,
+S004.txt,10,497,only other,5,6,217,218,WORD,,two starters besides Russell had 10+ pts
+S004.txt,11,498,home,8,8,240,240,WORD,,The Lakers next game is on the road
+S004.txt,11,499,Portland Trail Blazers,12,14,244,246,NAME,Oklahoma City Thunder,
+S004.txt,12,500,four,11,11,260,260,NUMBER,ONE,
+S004.txt,12,501,five,15,15,264,264,NUMBER,,
+S004.txt,14,502,second,4,4,307,307,NUMBER,fourth,
+S004.txt,17,503,bounce back,6,7,360,361,WORD,,incorrectly implies that the Jazz lost the game
+S004.txt,17,504,home,12,12,366,366,WORD,road,
+S004.txt,17,505,Portland Trail Blazers,16,18,370,372,NAME,Los Angeles Clippers,
+S005.txt,1,1,15,27,27,27,27,NUMBER,13,
+S005.txt,1,2,Hawks,31,31,31,31,NAME,Magic,
+S005.txt,2,3,one,27,27,64,64,NUMBER,zero,
+S005.txt,3,4,one,16,16,82,82,NUMBER,zero,
+S005.txt,4,5,one,24,24,108,108,NUMBER,zero,
+S005.txt,5,6,led,3,3,113,113,WORD,,did not lead in scoring
+S005.txt,5,7,bench,5,5,115,115,WORD,,Bazemore started
+S005.txt,5,8,27,7,7,117,117,NUMBER,8,
+S005.txt,6,9,second unit,5,6,133,134,WORD,starters,
+S005.txt,6,10,27,8,8,136,136,NUMBER,8,
+S005.txt,7,11,Orlando,7,7,154,154,NAME,Atlanta,
+S005.txt,7,12,one,18,18,165,165,NUMBER,zero,
+S005.txt,7,13,one,21,21,168,168,NUMBER,zero,
+S005.txt,8,14,one,24,24,194,194,NUMBER,zero,
+S005.txt,9,15,led,3,3,199,199,WORD,,did not lead in scoring
+S005.txt,9,16,second unit,5,6,201,202,WORD,,Bazemore started
+S005.txt,9,17,12,8,8,204,204,NUMBER,8,
+S005.txt,9,18,one,20,20,216,216,NUMBER,zero,
+S005.txt,10,19,back home,4,5,222,223,WORD,on the road,
+S005.txt,10,20,New York Knicks,11,13,229,231,NAME,Houston Rockets,
+S005.txt,10,21,Monday,15,15,233,233,NAME,Tuesday,
+S005.txt,10,22,Toronto Raptors,26,27,244,245,NAME,Utah Jazz,
+S005.txt,10,23,Friday,29,29,247,247,NAME,Monday,
+S005.txt,10,24,as well,31,32,249,250,WORD,,games are on different days
+S006.txt,1,25,defeated,9,9,9,9,WORD,lost to,
+S006.txt,1,26,Friday,22,22,22,22,NAME,Tuesday,
+S006.txt,2,27,double - digit favorite,9,12,32,35,NOT_CHECKABLE,,
+S006.txt,3,28,James Harden,5,6,46,47,CONTEXT,,James Harden plays for the Rockets
+S006.txt,3,29,win,23,23,64,64,WORD,loss,
+S006.txt,4,30,double figures,9,10,74,75,WORD,,Trevor Ariza scored 2 points
+S006.txt,4,31,four,18,18,83,83,NUMBER,zero,
+S006.txt,4,32,four,21,21,86,86,NUMBER,zero,
+S006.txt,5,33,Orlando Magic,11,12,102,103,NAME,Washington Wizards,
+S006.txt,6,34,without,6,6,116,116,WORD,,Brook Lopez  played in the game
+S006.txt,6,35,did n't have enough offense,12,16,122,126,CONTEXT,,"The Nets won the game, so they did have enough offense"
+S006.txt,6,36,Nets,22,22,132,132,NAME,Rockets,
+S006.txt,8,37,only other,5,6,167,168,WORD,,All 5 starters were in double figures for the Nets
+S006.txt,9,38,Atlanta Hawks,12,13,197,198,NAME,Philadelphia 76ers,
+S006.txt,9,39,Friday,15,15,200,200,NAME,Thursday,
+S007.txt,1,40,Sleep Train Arena,26,28,26,28,NAME,Golden 1 Center,
+S007.txt,2,41,seven,10,10,39,39,NUMBER,ten,
+S007.txt,2,42,one,16,16,45,45,NUMBER,zero,
+S007.txt,2,43,seven,46,46,75,75,NUMBER,ten,
+S007.txt,2,44,three,49,49,78,78,NUMBER,four,
+S007.txt,2,45,one,52,52,81,81,NUMBER,zero,
+S007.txt,3,46,only other,5,6,92,93,WORD,,The Thunder had 4 total players reach double digits
+S007.txt,5,47,11,14,14,167,167,NUMBER,8,
+S007.txt,5,48,four,29,29,182,182,NUMBER,three,
+S007.txt,6,49,21,25,25,213,213,NUMBER,6,
+S007.txt,6,50,27,35,35,223,223,NUMBER,20,
+S008.txt,1,51,Saturday,19,19,19,19,NAME,Monday,
+S008.txt,2,52,Saturday,11,11,31,31,NAME,Monday,
+S008.txt,2,53,six,16,16,36,36,NUMBER,zero,
+S008.txt,2,54,17,20,20,40,40,NUMBER,3,
+S008.txt,2,55,Tuesday,36,36,56,56,WORD,Monday,
+S008.txt,2,56,pull away,58,59,78,79,WORD,,The Grizzlies were outscored in the 2nd half
+S008.txt,3,57,Jazz,2,2,86,86,NAME,Grizzlies,
+S008.txt,3,58,five,37,37,121,121,NUMBER,zero,
+S008.txt,5,59,4,16,16,188,188,NUMBER,0,
+S008.txt,5,60,4,20,20,192,192,NUMBER,0,
+S008.txt,7,61,four,11,11,245,245,NUMBER,three,
+S008.txt,8,62,led,3,3,267,267,WORD,,"Joe Ingles, Trey Lyles, and Shelvin Mack outscored Gordon Hayward"
+S008.txt,8,63,Grizzlies,8,8,272,272,NAME,Jazz,
+S008.txt,8,64,one,31,31,295,295,NUMBER,zero,
+S008.txt,9,65,Zach Randolph,1,2,302,303,CONTEXT,,Randolph plays for Memphis
+S008.txt,9,66,22,14,14,315,315,NUMBER,6,
+S008.txt,9,67,9,17,17,318,318,NUMBER,2,
+S008.txt,9,68,17,21,21,322,322,NUMBER,3,
+S008.txt,9,69,off the bench,27,29,328,330,WORD,as a starter,
+S008.txt,11,70,Trail Blazers,14,15,376,377,NAME,Bulls,
+S008.txt,11,71,Monday,17,17,379,379,NAME,Thursday,
+S009.txt,1,72,defeated,4,4,4,4,WORD,lost to,
+S009.txt,1,73,122,12,12,12,12,NUMBER,114,
+S009.txt,1,74,Tuesday,20,20,20,20,NAME,Friday,
+S009.txt,2,75,Bucks,10,10,31,31,NAME,Lakers,
+S009.txt,3,76,Bucks,5,5,46,46,NAME,Lakers,
+S009.txt,3,77,entirety,23,23,64,64,WORD,,They did not lead by 10+ points for the whole 2nd half
+S009.txt,4,78,key,3,3,72,72,WORD,,The Bucks had more rebounds than the Lakers
+S009.txt,4,79,Lakers,12,12,81,81,NAME,Bucks,
+S009.txt,4,80,29,14,14,83,83,NUMBER,53,
+S009.txt,4,81,17,22,22,91,91,NUMBER,20,
+S009.txt,5,82,four,11,11,104,104,NUMBER,two,
+S009.txt,6,83,D'Angelo Russell,1,2,117,118,NAME,Giannis Antetokounmpo,
+S009.txt,6,84,41,13,13,129,129,NUMBER,14,
+S009.txt,6,85,11,22,22,138,138,NUMBER,4,
+S009.txt,6,86,20,26,26,142,142,NUMBER,9,
+S009.txt,7,87,Luol Deng,1,2,145,146,NAME,Nick Young,
+S009.txt,7,88,second,4,4,148,148,NUMBER,first,
+S009.txt,7,89,26,12,12,156,156,NUMBER,zero,
+S009.txt,7,90,three,15,15,159,159,NUMBER,two,
+S009.txt,7,91,two,18,18,162,162,NUMBER,four,
+S009.txt,8,92,only other,5,6,169,170,WORD,,The Lakers had 2 other starters in double figures
+S009.txt,9,93,road,8,8,195,195,WORD,home,
+S009.txt,9,94,New Orleans Pelicans,12,14,199,201,NAME,Sacramento Kings,
+S009.txt,9,95,Sunday,16,16,203,203,NAME,Tuesday,
+S009.txt,10,96,three,10,10,214,214,NUMBER,four,
+S009.txt,12,97,second,4,4,251,251,NUMBER,sixth,
+S009.txt,12,98,18,12,12,259,259,NUMBER,8,
+S009.txt,12,99,six,15,15,262,262,NUMBER,one,
+S009.txt,13,100,starter,7,7,274,274,WORD,bench player,
+S009.txt,13,101,18,15,15,282,282,NUMBER,8,
+S009.txt,13,102,five,18,18,285,285,NUMBER,1,
+S009.txt,14,103,win,8,8,298,298,WORD,loss,
+S009.txt,14,104,Friday,10,10,300,300,NAME,Saturday,
+S009.txt,14,105,Orlando Magic,17,18,307,308,NAME,Indiana Pacers,
+S010.txt,1,106,Friday,18,18,18,18,NAME,Wednesday,
+S010.txt,3,107,11,6,6,45,45,NUMBER,3,
+S010.txt,3,108,11,9,9,48,48,NUMBER,2,
+S010.txt,3,109,11,22,22,61,61,NUMBER,,
+S010.txt,4,110,53,18,18,81,81,NUMBER,32,
+S010.txt,5,111,Rebounding,1,1,89,89,WORD,,
+S010.txt,6,112,lost,10,10,127,127,WORD,won,
+S010.txt,6,113,struggle,22,22,139,139,WORD,,Their record has been improving
+S010.txt,9,114,only other,5,6,188,189,WORD,,4 starters scored 10+ pts
+S010.txt,10,115,home,7,7,210,210,WORD,road,
+S010.txt,10,116,Saturday,15,15,218,218,NAME,Thursday,
+S010.txt,11,117,win,19,19,238,238,WORD,loss,
+S010.txt,12,118,player of the game,5,8,244,247,WORD,,was not the best player
+S010.txt,12,119,12,16,16,255,255,NUMBER,6,
+S010.txt,13,120,second,4,4,264,264,NUMBER,third,
+S010.txt,14,121,double - double,5,7,285,287,WORD,,Vucevic did not have a double-double
+S010.txt,14,122,10,13,13,293,293,NUMBER,6,
+S010.txt,15,123,only other,5,6,300,301,WORD,,The Magic had 5 players reach double figures
+S010.txt,16,124,keep rolling,5,6,321,322,WORD,recover,
+S010.txt,16,125,Toronto Raptors,15,16,331,332,NAME,Houston Rockets,
+S011.txt,1,126,Tuesday,22,22,22,22,NAME,Wednesday,
+S011.txt,3,127,Hawks,2,2,56,56,NAME,Wizards,
+S011.txt,3,128,Wizards,10,10,64,64,NAME,Hawks,
+S011.txt,3,129,Wizards,21,21,75,75,NAME,Hawks,
+S011.txt,3,130,coast,25,25,79,79,WORD,,The Hawks had to win the 4th quarter in order to win the game
+S011.txt,5,131,14,11,11,135,135,NUMBER,12,
+S011.txt,5,132,12,17,17,141,141,NUMBER,14,
+S011.txt,6,133,Hawks,2,2,147,147,NAME,Wizards,
+S011.txt,8,134,double - double,5,7,206,208,WORD,,Wall did not have a double-dou
+S011.txt,8,135,54,17,17,218,218,NUMBER,40,
+S011.txt,8,136,14,20,20,221,221,NUMBER,8,
+S011.txt,9,137,double - double,3,5,231,233,WORD,,Millsap did not have a double-double
+S011.txt,9,138,11,33,33,261,261,NUMBER,7,
+S011.txt,10,139,double - double,5,7,268,270,WORD,,Millsap did not have a double-double
+S011.txt,10,140,21,18,18,281,281,NUMBER,13,
+S011.txt,10,141,12,21,21,284,284,NUMBER,7,
+S011.txt,11,142,double - double,3,5,289,291,WORD,,Beal did not have a double-double
+S011.txt,11,143,8,33,33,319,319,NUMBER,2,
+S011.txt,12,144,16,5,5,326,326,NOT_CHECKABLE,15,
+S011.txt,12,145,6,8,8,329,329,NOT_CHECKABLE,4,
+S011.txt,13,146,only other,2,3,336,337,WORD,,The Hawks had 4 others in double figures
+S011.txt,13,147,1,28,28,362,362,NUMBER,0,
+S011.txt,14,148,New Orleans Pelicans,12,14,390,392,NAME,Golden State Warriors,
+S011.txt,14,149,home,24,24,402,402,WORD,(on) the road,
+S011.txt,14,150,Cleveland Cavaliers,27,28,405,406,NAME,Charlotte Hornets,
+S011.txt,14,151,Friday,30,30,408,408,NAME,Thursday,
+S012.txt,1,152,Friday,19,19,19,19,NAME,Saturday,
+S012.txt,2,153,worst,15,15,36,36,WORD,,The Nuggets couldn’t be tied for the worst record because the Suns were worse
+S012.txt,2,154,21,31,31,52,52,NUMBER,15,
+S012.txt,2,155,25,33,33,54,54,NUMBER,32,
+S012.txt,3,156,Six,1,1,57,57,NUMBER,Five,
+S012.txt,7,157,Nuggets,2,2,159,159,NAME,Suns,
+S012.txt,7,158,led,9,9,166,166,WORD,,did not lead team in scoring
+S012.txt,10,159,Phoenix Suns,8,9,235,236,NAME,Memphis Grizzlies,
+S012.txt,10,160,Friday,11,11,238,238,NAME,Monday,
+S013.txt,1,161,Wednesday,22,22,22,22,NAME,Saturday,
+S013.txt,2,162,31,15,15,45,45,NUMBER,55,
+S013.txt,2,163,19,17,17,47,47,NUMBER,32,
+S013.txt,3,164,Magic,2,2,50,50,NAME,Cavaliers,
+S013.txt,6,165,4,17,17,181,181,NUMBER,0,
+S013.txt,6,166,5,20,20,184,184,NUMBER,0,
+S013.txt,6,167,7,22,22,186,186,NUMBER,0,
+S013.txt,6,168,five,28,28,192,192,NUMBER,one,
+S013.txt,6,169,21,32,32,196,196,NUMBER,13,
+S013.txt,7,170,2,18,18,216,216,NUMBER,0,
+S013.txt,7,171,2,20,20,218,218,NUMBER,0,
+S013.txt,7,172,four,26,26,224,224,NUMBER,seven,
+S013.txt,7,173,one,32,32,230,230,NUMBER,zero,
+S013.txt,7,174,29,36,36,234,234,NUMBER,26,
+S013.txt,8,175,4,17,17,253,253,NUMBER,0,
+S013.txt,8,176,5,20,20,256,256,NUMBER,0,
+S013.txt,8,177,7,22,22,258,258,NUMBER,0,
+S013.txt,8,178,five,26,26,262,262,NUMBER,one,
+S013.txt,8,179,21,29,29,265,265,NUMBER,13,
+S013.txt,9,180,Magic,16,16,305,305,NAME,Pistons,
+S014.txt,1,181,Friday,24,24,24,24,NAME,Saturday,
+S014.txt,6,182,37,5,5,160,160,NUMBER,48,
+S014.txt,6,183,the boards,21,22,176,177,WORD,,not a strong rebounder
+S014.txt,7,184,Lillard,1,1,179,179,NAME,McCollum,
+S014.txt,8,185,56,16,16,225,225,NUMBER,46,
+S014.txt,8,186,22,19,19,228,228,NUMBER,4,
+S014.txt,9,187,only other player,2,4,237,239,WORD,,There were 4 other players besides Lillard and McCollum
+S014.txt,9,188,came off the bench,16,19,251,254,WORD,,Bryant started
+S014.txt,10,189,far - and - away,3,7,283,287,WORD,,Bryant had other games that were arguably better than this one
+S014.txt,10,190,new season - high,21,24,301,304,WORD,,This was not Bryant’s season high to this point
+S014.txt,11,191,only other player,2,4,312,314,WORD,,The Lakers had 4 players in double figures
+S014.txt,11,192,two,37,37,347,347,NUMBER,four,
+S014.txt,12,193,first time he 's surpassed the 20 - point mark this season,4,15,356,367,WORD,,
+S014.txt,14,194,Jordan Clarkson,1,2,392,393,CONTEXT,,Clarkson started
+S014.txt,15,195,at home,9,10,466,467,WORD,on the road,
+S014.txt,15,196,Portland Trail Blazers,13,15,470,472,NAME,LA Clippers,
+S014.txt,15,197,Friday,17,17,474,474,NAME,Monday,
+S014.txt,15,198,travel,23,23,480,480,WORD,return,
+S014.txt,15,199,Sacramento,25,25,482,482,NAME,LA,
+S014.txt,15,200,Kings,29,29,486,486,NAME,Pacers,
+S014.txt,15,201,Friday,31,31,488,488,NAME,Sunday,
+S015.txt,1,202,Wednesday,22,22,22,22,NAME,Friday,
+S015.txt,2,203,hot start,7,8,36,37,WORD,,The Raptors were losing at halftime
+S015.txt,2,204,out - scoring,13,15,42,44,WORD,,The Raptors were losing at halftime
+S015.txt,2,205,64,18,18,47,47,NUMBER,50,
+S015.txt,2,206,52,20,20,49,49,NUMBER,55,
+S015.txt,3,207,50,11,11,66,66,NUMBER,58,
+S015.txt,3,208,38,13,13,68,68,NUMBER,39,
+S015.txt,3,209,home,31,31,86,86,WORD,,road game
+S015.txt,4,210,led,4,4,92,92,WORD,,did not lead team in scoring
+S015.txt,6,211,DeMarre Carroll,1,2,160,161,NAME,James Johnson,
+S015.txt,6,212,Gerald Green,29,30,188,189,CONTEXT,,Green played for the Heat
+S015.txt,6,213,second,58,58,217,217,NUMBER,,not second game ever
+S015.txt,9,214,back - to - back,16,20,278,282,WORD,,next game is not a back-to-back
+S015.txt,9,215,travel,23,23,285,285,WORD,,The Heat’s next game is at home
+S015.txt,9,216,Cleveland,25,25,287,287,NAME,Miami,
+S015.txt,9,217,Cavaliers,30,30,292,292,NAME,Trail Blazers,
+S015.txt,10,218,lost three straight games,4,7,300,303,WORD,,won prior game
+S015.txt,11,219,team - high,13,15,317,319,WORD,,did not score team high
+S015.txt,11,220,20,17,17,321,321,NUMBER,8,
+S015.txt,11,221,7,20,20,324,324,NUMBER,4,
+S015.txt,11,222,15,22,22,326,326,NUMBER,6,
+S015.txt,11,223,5,25,25,329,329,NUMBER,0,
+S015.txt,11,224,10,27,27,331,331,NUMBER,0,
+S015.txt,11,225,1,30,30,334,334,NUMBER,0,
+S015.txt,11,226,1,32,32,336,336,NUMBER,0,
+S015.txt,12,227,37,6,6,345,345,NUMBER,33,
+S015.txt,13,228,Timberwolves,17,17,380,380,NAME,Trail Blazers,
+S016.txt,1,229,Friday,25,25,25,25,NAME,Thursday,
+S016.txt,2,230,29,26,26,57,57,NUMBER,31,
+S016.txt,2,231,8,28,28,59,59,NUMBER,21,
+S016.txt,3,232,Jazz,2,2,62,62,NAME,Thunder,
+S016.txt,3,233,29,16,16,76,76,NUMBER,31,
+S016.txt,3,234,8,18,18,78,78,NUMBER,21,
+S016.txt,3,235,battled back,23,24,83,84,WORD,,The Thunder led the entire game
+S016.txt,3,236,59,39,39,99,99,NUMBER,55,
+S016.txt,3,237,42,41,41,101,101,NUMBER,37,
+S016.txt,3,238,24,49,49,109,109,NUMBER,18,
+S016.txt,4,239,led,4,4,117,117,WORD,,did not lead team in scoring
+S016.txt,4,240,game - high,12,14,125,127,WORD,,not the game high-scorer
+S016.txt,6,241,Gordon Hayward,1,2,234,235,CONTEXT,,Hayward played for the Jazz
+S016.txt,6,242,Derrick Favors,30,31,263,264,CONTEXT,,Favors played for the Jazz
+S016.txt,6,243,1,42,42,275,275,NUMBER,0,
+S016.txt,6,244,4,44,44,277,277,NUMBER,0,
+S016.txt,6,245,three,51,51,284,284,NUMBER,zero,
+S016.txt,6,246,three,54,54,287,287,NUMBER,two,
+S016.txt,6,247,29,58,58,291,291,NUMBER,22,
+S016.txt,7,248,six,4,4,297,297,NUMBER,three,
+S016.txt,7,249,Gordon Hayward,12,13,305,306,NAME,,"Rodney Hood, Trey Lyles, or Trey Burke"
+S016.txt,8,250,37,30,30,337,337,NUMBER,23,
+S016.txt,9,251,30,26,26,365,365,NUMBER,22,
+S016.txt,10,252,six,4,4,371,371,NUMBER,three,
+S016.txt,12,253,lost two in a row,5,9,434,438,WORD,,won the prior game
+S016.txt,13,254,host,5,5,444,444,WORD,travel to,
+S016.txt,13,255,Grizzlies,7,7,446,446,NAME,Timberwolves,
+S016.txt,14,256,couple,5,5,454,454,WORD,,The Thunder have one day off
+S016.txt,14,257,Tuesday,15,15,464,464,NAME,Saturday,
+S016.txt,14,258,Denver,17,17,466,466,NAME,Oklahoma City,
+S017.txt,1,259,Saturday,18,18,18,18,NAME,Tuesday,
+S017.txt,2,260,Monday,11,11,31,31,NAME,Tuesday,
+S017.txt,2,261,seven,16,16,36,36,NUMBER,seventeen,
+S017.txt,2,262,17,20,20,40,40,NUMBER,32,
+S017.txt,2,263,33,32,32,52,52,NUMBER,44,
+S017.txt,2,264,34,34,34,54,54,NUMBER,22,
+S017.txt,3,265,33,4,4,78,78,NUMBER,44,
+S017.txt,3,266,34,6,6,80,80,NUMBER,22,
+S017.txt,3,267,seven,16,16,90,90,NUMBER,seventeen,
+S017.txt,3,268,17,20,20,94,94,NUMBER,32,
+S017.txt,3,269,Barclays Center,25,26,99,100,NAME,Quicken Loans Arena,
+S017.txt,3,270,33,32,32,106,106,NUMBER,42,
+S017.txt,3,271,34,34,34,108,108,NUMBER,22,
+S017.txt,3,272,road,44,44,118,118,WORD,home,
+S017.txt,4,273,63,27,27,155,155,NUMBER,21,
+S017.txt,5,274,Cavs,8,8,171,171,NAME,Pistons,
+S017.txt,7,275,bench,5,5,209,209,WORD,starters,
+S017.txt,8,276,Morris,4,4,226,226,NAME,James,
+S017.txt,8,277,an,13,13,235,235,NUMBER,zero,
+S017.txt,8,278,a,16,16,238,238,NUMBER,zero,
+S017.txt,10,279,Richard Jefferson,1,2,264,265,NAME,LeBron James,
+S017.txt,10,280,one,27,27,290,290,NUMBER,zero,
+S017.txt,10,281,eight,34,34,297,297,NUMBER,two,
+S017.txt,11,282,a,15,15,320,320,NUMBER,zero,
+S017.txt,12,283,Kyle Korver,1,2,323,324,NAME,JR Smith,
+S017.txt,13,284,bench,5,5,342,342,WORD,,Jefferson was a starter
+S017.txt,14,285,Atlanta Hawks,10,11,365,366,NAME,Utah Jazz,
+S017.txt,14,286,Friday,13,13,368,368,NAME,Wednesday,
+S017.txt,14,287,Philadelphia 76ers,24,25,379,380,NAME,Utah Jazz,
+S017.txt,14,288,Friday,27,27,382,382,NAME,Thursday,
+S018.txt,2,289,42,12,12,42,42,NUMBER,45,
+S018.txt,2,290,29,18,18,48,48,NUMBER,44,
+S018.txt,5,291,39,13,13,137,137,NUMBER,52,
+S018.txt,5,292,13,16,16,140,140,NUMBER,16,
+S018.txt,5,293,three,19,19,143,143,NUMBER,six,
+S018.txt,6,294,triple - double of his own,6,11,151,156,WORD,,"nobody previously mentioned had a triple-double, and Draymond didn’t have one either"
+S018.txt,7,295,29,15,15,197,197,NUMBER,36,
+S018.txt,7,296,12,18,18,200,200,NUMBER,21,
+S018.txt,9,297,Josh Smith,13,14,245,246,NAME,,Jeff Green or Austin Rivers
+S018.txt,11,298,double - double,5,7,316,318,WORD,,Crawford did not have a double-double
+S018.txt,11,299,17,18,18,329,329,NUMBER,13,
+S018.txt,11,300,12,21,21,332,332,NUMBER,3,
+S018.txt,12,301,only other,2,3,336,337,WORD,,the Clippers had 3 others reach double figures
+S018.txt,13,302,Friday,16,16,398,398,NAME,Thursday,
+S018.txt,13,303,Clippers,20,20,402,402,NAME,Warriors,
+S018.txt,13,304,Minnesota Timberwolves,27,28,409,410,NAME,Dallas Mavericks,
+S019.txt,2,506,expected to win this game easily,4,9,24,29,NOT_CHECKABLE,,
+S019.txt,3,507,entirety,9,9,53,53,WORD,,"The Heat were losing at halftime, so they didn’t lead the whole 2nd half"
+S019.txt,3,508,16,23,23,67,67,NUMBER,25,
+S019.txt,4,509,16,29,29,102,102,NUMBER,21,
+S019.txt,5,510,won five of their last six games,10,16,114,120,NOT_CHECKABLE,,
+S019.txt,6,511,led,3,3,130,130,WORD,,George did not lead the Pacers in scoring
+S019.txt,6,512,five,15,15,142,142,NUMBER,one,
+S019.txt,8,513,double figures,9,10,175,176,WORD,,Young did not score in double figures
+S019.txt,8,514,13,15,15,181,181,NUMBER,2,
+S019.txt,9,515,home,7,7,196,196,WORD,road,
+S019.txt,9,516,Atlanta Hawks,11,12,200,201,NAME,Houston Rockets,
+S019.txt,9,517,Friday,14,14,203,203,NAME,Monday,
+S019.txt,10,518,won four of their last six games,10,16,214,220,NOT_CHECKABLE,,
+S019.txt,10,519,continue to falter,20,22,224,226,WORD,,Heat won the game
+S019.txt,14,520,better,6,6,297,297,WORD,,Miami played well and won this game
+S019.txt,14,521,Thursday,8,8,299,299,NAME,Monday,
+S019.txt,14,522,home,11,11,302,302,WORD,road,
+S019.txt,14,523,Toronto Raptors,15,16,306,307,NAME,Dallas Mavericks,
+S020.txt,1,524,Phoenix Suns,2,3,2,3,NAME,New orleans Pelicans,
+S020.txt,1,525,host,6,6,6,6,WORD,,New Orleans was the host
+S020.txt,1,526,Friday,19,19,19,19,NAME,Monday,
+S020.txt,2,527,16,4,4,24,24,NUMBER,20,
+S020.txt,2,528,Friday,11,11,31,31,NAME,Monday,
+S020.txt,2,529,Pelicans,20,20,40,40,NAME,Wizards,
+S020.txt,3,530,18,22,22,80,80,NUMBER,32,
+S020.txt,4,531,battled back,5,6,92,93,WORD,,"they were outscored in the 2nd period, and had equal points in the second half"
+S020.txt,4,532,Pelicans,13,13,100,100,NAME,Suns,
+S020.txt,4,533,18,18,18,105,105,NUMBER,32,
+S020.txt,5,534,Pelicans,2,2,114,114,NAME,Suns,
+S020.txt,5,535,led,4,4,116,116,WORD,,Bledsoe did not lead the Suns in scoring
+S020.txt,5,536,pair,23,23,135,135,NUMBER,,Bledsoe had no blocks
+S020.txt,6,537,right behind,4,5,142,143,WORD,,Booker and Bledsoe scored the same number points
+S020.txt,7,538,12,5,5,162,162,NUMBER,6,
+S020.txt,8,539,led,3,3,179,179,WORD,,Tucker did not lead the bench in scoring
+S020.txt,8,540,12,7,7,183,183,NUMBER,6,
+S020.txt,8,541,a,16,16,192,192,NUMBER,two,
+S020.txt,9,542,led,3,3,197,197,WORD,,Bledsoe did not lead the Suns in scoring
+S020.txt,9,543,a,21,21,215,215,NUMBER,no,
+S020.txt,9,544,a,24,24,218,218,NUMBER,no,
+S020.txt,10,545,12,5,5,225,225,NUMBER,6,
+S020.txt,11,546,reserve,7,7,243,243,WORD,starting,
+S020.txt,11,547,14,12,12,248,248,NUMBER,6,
+S020.txt,12,548,led,3,3,262,262,WORD,,Knight did not lead the Suns in scoring
+S020.txt,12,549,pair,18,18,277,277,NUMBER,,Knight had 0 steals
+S020.txt,13,550,behind him,5,6,285,286,WORD,,incorrectly implies that Bledsoe scored fewer pts than Knight
+S020.txt,13,551,seven,11,11,291,291,NUMBER,five,
+S020.txt,13,552,pair,18,18,298,298,NUMBER,,Bledsoe had no blocks
+S020.txt,14,553,Terrence Jones,1,2,302,303,CONTEXT,,Jones played for the Pelicans
+S020.txt,14,554,near double - double,7,10,308,311,WORD,,"he only had 5 points, 9 rebounds, and 0 assists"
+S020.txt,14,555,12,12,12,313,313,NUMBER,5,
+S020.txt,14,556,six,18,18,319,319,NUMBER,zero,
+S020.txt,14,557,a,24,24,325,325,NUMBER,zero,
+S020.txt,15,558,led,3,3,330,330,WORD,,"he was not the leading scorer for starters, and was outscored by someone on the second unit"
+S020.txt,15,559,second unit,5,6,332,333,WORD,,Hield was a starter
+S020.txt,15,560,five,11,11,338,338,NUMBER,three,
+S020.txt,15,561,a,17,17,344,344,NUMBER,zero,
+S020.txt,16,562,last place,5,6,351,352,NOT_CHECKABLE,,
+S020.txt,17,563,Minnesota,4,4,364,364,NAME,Memphis,
+S020.txt,17,564,Timberwolves,9,9,369,369,NAME,Grizzlies,
+S020.txt,17,565,Monday,11,11,371,371,NAME,Wednesday,
+S020.txt,19,566,20,5,5,397,397,NUMBER,30,
+S020.txt,19,567,four,11,11,403,403,NUMBER,ten,
+S020.txt,19,568,three,14,14,406,406,NUMBER,two,
+S020.txt,20,569,a,11,11,419,419,NUMBER,three,
+S020.txt,20,570,a,14,14,422,422,NUMBER,zero,
+S020.txt,21,571,led,3,3,427,427,WORD,,Hield was not the leading scorer for the bench (or starters)
+S020.txt,21,572,a,13,13,437,437,NUMBER,three,
+S020.txt,21,573,a,16,16,440,440,NUMBER,zero,
+S020.txt,22,574,last place,5,6,447,448,NOT_CHECKABLE,,
+S020.txt,23,575,Golden State Warriors,7,9,463,465,NAME,Utah Jazz,
+S020.txt,23,576,Monday,11,11,467,467,NAME,Monday,
+S021.txt,1,577,Saturday,18,18,18,18,NAME,Friday,
+S021.txt,2,578,Saturday,11,11,30,30,NAME,Friday,
+S021.txt,2,579,Saturday,33,33,52,52,NAME,Friday,
+S021.txt,2,580,pull away,55,56,74,75,WORD,,The Kings made the game closer but didn’t catch up
+S021.txt,3,581,battled back,10,11,90,91,WORD,,The Rockets were winning the entire game
+S021.txt,3,582,one - point,16,18,96,98,NUMBER,sixteen-point,
+S021.txt,3,583,battled back,31,32,111,112,WORD,,The Rockets were winning the entire game
+S021.txt,3,584,one - point,37,39,117,119,NUMBER,sixteen-point,
+S021.txt,4,585,pull away,8,9,136,137,WORD,,The Kings made the game closer but didn’t catch up
+S021.txt,4,586,Kings,17,17,145,145,NAME,Rockets,
+S021.txt,4,587,6,19,19,147,147,NUMBER,10,
+S021.txt,4,588,10,21,21,149,149,NUMBER,6,
+S021.txt,4,589,38,25,25,153,153,NUMBER,30,
+S021.txt,4,590,19,27,27,155,155,NUMBER,27,
+S021.txt,5,591,an,15,15,177,177,NUMBER,ten,
+S021.txt,5,592,five,18,18,180,180,NUMBER,zero,
+S021.txt,6,593,next,4,4,186,186,WORD,,Gordon was not the second leading scorer
+S021.txt,7,594,three,8,8,207,207,NUMBER,ten,
+S021.txt,7,595,three,11,11,210,210,NUMBER,zero,
+S021.txt,7,596,two,14,14,213,213,NUMBER,zero,
+S021.txt,8,597,two,23,23,241,241,NUMBER,zero,
+S021.txt,10,598,productive,4,4,269,269,WORD,,had very little to contribute
+S021.txt,10,599,17,12,12,277,277,NUMBER,3,
+S021.txt,10,600,three,15,15,280,280,NUMBER,two,
+S021.txt,10,601,two,24,24,289,289,NUMBER,zero,
+S021.txt,11,602,an,15,15,306,306,NUMBER,ten,
+S021.txt,11,603,five,18,18,309,309,NUMBER,zero,
+S021.txt,12,604,Rudy Gay,1,2,312,313,CONTEXT,,"Gay played for the Kings, not the Rockets"
+S021.txt,13,605,next,4,4,332,332,WORD,,Collison was the 6th leading scorer for the Kings
+S021.txt,13,606,18,7,7,335,335,NUMBER,8,
+S021.txt,13,607,10,11,11,339,339,NUMBER,3,
+S021.txt,13,608,double - double,14,16,342,344,WORD,,Collison did not have a double-double
+S021.txt,13,609,pair,27,27,355,355,WORD,,zero blocks
+S021.txt,14,610,18,6,6,364,364,NUMBER,8,
+S021.txt,15,611,12,9,9,384,384,NUMBER,4,
+S021.txt,15,612,double - double,12,14,387,389,WORD,,Gay did not have a  double-double
+S021.txt,15,613,three,24,24,399,399,NUMBER,zero,
+S021.txt,16,614,led,3,3,404,404,WORD,,Collison was the 6th leading scorer for the Kings
+S021.txt,16,615,bench,5,5,406,406,WORD,,Collison was a starter
+S021.txt,16,616,18,7,7,408,408,NUMBER,8,
+S021.txt,17,617,home,5,5,424,424,WORD,,The Rockets next game is on the road
+S021.txt,17,618,San Antonio Spurs,11,13,430,432,NAME,Portland Trail Blazers,
+S021.txt,17,619,Saturday,15,15,434,434,NAME,Sunday,
+S021.txt,17,620,home,22,22,441,441,WORD,,Kings’ following game is on the road
+S021.txt,17,621,Golden State Warriors,26,28,445,447,NAME,Brooklyn Nets,
+S021.txt,17,622,Saturday,30,30,449,449,NAME,Sunday,
+S022.txt,2,305,opposite directions,7,8,26,27,WORD,,teams have similar records and recent results
+S022.txt,3,306,8,7,7,41,41,NUMBER,7,
+S022.txt,3,307,10,10,10,44,44,NUMBER,16,
+S022.txt,3,308,8,23,23,57,57,NUMBER,,The final margin was more than 8 points
+S022.txt,6,309,Timberwolves,5,5,110,110,NAME,Pelicans,
+S022.txt,8,310,second,4,4,161,161,NUMBER,third,
+S022.txt,12,311,Friday,8,8,236,236,NAME,Sunday,
+S022.txt,12,312,Oklahoma City Thunder,14,16,242,244,NAME,Chicago Bulls,
+S022.txt,13,313,17th,23,23,272,272,NUMBER,,
+S022.txt,13,314,Verizon Center,26,27,275,276,NAME,Target Center,
+S022.txt,14,315,Minnesota,7,7,284,284,NAME,New Orleans,
+S023.txt,1,316,Wednesday,19,19,19,19,NAME,Sunday,
+S023.txt,3,317,11,19,19,56,56,NUMBER,,at least 30
+S023.txt,7,318,only other starter,5,7,135,137,WORD,,The Mavs had 4 starters in double figures
+S023.txt,9,319,double - double,5,7,177,179,WORD,,Julius Randle didn’t have a double-double
+S023.txt,10,320,Lakers,5,5,195,195,NAME,Mavericks,
+S023.txt,11,321,double figures,9,10,219,220,WORD,,Julius Randle didn’t score 10 points
+S023.txt,12,322,home,8,8,239,239,WORD,road,
+S023.txt,13,323,five,11,11,259,259,NUMBER,one,
+S023.txt,15,324,second,4,4,306,306,NUMBER,first,
+S024.txt,1,325,Saturday,18,18,18,18,NAME,Friday,
+S024.txt,2,326,faint,20,20,39,39,WORD,,The Warriors had the best record in the league
+S024.txt,2,327,able to pierce,34,36,53,55,WORD,,The Kings lost this game
+S024.txt,2,328,Wednesday,41,41,60,60,NAME,Friday,
+S024.txt,2,329,Gregg Popovich,45,46,64,65,NAME,Steve Kerr,
+S024.txt,2,330,season - high,51,53,70,72,WORD,,this was not Sacramento’s season-high point total
+S024.txt,2,331,114,54,54,73,73,NUMBER,100,
+S024.txt,5,332,Skal Labissiere,1,2,115,116,CONTEXT,,Labissiere played for the Kings
+S024.txt,5,333,a,11,11,125,125,NUMBER,ten,
+S024.txt,6,334,Warriors,2,2,138,138,NAME,Kings,
+S024.txt,7,335,4,9,9,169,169,NUMBER,8,
+S024.txt,7,336,double - double,12,14,172,174,WORD,,Green did not have a double-double
+S024.txt,8,337,led,3,3,189,189,WORD,,did not score the most bench points
+S024.txt,10,338,Kings,5,5,229,229,NAME,Warriors,
+S024.txt,11,339,bench - leading,7,9,257,259,WORD,,Hield was a starter
+S024.txt,11,340,eight,17,17,267,267,NUMBER,seven,
+S024.txt,13,341,reserve,11,11,304,304,WORD,starting,
+S025.txt,2,342,Thursday,11,11,30,30,NAME,Friday,
+S025.txt,5,343,Avery Bradley,1,2,139,140,CONTEXT,,Bradley played for the Celtics
+S025.txt,7,344,David Lee,16,17,204,205,CONTEXT,,Lee played for the Spurs
+S025.txt,8,345,LaMarcus Aldridge,1,2,228,229,CONTEXT,,Aldridge played for the Spurs
+S026.txt,1,346,David West,11,12,11,12,NAME,Indiana Pacers,
+S026.txt,1,347,0,20,20,20,20,NUMBER,99,
+S026.txt,1,348,Wednesday,22,22,22,22,NAME,Tuesday,
+S026.txt,2,349,out - scoring,13,15,43,45,WORD,,did not outscore the Pacers in the quarter
+S026.txt,2,350,27,20,20,50,50,NUMBER,28,
+S026.txt,3,351,12,29,29,85,85,NUMBER,18,
+S026.txt,3,352,12,33,33,89,89,NUMBER,26,
+S026.txt,3,353,0,40,40,96,96,NUMBER,12,
+S026.txt,3,354,3,44,44,100,100,NUMBER,25,
+S026.txt,4,355,Dragic,10,10,115,115,NAME,Bledsoe,
+S026.txt,5,356,three,39,39,158,158,NUMBER,four,
+S026.txt,6,357,second,15,15,175,175,NUMBER,zeroth,
+S026.txt,8,358,second,4,4,243,243,NUMBER,zeroth,
+S026.txt,8,359,42,17,17,256,256,NUMBER,56,
+S026.txt,8,360,11,20,20,259,259,NUMBER,13,
+S026.txt,10,361,second,4,4,304,304,NUMBER,zeroth,
+S026.txt,12,362,second,4,4,362,362,NUMBER,zeroth,
+S026.txt,12,363,42,17,17,375,375,NUMBER,23,
+S026.txt,12,364,12,20,20,378,378,NUMBER,6,
+S026.txt,14,365,10,5,5,424,424,NUMBER,13,
+S026.txt,14,366,6,8,8,427,427,NOT_CHECKABLE,8,
+S026.txt,15,367,two,38,38,470,470,NUMBER,zero,
+S026.txt,16,368,15,5,5,477,477,NUMBER,8,
+S026.txt,16,369,6,8,8,480,480,NUMBER,2,
+S026.txt,17,370,starter,7,7,492,492,WORD,bench player,
+S026.txt,18,371,seven,31,31,530,530,NUMBER,two,
+S026.txt,19,372,home,9,9,544,544,WORD,(on) the road,
+S026.txt,19,373,Toronto Raptors,12,13,547,548,NAME,Dallas Mavericks,
+S026.txt,19,374,home,23,23,558,558,WORD,(on) the road,
+S026.txt,19,375,Brooklyn Nets,26,27,561,562,NAME,Portland Trail Blazers,
+S026.txt,19,376,Friday,29,29,564,564,NAME,Thursday,
+S027.txt,1,377,111,19,19,19,19,NUMBER,116,
+S027.txt,1,378,Wednesday,23,23,23,23,NAME,Sunday,
+S027.txt,2,379,Knicks,17,17,48,48,NAME,Rockets,
+S027.txt,3,380,Rockets,2,2,59,59,NAME,Knicks,
+S027.txt,5,381,second,4,4,153,153,NUMBER,,
+S027.txt,6,382,double - double,5,7,194,196,WORD,,Afflalo didn’t have a double-double
+S027.txt,6,383,45,17,17,206,206,NUMBER,35,
+S027.txt,7,384,only other,5,6,221,222,WORD,,three starters scored 10+ pts
+S027.txt,8,385,Wednesday,16,16,271,271,NAME,Monday,
+S027.txt,8,386,travel,22,22,277,277,WORD,stay,
+S027.txt,8,387,Charlotte,24,24,279,279,NAME,New York,
+S027.txt,8,388,Hornets,28,28,283,283,NAME,76ers,
+S028.txt,1,389,Saturday,17,17,17,17,NAME,Wednesday,
+S028.txt,2,390,run with the first - round win of the season,28,37,47,56,OTHER,,doesn’t make sense
+S028.txt,3,391,21,15,15,72,72,NUMBER,44,
+S028.txt,3,392,back - to - back,23,27,80,84,WORD,,not a back-to-back
+S028.txt,4,393,Wizards,4,4,100,100,NAME,Nets,
+S028.txt,4,394,31,6,6,102,102,NUMBER,9,
+S028.txt,4,395,quarter,20,20,116,116,WORD,half,
+S028.txt,4,396,Nets,24,24,120,120,NAME,Wizards,
+S028.txt,4,397,59,27,27,123,123,NUMBER,51,
+S028.txt,4,398,48,29,29,125,125,NUMBER,41,
+S028.txt,5,399,23 - point,9,11,140,142,NUMBER,,31 - point (but there was no pair)
+S028.txt,5,400,2,24,24,155,155,NUMBER,6,
+S028.txt,5,401,two,27,27,158,158,NUMBER,twelve,
+S028.txt,5,402,two,30,30,161,161,NUMBER,one,
+S028.txt,7,403,Sean Kilpatrick,1,2,202,203,CONTEXT,,played for the Nets
+S028.txt,8,404,Brooklyn,7,7,224,224,NAME,Washington,
+S028.txt,10,405,Rondae Hollis-Jefferson,1,2,263,264,CONTEXT,,played for the Nets
+S028.txt,11,406,Jason Smith,1,2,286,287,CONTEXT,,plays for Washington
+S028.txt,12,407,Sean Kilpatrick,1,2,302,303,CONTEXT,,played for the Nets
+S028.txt,13,408,Nets,5,5,322,322,NAME,Wizards,
+S028.txt,15,409,Marcin Gortat,1,2,353,354,CONTEXT,,played for Washington
+S028.txt,17,410,Nets,2,2,396,396,NAME,Wizards,
+S028.txt,17,411,Detroit Pistons,11,12,405,406,NAME,Indiana Pacers,
+S028.txt,17,412,Phoenix Suns,25,26,419,420,NAME,Miami Heat,
+S030.txt,1,623,Wednesday,18,18,18,18,NAME,Monday,
+S030.txt,2,624,overtime,16,16,35,35,WORD,,game did not go into overtime
+S030.txt,3,625,the entirety,8,9,45,46,WORD,,Pacers did not lead the whole 2nd half
+S030.txt,4,626,42,17,17,83,83,NUMBER,46,
+S030.txt,4,627,34,19,19,85,85,NUMBER,42,
+S030.txt,5,628,five of their last seven,11,15,97,101,NOT_CHECKABLE,,
+S030.txt,6,629,led,12,12,122,122,WORD,,Walker did not lead the team in scoring
+S030.txt,8,630,double figures,9,10,163,164,WORD,,Zeller did not reach double figures in scoring
+S030.txt,8,631,11,15,15,169,169,NUMBER,8,
+S030.txt,9,632,Los Angeles Clippers,11,13,188,190,NAME,Washington Wizards,
+S030.txt,9,633,Monday,15,15,192,192,NAME,Wednesday,
+S030.txt,10,634,five of their last six,11,15,204,208,NOT_CHECKABLE,,
+S030.txt,10,635,great,25,25,218,218,WORD,,The Pacers were barely above .500
+S030.txt,12,636,second,4,4,245,245,WORD,,same number of points
+S031.txt,1,637,Wednesday,17,17,17,17,NAME,Sunday,
+S031.txt,2,638,Tuesday,11,11,29,29,NAME,Sunday,
+S031.txt,2,639,five,31,31,49,49,NOT_CHECKABLE,four,
+S031.txt,3,640,pull away,13,14,68,69,WORD,,The teams both scored 54 points in the 2nd half
+S031.txt,3,641,30,24,24,79,79,NUMBER,24,
+S031.txt,3,642,17,26,26,81,81,NUMBER,23,
+S031.txt,4,643,battled back,5,6,93,94,WORD,,The Celtics were ahead at halftime
+S031.txt,4,644,31,17,17,105,105,NUMBER,24,
+S031.txt,4,645,17,19,19,107,107,NUMBER,23,
+S031.txt,5,646,battled back,5,6,119,120,WORD,,The Celtics were ahead at halftime
+S031.txt,5,647,one - point,11,13,125,127,NUMBER,,The game was never within 3 points in the 4th quarter
+S031.txt,5,648,battled back,26,27,140,141,WORD,,The Celtics were ahead at halftime
+S031.txt,5,649,one - point,32,34,146,148,NUMBER,,The game was never within 3 points in the 4th quarter
+S031.txt,6,650,led,4,4,158,158,WORD,,Isaiah Thomas was the leading scorer
+S031.txt,9,651,led,3,3,221,221,WORD,,he was outscored by Marcus Smart
+S031.txt,9,652,three,11,11,229,229,NUMBER,ten,
+S031.txt,10,653,second place,5,6,242,243,NOT_CHECKABLE,,
+S031.txt,10,654,fourth,21,21,258,258,NOT_CHECKABLE,,
+S031.txt,11,655,Orlando Magic,12,13,277,278,NAME,Minnesota Timberwolves,
+S032.txt,1,656,defeated,10,10,10,10,WORD,lost to,
+S032.txt,1,657,Wednesday,24,24,24,24,NAME,Friday,
+S032.txt,2,658,Spurs,17,17,51,51,NAME,Blazers,
+S032.txt,3,659,50,20,20,80,80,NUMBER,45,
+S032.txt,3,660,Spurs,37,37,97,97,NAME,Blazers,
+S032.txt,3,661,45,40,40,100,100,NUMBER,50,
+S032.txt,4,662,16,12,12,123,123,NUMBER,12,
+S032.txt,4,663,12,18,18,129,129,NUMBER,16,
+S032.txt,5,664,Spurs,2,2,135,135,NAME,Blazers,
+S032.txt,5,665,LaMarcus Aldridge,12,13,145,146,NAME,Damian Lillard,
+S032.txt,6,666,three - point,19,21,166,168,WORD,three-point,
+S032.txt,8,667,three - point,23,25,224,226,WORD,free-throw,
+S032.txt,9,668,second,4,4,245,245,NUMBER,zeroth,
+S032.txt,9,669,54,17,17,258,258,NUMBER,61,
+S032.txt,9,670,13,20,20,261,261,NUMBER,20,
+S032.txt,11,671,Dallas Mavericks,12,13,311,312,NAME,Utah Jazz,
+S032.txt,11,672,Friday,15,15,314,314,NAME,Sunday,
+S032.txt,11,673,Golden State Warriors,26,28,325,327,NAME,Utah Jazz,
+S032.txt,11,674,Friday,30,30,329,329,NAME,Sunday,
+S033.txt,1,675,Friday,19,19,19,19,NAME,Saturday,
+S033.txt,2,676,four,11,11,32,32,NUMBER,five,
+S033.txt,2,677,four,23,23,44,44,NUMBER,five,
+S033.txt,3,678,four,13,13,63,63,NUMBER,five,
+S033.txt,3,679,four,25,25,75,75,NUMBER,five,
+S033.txt,5,680,one,15,15,126,126,NUMBER,zero,
+S033.txt,5,681,18,27,27,138,138,NUMBER,9,
+S033.txt,6,682,DeMarre Carroll,1,2,154,155,NAME,Patrick Patterson,
+S033.txt,6,683,one,14,14,167,167,NUMBER,zero,
+S033.txt,7,684,Raptors,18,18,194,194,NAME,Mavericks,
+S033.txt,8,685,bounce back,6,7,214,215,WORD,,they won
+S033.txt,8,686,Trail Blazers,14,15,222,223,NAME,Magic,
+S033.txt,9,687,four,13,13,239,239,NUMBER,two,
+S033.txt,9,688,battle for the top seed,24,28,250,254,NOT_CHECKABLE,,
+S033.txt,11,689,Harrison Barnes,1,2,289,290,CONTEXT,,Barnes played for the Mavericks
+S033.txt,11,690,2,17,17,305,305,NUMBER,0,
+S033.txt,11,691,three,31,31,319,319,NUMBER,two,
+S033.txt,12,692,off the bench,12,14,340,342,WORD,,Curry was a starter
+S033.txt,12,693,11,21,21,349,349,NUMBER,9,
+S033.txt,12,694,one,27,27,355,355,NUMBER,zero,
+S033.txt,12,695,one,30,30,358,358,NUMBER,0,
+S033.txt,13,696,Nets,14,14,378,378,NAME,Thunder,
+S034.txt,1,697,Sacramento Kings,2,3,2,3,NAME,Portland Trail Blazers,
+S034.txt,1,698,16,5,5,5,5,NUMBER,31,
+S034.txt,1,699,25,7,7,7,7,NUMBER,11,
+S034.txt,1,700,Wednesday,22,22,22,22,NAME,Monday,
+S034.txt,2,701,Kings,17,17,46,46,NAME,Trail Blazers,
+S034.txt,3,702,Kings,29,29,85,85,NAME,Blazers,
+S034.txt,5,703,at home,9,10,130,131,WORD,on the road,
+S034.txt,5,704,Los Angeles Clippers,13,15,134,136,NAME,Phoenix Suns,
+S034.txt,5,705,at home,24,25,145,146,WORD,on the road,
+S034.txt,5,706,Los Angeles Clippers,28,30,149,151,NAME,Phoenix Suns,
+S035.txt,3,707,outscored,6,6,52,52,WORD,,The Thunder lost the second half
+S035.txt,3,708,46,9,9,55,55,NUMBER,45,
+S035.txt,3,709,34,11,11,57,57,NUMBER,46,
+S035.txt,4,710,34,18,18,85,85,NUMBER,32,
+S035.txt,9,711,second,4,4,165,165,NUMBER,third,
+S035.txt,9,712,eight,13,13,174,174,NUMBER,nine,
+S035.txt,10,713,double figures,13,14,192,193,WORD,,they didn’t score double figures
+S035.txt,10,714,1,20,20,199,199,NUMBER,,Domatas Sabonis scored 6 points
+S035.txt,11,715,off the bench,5,7,208,210,WORD,,Sabonis started the game
+S035.txt,11,716,five,13,13,216,216,NUMBER,four,
+S035.txt,12,717,Orlando Magic,12,13,230,231,NAME,Memphis Grizzlies,
+S035.txt,12,718,Monday,15,15,233,233,NAME,Thursday,
+S035.txt,13,719,best,12,12,246,246,WORD,,Miami was not one of the best teams over the previous 2 months
+S035.txt,13,720,10th win,27,28,261,262,NOT_CHECKABLE,,note: also impossible (10 wins in 8 games)
+S035.txt,14,721,off the bench,20,22,288,290,WORD,,Josh Richardson was a starter
+S035.txt,15,722,second,4,4,295,295,NUMBER,third,
+S035.txt,17,723,bench,5,5,328,328,WORD,starters,
+S035.txt,18,724,host,3,3,344,344,WORD,play at,
+S035.txt,18,725,Boston Celtics,5,6,346,347,NAME,Charlotte Hornets,
+S035.txt,18,726,Saturday,12,12,353,353,NAME,Thursday,
+S036.txt,1,727,afternoon,19,19,19,19,WORD,,game was played at 8:00 PM
+S036.txt,2,728,Wednesday,11,11,31,31,NAME,Saturday,
+S036.txt,2,729,seven,16,16,36,36,NUMBER,five,
+S036.txt,2,730,38,28,28,48,48,NUMBER,32,
+S036.txt,2,731,28,30,30,50,50,NUMBER,24,
+S036.txt,3,732,38,4,4,66,66,NUMBER,32,
+S036.txt,3,733,28,6,6,68,68,NUMBER,34,
+S036.txt,3,734,outperform,11,11,73,73,WORD,,no comparative statistics
+S036.txt,3,735,38,44,44,106,106,NUMBER,13,
+S036.txt,5,736,next,4,4,142,142,WORD,,Norman Powell was the 2nd leading scorer
+S036.txt,5,737,an,12,12,150,150,NUMBER,zero,
+S036.txt,6,738,an,18,18,173,173,NUMBER,zero,
+S036.txt,7,739,a,13,13,188,188,NUMBER,zero,
+S036.txt,8,740,Tyler Johnson,1,2,191,192,CONTEXT,,Johnson played for the Heat
+S036.txt,8,741,a,16,16,206,206,NUMBER,zero,
+S036.txt,9,742,an,18,18,226,226,NUMBER,zero,
+S036.txt,9,743,a,24,24,232,232,NUMBER,zero,
+S036.txt,10,744,matching 15 - point efforts,7,11,241,245,WORD,,"Dion Waiters scored 20 points, and nobody else on the team scored 15"
+S036.txt,11,745,led,3,3,275,275,WORD,,Ellington was not the leading bench scorer (Tyler Johnson)
+S036.txt,12,746,Atlanta Hawks,11,12,299,300,NAME,Dallas Mavericks,
+S036.txt,12,747,Friday,14,14,302,302,NAME,Monday,
+S036.txt,12,748,afternoon,15,15,303,303,WORD,,game is at 7:00 pm
+S036.txt,12,749,Atlanta,22,22,310,310,NAME,Indiana,
+S036.txt,12,750,Friday,25,25,313,313,NAME,Sunday,
+S036.txt,12,751,Hawks,30,30,318,318,NAME,Pacers,
+S037.txt,2,752,64,18,18,47,47,NUMBER,51,
+S037.txt,2,753,48,20,20,49,49,NUMBER,49,
+S037.txt,3,754,59,21,21,76,76,NUMBER,51,
+S037.txt,5,755,Isaiah Thomas,29,30,164,165,CONTEXT,,Thomas played for the Celtics
+S037.txt,7,756,Evan Turner,1,2,205,206,CONTEXT,,Turner played for the Celtics
+S037.txt,8,757,52,6,6,242,242,NUMBER,33,
+S037.txt,9,758,other player,3,4,264,265,WORD,,The Celtics had 3 other players in double figures
+S037.txt,10,759,winning,7,7,306,306,WORD,,Boston lost this game
+S037.txt,10,760,on the road,9,11,308,310,WORD,,next game is at home
+S037.txt,10,761,Thursday,12,12,311,311,NAME,Friday,
+S037.txt,10,762,Boston Celtics,15,16,314,315,NAME,Atlanta Hawks,
+S037.txt,11,763,on the road,8,10,324,326,WORD,at home,
+S037.txt,11,764,Cleveland Cavaliers,13,14,329,330,NAME,Atlanta Hawks,
+S037.txt,11,765,Indiana,24,24,340,340,NAME,Boston,
+S037.txt,11,766,Pacers,28,28,344,344,NAME,Hawks,
+S037.txt,11,767,Wednesday,30,30,346,346,NAME,Friday,
+S038.txt,1,768,defeated,9,9,9,9,WORD,,The Wizards lost this game
+S038.txt,1,769,Saturday,22,22,22,22,NAME,Wednesday,
+S038.txt,2,770,won,3,3,26,26,WORD,lost,
+S038.txt,2,771,three,7,7,30,30,NUMBER,one,
+S038.txt,3,772,game - high,8,10,44,46,WORD,,Beal was not the leading scorer in the game
+S038.txt,3,773,20,11,11,47,47,NUMBER,24,
+S038.txt,4,774,10,13,13,76,76,NUMBER,4,
+S038.txt,7,775,host,10,10,130,130,WORD,,next game is on the road
+S038.txt,7,776,Washington Wizards,12,13,132,133,NAME,Phoenix Suns,
+S038.txt,7,777,25,15,15,135,135,NUMBER,20,
+S038.txt,7,778,36,17,17,137,137,NUMBER,55,
+S038.txt,7,779,Washington Wizards,25,26,145,146,NAME,Miami Heat,
+S038.txt,7,780,25,28,28,148,148,NUMBER,43,
+S038.txt,7,781,30,30,30,150,150,NUMBER,31,
+S039.txt,1,782,Friday,18,18,18,18,NAME,Monday,
+S039.txt,2,783,winners of five of their last six games,12,19,32,39,NOT_CHECKABLE,,They had lost 5 of 6
+S039.txt,2,784,8,27,27,47,47,NUMBER,7,
+S039.txt,2,785,pull away,32,33,52,53,WORD,,The Bucks lost the 2nd half
+S039.txt,3,786,high - point man,5,8,63,66,WORD,,Antetokounmpo was not the Bucks’ leading scorer
+S039.txt,5,787,two,6,6,158,158,NUMBER,zero,
+S039.txt,5,788,lost five of their last six games,16,22,168,174,NOT_CHECKABLE,,They have lost 3 of 6
+S039.txt,8,789,42,21,21,247,247,NUMBER,28,
+S039.txt,9,790,Pistons,14,14,263,263,NAME,Raptors,
+S039.txt,9,791,Friday,22,22,271,271,NAME,Wednesday,
+S039.txt,9,792,Bulls,26,26,275,275,NAME,Suns,
+S040.txt,1,793,defeated,9,9,9,9,WORD,,The Celtics lost this game
+S040.txt,2,794,out - scored,10,12,39,41,WORD,,first half score was tied
+S040.txt,2,795,50,15,15,44,44,NUMBER,49,
+S040.txt,2,796,38,17,17,46,46,NUMBER,59,
+S040.txt,2,797,pull away,23,24,52,53,WORD,,The Celtics lost the 2nd half and the game
+S040.txt,5,798,bench,19,19,149,149,WORD,,Valanciumas was a starter
+S040.txt,6,799,on the road,7,9,157,159,WORD,,next game is at home
+S040.txt,6,800,Atlanta Hawks,12,13,162,163,NAME,San Antonio Spurs,
+S040.txt,6,801,Friday,15,15,165,165,NAME,Sunday,
+S040.txt,6,802,Charlotte,23,23,173,173,NAME,Toronto,
+S040.txt,6,803,Hornets,28,28,178,178,NAME,Bucks,
+S040.txt,6,804,Friday,30,30,180,180,NAME,Sunday,
+S041.txt,1,805,Friday,17,17,17,17,NAME,Wednesday,
+S041.txt,2,806,Friday,11,11,29,29,NAME,Wednesday,
+S041.txt,2,807,seven,14,14,32,32,NUMBER,one,
+S041.txt,2,808,road,38,38,56,56,WORD,home,
+S041.txt,3,809,field,46,46,104,104,WORD,three-point,field was 43%
+S041.txt,4,810,a,22,22,134,134,NUMBER,zero,
+S041.txt,4,811,a,25,25,137,137,NUMBER,zero,
+S041.txt,5,812,next,4,4,143,143,WORD,,Wade was not the 2nd leading scorer for the Bulls
+S041.txt,6,813,Gerald Green,23,24,176,177,CONTEXT,,plays for the Celtics
+S041.txt,6,814,eight,26,26,179,179,NUMBER,four,
+S041.txt,6,815,Gerald Green,30,31,183,184,CONTEXT,,"Green plays for the Celtics, not Bulls"
+S041.txt,8,816,next,4,4,213,213,WORD,,Bradley was not the next leading scorer for the Celtics
+S041.txt,8,817,a,15,15,224,224,NUMBER,zero,
+S041.txt,9,818,pair,11,11,237,237,NUMBER,,Crowder had zero blocks
+S041.txt,10,819,paced,3,3,243,243,WORD,,
+S041.txt,11,820,second place in the Eastern Conference 's Atlantic Division,4,12,257,265,NOT_CHECKABLE,,
+S041.txt,12,821,Friday,11,11,277,277,NAME,Thursday,
+S042.txt,1,822,defeated,4,4,4,4,WORD,lost to,
+S042.txt,1,823,Friday,19,19,19,19,NAME,Thursday,
+S042.txt,2,824,best offenses,8,9,28,29,NOT_CHECKABLE,,
+S042.txt,2,825,lead,26,26,46,46,WORD,,The Raptors did not hold the led for the entire 2nd half
+S042.txt,3,826,led,6,6,60,60,WORD,,The Raptors were losing for the majority of the game
+S042.txt,3,827,12,22,22,76,76,NUMBER,,"The Thunder won by 21 points, so they definitely had a bigger lead than 12"
+S042.txt,4,828,Kevin Durant,14,15,99,100,CONTEXT,,Kevin Durant wasn’t on the roster that season
+S042.txt,6,829,led,3,3,137,137,WORD,,Oladipo did not lead the Thunder in scoring
+S042.txt,7,830,second,4,4,158,158,NUMBER,third,
+S042.txt,8,831,only other,5,6,174,175,WORD,,two other players in double figures
+S042.txt,9,832,road,8,8,195,195,WORD,home,
+S042.txt,9,833,Oklahoma City Thunder,12,14,199,201,NAME,Sacramento Kings,
+S042.txt,9,834,Thursday,16,16,203,203,NAME,Saturday,
+S042.txt,10,835,won five of their last six games,10,16,214,220,NOT_CHECKABLE,two,
+S042.txt,10,836,climb up,22,23,226,227,NOT_CHECKABLE,,The Raptors were falling in the standings
+S042.txt,11,837,player of the game,5,8,235,238,WORD,,false (Westbrook had a triple double + victory)
+S042.txt,12,838,second,4,4,262,262,NUMBER,fourth,
+S042.txt,14,839,off the bench,7,9,294,296,WORD,,Joseph started
+S042.txt,15,840,host,3,3,310,310,WORD,,Toronto’s next game is on the road
+S042.txt,15,841,Boston Celtics,5,6,312,313,NAME,Detroit Pistons,
+S042.txt,15,842,Thursday,12,12,319,319,NAME,Friday,
+S043.txt,1,843,Tuesday,23,23,23,23,NAME,Monday,
+S043.txt,2,844,32,19,19,49,49,NUMBER,37,
+S043.txt,3,845,Kings,2,2,60,60,NAME,Blazers,
+S043.txt,5,846,game - high,26,28,149,151,WORD,,Seth Curry and Allen Crabbe scored 21 points
+S043.txt,6,847,39,18,18,182,182,NUMBER,29,
+S043.txt,6,848,14,21,21,185,185,NUMBER,16,
+S043.txt,7,849,Ben McLemore,27,28,219,220,CONTEXT,,"McLemore plays for the Kings, not Blazers"
+S043.txt,8,850,Ty Lawson,10,11,257,258,NAME,Seth Curry,
+S043.txt,10,851,12,6,6,307,307,NUMBER,17,
+S043.txt,10,852,turned around,23,24,324,325,WORD,,McLemore played poorly in this game
+S043.txt,13,853,12,6,6,373,373,NUMBER,17,
+S043.txt,13,854,turned around,23,24,390,391,WORD,,McLemore played poorly in this game
+S043.txt,14,855,solid showing,6,7,398,399,WORD,,he only scored 3 points
+S043.txt,15,856,on the road,8,10,435,437,WORD,at home,
+S043.txt,15,857,Portland Trail Blazers,13,15,440,442,NAME,Washington Wizards,
+S043.txt,15,858,Friday,17,17,444,444,NAME,Wednesday,
+S043.txt,15,859,travel,23,23,450,450,WORD,be at home (in),
+S043.txt,15,860,Portland,25,25,452,452,NAME,Sacramento,
+S043.txt,15,861,Trail Blazers,29,30,456,457,NAME,Washington Wizards,
+S043.txt,15,862,Friday,32,32,459,459,NAME,Wednesday,
+S044.txt,1,863,defeated,9,9,9,9,WORD,lost to,
+S044.txt,1,864,Wednesday,22,22,22,22,NAME,Monday,
+S044.txt,2,865,out - scored,10,12,41,43,WORD,,Nets were  out-scored in the first half
+S044.txt,2,866,29,15,15,46,46,NUMBER,45,
+S044.txt,2,867,19,17,17,48,48,NUMBER,53,
+S044.txt,2,868,unable to get it done,21,25,52,56,WORD,,outscored
+S044.txt,5,869,Bojan Bogdanovic,1,2,152,153,NAME,Donald Sloan,Bogdanovic did not play
+S044.txt,5,870,nine,54,54,205,205,NUMBER,three,
+S044.txt,5,871,two,57,57,208,208,NUMBER,zero,
+S044.txt,5,872,two,60,60,211,211,NUMBER,zero,
+S044.txt,5,873,40,64,64,215,215,NUMBER,24,
+S044.txt,6,874,7,14,14,231,231,NUMBER,10,
+S044.txt,6,875,1,17,17,234,234,NUMBER,0,
+S044.txt,6,876,3,19,19,236,236,NUMBER,0,
+S044.txt,6,877,2,22,22,239,239,NUMBER,1,
+S044.txt,6,878,2,24,24,241,241,NUMBER,3,
+S044.txt,6,879,nine,28,28,245,245,NUMBER,eleven,
+S044.txt,6,880,40,38,38,255,255,NUMBER,34,
+S044.txt,7,881,1,17,17,274,274,NUMBER,0,
+S044.txt,7,882,3,19,19,276,276,NUMBER,0,
+S044.txt,9,883,a few days off,4,7,326,329,WORD,,Philadelphia plays the next day
+S044.txt,9,884,visiting,9,9,331,331,WORD,hosting,
+S044.txt,9,885,Miami Heat,11,12,333,334,NAME,Detroit Pistons,
+S044.txt,9,886,Friday,14,14,336,336,NAME,Saturday,
+S044.txt,10,887,Indiana,6,6,343,343,NAME,Philadelphia,
+S044.txt,10,888,Friday,8,8,345,345,NAME,Saturday,
+S045.txt,1,889,Wednesday,23,23,23,23,NAME,Saturday,
+S045.txt,2,890,59,18,18,51,51,NUMBER,51,
+S045.txt,3,891,Hornets,2,2,61,61,NAME,Spurs,
+S045.txt,3,892,game - high,13,15,72,74,WORD,,team-high\; Kemba Walker of the Hornets had 27 points
+S045.txt,4,893,second,4,4,97,97,NUMBER,first,first (he shot <50% in the prior game)
+S045.txt,4,894,38,21,21,114,114,NUMBER,63,
+S045.txt,5,895,only other,5,6,124,125,WORD,,The Spurs had 4 other players in double digits
+S045.txt,5,896,1,35,35,154,154,NUMBER,0,
+S045.txt,5,897,2,37,37,156,156,NUMBER,0,
+S045.txt,5,898,4,42,42,161,161,NUMBER,19,
+S045.txt,6,899,back on track,7,9,173,175,WORD,,"The Spurs won this game, so they don’t need to get back on track"
+S045.txt,6,900,host,13,13,179,179,WORD,,The Spurs next game is on the road
+S045.txt,6,901,Mavericks,16,16,182,182,NAME,Kings,
+S045.txt,6,902,Sunday,18,18,184,184,WORD,Monday,
+S045.txt,9,903,surpassed,8,8,266,266,WORD,,Jefferson did not score more than 20 points
+S045.txt,9,904,season - high,21,23,279,281,WORD,,Jefferson scored  more points (31) in the prior game
+S045.txt,9,905,since the beginning of January,30,34,288,292,NOT_CHECKABLE,,
+S045.txt,10,906,four,6,6,299,299,NUMBER,one,
+S045.txt,10,907,Friday,17,17,310,310,NAME,Tuesday,
+S045.txt,10,908,home,19,19,312,312,WORD,,The Hornets next game is on the road
+S045.txt,10,909,Dallas Mavericks,22,23,315,316,NAME,Minnesota Timberwolves,
+S046.txt,1,910,Wednesday,17,17,17,17,NAME,Tuesday,
+S046.txt,2,911,five,14,14,32,32,NUMBER,three,
+S046.txt,4,912,27,27,27,116,116,NUMBER,28,
+S046.txt,4,913,off the bench,29,31,118,120,WORD,,Anderson was a starter
+S046.txt,5,914,get back on track,6,9,127,130,WORD,,falsely implies that the Rockets lost the game
+S046.txt,5,915,Mavericks,16,16,137,137,NAME,Clippers,
+S046.txt,5,916,Monday,18,18,139,139,NAME,Friday,
+S046.txt,6,917,five,11,11,151,151,NUMBER,three,
+S046.txt,8,918,host,12,12,221,221,WORD,,next game is on the road
+S046.txt,8,919,Mavericks,15,15,224,224,NAME,Lakers,
+S046.txt,8,920,Monday,17,17,226,226,NAME,Thursday,
+S047.txt,1,921,Tuesday,23,23,23,23,NAME,Saturday,
+S047.txt,2,922,losing,12,12,42,42,WORD,winning,
+S047.txt,2,923,was n't enough,17,19,47,49,WORD,,It was enough because the Hawks won this game
+S047.txt,2,924,home,28,28,58,58,WORD,,This was a road game for the Hawks
+S047.txt,3,925,51,16,16,76,76,NUMBER,45,
+S047.txt,4,926,game - high,13,15,94,96,WORD,team-high,
+S047.txt,7,927,six,5,5,197,197,NUMBER,five,
+S047.txt,8,928,pair,48,48,252,252,NUMBER,,Batum had four rebounds
+S047.txt,8,929,off the bench,51,53,255,257,WORD,,Batum was a starter
+S047.txt,9,930,7,5,5,263,263,NUMBER,13,
+S047.txt,9,931,24,7,7,265,265,NUMBER,33,
+S047.txt,10,932,Cleveland Cavaliers,13,14,302,303,NAME,LA Clippers,
+S047.txt,10,933,Friday,16,16,305,305,NAME,Monday,
+S047.txt,10,934,travel,23,23,312,312,WORD,,The Blazers next game is at home
+S047.txt,10,935,Cleveland,25,25,314,314,NAME,Portland,
+S047.txt,10,936,Cavaliers,29,29,318,318,NAME,Lakers,
+S047.txt,10,937,Friday,31,31,320,320,NAME,Monday,
+S048.txt,2,938,Tuesday,11,11,31,31,NAME,Saturday,
+S048.txt,2,939,faint playoff hopes,21,23,41,43,WORD,,It is too early in the season to talk about playoff hopes
+S048.txt,2,940,8,30,30,50,50,NUMBER,10,
+S048.txt,2,941,Oklahoma City,38,39,58,59,NAME,Detroit Piston,
+S048.txt,2,942,Wednesday,42,42,62,62,NAME,Saturday,
+S048.txt,2,943,Gregg Popovich,46,47,66,67,NAME,Billy Donovan,
+S048.txt,2,944,season - high,52,54,72,74,NOT_CHECKABLE,,
+S048.txt,3,945,15,8,8,85,85,NUMBER,13,
+S048.txt,3,946,double - double,11,13,88,90,WORD,triple-double,
+S048.txt,4,947,Tobias Harris,1,2,120,121,CONTEXT,,"Harris plays for the Pistons, not the Thunder"
+S048.txt,4,948,Victor Oladipo,8,9,127,128,CONTEXT,,"plays for the Thunder, not the Pistons"
+S048.txt,4,949,Andre Drummond,24,25,143,144,CONTEXT,,"Drummond plays for the Pistons, not the Thunder"
+S048.txt,4,950,double - double,35,37,154,156,WORD,,Drummond did not have a double-double
+S048.txt,5,951,led,3,3,160,160,WORD,,Kanter did not have the most bench points
+S048.txt,6,952,an,19,19,186,186,NUMBER,fifteen,
+S048.txt,7,953,next,4,4,198,198,WORD,,Oladipo was third on the team in points
+S048.txt,8,954,double - double,12,14,223,225,WORD,,Adams did not have a double-double
+S048.txt,8,955,a,18,18,229,229,NUMBER,zero,
+S048.txt,9,956,led,3,3,234,234,WORD,,Kanter did not have the most bench points
+S048.txt,10,957,Enes Kanter,1,2,247,248,NAME,Tobias Harris,
+S048.txt,12,958,Enes Kanter,1,2,279,280,CONTEXT,,"Kanter plays for the Thunder, not Pistons"
+S048.txt,12,959,led,3,3,281,281,WORD,,Kanter did not have the most bench points
+S048.txt,13,960,back home,4,5,298,299,WORD,,travel to Charlotte
+S048.txt,13,961,Golden State Warriors,10,12,304,306,NAME,Charlotte Hornets,
+S048.txt,13,962,Friday,14,14,308,308,NAME,Tuesday,
+S048.txt,13,963,remain home,20,21,314,315,WORD,,next game is on the road
+S048.txt,13,964,San Antonio Spurs,25,27,319,321,NAME,New York Knicks,
+S049.txt,1,965,Friday,18,18,18,18,NAME,Sunday,
+S049.txt,2,966,won four of their last seven,15,20,34,39,NOT_CHECKABLE,,5 of 7
+S049.txt,2,967,14,34,34,53,53,NUMBER,8,
+S049.txt,3,968,20,6,6,71,71,NUMBER,12,
+S049.txt,3,969,second,19,19,84,84,NUMBER,third,
+S049.txt,4,970,20,6,6,104,104,NUMBER,12,
+S049.txt,4,971,8,8,8,106,106,NUMBER,14,
+S049.txt,4,972,32,27,27,125,125,NUMBER,24,
+S049.txt,4,973,32,29,29,127,127,NUMBER,17,
+S049.txt,4,974,nine,34,34,132,132,NUMBER,twelve,
+S049.txt,6,975,double - double,12,14,173,175,WORD,,Morris didn’t have a double-double
+S049.txt,9,976,two,9,9,241,241,NUMBER,zero,
+S049.txt,13,977,one,10,10,311,311,NUMBER,zero,
+S049.txt,16,978,home,5,5,354,354,WORD,,The Wizards next game is on the road
+S049.txt,16,979,Milwaukee Bucks,10,11,359,360,NAME,Indiana Pacers,
+S049.txt,16,980,Friday,13,13,362,362,NAME,Monday,
+S049.txt,16,981,home,20,20,369,369,WORD,,The Wizards next game is on the road
+S049.txt,16,982,New York Knicks,25,27,374,376,NAME,Indiana Pacers,
+S050.txt,1,983,Wednesday,22,22,22,22,NAME,Friday,
+S050.txt,2,984,meager,39,39,68,68,WORD,,42 percent 3pt % is not meager
+S050.txt,3,985,two,47,47,122,122,NUMBER,zero,
+S050.txt,4,986,averaging 13 points and 4 rebounds on the season,4,12,129,137,NOT_CHECKABLE,,26 and 8
+S050.txt,5,987,Jimmy Butler,1,2,139,140,CONTEXT,,Butler played for the Bulls
+S050.txt,5,988,double - double,6,8,144,146,WORD,,Butler did not have a double-double
+S050.txt,6,989,second,4,4,184,184,NUMBER,zeroth,
+S050.txt,6,990,50,17,17,197,197,NUMBER,38,
+S050.txt,6,991,13,20,20,200,200,NUMBER,7,
+S050.txt,7,992,off the bench,2,4,209,211,WORD,,Miles was a starter
+S050.txt,8,993,at home,8,9,245,246,WORD,on the road,
+S050.txt,8,994,New York Knicks,12,14,249,251,NAME,LA Lakers,
+S050.txt,8,995,Wednesday,16,16,253,253,NAME,Sunday,
+S050.txt,8,996,travel to,22,23,259,260,WORD,be at home in,
+S050.txt,8,997,Charlotte,24,24,261,261,NAME,Chicago,
+S050.txt,8,998,Hornets,28,28,265,265,NAME,Spurs,
+S050.txt,8,999,Friday,30,30,267,267,NAME,Monday,
+S050.txt,8,1',back - to - back,37,41,274,278,WORD,,This is not a back-to-back set for the Bulls
+S051.txt,1,1001,host,6,6,6,6,WORD,,Bulls were the host team
+S051.txt,1,1002,Friday,18,18,18,18,NAME,Tuesday,
+S051.txt,2,1003,32,4,4,24,24,NUMBER,27,
+S051.txt,2,1004,hottest teams,16,17,36,37,WORD,,Bulls have a losing record and lost 3 straight games before this one
+S051.txt,2,1005,close,36,36,56,56,WORD,,The Raptors were down 19 points at halftime
+S051.txt,3,1006,32,4,4,62,62,NUMBER,27,
+S051.txt,3,1007,24,6,6,64,64,NUMBER,29,
+S051.txt,3,1008,back - to - back,21,25,79,83,WORD,,game was not part of a  back-to-back
+S051.txt,4,1009,DeMar DeRozan,24,25,126,127,CONTEXT,,"plays for the Raptors, not the Bulls"
+S051.txt,4,1010,three,30,30,132,132,NUMBER,five,
+S051.txt,5,1011,high - point man,5,8,149,152,WORD,,Butler was not the Bulls’ leading scorer
+S051.txt,7,1012,led,3,3,201,201,WORD,,Butler led neither team in scoring
+S051.txt,7,1013,Raptors,8,8,206,206,NAME,Bulls,
+S051.txt,8,1014,DeMar DeRozan,1,2,221,222,CONTEXT,,DeRozan played for the Raptors
+S051.txt,9,1015,Taj Gibson,1,2,239,240,CONTEXT,,"plays for the Bulls, not the Raptors"
+S051.txt,9,1016,Norman Powell,12,13,250,251,CONTEXT,,Powell played for the Raptors
+S052.txt,1,1017,Wednesday,22,22,22,22,NAME,Saturday,
+S052.txt,2,1018,44,12,12,41,41,NUMBER,48,
+S052.txt,2,1019,23,18,18,47,47,NUMBER,18,
+S052.txt,3,1020,Rockets,2,2,75,75,NAME,Clippers,
+S052.txt,3,1021,game - high,34,36,107,109,WORD,team-high,
+S052.txt,4,1022,46,5,5,127,127,NOT_CHECKABLE,,
+S052.txt,6,1023,16,5,5,174,174,NOT_CHECKABLE,15.3,
+S052.txt,6,1024,7,8,8,177,177,NUMBER,2,
+S052.txt,7,1025,3,18,18,200,200,NUMBER,0,
+S052.txt,7,1026,4,20,20,202,202,NUMBER,0,
+S052.txt,8,1027,second,4,4,217,217,NUMBER,zeroth,
+S052.txt,8,1028,48,17,17,230,230,NUMBER,32,
+S052.txt,8,1029,14,20,20,233,233,NUMBER,2,
+S052.txt,9,1030,on the road,8,10,248,250,WORD,at home,
+S052.txt,9,1031,Los Angeles Lakers,13,15,253,255,NAME,Brooklyn Nets,
+S052.txt,9,1032,travel,23,23,263,263,WORD,,The Clippers next game is at home
+S052.txt,9,1033,Lakers,30,30,270,270,NAME,Grizzlies,
+S052.txt,9,1034,Friday,32,32,272,272,NAME,Monday,
+S052.txt,9,1035,travel,38,38,278,278,WORD,,The Clippers next game is at home
+S052.txt,9,1036,Lakers,45,45,285,285,NAME,Grizzlies,
+S052.txt,9,1037,Friday,47,47,287,287,NAME,Monday,
+S053.txt,1,1038,Wednesday,22,22,22,22,NAME,Friday,
+S053.txt,4,1039,Brook Lopez,9,10,107,108,CONTEXT,,Lopez played for the Nets
+S053.txt,6,1040,46,17,17,162,162,NUMBER,41,
+S053.txt,6,1041,20,20,20,165,165,NUMBER,22,
+S053.txt,7,1042,Zaza Pachulia,1,2,173,174,CONTEXT,,Pachulia played for the Mavericks
+S053.txt,7,1043,only other,5,6,177,178,WORD,,both teams had at least 4 players in double figures
+S053.txt,8,1044,other player,3,4,216,217,WORD,,The Nets had 5 players in double figures
+S053.txt,9,1045,on the road,8,10,265,267,WORD,at home,
+S053.txt,9,1046,Detroit Pistons,13,14,270,271,NAME,Phoenix Suns,
+S053.txt,9,1047,Wednesday,16,16,273,273,NAME,Sunday,
+S053.txt,9,1048,Indiana,24,24,281,281,NAME,New Orleans,
+S053.txt,9,1049,Pacers,28,28,285,285,NAME,Pelicans,
+S053.txt,9,1050,Friday,30,30,287,287,NAME,Saturday,
+S054.txt,1,1051,Monday,17,17,17,17,NAME,Tuesday,
+S054.txt,2,1052,Trust the Process,17,19,35,37,NOT_CHECKABLE,,This was the 76ers slogan
+S054.txt,3,1053,Houston,14,14,66,66,NAME,Charlotte,
+S054.txt,3,1054,Friday,17,17,69,69,NAME,Tuesday,
+S054.txt,3,1055,Gregg Popovich,21,22,73,74,NAME,Steve Clifford,
+S054.txt,3,1056,season - high,27,29,79,81,NOT_CHECKABLE,,
+S054.txt,4,1057,pair,25,25,109,109,NUMBER,,Harden had 15 rebounds
+S054.txt,5,1058,Kemba Walker,1,2,113,114,CONTEXT,,Walker plays for the Hornets
+S054.txt,7,1059,reserve role,7,8,153,154,WORD,,Lamb was a starter
+S054.txt,8,1060,Nene Hilario,1,2,170,171,CONTEXT,,Hilario played for the Rockets
+S054.txt,8,1061,led,3,3,172,172,WORD,,Hilario was not the leading bench scorer
+S054.txt,8,1062,two,17,17,186,186,NUMBER,one,
+S054.txt,9,1063,double - double,15,17,206,208,WORD,triple-double,
+S054.txt,9,1064,one,24,24,215,215,NUMBER,zero,
+S054.txt,10,1065,Frank Kaminsky III,1,3,218,220,CONTEXT,,Kaminsky played for the Hornets
+S054.txt,11,1066,double - double,13,15,246,248,WORD,,Williams did not have a double-double
+S054.txt,11,1067,one,22,22,255,255,NUMBER,zero,
+S054.txt,12,1068,Ryan Anderson,1,2,261,262,CONTEXT,,Anderson played for the Rockets
+S054.txt,13,1069,Jeremy Lamb,1,2,278,279,CONTEXT,,Lamb played for the Hornets
+S054.txt,13,1070,led,3,3,280,280,WORD,,Lamb was not the highest scorer for the starters or second unit
+S054.txt,13,1071,second unit,5,6,282,283,WORD,,Lamb was a starter
+S054.txt,14,1072,Nene Hilario,1,2,297,298,CONTEXT,,Hilario played for the Rockets
+S054.txt,14,1073,led,3,3,299,299,WORD,,Hilario did not lead the bench in scoring
+S054.txt,15,1074,led,3,3,321,321,WORD,,Hilario did not lead the bench in scoring
+S054.txt,15,1075,one,19,19,337,337,NUMBER,two,
+S054.txt,16,1076,led,3,3,342,342,WORD,,Hilario did not lead the bench in scoring
+S054.txt,17,1077,two,13,13,373,373,NUMBER,one,
+S054.txt,17,1078,led,22,22,382,382,WORD,,Hilario did not lead the bench in scoring
+S054.txt,18,1079,led,3,3,403,403,WORD,,Hilario did not lead the bench in scoring
+S054.txt,18,1080,two,16,16,416,416,NUMBER,one,
+S054.txt,19,1081,Rockets,5,5,433,433,NAME,Hornets,
+S054.txt,19,1082,game - high,8,10,436,438,WORD,,Walker was not the game’s highest scorer
+S054.txt,21,1083,one,10,10,479,479,NUMBER,zero,
+S054.txt,22,1084,led,3,3,484,484,WORD,,Lamb was not the highest scorer for the starters or second unit
+S054.txt,22,1085,second unit,5,6,486,487,WORD,,Lamb was a starter
+S055.txt,1,1086,host,7,7,7,7,WORD,,Charlotte was the road team
+S055.txt,1,1087,Wednesday,19,19,19,19,NAME,Sunday,
+S055.txt,2,1088,Friday,23,23,43,43,NAME,Sunday,
+S055.txt,5,1089,five,30,30,133,133,NUMBER,two,
+S055.txt,6,1090,Frank Kaminsky,14,15,152,153,CONTEXT,,"Kaminsky plays for the Hornets, not the Clippers"
+S055.txt,8,1091,game - high,5,7,209,211,WORD,,Kemba Walker scored more points
+S055.txt,9,1092,two,13,13,235,235,NUMBER,one,
+S055.txt,9,1093,26,20,20,242,242,NUMBER,19,
+S056.txt,1,1094,Wednesday,19,19,19,19,NAME,Saturday,
+S056.txt,2,1095,red - hot,19,21,39,41,WORD,,The Clippers had lost 3 out of their last 4 games
+S056.txt,2,1096,win,35,35,55,55,WORD,loss,
+S056.txt,2,1097,defending champion,38,39,58,59,NOT_CHECKABLE,,
+S056.txt,2,1098,Cleveland Cavaliers,40,41,60,61,NAME,Philadelphia 76ers,
+S056.txt,2,1099,first round of the playoffs,49,53,69,73,WORD,,previous game was not a playoff game
+S056.txt,3,1100,high - point man,5,8,79,82,WORD,,had the 2nd most points
+S056.txt,3,1101,18,15,15,89,89,NUMBER,7,
+S056.txt,3,1102,team - high,20,22,94,96,WORD,,Durant was not the Warrior’s high scorer
+S056.txt,6,1103,Austin Rivers,1,2,156,157,CONTEXT,,Rivers played for the Clippers
+S056.txt,6,1104,six,19,19,174,174,NUMBER,two,
+S056.txt,6,1105,James Michael Felton,33,35,188,190,NAME,Raymond Felton,
+S056.txt,8,1106,Clippers,2,2,226,226,NAME,Warriors,
+S056.txt,10,1107,JJ Thompson,1,2,272,273,NAME,Klay Thompson,
+S057.txt,1,1108,defeated,9,9,9,9,WORD,lost to,The 76ers lost to the Nuggets
+S057.txt,2,1109,superior,5,5,34,34,WORD,,The 76ers didn’t shoot better than the Nuggets
+S057.txt,3,1110,76ers,9,9,81,81,NAME,Nuggets,
+S057.txt,3,1111,may have been the difference,23,27,95,99,WORD,,incorrectly implies that the 76ers won
+S057.txt,4,1112,76ers,2,2,105,105,NAME,Nuggets,
+S057.txt,5,1113,third,4,4,144,144,NUMBER,first,
+S057.txt,5,1114,29,18,18,158,158,NUMBER,14,
+S057.txt,5,1115,23,21,21,161,161,NUMBER,7,
+S057.txt,6,1116,double - double,3,5,166,168,WORD,,Jokic didn’t have a double-double
+S057.txt,7,1117,second,4,4,201,201,NUMBER,zeroth,
+S057.txt,7,1118,35,17,17,214,214,NUMBER,29,
+S057.txt,7,1119,16,20,20,217,217,NUMBER,12,
+S057.txt,8,1120,only,2,2,226,226,WORD,,two other starters had double figures
+S057.txt,8,1121,starter,4,4,228,228,WORD,reserve,
+S057.txt,8,1122,TJ McConnell,12,13,236,237,CONTEXT,,McConnel played for the 76ers
+S057.txt,9,1123,home,9,9,275,275,WORD,,The 76ers next game is on the road
+S057.txt,9,1124,New Orleans Pelicans,12,14,278,280,NAME,Portland Trail Blazers,
+S057.txt,9,1125,Wednesday,16,16,282,282,NAME,Saturday,
+S057.txt,9,1126,Utah,24,24,290,290,NAME,Los Angeles,
+S057.txt,9,1127,Jazz,28,28,294,294,NAME,Lakers,
+S058.txt,1,1128,Friday,22,22,22,22,NAME,Saturday,
+S058.txt,2,1129,two,5,5,28,28,NUMBER,,only the 76ers had a bad defense
+S058.txt,2,1130,struggled,12,12,35,35,WORD,,Memphis did not struggle offensively
+S058.txt,3,1131,47,7,7,43,43,NUMBER,38,
+S058.txt,4,1132,key,2,2,60,60,WORD,,"Memphis lost the rebound battle, so it couldn’t have been key"
+S058.txt,5,1133,best,14,14,91,91,WORD,,This was a bad game for the 76ers
+S058.txt,6,1134,led,12,12,114,114,WORD,,2nd leading scorer
+S058.txt,8,1135,Jerami Grant,1,2,154,155,CONTEXT,,Grant played for the 76ers
+S058.txt,8,1136,13,14,14,167,167,NUMBER,16,
+S058.txt,8,1137,six,17,17,170,170,NUMBER,two,
+S058.txt,8,1138,three,20,20,173,173,NUMBER,zero,
+S058.txt,9,1139,win,8,8,183,183,WORD,loss,
+S058.txt,9,1140,San Antonio Spurs,14,16,189,191,NAME,New orleans Pelicans,
+S058.txt,10,1141,Grizzlies,2,2,196,196,NAME,76ers,
+S058.txt,10,1142,season - high,20,22,214,216,NOT_CHECKABLE,,
+S058.txt,11,1143,lone,5,5,222,222,WORD,,The Grizzlies had other players (Green/Carter) play well
+S058.txt,11,1144,loss,10,10,227,227,WORD,win,
+S058.txt,12,1145,off the bench,8,10,251,253,WORD,,Randolph was a starter
+S058.txt,13,1146,bench,10,10,271,271,WORD,,Green was a starter
+S058.txt,14,1147,Michael Carter-Williams,1,2,286,287,CONTEXT,,"Carter-Williams plays for the 76ers, not Grizzlies"
+S058.txt,15,1148,starter,7,7,315,315,WORD,,Carter came off the bench
+S058.txt,15,1149,16,15,15,323,323,NUMBER,13,
+S058.txt,16,1150,double - double,5,7,336,338,WORD,,Gasol did not have a double-double
+S058.txt,17,1151,Los Angeles Lakers,11,13,366,368,NAME,Orlando Magic,
+S058.txt,17,1152,Sunday,15,15,370,370,NAME,Monday,
+S059.txt,1,1153,Saturday,18,18,18,18,NAME,Tuesday,
+S059.txt,2,1154,monster,15,15,34,34,WORD,,"The Warriors didn’t need, or have, and monster 2nd half to win this game"
+S059.txt,2,1155,escape,19,19,38,38,WORD,,The Warriors won easily
+S059.txt,7,1156,second,4,4,147,147,NUMBER,fourth,
+S059.txt,8,1157,Rudy Gobert,1,2,161,162,CONTEXT,,Gobert played for the Jazz
+S059.txt,9,1158,led,3,3,178,178,WORD,,Thompson did not lead the Warriors in scoring
+S059.txt,11,1159,Joe Johnson,1,2,218,219,CONTEXT,,Johnson played for the Jazz
+S059.txt,11,1160,starter,7,7,224,224,WORD,,Johnson came off the bench
+S059.txt,12,1161,Gordon Hayward,1,2,238,239,NAME,Stephen Curry,
+S059.txt,13,1162,only other,5,6,263,264,WORD,,The Jazz had 4 total players in double figures
+S060.txt,1,1163,Saturday,18,18,18,18,NAME,Sunday,
+S060.txt,2,1164,28,28,28,48,48,NUMBER,20,
+S060.txt,3,1165,Hawks,8,8,65,65,NAME,Knicks,
+S060.txt,3,1166,20,12,12,69,69,NUMBER,28,
+S060.txt,3,1167,19,20,20,77,77,NUMBER,6,
+S060.txt,3,1168,triple - double,27,29,84,86,WORD,,Anthony did not have a triple-double
+S060.txt,3,1169,four,33,33,90,90,NUMBER,0,
+S060.txt,3,1170,pair,37,37,94,94,NUMBER,,Anthony had 1 block
+S060.txt,3,1171,pair,42,42,99,99,NUMBER,,Anthony had one block
+S060.txt,4,1172,next,4,4,109,109,WORD,,Brandon Jennings scored more points
+S060.txt,6,1173,Hawks,5,5,149,149,NAME,Knicks,
+S060.txt,7,1174,3,11,11,177,177,NUMBER,11,
+S060.txt,12,1175,Dwight Howard,1,2,278,279,CONTEXT,,Howard played for the Hawks
+S060.txt,14,1176,five,7,7,325,325,NUMBER,14,
