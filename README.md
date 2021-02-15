@@ -52,6 +52,8 @@ Data for all games is available at [Rotowire](https://github.com/harvardnlp/boxs
 10. CORRECTION: The correction given (if it could be substituted directly and be almost grammatically correct).
 11. COMMENT: If a direct CORRECTION cannot be made without a major rewrite of the sentence, or if the CORRECTION needs clarification.
 
+A note on CORRECTION and COMMENT: NAME and NUMBER errors are mostly corrections (they are easier to directly substitute), WORD and CONTEXT are mostly COMMENT.
+
 ### [shared_task.jsonl](https://github.com/ehudreiter/accuracySharedTask/blob/main/shared_task.jsonl) details
 This file is in the the same format as [Rotowire](https://github.com/harvardnlp/boxscore-data), except that each line contains a dictionary representing one game record.  This makes it easier to read than one massively long line.  Three keys were added:
 
