@@ -62,7 +62,7 @@ This file is in the the same format as [Rotowire](https://github.com/harvardnlp/
 2. cleaned_detokenized_text: the human authored (gold) text from the test set, cleaned and detokenized as above.
 
 ### SQL Query for SportSett to get game_ids from rotowire line numbers
-Note that playoff games are not currently available in SportSett.  It will, however, give complete access to every regular season game, including the league structure and schedule.
+Note that playoff games are not currently available in SportSett.  It will, however, give complete access to every regular season game, including the league structure and schedule.  All games in the shared task are regular season games.
 ```
 SELECT games.id AS game_id,
        rotowire_entries.rw_line AS line_number,
