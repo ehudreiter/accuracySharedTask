@@ -16,6 +16,9 @@ For detailed information on the shared task, see https://www.aclweb.org/antholog
 
 For more information or to register interest, please email Ehud Reiter at   e.reiter@abdn.ac.uk
 
+## Important Updates:
+Please note that prior to the commits on Monday 22nd February, the line for S042 in [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/games.csv) was incorrect (it referred to an incorrect game which is not part of the shared task).  This has now been updated.
+
 ## What is in this repo
 This repository contains a set of 60 accuracy-annotated texts for the shared task, some of which were extracted from https://github.com/nlgcat/evaluating_accuracy. 
 * texts: the source [texts](https://github.com/ehudreiter/accuracySharedTask/blob/main/texts) produced by neural NLG systems, which describe basketball box score data
@@ -80,7 +83,7 @@ AND rotowire_entries.rw_line IN (
     366,365,230,207,637,307,667,564,185,107,
     671,561,653,212,219,104,511,137,324,427,
     680,259,309,152,391,378,434,75,426,377,
-    332,6,336,346,457,22,705,479,151,623,
+    332,600,336,346,457,22,705,479,151,623,
     368,146,435,208,364,414,573,33,726,8
 );
 ```
