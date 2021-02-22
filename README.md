@@ -16,7 +16,7 @@ For detailed information on the shared task, see https://www.aclweb.org/antholog
 
 For more information or to register interest, please email Ehud Reiter at   e.reiter@abdn.ac.uk
 
-# Important Updates:
+## Important Updates:
 Please note that prior to the commits on Monday 2nd February, the line for S042 in [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/games.csv) was incorrect (it referred to an incorrect game which is not part of the shared task).  This has now been updated.
 
 ## What is in this repo
