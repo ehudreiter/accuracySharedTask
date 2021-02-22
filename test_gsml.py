@@ -59,6 +59,7 @@ with open('gsml.csv', newline='') as csvfile:
       if found != target:
         raise Exception(f'No MATCH {text_id}, {i}, {start}, {start}, "{found}", "{target}"')
       else:
+        print(f'matched ({text_id}): {found} == {target}')
         matches += 1
         
 print(f'{matches} lines matched, all token spans have been found in the source text files.')
