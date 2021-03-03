@@ -26,6 +26,7 @@ This repository contains a set of 60 accuracy-annotated texts for the shared tas
 * gold-standard markup list ([gsml.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/gsml.csv)), which lists mistakes in these texts.  This is a comma separated file, with cells encased in double quotes.
 * appropriate subset of Rotowire JSON: For convenience, we have included the file [shared_task.jsonl](https://github.com/ehudreiter/accuracySharedTask/blob/main/shared_task.jsonl) which includes the lines from the Rotowire test set, for each of our annotated documents.
 * game information ([games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv)): Information on the games we annotated to create the GSML.
+* example annotation exercise ([example_exercise](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise)):  An example annotation exercise to familiarize yourself with the task.
 
 Data for all games is available at [Rotowire](https://github.com/harvardnlp/boxscore-data) (original Rotowire JSON data).  it is also available at [SportSett](https://github.com/nlgcat/sport_sett_basketball) (extended relational database).  Please note that SportSett currently does not included playoff games, but does provide much more information on regular season games.
 
@@ -64,8 +65,14 @@ This file is in the the same format as [Rotowire](https://github.com/harvardnlp/
 2. cleaned_text: the human authored (gold) text from the test set, cleaned as above.
 2. cleaned_detokenized_text: the human authored (gold) text from the test set, cleaned and detokenized as above.
 
+### [example_exercise](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise)
+In order to familiarize yourself with the problem, as well as the process by which our GSML was created, we suggest that participants annotate one text manually for errors themselves.  For this purpose, we have included an updated version of the qualifying task which we used to screen our crowd-source workers.  The [Example Annotation Exercise](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise) file contains the instructions we gave to workers, an example annotated text, then a text for you to annotate yourself.  This is not a requirement, although we do think it is a very useful exercise to do, and should only take about 20-30 minutes.  We have provided our solution in the [Example Annotation Solution](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise) document.  This example exercise only differs slightly from that which our MTurk workers when they first started doing annotations for us.  Since then, we have made some minor clarifications to our instructions, it is these updated instructions which have been included here.
+
 ### SQL Query for SportSett to get game_ids from rotowire line numbers
-Note that playoff games are not currently available in SportSett.  It will, however, give complete access to every regular season game, including the league structure and schedule.  All games in the shared task are regular season games.
+Note that playoff games are not currently available in SportSett.  It will, however, give complete access to every regular season game, including the league structure and schedule.  All games in the shared task are regular season games.  
+
+Pleas also note that some additional denormalized tables have been added to [SportSett](https://github.com/nlgcat/sport_sett_basketball) to try and make it easier to use.  You do not have to use this resource for the shared task, but it is available if you want to use it.  The generated texts used the original Rotowire corpus as their training input.  Links to statistics websites are also included in [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv)
+
 ```
 SELECT games.id AS game_id,
        rotowire_entries.rw_line AS line_number,
