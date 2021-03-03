@@ -10,6 +10,7 @@ For detailed information on the shared task, see https://www.aclweb.org/antholog
 ## Shared task schedule
 * 15 December 2020: Shared task officially launched at INLG 2020
 * 1 March 2021: Deadline for notifying us that you intend to participate in the shared task (please email   e.reiter@abdn.ac.uk )
+* 31 March 2021: Evaluation script to be realeased.
 * 15 June 2021: Submission of techniques (metrics and protocols).  We will release the test set (without annotations), and ask participants to try their techniques on the test set and give us results within 2 weeks.   We will compare the results against our gold-standard human annotations of inaccuracies, and compute recall and precision statistics.
 * 1 August 2021: Results announced
 * 20-24 Sept 2021: Presentation of shared task at INLG 2021 (https://inlg2021.github.io/)
@@ -67,6 +68,9 @@ This file is in the the same format as [Rotowire](https://github.com/harvardnlp/
 
 ### [example_exercise](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise)
 In order to familiarize yourself with the problem, as well as the process by which our GSML was created, we suggest that participants annotate one text manually for errors themselves.  For this purpose, we have included an updated version of the qualifying task which we used to screen our crowd-source workers.  The [Example Annotation Exercise](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise/Example_Annotation_Exercise.docx) file contains the instructions we gave to workers, an example annotated text, then a text for you to annotate yourself.  This is not a requirement, although we do think it is a very useful exercise to do, and should only take about 20-30 minutes.  We have provided our solution in the [Example Annotation Solution](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise/Example_Annotation_Solution.docx) document.  This example exercise only differs slightly from that which our MTurk workers when they first started doing annotations for us.  Since then, we have made some minor clarifications to our instructions, it is these updated instructions which have been included here.
+
+### Evaluation Script
+We will release the python script which we will use in the final evaluation to compare participant submitted annotations with the GSML.  This will be available by the end of March.  When comparing submitted annotations against the GSML we will accept annotations as correct where their spans overlap with annotations in the GSML.  In the case where one submitted annotation overlaps with two or more GSML annotations, particpants will only be credited with a single matched error.  Please note that there are no overlapping error spans in the GSML.
 
 ### SQL Query for SportSett to get game_ids from rotowire line numbers
 Note that playoff games are not currently available in SportSett.  It will, however, give complete access to every regular season game, including the league structure and schedule.  All games in the shared task are regular season games.  
