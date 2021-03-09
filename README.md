@@ -69,6 +69,38 @@ This file is in the the same format as [Rotowire](https://github.com/harvardnlp/
 ### [example_exercise](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise)
 In order to familiarize yourself with the problem, as well as the process by which our GSML was created, we suggest that participants annotate one text manually for errors themselves.  For this purpose, we have included an updated version of the qualifying task which we used to screen our crowd-source workers.  The [Example Annotation Exercise](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise/Example_Annotation_Exercise.docx) file contains the instructions we gave to workers, an example annotated text, then a text for you to annotate yourself.  This is not a requirement, although we do think it is a very useful exercise to do, and should only take about 20-30 minutes.  We have provided our solution in the [Example Annotation Solution](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise/Example_Annotation_Solution.docx) document.  This example exercise only differs slightly from that which our MTurk workers when they first started doing annotations for us.  Since then, we have made some minor clarifications to our instructions, it is these updated instructions which have been included here.
 
+### Reading the Box Score (fields in shared_task.jsonl)
+Below are definitions of field labels which might not be familiar if you do not follow basketball.  They come from the [Box Score](https://en.wikipedia.org/wiki/Box_score), and whilst some of the headers can differ slightly depending on the source, the ones in the [Rotowire](https://github.com/harvardnlp/boxscore-data), which is the format our data is in are:
+
+#### Basic statistics
+* PTS: [Points](https://en.wikipedia.org/wiki/Point_(basketball)) scored ((2*FGM) + FTM + FG3M)
+* REB: total [Rebounds](https://en.wikipedia.org/wiki/Rebound_(basketball))
+* AST: total [Assists](https://en.wikipedia.org/wiki/Assist_(basketball))
+* BLK: total [Blocks](https://en.wikipedia.org/wiki/Block_(basketball))
+* STL: total [Steals](https://en.wikipedia.org/wiki/Steal_(basketball))
+* TO:  total [Turnovers](https://en.wikipedia.org/wiki/Turnover_(basketball))
+* PF: total [Personal foul](https://en.wikipedia.org/wiki/Personal_foul_(basketball))
+
+NB: OREB (offensive) and DREB (defensive) are sub-categories of rebound, (OREB + DREB) = REB
+
+#### Shooting statistics
+There are also shooting statistics, which show how many types of each shot a person attempted (A) and how many they made (M)
+
+* FGM:  [Field goals](https://en.wikipedia.org/wiki/Field_goal_(basketball)) made
+* FGA:  [Field goals](https://en.wikipedia.org/wiki/Field_goal_(basketball)) attempted
+* FG3M: [Three-point field goals](https://en.wikipedia.org/wiki/Three-point_field_goal) made
+* FG3A: [Three-point field goals](https://en.wikipedia.org/wiki/Three-point_field_goal) attempted
+* FTM:  [Free-throws](https://en.wikipedia.org/wiki/Free_throw) made
+* FTA:  [Free-throws](https://en.wikipedia.org/wiki/Free_throw) attempted
+
+The three-point shooting statistics should be read as: "Of the total field goals, how many of them were worth three points"
+
+#### Shooting percentages
+There are also shooting percentages.  All such fields end in "_PCT", such as "FG_PCT", FG3_PCT", and "FT_PCT".  In all cases, they are simply derived from MADE/ATTEMPTED.
+
+#### Names
+The data also includes player, team, and place names, those should be self-explanatory.
+
 ### Evaluation Script
 We will release the python script which we will use in the final evaluation to compare participant submitted annotations with the GSML.  This will be available by the end of March.  When comparing submitted annotations against the GSML we will accept annotations as correct where their spans overlap with annotations in the GSML.  In the case where one submitted annotation overlaps with two or more GSML annotations, particpants will only be credited with a single matched error.  Please note that there are no overlapping error spans in the GSML.  We are releasing this script in advance of the release of the withheld test set so that participants can test their submitted annotations are in the correct format (just running against training data to do so).
 
