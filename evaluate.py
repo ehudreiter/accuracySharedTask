@@ -149,4 +149,4 @@ for categories in categories_list:
   print(f'GSML vs example: recall => {recall}, precision => {precision}, overlap => {mean_overlap}')
 
   recall, precision, mean_overlap = calculate_recall_and_precision('gsml.csv', 'gsml.csv', categories)
-  print(f'GSML vs example: recall => {recall}, precision => {precision}, overlap => {mean_overlap}')
+  print(f'GSML vs self: recall => {recall}, precision => {precision}, overlap => {mean_overlap}')
