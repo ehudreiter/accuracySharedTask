@@ -116,8 +116,8 @@ There are also shooting percentages.  All such fields end in "_PCT", such as "FG
 #### Names
 The data also includes player, team, and place names, those should be self-explanatory.
 
-### Evaluation Script
-We will release the python script which we will use in the final evaluation to compare participant submitted annotations with the GSML.  This will be available by the end of March.  When comparing submitted annotations against the GSML we will accept annotations as correct where their spans overlap with annotations in the GSML.  In the case where one submitted annotation overlaps with two or more GSML annotations, particpants will only be credited with a single matched error.  Please note that there are no overlapping error spans in the GSML.  We are releasing this script in advance of the release of the withheld test set so that participants can test their submitted annotations are in the correct format (just running against training data to do so).
+<!-- ### Evaluation Script
+We will release the python script which we will use in the final evaluation to compare participant submitted annotations with the GSML.  This will be available by the end of March.  When comparing submitted annotations against the GSML we will accept annotations as correct where their spans overlap with annotations in the GSML.  In the case where one submitted annotation overlaps with two or more GSML annotations, particpants will only be credited with a single matched error.  Please note that there are no overlapping error spans in the GSML.  We are releasing this script in advance of the release of the withheld test set so that participants can test their submitted annotations are in the correct format (just running against training data to do so). -->
 
 ### SQL Query for SportSett to get game_ids from rotowire line numbers
 Note that playoff games are not currently available in SportSett.  It will, however, give complete access to every regular season game, including the league structure and schedule.  All games in the shared task are regular season games.  
