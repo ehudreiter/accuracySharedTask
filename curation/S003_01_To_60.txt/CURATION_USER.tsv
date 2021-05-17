@@ -1,0 +1,429 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Toronto Raptors defeated the Orlando Magic , 109 - 79 , at Amway Center on Saturday evening .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-11	Toronto	_	_	_	_	_	_	_	_	_	_	
+1-3	12-19	Raptors	_	_	_	_	_	_	_	_	_	_	
+1-4	20-28	defeated	_	_	_	_	_	_	_	_	_	_	
+1-5	29-32	the	_	_	_	_	_	_	_	_	_	_	
+1-6	33-40	Orlando	_	_	_	_	_	_	_	_	_	_	
+1-7	41-46	Magic	_	_	_	_	_	_	_	_	_	_	
+1-8	47-48	,	_	_	_	_	_	_	_	_	_	_	
+1-9	49-52	109	_	_	_	_	_	_	_	_	_	_	
+1-10	53-54	-	_	_	_	_	_	_	_	_	_	_	
+1-11	55-57	79	_	_	_	_	_	_	_	_	_	_	
+1-12	58-59	,	_	_	_	_	_	_	_	_	_	_	
+1-13	60-62	at	_	_	_	_	_	_	_	_	_	_	
+1-14	63-68	Amway	_	_	_	_	_	_	_	_	_	_	
+1-15	69-75	Center	_	_	_	_	_	_	_	_	_	_	
+1-16	76-78	on	_	_	_	_	_	_	_	_	_	_	
+1-17	79-87	Saturday	1\_NAME	Sunday	*	*	*	3	false	3	*	3	
+1-18	88-95	evening	_	_	_	_	_	_	_	_	_	_	
+1-19	96-97	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Raptors ( 19 - 8 ) have been one of the hottest teams in the NBA this season , and the Raptors ( 19 - 8 ) came in to Friday 000s contest with a 30 - point victory over the Magic ( 12 - 17 ) .
+2-1	98-101	The	_	_	_	_	_	_	_	_	_	_	
+2-2	102-109	Raptors	_	_	_	_	_	_	_	_	_	_	
+2-3	110-111	(	_	_	_	_	_	_	_	_	_	_	
+2-4	112-114	19	_	_	_	_	_	_	_	_	_	_	
+2-5	115-116	-	_	_	_	_	_	_	_	_	_	_	
+2-6	117-118	8	_	_	_	_	_	_	_	_	_	_	
+2-7	119-120	)	_	_	_	_	_	_	_	_	_	_	
+2-8	121-125	have	_	_	_	_	_	_	_	_	_	_	
+2-9	126-130	been	_	_	_	_	_	_	_	_	_	_	
+2-10	131-134	one	_	_	_	_	_	_	_	_	_	_	
+2-11	135-137	of	_	_	_	_	_	_	_	_	_	_	
+2-12	138-141	the	_	_	_	_	_	_	_	_	_	_	
+2-13	142-149	hottest	_	_	_	_	_	_	_	_	_	_	
+2-14	150-155	teams	_	_	_	_	_	_	_	_	_	_	
+2-15	156-158	in	_	_	_	_	_	_	_	_	_	_	
+2-16	159-162	the	_	_	_	_	_	_	_	_	_	_	
+2-17	163-166	NBA	_	_	_	_	_	_	_	_	_	_	
+2-18	167-171	this	_	_	_	_	_	_	_	_	_	_	
+2-19	172-178	season	_	_	_	_	_	_	_	_	_	_	
+2-20	179-180	,	_	_	_	_	_	_	_	_	_	_	
+2-21	181-184	and	_	_	_	_	_	_	_	_	_	_	
+2-22	185-188	the	_	_	_	_	_	_	_	_	_	_	
+2-23	189-196	Raptors	_	_	_	_	_	_	_	_	_	_	
+2-24	197-198	(	_	_	_	_	_	_	_	_	_	_	
+2-25	199-201	19	_	_	_	_	_	_	_	_	_	_	
+2-26	202-203	-	_	_	_	_	_	_	_	_	_	_	
+2-27	204-205	8	_	_	_	_	_	_	_	_	_	_	
+2-28	206-207	)	_	_	_	_	_	_	_	_	_	_	
+2-29	208-212	came	3\_WORD[1]	*[1]	The Raptors left the contest with a 30 point victory[1]	2[1]	CT: T1 put this: T2 changed 30-point and Magic plus left a note that it was unclear which way it should be changed as was confusing sentence[1]	2[1]	true[1]	1[1]	*[1]	1[1]	
+2-30	213-215	in	3\_WORD[1]	*[1]	The Raptors left the contest with a 30 point victory[1]	2[1]	CT: T1 put this: T2 changed 30-point and Magic plus left a note that it was unclear which way it should be changed as was confusing sentence[1]	2[1]	true[1]	1[1]	*[1]	1[1]	
+2-31	216-218	to	3\_WORD[1]	*[1]	The Raptors left the contest with a 30 point victory[1]	2[1]	CT: T1 put this: T2 changed 30-point and Magic plus left a note that it was unclear which way it should be changed as was confusing sentence[1]	2[1]	true[1]	1[1]	*[1]	1[1]	
+2-32	219-225	Friday	1\_NAME	Sunday	*	*	*	3	false	2	*	3	
+2-33	226-230	000s	_	_	_	_	_	_	_	_	_	_	
+2-34	231-238	contest	_	_	_	_	_	_	_	_	_	_	
+2-35	239-243	with	_	_	_	_	_	_	_	_	_	_	
+2-36	244-245	a	_	_	_	_	_	_	_	_	_	_	
+2-37	246-248	30	_	_	_	_	_	_	_	_	_	_	
+2-38	249-250	-	_	_	_	_	_	_	_	_	_	_	
+2-39	251-256	point	_	_	_	_	_	_	_	_	_	_	
+2-40	257-264	victory	_	_	_	_	_	_	_	_	_	_	
+2-41	265-269	over	_	_	_	_	_	_	_	_	_	_	
+2-42	270-273	the	_	_	_	_	_	_	_	_	_	_	
+2-43	274-279	Magic	_	_	_	_	_	_	_	_	_	_	
+2-44	280-281	(	_	_	_	_	_	_	_	_	_	_	
+2-45	282-284	12	_	_	_	_	_	_	_	_	_	_	
+2-46	285-286	-	_	_	_	_	_	_	_	_	_	_	
+2-47	287-289	17	_	_	_	_	_	_	_	_	_	_	
+2-48	290-291	)	_	_	_	_	_	_	_	_	_	_	
+2-49	292-293	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Raptors were led by DeMar DeRozan , who posted a game - high 31 points , which he supplemented with five rebounds , four assists and a steal .
+3-1	294-297	The	_	_	_	_	_	_	_	_	_	_	
+3-2	298-305	Raptors	_	_	_	_	_	_	_	_	_	_	
+3-3	306-310	were	_	_	_	_	_	_	_	_	_	_	
+3-4	311-314	led	_	_	_	_	_	_	_	_	_	_	
+3-5	315-317	by	_	_	_	_	_	_	_	_	_	_	
+3-6	318-323	DeMar	_	_	_	_	_	_	_	_	_	_	
+3-7	324-331	DeRozan	_	_	_	_	_	_	_	_	_	_	
+3-8	332-333	,	_	_	_	_	_	_	_	_	_	_	
+3-9	334-337	who	_	_	_	_	_	_	_	_	_	_	
+3-10	338-344	posted	_	_	_	_	_	_	_	_	_	_	
+3-11	345-346	a	_	_	_	_	_	_	_	_	_	_	
+3-12	347-351	game	_	_	_	_	_	_	_	_	_	_	
+3-13	352-353	-	_	_	_	_	_	_	_	_	_	_	
+3-14	354-358	high	_	_	_	_	_	_	_	_	_	_	
+3-15	359-361	31	_	_	_	_	_	_	_	_	_	_	
+3-16	362-368	points	_	_	_	_	_	_	_	_	_	_	
+3-17	369-370	,	_	_	_	_	_	_	_	_	_	_	
+3-18	371-376	which	_	_	_	_	_	_	_	_	_	_	
+3-19	377-379	he	_	_	_	_	_	_	_	_	_	_	
+3-20	380-392	supplemented	_	_	_	_	_	_	_	_	_	_	
+3-21	393-397	with	_	_	_	_	_	_	_	_	_	_	
+3-22	398-402	five	_	_	_	_	_	_	_	_	_	_	
+3-23	403-411	rebounds	_	_	_	_	_	_	_	_	_	_	
+3-24	412-413	,	_	_	_	_	_	_	_	_	_	_	
+3-25	414-418	four	_	_	_	_	_	_	_	_	_	_	
+3-26	419-426	assists	_	_	_	_	_	_	_	_	_	_	
+3-27	427-430	and	_	_	_	_	_	_	_	_	_	_	
+3-28	431-432	a	_	_	_	_	_	_	_	_	_	_	
+3-29	433-438	steal	_	_	_	_	_	_	_	_	_	_	
+3-30	439-440	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Kyle Lowry was right behind him with a 16 - point , 10 - assist double - double that also included three rebounds , a steal and a block .
+4-1	441-445	Kyle	_	_	_	_	_	_	_	_	_	_	
+4-2	446-451	Lowry	_	_	_	_	_	_	_	_	_	_	
+4-3	452-455	was	_	_	_	_	_	_	_	_	_	_	
+4-4	456-461	right	_	_	_	_	_	_	_	_	_	_	
+4-5	462-468	behind	_	_	_	_	_	_	_	_	_	_	
+4-6	469-472	him	_	_	_	_	_	_	_	_	_	_	
+4-7	473-477	with	_	_	_	_	_	_	_	_	_	_	
+4-8	478-479	a	_	_	_	_	_	_	_	_	_	_	
+4-9	480-482	16	_	_	_	_	_	_	_	_	_	_	
+4-10	483-484	-	_	_	_	_	_	_	_	_	_	_	
+4-11	485-490	point	_	_	_	_	_	_	_	_	_	_	
+4-12	491-492	,	_	_	_	_	_	_	_	_	_	_	
+4-13	493-495	10	_	_	_	_	_	_	_	_	_	_	
+4-14	496-497	-	_	_	_	_	_	_	_	_	_	_	
+4-15	498-504	assist	_	_	_	_	_	_	_	_	_	_	
+4-16	505-511	double	_	_	_	_	_	_	_	_	_	_	
+4-17	512-513	-	_	_	_	_	_	_	_	_	_	_	
+4-18	514-520	double	_	_	_	_	_	_	_	_	_	_	
+4-19	521-525	that	_	_	_	_	_	_	_	_	_	_	
+4-20	526-530	also	_	_	_	_	_	_	_	_	_	_	
+4-21	531-539	included	_	_	_	_	_	_	_	_	_	_	
+4-22	540-545	three	_	_	_	_	_	_	_	_	_	_	
+4-23	546-554	rebounds	_	_	_	_	_	_	_	_	_	_	
+4-24	555-556	,	_	_	_	_	_	_	_	_	_	_	
+4-25	557-558	a	_	_	_	_	_	_	_	_	_	_	
+4-26	559-564	steal	_	_	_	_	_	_	_	_	_	_	
+4-27	565-568	and	_	_	_	_	_	_	_	_	_	_	
+4-28	569-570	a	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+4-29	571-576	block	_	_	_	_	_	_	_	_	_	_	
+4-30	577-578	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Jonas Valanciunas was next with a 16 - point , 13 - rebound double - double that also included a block , a block and a block .
+5-1	579-584	Jonas	_	_	_	_	_	_	_	_	_	_	
+5-2	585-596	Valanciunas	_	_	_	_	_	_	_	_	_	_	
+5-3	597-600	was	_	_	_	_	_	_	_	_	_	_	
+5-4	601-605	next	_	_	_	_	_	_	_	_	_	_	
+5-5	606-610	with	_	_	_	_	_	_	_	_	_	_	
+5-6	611-612	a	_	_	_	_	_	_	_	_	_	_	
+5-7	613-615	16	_	_	_	_	_	_	_	_	_	_	
+5-8	616-617	-	_	_	_	_	_	_	_	_	_	_	
+5-9	618-623	point	_	_	_	_	_	_	_	_	_	_	
+5-10	624-625	,	_	_	_	_	_	_	_	_	_	_	
+5-11	626-628	13	_	_	_	_	_	_	_	_	_	_	
+5-12	629-630	-	_	_	_	_	_	_	_	_	_	_	
+5-13	631-638	rebound	_	_	_	_	_	_	_	_	_	_	
+5-14	639-645	double	_	_	_	_	_	_	_	_	_	_	
+5-15	646-647	-	_	_	_	_	_	_	_	_	_	_	
+5-16	648-654	double	_	_	_	_	_	_	_	_	_	_	
+5-17	655-659	that	_	_	_	_	_	_	_	_	_	_	
+5-18	660-664	also	_	_	_	_	_	_	_	_	_	_	
+5-19	665-673	included	_	_	_	_	_	_	_	_	_	_	
+5-20	674-675	a	_	_	_	_	_	_	_	_	_	_	
+5-21	676-681	block	_	_	_	_	_	_	_	_	_	_	
+5-22	682-683	,	_	_	_	_	_	_	_	_	_	_	
+5-23	684-685	a	_	_	_	_	_	_	_	_	_	_	
+5-24	686-691	block	_	_	_	_	_	_	_	_	_	_	
+5-25	692-695	and	_	_	_	_	_	_	_	_	_	_	
+5-26	696-697	a	_	_	_	_	_	_	_	_	_	_	
+5-27	698-703	block	_	_	_	_	_	_	_	_	_	_	
+5-28	704-705	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Jonas Valanciunas posted a 16 - point , 13 - rebound double - double that also included a block , a block and a block .
+6-1	706-711	Jonas	_	_	_	_	_	_	_	_	_	_	
+6-2	712-723	Valanciunas	_	_	_	_	_	_	_	_	_	_	
+6-3	724-730	posted	_	_	_	_	_	_	_	_	_	_	
+6-4	731-732	a	_	_	_	_	_	_	_	_	_	_	
+6-5	733-735	16	_	_	_	_	_	_	_	_	_	_	
+6-6	736-737	-	_	_	_	_	_	_	_	_	_	_	
+6-7	738-743	point	_	_	_	_	_	_	_	_	_	_	
+6-8	744-745	,	_	_	_	_	_	_	_	_	_	_	
+6-9	746-748	13	_	_	_	_	_	_	_	_	_	_	
+6-10	749-750	-	_	_	_	_	_	_	_	_	_	_	
+6-11	751-758	rebound	_	_	_	_	_	_	_	_	_	_	
+6-12	759-765	double	_	_	_	_	_	_	_	_	_	_	
+6-13	766-767	-	_	_	_	_	_	_	_	_	_	_	
+6-14	768-774	double	_	_	_	_	_	_	_	_	_	_	
+6-15	775-779	that	_	_	_	_	_	_	_	_	_	_	
+6-16	780-784	also	_	_	_	_	_	_	_	_	_	_	
+6-17	785-793	included	_	_	_	_	_	_	_	_	_	_	
+6-18	794-795	a	_	_	_	_	_	_	_	_	_	_	
+6-19	796-801	block	_	_	_	_	_	_	_	_	_	_	
+6-20	802-803	,	_	_	_	_	_	_	_	_	_	_	
+6-21	804-805	a	_	_	_	_	_	_	_	_	_	_	
+6-22	806-811	block	_	_	_	_	_	_	_	_	_	_	
+6-23	812-815	and	_	_	_	_	_	_	_	_	_	_	
+6-24	816-817	a	_	_	_	_	_	_	_	_	_	_	
+6-25	818-823	block	_	_	_	_	_	_	_	_	_	_	
+6-26	824-825	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Terrence Ross was productive in a reserve role as well with 11 points , two rebounds , a steal and a block .
+7-1	826-834	Terrence	_	_	_	_	_	_	_	_	_	_	
+7-2	835-839	Ross	_	_	_	_	_	_	_	_	_	_	
+7-3	840-843	was	_	_	_	_	_	_	_	_	_	_	
+7-4	844-854	productive	_	_	_	_	_	_	_	_	_	_	
+7-5	855-857	in	_	_	_	_	_	_	_	_	_	_	
+7-6	858-859	a	_	_	_	_	_	_	_	_	_	_	
+7-7	860-867	reserve	_	_	_	_	_	_	_	_	_	_	
+7-8	868-872	role	_	_	_	_	_	_	_	_	_	_	
+7-9	873-875	as	_	_	_	_	_	_	_	_	_	_	
+7-10	876-880	well	_	_	_	_	_	_	_	_	_	_	
+7-11	881-885	with	_	_	_	_	_	_	_	_	_	_	
+7-12	886-888	11	_	_	_	_	_	_	_	_	_	_	
+7-13	889-895	points	_	_	_	_	_	_	_	_	_	_	
+7-14	896-897	,	_	_	_	_	_	_	_	_	_	_	
+7-15	898-901	two	_	_	_	_	_	_	_	_	_	_	
+7-16	902-910	rebounds	_	_	_	_	_	_	_	_	_	_	
+7-17	911-912	,	_	_	_	_	_	_	_	_	_	_	
+7-18	913-914	a	_	_	_	_	_	_	_	_	_	_	
+7-19	915-920	steal	_	_	_	_	_	_	_	_	_	_	
+7-20	921-924	and	_	_	_	_	_	_	_	_	_	_	
+7-21	925-926	a	_	_	_	_	_	_	_	_	_	_	
+7-22	927-932	block	_	_	_	_	_	_	_	_	_	_	
+7-23	933-934	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Toronto remains in third place in the Eastern Conference 000s Atlantic Division , and are currently slotted in the seventh seed in the conference as well .
+8-1	935-942	Toronto	_	_	_	_	_	_	_	_	_	_	
+8-2	943-950	remains	_	_	_	_	_	_	_	_	_	_	
+8-3	951-953	in	_	_	_	_	_	_	_	_	_	_	
+8-4	954-959	third	6\_NOT\_CHECKABLE[2]	*[2]	*[2]	*[2]	*[2]	2[2]	false[2]	1[2]	*[2]	2[2]	
+8-5	960-965	place	6\_NOT\_CHECKABLE[2]	*[2]	*[2]	*[2]	*[2]	2[2]	false[2]	1[2]	*[2]	2[2]	
+8-6	966-968	in	_	_	_	_	_	_	_	_	_	_	
+8-7	969-972	the	_	_	_	_	_	_	_	_	_	_	
+8-8	973-980	Eastern	_	_	_	_	_	_	_	_	_	_	
+8-9	981-991	Conference	_	_	_	_	_	_	_	_	_	_	
+8-10	992-996	000s	_	_	_	_	_	_	_	_	_	_	
+8-11	997-1005	Atlantic	_	_	_	_	_	_	_	_	_	_	
+8-12	1006-1014	Division	_	_	_	_	_	_	_	_	_	_	
+8-13	1015-1016	,	_	_	_	_	_	_	_	_	_	_	
+8-14	1017-1020	and	_	_	_	_	_	_	_	_	_	_	
+8-15	1021-1024	are	_	_	_	_	_	_	_	_	_	_	
+8-16	1025-1034	currently	_	_	_	_	_	_	_	_	_	_	
+8-17	1035-1042	slotted	_	_	_	_	_	_	_	_	_	_	
+8-18	1043-1045	in	_	_	_	_	_	_	_	_	_	_	
+8-19	1046-1049	the	_	_	_	_	_	_	_	_	_	_	
+8-20	1050-1057	seventh	6\_NOT\_CHECKABLE[3]	*[3]	*[3]	*[3]	*[3]	2[3]	false[3]	1[3]	*[3]	2[3]	
+8-21	1058-1062	seed	6\_NOT\_CHECKABLE[3]	*[3]	*[3]	*[3]	*[3]	2[3]	false[3]	1[3]	*[3]	2[3]	
+8-22	1063-1065	in	_	_	_	_	_	_	_	_	_	_	
+8-23	1066-1069	the	_	_	_	_	_	_	_	_	_	_	
+8-24	1070-1080	conference	_	_	_	_	_	_	_	_	_	_	
+8-25	1081-1083	as	_	_	_	_	_	_	_	_	_	_	
+8-26	1084-1088	well	_	_	_	_	_	_	_	_	_	_	
+8-27	1089-1090	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=They head to Charlotte to take on the Hornets on Friday night .
+9-1	1091-1095	They	_	_	_	_	_	_	_	_	_	_	
+9-2	1096-1100	head	_	_	_	_	_	_	_	_	_	_	
+9-3	1101-1103	to	_	_	_	_	_	_	_	_	_	_	
+9-4	1104-1113	Charlotte	1\_NAME	Toronto	*	*	*	3	false	3	*	3	
+9-5	1114-1116	to	_	_	_	_	_	_	_	_	_	_	
+9-6	1117-1121	take	_	_	_	_	_	_	_	_	_	_	
+9-7	1122-1124	on	_	_	_	_	_	_	_	_	_	_	
+9-8	1125-1128	the	_	_	_	_	_	_	_	_	_	_	
+9-9	1129-1136	Hornets	1\_NAME	Nets	*	*	*	3	false	3	*	3	
+9-10	1137-1139	on	_	_	_	_	_	_	_	_	_	_	
+9-11	1140-1146	Friday	1\_NAME	Tuesday	*	*	*	2	false	2	*	2	
+9-12	1147-1152	night	_	_	_	_	_	_	_	_	_	_	
+9-13	1153-1154	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Orlando 000s attack was spearheaded by Elfrid Payton , who tallied 13 points , three assists , two rebounds and a steal .
+10-1	1155-1162	Orlando	_	_	_	_	_	_	_	_	_	_	
+10-2	1163-1167	000s	_	_	_	_	_	_	_	_	_	_	
+10-3	1168-1174	attack	_	_	_	_	_	_	_	_	_	_	
+10-4	1175-1178	was	_	_	_	_	_	_	_	_	_	_	
+10-5	1179-1190	spearheaded	_	_	_	_	_	_	_	_	_	_	
+10-6	1191-1193	by	_	_	_	_	_	_	_	_	_	_	
+10-7	1194-1200	Elfrid	_	_	_	_	_	_	_	_	_	_	
+10-8	1201-1207	Payton	_	_	_	_	_	_	_	_	_	_	
+10-9	1208-1209	,	_	_	_	_	_	_	_	_	_	_	
+10-10	1210-1213	who	_	_	_	_	_	_	_	_	_	_	
+10-11	1214-1221	tallied	_	_	_	_	_	_	_	_	_	_	
+10-12	1222-1224	13	_	_	_	_	_	_	_	_	_	_	
+10-13	1225-1231	points	_	_	_	_	_	_	_	_	_	_	
+10-14	1232-1233	,	_	_	_	_	_	_	_	_	_	_	
+10-15	1234-1239	three	_	_	_	_	_	_	_	_	_	_	
+10-16	1240-1247	assists	_	_	_	_	_	_	_	_	_	_	
+10-17	1248-1249	,	_	_	_	_	_	_	_	_	_	_	
+10-18	1250-1253	two	_	_	_	_	_	_	_	_	_	_	
+10-19	1254-1262	rebounds	_	_	_	_	_	_	_	_	_	_	
+10-20	1263-1266	and	_	_	_	_	_	_	_	_	_	_	
+10-21	1267-1268	a	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+10-22	1269-1274	steal	_	_	_	_	_	_	_	_	_	_	
+10-23	1275-1276	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Aaron Gordon was next with a 10 - point , 12 - rebound double - double that also included an assist , a steal and a block .
+11-1	1277-1282	Aaron	_	_	_	_	_	_	_	_	_	_	
+11-2	1283-1289	Gordon	_	_	_	_	_	_	_	_	_	_	
+11-3	1290-1293	was	_	_	_	_	_	_	_	_	_	_	
+11-4	1294-1298	next	3\_WORD	*	Gordon was not the next highest scorer	*	*	2	false	2	*	2	
+11-5	1299-1303	with	_	_	_	_	_	_	_	_	_	_	
+11-6	1304-1305	a	_	_	_	_	_	_	_	_	_	_	
+11-7	1306-1308	10	2\_NUMBER	7	*	*	CT: T3 changed the name to Bismack Biyombo	3	true	3	*	3	
+11-8	1309-1310	-	_	_	_	_	_	_	_	_	_	_	
+11-9	1311-1316	point	_	_	_	_	_	_	_	_	_	_	
+11-10	1317-1318	,	_	_	_	_	_	_	_	_	_	_	
+11-11	1319-1321	12	2\_NUMBER	1	*	3	CT: T3 changed the name to Bismack Biyombo	3	true	2	*	2	
+11-12	1322-1323	-	_	_	_	_	_	_	_	_	_	_	
+11-13	1324-1331	rebound	_	_	_	_	_	_	_	_	_	_	
+11-14	1332-1338	double	3\_WORD[4]	*[4]	Gordon did not have a double-double[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+11-15	1339-1340	-	3\_WORD[4]	*[4]	Gordon did not have a double-double[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+11-16	1341-1347	double	3\_WORD[4]	*[4]	Gordon did not have a double-double[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+11-17	1348-1352	that	_	_	_	_	_	_	_	_	_	_	
+11-18	1353-1357	also	_	_	_	_	_	_	_	_	_	_	
+11-19	1358-1366	included	_	_	_	_	_	_	_	_	_	_	
+11-20	1367-1369	an	_	_	_	_	_	_	_	_	_	_	
+11-21	1370-1376	assist	_	_	_	_	_	_	_	_	_	_	
+11-22	1377-1378	,	_	_	_	_	_	_	_	_	_	_	
+11-23	1379-1380	a	_	_	_	_	_	_	_	_	_	_	
+11-24	1381-1386	steal	_	_	_	_	_	_	_	_	_	_	
+11-25	1387-1390	and	_	_	_	_	_	_	_	_	_	_	
+11-26	1391-1392	a	2\_NUMBER	zero	*	*	CT: T3 changed the name to Bismack Biyombo	2	true	2	*	2	
+11-27	1393-1398	block	_	_	_	_	_	_	_	_	_	_	
+11-28	1399-1400	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Elfrid Payton was next with 13 points , two assists , two rebounds and a steal .
+12-1	1401-1407	Elfrid	_	_	_	_	_	_	_	_	_	_	
+12-2	1408-1414	Payton	_	_	_	_	_	_	_	_	_	_	
+12-3	1415-1418	was	_	_	_	_	_	_	_	_	_	_	
+12-4	1419-1423	next	_	_	_	_	_	_	_	_	_	_	
+12-5	1424-1428	with	_	_	_	_	_	_	_	_	_	_	
+12-6	1429-1431	13	_	_	_	_	_	_	_	_	_	_	
+12-7	1432-1438	points	_	_	_	_	_	_	_	_	_	_	
+12-8	1439-1440	,	_	_	_	_	_	_	_	_	_	_	
+12-9	1441-1444	two	2\_NUMBER	three	*	*	*	2	false	2	*	2	
+12-10	1445-1452	assists	_	_	_	_	_	_	_	_	_	_	
+12-11	1453-1454	,	_	_	_	_	_	_	_	_	_	_	
+12-12	1455-1458	two	_	_	_	_	_	_	_	_	_	_	
+12-13	1459-1467	rebounds	_	_	_	_	_	_	_	_	_	_	
+12-14	1468-1471	and	_	_	_	_	_	_	_	_	_	_	
+12-15	1472-1473	a	2\_NUMBER	zero	*	*	*	2	false	2	*	2	
+12-16	1474-1479	steal	_	_	_	_	_	_	_	_	_	_	
+12-17	1480-1481	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Aaron Gordon was next with a 10 - point , 12 - rebound double - double that also included an assist , a steal and a block .
+13-1	1482-1487	Aaron	_	_	_	_	_	_	_	_	_	_	
+13-2	1488-1494	Gordon	_	_	_	_	_	_	_	_	_	_	
+13-3	1495-1498	was	_	_	_	_	_	_	_	_	_	_	
+13-4	1499-1503	next	3\_WORD	*	Gordon was not the next highest scorer	*	*	2	false	2	*	2	
+13-5	1504-1508	with	_	_	_	_	_	_	_	_	_	_	
+13-6	1509-1510	a	_	_	_	_	_	_	_	_	_	_	
+13-7	1511-1513	10	2\_NUMBER	7	*	*	CT: T3 changed the name to Bismack Biyombo	2	true	2	*	2	
+13-8	1514-1515	-	_	_	_	_	_	_	_	_	_	_	
+13-9	1516-1521	point	_	_	_	_	_	_	_	_	_	_	
+13-10	1522-1523	,	_	_	_	_	_	_	_	_	_	_	
+13-11	1524-1526	12	_	_	_	_	_	_	_	_	_	_	
+13-12	1527-1528	-	_	_	_	_	_	_	_	_	_	_	
+13-13	1529-1536	rebound	_	_	_	_	_	_	_	_	_	_	
+13-14	1537-1543	double	3\_WORD[5]	*[5]	Gordon did not have a  double-double[5]	*[5]	*[5]	2[5]	false[5]	2[5]	*[5]	2[5]	
+13-15	1544-1545	-	3\_WORD[5]	*[5]	Gordon did not have a  double-double[5]	*[5]	*[5]	2[5]	false[5]	2[5]	*[5]	2[5]	
+13-16	1546-1552	double	3\_WORD[5]	*[5]	Gordon did not have a  double-double[5]	*[5]	*[5]	2[5]	false[5]	2[5]	*[5]	2[5]	
+13-17	1553-1557	that	_	_	_	_	_	_	_	_	_	_	
+13-18	1558-1562	also	_	_	_	_	_	_	_	_	_	_	
+13-19	1563-1571	included	_	_	_	_	_	_	_	_	_	_	
+13-20	1572-1574	an	2\_NUMBER	zero	*	*	*	2	false	2	*	2	
+13-21	1575-1581	assist	_	_	_	_	_	_	_	_	_	_	
+13-22	1582-1583	,	_	_	_	_	_	_	_	_	_	_	
+13-23	1584-1585	a	2\_NUMBER	zero	*	*	*	2	false	2	*	2	
+13-24	1586-1591	steal	_	_	_	_	_	_	_	_	_	_	
+13-25	1592-1595	and	_	_	_	_	_	_	_	_	_	_	
+13-26	1596-1597	a	2\_NUMBER	zero	*	*	CT: T3 changed the name to Bismack Biyombo	3	true	3	*	3	
+13-27	1598-1603	block	_	_	_	_	_	_	_	_	_	_	
+13-28	1604-1605	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=DJ Augustin was productive in a reserve role as well with 11 points , three rebounds , two assists and a pair of steals .
+14-1	1606-1608	DJ	_	_	_	_	_	_	_	_	_	_	
+14-2	1609-1617	Augustin	_	_	_	_	_	_	_	_	_	_	
+14-3	1618-1621	was	_	_	_	_	_	_	_	_	_	_	
+14-4	1622-1632	productive	_	_	_	_	_	_	_	_	_	_	
+14-5	1633-1635	in	_	_	_	_	_	_	_	_	_	_	
+14-6	1636-1637	a	_	_	_	_	_	_	_	_	_	_	
+14-7	1638-1645	reserve	3\_WORD[6]	*[6]	Augustin was a starter[6]	*[6]	*[6]	3[6]	false[6]	2[6]	*[6]	3[6]	
+14-8	1646-1650	role	3\_WORD[6]	*[6]	Augustin was a starter[6]	*[6]	*[6]	3[6]	false[6]	2[6]	*[6]	3[6]	
+14-9	1651-1653	as	_	_	_	_	_	_	_	_	_	_	
+14-10	1654-1658	well	_	_	_	_	_	_	_	_	_	_	
+14-11	1659-1663	with	_	_	_	_	_	_	_	_	_	_	
+14-12	1664-1666	11	2\_NUMBER	0	*	*	CT: T1 said 3 points	3	true	3	*	3	
+14-13	1667-1673	points	_	_	_	_	_	_	_	_	_	_	
+14-14	1674-1675	,	_	_	_	_	_	_	_	_	_	_	
+14-15	1676-1681	three	_	_	_	_	_	_	_	_	_	_	
+14-16	1682-1690	rebounds	_	_	_	_	_	_	_	_	_	_	
+14-17	1691-1692	,	_	_	_	_	_	_	_	_	_	_	
+14-18	1693-1696	two	_	_	_	_	_	_	_	_	_	_	
+14-19	1697-1704	assists	_	_	_	_	_	_	_	_	_	_	
+14-20	1705-1708	and	_	_	_	_	_	_	_	_	_	_	
+14-21	1709-1710	a	_	_	_	_	_	_	_	_	_	_	
+14-22	1711-1715	pair	_	_	_	_	_	_	_	_	_	_	
+14-23	1716-1718	of	_	_	_	_	_	_	_	_	_	_	
+14-24	1719-1725	steals	_	_	_	_	_	_	_	_	_	_	
+14-25	1726-1727	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Raptors remain in last place in the Eastern Conference 000s Southeast Division .
+15-1	1728-1731	The	_	_	_	_	_	_	_	_	_	_	
+15-2	1732-1739	Raptors	_	_	_	_	_	_	_	_	_	_	
+15-3	1740-1746	remain	_	_	_	_	_	_	_	_	_	_	
+15-4	1747-1749	in	_	_	_	_	_	_	_	_	_	_	
+15-5	1750-1754	last	6\_NOT\_CHECKABLE[7]	*[7]	unlikely with a 19-8 record[7]	3[7]	CT: T1 said WORD => last[7]	3[7]	true[7]	1[7]	*[7]	2[7]	
+15-6	1755-1760	place	6\_NOT\_CHECKABLE[7]	*[7]	unlikely with a 19-8 record[7]	3[7]	CT: T1 said WORD => last[7]	3[7]	true[7]	1[7]	*[7]	2[7]	
+15-7	1761-1763	in	_	_	_	_	_	_	_	_	_	_	
+15-8	1764-1767	the	_	_	_	_	_	_	_	_	_	_	
+15-9	1768-1775	Eastern	_	_	_	_	_	_	_	_	_	_	
+15-10	1776-1786	Conference	_	_	_	_	_	_	_	_	_	_	
+15-11	1787-1791	000s	_	_	_	_	_	_	_	_	_	_	
+15-12	1792-1801	Southeast	_	_	_	_	_	_	_	_	_	_	
+15-13	1802-1810	Division	_	_	_	_	_	_	_	_	_	_	
+15-14	1811-1812	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=They 000re home again on Friday to face off with the Orlando Magic .
+16-1	1813-1817	They	_	_	_	_	_	_	_	_	_	_	
+16-2	1818-1823	000re	_	_	_	_	_	_	_	_	_	_	
+16-3	1824-1828	home	_	_	_	_	_	_	_	_	_	_	
+16-4	1829-1834	again	_	_	_	_	_	_	_	_	_	_	
+16-5	1835-1837	on	_	_	_	_	_	_	_	_	_	_	
+16-6	1838-1844	Friday	1\_NAME	Tuesday	*	*	*	3	false	3	*	3	
+16-7	1845-1847	to	_	_	_	_	_	_	_	_	_	_	
+16-8	1848-1852	face	_	_	_	_	_	_	_	_	_	_	
+16-9	1853-1856	off	_	_	_	_	_	_	_	_	_	_	
+16-10	1857-1861	with	_	_	_	_	_	_	_	_	_	_	
+16-11	1862-1865	the	_	_	_	_	_	_	_	_	_	_	
+16-12	1866-1873	Orlando	1\_NAME[8]	Brooklyn Nets[8]	*[8]	*[8]	*[8]	3[8]	false[8]	3[8]	*[8]	3[8]	
+16-13	1874-1879	Magic	1\_NAME[8]	Brooklyn Nets[8]	*[8]	*[8]	*[8]	3[8]	false[8]	3[8]	*[8]	3[8]	
+16-14	1880-1881	.	_	_	_	_	_	_	_	_	_	_	

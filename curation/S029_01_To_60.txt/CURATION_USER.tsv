@@ -1,0 +1,436 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Minnesota Timberwolves defeated the Dallas Mavericks , 101 - 92 , at Target Center on Wednesday .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-13	Minnesota	_	_	_	_	_	_	_	_	_	_	
+1-3	14-26	Timberwolves	_	_	_	_	_	_	_	_	_	_	
+1-4	27-35	defeated	_	_	_	_	_	_	_	_	_	_	
+1-5	36-39	the	_	_	_	_	_	_	_	_	_	_	
+1-6	40-46	Dallas	_	_	_	_	_	_	_	_	_	_	
+1-7	47-56	Mavericks	_	_	_	_	_	_	_	_	_	_	
+1-8	57-58	,	_	_	_	_	_	_	_	_	_	_	
+1-9	59-62	101	_	_	_	_	_	_	_	_	_	_	
+1-10	63-64	-	_	_	_	_	_	_	_	_	_	_	
+1-11	65-67	92	_	_	_	_	_	_	_	_	_	_	
+1-12	68-69	,	_	_	_	_	_	_	_	_	_	_	
+1-13	70-72	at	_	_	_	_	_	_	_	_	_	_	
+1-14	73-79	Target	_	_	_	_	_	_	_	_	_	_	
+1-15	80-86	Center	_	_	_	_	_	_	_	_	_	_	
+1-16	87-89	on	_	_	_	_	_	_	_	_	_	_	
+1-17	90-99	Wednesday	1\_NAME	Monday	*	*	*	3	false	3	*	3	
+1-18	100-101	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Timberwolves ( 12 - 26 ) came in to Friday 000s contest with a hot start to the season , as they jumped out to a 33 - 19 lead after one quarter .
+2-1	102-105	The	_	_	_	_	_	_	_	_	_	_	
+2-2	106-118	Timberwolves	_	_	_	_	_	_	_	_	_	_	
+2-3	119-120	(	_	_	_	_	_	_	_	_	_	_	
+2-4	121-123	12	_	_	_	_	_	_	_	_	_	_	
+2-5	124-125	-	_	_	_	_	_	_	_	_	_	_	
+2-6	126-128	26	_	_	_	_	_	_	_	_	_	_	
+2-7	129-130	)	_	_	_	_	_	_	_	_	_	_	
+2-8	131-135	came	_	_	_	_	_	_	_	_	_	_	
+2-9	136-138	in	_	_	_	_	_	_	_	_	_	_	
+2-10	139-141	to	_	_	_	_	_	_	_	_	_	_	
+2-11	142-148	Friday	1\_NAME	Monday	*	*	*	3	false	2	*	3	
+2-12	149-153	000s	_	_	_	_	_	_	_	_	_	_	
+2-13	154-161	contest	_	_	_	_	_	_	_	_	_	_	
+2-14	162-166	with	_	_	_	_	_	_	_	_	_	_	
+2-15	167-168	a	_	_	_	_	_	_	_	_	_	_	
+2-16	169-172	hot	3\_WORD[1]	*[1]	they have a losing record[1]	*[1]	*[1]	3[1]	false[1]	1[1]	*[1]	2[1]	
+2-17	173-178	start	3\_WORD[1]	*[1]	they have a losing record[1]	*[1]	*[1]	3[1]	false[1]	1[1]	*[1]	2[1]	
+2-18	179-181	to	3\_WORD[1]	*[1]	they have a losing record[1]	*[1]	*[1]	3[1]	false[1]	1[1]	*[1]	2[1]	
+2-19	182-185	the	3\_WORD[1]	*[1]	they have a losing record[1]	*[1]	*[1]	3[1]	false[1]	1[1]	*[1]	2[1]	
+2-20	186-192	season	3\_WORD[1]	*[1]	they have a losing record[1]	*[1]	*[1]	3[1]	false[1]	1[1]	*[1]	2[1]	
+2-21	193-194	,	_	_	_	_	_	_	_	_	_	_	
+2-22	195-197	as	_	_	_	_	_	_	_	_	_	_	
+2-23	198-202	they	_	_	_	_	_	_	_	_	_	_	
+2-24	203-209	jumped	_	_	_	_	_	_	_	_	_	_	
+2-25	210-213	out	_	_	_	_	_	_	_	_	_	_	
+2-26	214-216	to	_	_	_	_	_	_	_	_	_	_	
+2-27	217-218	a	_	_	_	_	_	_	_	_	_	_	
+2-28	219-221	33	_	_	_	_	_	_	_	_	_	_	
+2-29	222-223	-	_	_	_	_	_	_	_	_	_	_	
+2-30	224-226	19	_	_	_	_	_	_	_	_	_	_	
+2-31	227-231	lead	_	_	_	_	_	_	_	_	_	_	
+2-32	232-237	after	_	_	_	_	_	_	_	_	_	_	
+2-33	238-241	one	_	_	_	_	_	_	_	_	_	_	
+2-34	242-249	quarter	_	_	_	_	_	_	_	_	_	_	
+2-35	250-251	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=However , the Timberwolves ( 12 - 26 ) were able to pull away in the second half , outscoring the Mavericks ( 11 - 27 ) by a 24 - 19 margin in the third quarter .
+3-1	252-259	However	_	_	_	_	_	_	_	_	_	_	
+3-2	260-261	,	_	_	_	_	_	_	_	_	_	_	
+3-3	262-265	the	_	_	_	_	_	_	_	_	_	_	
+3-4	266-278	Timberwolves	_	_	_	_	_	_	_	_	_	_	
+3-5	279-280	(	_	_	_	_	_	_	_	_	_	_	
+3-6	281-283	12	_	_	_	_	_	_	_	_	_	_	
+3-7	284-285	-	_	_	_	_	_	_	_	_	_	_	
+3-8	286-288	26	_	_	_	_	_	_	_	_	_	_	
+3-9	289-290	)	_	_	_	_	_	_	_	_	_	_	
+3-10	291-295	were	_	_	_	_	_	_	_	_	_	_	
+3-11	296-300	able	_	_	_	_	_	_	_	_	_	_	
+3-12	301-303	to	_	_	_	_	_	_	_	_	_	_	
+3-13	304-308	pull	3\_WORD[2]	*[2]	The Wolves were outscored in the 2nd half[2]	*[2]	*[2]	3[2]	false[2]	2[2]	*[2]	3[2]	
+3-14	309-313	away	3\_WORD[2]	*[2]	The Wolves were outscored in the 2nd half[2]	*[2]	*[2]	3[2]	false[2]	2[2]	*[2]	3[2]	
+3-15	314-316	in	_	_	_	_	_	_	_	_	_	_	
+3-16	317-320	the	_	_	_	_	_	_	_	_	_	_	
+3-17	321-327	second	_	_	_	_	_	_	_	_	_	_	
+3-18	328-332	half	_	_	_	_	_	_	_	_	_	_	
+3-19	333-334	,	_	_	_	_	_	_	_	_	_	_	
+3-20	335-345	outscoring	3\_WORD	*	The Wolves were outscored in the 3rd quarter	*	*	3	false	3	*	3	
+3-21	346-349	the	_	_	_	_	_	_	_	_	_	_	
+3-22	350-359	Mavericks	_	_	_	_	_	_	_	_	_	_	
+3-23	360-361	(	_	_	_	_	_	_	_	_	_	_	
+3-24	362-364	11	_	_	_	_	_	_	_	_	_	_	
+3-25	365-366	-	_	_	_	_	_	_	_	_	_	_	
+3-26	367-369	27	_	_	_	_	_	_	_	_	_	_	
+3-27	370-371	)	_	_	_	_	_	_	_	_	_	_	
+3-28	372-374	by	_	_	_	_	_	_	_	_	_	_	
+3-29	375-376	a	_	_	_	_	_	_	_	_	_	_	
+3-30	377-379	24	_	_	_	_	_	_	_	_	_	_	
+3-31	380-381	-	_	_	_	_	_	_	_	_	_	_	
+3-32	382-384	19	2\_NUMBER	23	*	*	*	3	false	3	*	3	
+3-33	385-391	margin	_	_	_	_	_	_	_	_	_	_	
+3-34	392-394	in	_	_	_	_	_	_	_	_	_	_	
+3-35	395-398	the	_	_	_	_	_	_	_	_	_	_	
+3-36	399-404	third	_	_	_	_	_	_	_	_	_	_	
+3-37	405-412	quarter	_	_	_	_	_	_	_	_	_	_	
+3-38	413-414	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=However , the Timberwolves were able to pull away in the second half , outscoring the Mavericks by a 24 - 19 margin in the third quarter .
+4-1	415-422	However	_	_	_	_	_	_	_	_	_	_	
+4-2	423-424	,	_	_	_	_	_	_	_	_	_	_	
+4-3	425-428	the	_	_	_	_	_	_	_	_	_	_	
+4-4	429-441	Timberwolves	_	_	_	_	_	_	_	_	_	_	
+4-5	442-446	were	_	_	_	_	_	_	_	_	_	_	
+4-6	447-451	able	_	_	_	_	_	_	_	_	_	_	
+4-7	452-454	to	_	_	_	_	_	_	_	_	_	_	
+4-8	455-459	pull	3\_WORD[3]	*[3]	The Wolves were outscored in the 2nd half[3]	*[3]	*[3]	3[3]	false[3]	2[3]	*[3]	2[3]	
+4-9	460-464	away	3\_WORD[3]	*[3]	The Wolves were outscored in the 2nd half[3]	*[3]	*[3]	3[3]	false[3]	2[3]	*[3]	2[3]	
+4-10	465-467	in	_	_	_	_	_	_	_	_	_	_	
+4-11	468-471	the	_	_	_	_	_	_	_	_	_	_	
+4-12	472-478	second	_	_	_	_	_	_	_	_	_	_	
+4-13	479-483	half	_	_	_	_	_	_	_	_	_	_	
+4-14	484-485	,	_	_	_	_	_	_	_	_	_	_	
+4-15	486-496	outscoring	3\_WORD	*	The Wolves were outscored in the 3rd quarter	*	*	3	false	3	*	3	
+4-16	497-500	the	_	_	_	_	_	_	_	_	_	_	
+4-17	501-510	Mavericks	_	_	_	_	_	_	_	_	_	_	
+4-18	511-513	by	_	_	_	_	_	_	_	_	_	_	
+4-19	514-515	a	_	_	_	_	_	_	_	_	_	_	
+4-20	516-518	24	_	_	_	_	_	_	_	_	_	_	
+4-21	519-520	-	_	_	_	_	_	_	_	_	_	_	
+4-22	521-523	19	2\_NUMBER	23	*	*	*	3	false	3	*	3	
+4-23	524-530	margin	_	_	_	_	_	_	_	_	_	_	
+4-24	531-533	in	_	_	_	_	_	_	_	_	_	_	
+4-25	534-537	the	_	_	_	_	_	_	_	_	_	_	
+4-26	538-543	third	_	_	_	_	_	_	_	_	_	_	
+4-27	544-551	quarter	_	_	_	_	_	_	_	_	_	_	
+4-28	552-553	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Harrison Barnes led the way for Dallas with a game - high 30 points , which he supplemented with two rebounds , one assist and one steal .
+5-1	554-562	Harrison	_	_	_	_	_	_	_	_	_	_	
+5-2	563-569	Barnes	_	_	_	_	_	_	_	_	_	_	
+5-3	570-573	led	_	_	_	_	_	_	_	_	_	_	
+5-4	574-577	the	_	_	_	_	_	_	_	_	_	_	
+5-5	578-581	way	_	_	_	_	_	_	_	_	_	_	
+5-6	582-585	for	_	_	_	_	_	_	_	_	_	_	
+5-7	586-592	Dallas	_	_	_	_	_	_	_	_	_	_	
+5-8	593-597	with	_	_	_	_	_	_	_	_	_	_	
+5-9	598-599	a	_	_	_	_	_	_	_	_	_	_	
+5-10	600-604	game	3\_WORD	team	*	*	*	2	false	2	*	2	
+5-11	605-606	-	_	_	_	_	_	_	_	_	_	_	
+5-12	607-611	high	_	_	_	_	_	_	_	_	_	_	
+5-13	612-614	30	_	_	_	_	_	_	_	_	_	_	
+5-14	615-621	points	_	_	_	_	_	_	_	_	_	_	
+5-15	622-623	,	_	_	_	_	_	_	_	_	_	_	
+5-16	624-629	which	_	_	_	_	_	_	_	_	_	_	
+5-17	630-632	he	_	_	_	_	_	_	_	_	_	_	
+5-18	633-645	supplemented	_	_	_	_	_	_	_	_	_	_	
+5-19	646-650	with	_	_	_	_	_	_	_	_	_	_	
+5-20	651-654	two	_	_	_	_	_	_	_	_	_	_	
+5-21	655-663	rebounds	_	_	_	_	_	_	_	_	_	_	
+5-22	664-665	,	_	_	_	_	_	_	_	_	_	_	
+5-23	666-669	one	_	_	_	_	_	_	_	_	_	_	
+5-24	670-676	assist	_	_	_	_	_	_	_	_	_	_	
+5-25	677-680	and	_	_	_	_	_	_	_	_	_	_	
+5-26	681-684	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+5-27	685-690	steal	_	_	_	_	_	_	_	_	_	_	
+5-28	691-692	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Deron Williams followed with 11 points , seven assists , two rebounds and one steal .
+6-1	693-698	Deron	_	_	_	_	_	_	_	_	_	_	
+6-2	699-707	Williams	_	_	_	_	_	_	_	_	_	_	
+6-3	708-716	followed	3\_WORD	*	Williams was not the next leading scorer	*	*	3	false	3	*	3	
+6-4	717-721	with	_	_	_	_	_	_	_	_	_	_	
+6-5	722-724	11	_	_	_	_	_	_	_	_	_	_	
+6-6	725-731	points	_	_	_	_	_	_	_	_	_	_	
+6-7	732-733	,	_	_	_	_	_	_	_	_	_	_	
+6-8	734-739	seven	_	_	_	_	_	_	_	_	_	_	
+6-9	740-747	assists	_	_	_	_	_	_	_	_	_	_	
+6-10	748-749	,	_	_	_	_	_	_	_	_	_	_	
+6-11	750-753	two	_	_	_	_	_	_	_	_	_	_	
+6-12	754-762	rebounds	_	_	_	_	_	_	_	_	_	_	
+6-13	763-766	and	_	_	_	_	_	_	_	_	_	_	
+6-14	767-770	one	_	_	_	_	_	_	_	_	_	_	
+6-15	771-776	steal	_	_	_	_	_	_	_	_	_	_	
+6-16	777-778	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Wesley Matthews was next with a bench - leading 37 points , which he supplemented with five assists , four rebounds and one steal .
+7-1	779-785	Wesley	_	_	_	_	_	_	_	_	_	_	
+7-2	786-794	Matthews	_	_	_	_	_	_	_	_	_	_	
+7-3	795-798	was	_	_	_	_	_	_	_	_	_	_	
+7-4	799-803	next	3\_WORD	*	Matthews was not the 3rd highest scorer for Dallas	*	*	3	false	3	*	3	
+7-5	804-808	with	_	_	_	_	_	_	_	_	_	_	
+7-6	809-810	a	_	_	_	_	_	_	_	_	_	_	
+7-7	811-816	bench	3\_WORD[4]	*[4]	Matthews was a starter[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+7-8	817-818	-	3\_WORD[4]	*[4]	Matthews was a starter[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+7-9	819-826	leading	3\_WORD[4]	*[4]	Matthews was a starter[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+7-10	827-829	37	2\_NUMBER	2	*	*	*	3	false	3	*	3	
+7-11	830-836	points	_	_	_	_	_	_	_	_	_	_	
+7-12	837-838	,	_	_	_	_	_	_	_	_	_	_	
+7-13	839-844	which	_	_	_	_	_	_	_	_	_	_	
+7-14	845-847	he	_	_	_	_	_	_	_	_	_	_	
+7-15	848-860	supplemented	_	_	_	_	_	_	_	_	_	_	
+7-16	861-865	with	_	_	_	_	_	_	_	_	_	_	
+7-17	866-870	five	_	_	_	_	_	_	_	_	_	_	
+7-18	871-878	assists	_	_	_	_	_	_	_	_	_	_	
+7-19	879-880	,	_	_	_	_	_	_	_	_	_	_	
+7-20	881-885	four	_	_	_	_	_	_	_	_	_	_	
+7-21	886-894	rebounds	_	_	_	_	_	_	_	_	_	_	
+7-22	895-898	and	_	_	_	_	_	_	_	_	_	_	
+7-23	899-902	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+7-24	903-908	steal	_	_	_	_	_	_	_	_	_	_	
+7-25	909-910	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Deron Williams supplied 11 points , seven assists , two rebounds and one steal .
+8-1	911-916	Deron	_	_	_	_	_	_	_	_	_	_	
+8-2	917-925	Williams	_	_	_	_	_	_	_	_	_	_	
+8-3	926-934	supplied	_	_	_	_	_	_	_	_	_	_	
+8-4	935-937	11	_	_	_	_	_	_	_	_	_	_	
+8-5	938-944	points	_	_	_	_	_	_	_	_	_	_	
+8-6	945-946	,	_	_	_	_	_	_	_	_	_	_	
+8-7	947-952	seven	_	_	_	_	_	_	_	_	_	_	
+8-8	953-960	assists	_	_	_	_	_	_	_	_	_	_	
+8-9	961-962	,	_	_	_	_	_	_	_	_	_	_	
+8-10	963-966	two	_	_	_	_	_	_	_	_	_	_	
+8-11	967-975	rebounds	_	_	_	_	_	_	_	_	_	_	
+8-12	976-979	and	_	_	_	_	_	_	_	_	_	_	
+8-13	980-983	one	_	_	_	_	_	_	_	_	_	_	
+8-14	984-989	steal	_	_	_	_	_	_	_	_	_	_	
+8-15	990-991	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=JJ Barea led the bench with 14 points , four assists , two rebounds and two steals .
+9-1	992-994	JJ	_	_	_	_	_	_	_	_	_	_	
+9-2	995-1000	Barea	_	_	_	_	_	_	_	_	_	_	
+9-3	1001-1004	led	3\_WORD	*	Barea did not lead the bench in scoring	*	*	3	false	2	*	3	
+9-4	1005-1008	the	_	_	_	_	_	_	_	_	_	_	
+9-5	1009-1014	bench	_	_	_	_	_	_	_	_	_	_	
+9-6	1015-1019	with	_	_	_	_	_	_	_	_	_	_	
+9-7	1020-1022	14	2\_NUMBER	0	*	*	*	3	false	3	*	3	
+9-8	1023-1029	points	_	_	_	_	_	_	_	_	_	_	
+9-9	1030-1031	,	_	_	_	_	_	_	_	_	_	_	
+9-10	1032-1036	four	_	_	_	_	_	_	_	_	_	_	
+9-11	1037-1044	assists	_	_	_	_	_	_	_	_	_	_	
+9-12	1045-1046	,	_	_	_	_	_	_	_	_	_	_	
+9-13	1047-1050	two	_	_	_	_	_	_	_	_	_	_	
+9-14	1051-1059	rebounds	_	_	_	_	_	_	_	_	_	_	
+9-15	1060-1063	and	_	_	_	_	_	_	_	_	_	_	
+9-16	1064-1067	two	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+9-17	1068-1074	steals	_	_	_	_	_	_	_	_	_	_	
+9-18	1075-1076	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=JJ Barea led the bench with 14 points , four assists , two rebounds and one steal .
+10-1	1077-1079	JJ	_	_	_	_	_	_	_	_	_	_	
+10-2	1080-1085	Barea	_	_	_	_	_	_	_	_	_	_	
+10-3	1086-1089	led	3\_WORD	*	Barea did not lead the bench in scoring	*	*	3	false	2	*	3	
+10-4	1090-1093	the	_	_	_	_	_	_	_	_	_	_	
+10-5	1094-1099	bench	_	_	_	_	_	_	_	_	_	_	
+10-6	1100-1104	with	_	_	_	_	_	_	_	_	_	_	
+10-7	1105-1107	14	2\_NUMBER	0	*	*	*	3	false	3	*	3	
+10-8	1108-1114	points	_	_	_	_	_	_	_	_	_	_	
+10-9	1115-1116	,	_	_	_	_	_	_	_	_	_	_	
+10-10	1117-1121	four	_	_	_	_	_	_	_	_	_	_	
+10-11	1122-1129	assists	_	_	_	_	_	_	_	_	_	_	
+10-12	1130-1131	,	_	_	_	_	_	_	_	_	_	_	
+10-13	1132-1135	two	_	_	_	_	_	_	_	_	_	_	
+10-14	1136-1144	rebounds	_	_	_	_	_	_	_	_	_	_	
+10-15	1145-1148	and	_	_	_	_	_	_	_	_	_	_	
+10-16	1149-1152	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+10-17	1153-1158	steal	_	_	_	_	_	_	_	_	_	_	
+10-18	1159-1160	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=JJ Barea led the second unit with 12 points , four assists , two rebounds and one steal .
+11-1	1161-1163	JJ	_	_	_	_	_	_	_	_	_	_	
+11-2	1164-1169	Barea	_	_	_	_	_	_	_	_	_	_	
+11-3	1170-1173	led	3\_WORD	*	Barea did not lead the bench in scoring	*	*	3	false	2	*	3	
+11-4	1174-1177	the	_	_	_	_	_	_	_	_	_	_	
+11-5	1178-1184	second	_	_	_	_	_	_	_	_	_	_	
+11-6	1185-1189	unit	_	_	_	_	_	_	_	_	_	_	
+11-7	1190-1194	with	_	_	_	_	_	_	_	_	_	_	
+11-8	1195-1197	12	3\_WORD	0	*	*	*	3	false	3	*	3	
+11-9	1198-1204	points	_	_	_	_	_	_	_	_	_	_	
+11-10	1205-1206	,	_	_	_	_	_	_	_	_	_	_	
+11-11	1207-1211	four	_	_	_	_	_	_	_	_	_	_	
+11-12	1212-1219	assists	_	_	_	_	_	_	_	_	_	_	
+11-13	1220-1221	,	_	_	_	_	_	_	_	_	_	_	
+11-14	1222-1225	two	_	_	_	_	_	_	_	_	_	_	
+11-15	1226-1234	rebounds	_	_	_	_	_	_	_	_	_	_	
+11-16	1235-1238	and	_	_	_	_	_	_	_	_	_	_	
+11-17	1239-1242	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+11-18	1243-1248	steal	_	_	_	_	_	_	_	_	_	_	
+11-19	1249-1250	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Mavericks remain in last place in the Western Conference 000s Northwest Division .
+12-1	1251-1254	The	_	_	_	_	_	_	_	_	_	_	
+12-2	1255-1264	Mavericks	_	_	_	_	_	_	_	_	_	_	
+12-3	1265-1271	remain	_	_	_	_	_	_	_	_	_	_	
+12-4	1272-1274	in	_	_	_	_	_	_	_	_	_	_	
+12-5	1275-1279	last	6\_NOT\_CHECKABLE[5]	*[5]	*[5]	*[5]	*[5]	2[5]	false[5]	1[5]	*[5]	2[5]	
+12-6	1280-1285	place	6\_NOT\_CHECKABLE[5]	*[5]	*[5]	*[5]	*[5]	2[5]	false[5]	1[5]	*[5]	2[5]	
+12-7	1286-1288	in	_	_	_	_	_	_	_	_	_	_	
+12-8	1289-1292	the	_	_	_	_	_	_	_	_	_	_	
+12-9	1293-1300	Western	_	_	_	_	_	_	_	_	_	_	
+12-10	1301-1311	Conference	_	_	_	_	_	_	_	_	_	_	
+12-11	1312-1316	000s	_	_	_	_	_	_	_	_	_	_	
+12-12	1317-1326	Northwest	_	_	_	_	_	_	_	_	_	_	
+12-13	1327-1335	Division	_	_	_	_	_	_	_	_	_	_	
+12-14	1336-1337	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=They head to Minnesota to take on the Timberwolves on Wednesday .
+13-1	1338-1342	They	_	_	_	_	_	_	_	_	_	_	
+13-2	1343-1347	head	_	_	_	_	_	_	_	_	_	_	
+13-3	1348-1350	to	_	_	_	_	_	_	_	_	_	_	
+13-4	1351-1360	Minnesota	1\_NAME	Phoenix	*	*	*	3	false	3	*	3	
+13-5	1361-1363	to	_	_	_	_	_	_	_	_	_	_	
+13-6	1364-1368	take	_	_	_	_	_	_	_	_	_	_	
+13-7	1369-1371	on	_	_	_	_	_	_	_	_	_	_	
+13-8	1372-1375	the	_	_	_	_	_	_	_	_	_	_	
+13-9	1376-1388	Timberwolves	1\_NAME	Suns	*	*	*	3	false	3	*	3	
+13-10	1389-1391	on	_	_	_	_	_	_	_	_	_	_	
+13-11	1392-1401	Wednesday	1\_NAME	Thursday	*	*	*	3	false	3	*	3	
+13-12	1402-1403	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Karl-Anthony Towns led the way for Minnesota with a game - high 34 points , which he supplemented with 11 rebounds , four assists , three blocks and three blocks .
+14-1	1404-1416	Karl-Anthony	_	_	_	_	_	_	_	_	_	_	
+14-2	1417-1422	Towns	_	_	_	_	_	_	_	_	_	_	
+14-3	1423-1426	led	_	_	_	_	_	_	_	_	_	_	
+14-4	1427-1430	the	_	_	_	_	_	_	_	_	_	_	
+14-5	1431-1434	way	_	_	_	_	_	_	_	_	_	_	
+14-6	1435-1438	for	_	_	_	_	_	_	_	_	_	_	
+14-7	1439-1448	Minnesota	_	_	_	_	_	_	_	_	_	_	
+14-8	1449-1453	with	_	_	_	_	_	_	_	_	_	_	
+14-9	1454-1455	a	_	_	_	_	_	_	_	_	_	_	
+14-10	1456-1460	game	_	_	_	_	_	_	_	_	_	_	
+14-11	1461-1462	-	_	_	_	_	_	_	_	_	_	_	
+14-12	1463-1467	high	_	_	_	_	_	_	_	_	_	_	
+14-13	1468-1470	34	_	_	_	_	_	_	_	_	_	_	
+14-14	1471-1477	points	_	_	_	_	_	_	_	_	_	_	
+14-15	1478-1479	,	_	_	_	_	_	_	_	_	_	_	
+14-16	1480-1485	which	_	_	_	_	_	_	_	_	_	_	
+14-17	1486-1488	he	_	_	_	_	_	_	_	_	_	_	
+14-18	1489-1501	supplemented	_	_	_	_	_	_	_	_	_	_	
+14-19	1502-1506	with	_	_	_	_	_	_	_	_	_	_	
+14-20	1507-1509	11	_	_	_	_	_	_	_	_	_	_	
+14-21	1510-1518	rebounds	_	_	_	_	_	_	_	_	_	_	
+14-22	1519-1520	,	_	_	_	_	_	_	_	_	_	_	
+14-23	1521-1525	four	_	_	_	_	_	_	_	_	_	_	
+14-24	1526-1533	assists	_	_	_	_	_	_	_	_	_	_	
+14-25	1534-1535	,	_	_	_	_	_	_	_	_	_	_	
+14-26	1536-1541	three	_	_	_	_	_	_	_	_	_	_	
+14-27	1542-1548	blocks	_	_	_	_	_	_	_	_	_	_	
+14-28	1549-1552	and	_	_	_	_	_	_	_	_	_	_	
+14-29	1553-1558	three	_	_	_	_	_	_	_	_	_	_	
+14-30	1559-1565	blocks	_	_	_	_	_	_	_	_	_	_	
+14-31	1566-1567	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Andrew Wiggins followed with 13 points , four rebounds , one assist and one block .
+15-1	1568-1574	Andrew	_	_	_	_	_	_	_	_	_	_	
+15-2	1575-1582	Wiggins	_	_	_	_	_	_	_	_	_	_	
+15-3	1583-1591	followed	_	_	_	_	_	_	_	_	_	_	
+15-4	1592-1596	with	_	_	_	_	_	_	_	_	_	_	
+15-5	1597-1599	13	_	_	_	_	_	_	_	_	_	_	
+15-6	1600-1606	points	_	_	_	_	_	_	_	_	_	_	
+15-7	1607-1608	,	_	_	_	_	_	_	_	_	_	_	
+15-8	1609-1613	four	_	_	_	_	_	_	_	_	_	_	
+15-9	1614-1622	rebounds	_	_	_	_	_	_	_	_	_	_	
+15-10	1623-1624	,	_	_	_	_	_	_	_	_	_	_	
+15-11	1625-1628	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+15-12	1629-1635	assist	_	_	_	_	_	_	_	_	_	_	
+15-13	1636-1639	and	_	_	_	_	_	_	_	_	_	_	
+15-14	1640-1643	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+15-15	1644-1649	block	_	_	_	_	_	_	_	_	_	_	
+15-16	1650-1651	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Shabazz Muhammad was next with 11 points , two rebounds , two assists and two steals .
+16-1	1652-1659	Shabazz	_	_	_	_	_	_	_	_	_	_	
+16-2	1660-1668	Muhammad	_	_	_	_	_	_	_	_	_	_	
+16-3	1669-1672	was	_	_	_	_	_	_	_	_	_	_	
+16-4	1673-1677	next	3\_WORD	*	Muhammad was not the next leading scorer	*	*	3	false	3	*	3	
+16-5	1678-1682	with	_	_	_	_	_	_	_	_	_	_	
+16-6	1683-1685	11	_	_	_	_	_	_	_	_	_	_	
+16-7	1686-1692	points	_	_	_	_	_	_	_	_	_	_	
+16-8	1693-1694	,	_	_	_	_	_	_	_	_	_	_	
+16-9	1695-1698	two	_	_	_	_	_	_	_	_	_	_	
+16-10	1699-1707	rebounds	_	_	_	_	_	_	_	_	_	_	
+16-11	1708-1709	,	_	_	_	_	_	_	_	_	_	_	
+16-12	1710-1713	two	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+16-13	1714-1721	assists	_	_	_	_	_	_	_	_	_	_	
+16-14	1722-1725	and	_	_	_	_	_	_	_	_	_	_	
+16-15	1726-1729	two	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+16-16	1730-1736	steals	_	_	_	_	_	_	_	_	_	_	
+16-17	1737-1738	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Shabazz Muhammad led the second unit with 11 points , two rebounds , two assists and two steals .
+17-1	1739-1746	Shabazz	_	_	_	_	_	_	_	_	_	_	
+17-2	1747-1755	Muhammad	_	_	_	_	_	_	_	_	_	_	
+17-3	1756-1759	led	_	_	_	_	_	_	_	_	_	_	
+17-4	1760-1763	the	_	_	_	_	_	_	_	_	_	_	
+17-5	1764-1770	second	_	_	_	_	_	_	_	_	_	_	
+17-6	1771-1775	unit	_	_	_	_	_	_	_	_	_	_	
+17-7	1776-1780	with	_	_	_	_	_	_	_	_	_	_	
+17-8	1781-1783	11	_	_	_	_	_	_	_	_	_	_	
+17-9	1784-1790	points	_	_	_	_	_	_	_	_	_	_	
+17-10	1791-1792	,	_	_	_	_	_	_	_	_	_	_	
+17-11	1793-1796	two	_	_	_	_	_	_	_	_	_	_	
+17-12	1797-1805	rebounds	_	_	_	_	_	_	_	_	_	_	
+17-13	1806-1807	,	_	_	_	_	_	_	_	_	_	_	
+17-14	1808-1811	two	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+17-15	1812-1819	assists	_	_	_	_	_	_	_	_	_	_	
+17-16	1820-1823	and	_	_	_	_	_	_	_	_	_	_	
+17-17	1824-1827	two	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+17-18	1828-1834	steals	_	_	_	_	_	_	_	_	_	_	
+17-19	1835-1836	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Timberwolves remain in last place in the Western Conference 000s Northwest Division .
+18-1	1837-1840	The	_	_	_	_	_	_	_	_	_	_	
+18-2	1841-1853	Timberwolves	_	_	_	_	_	_	_	_	_	_	
+18-3	1854-1860	remain	_	_	_	_	_	_	_	_	_	_	
+18-4	1861-1863	in	_	_	_	_	_	_	_	_	_	_	
+18-5	1864-1868	last	6\_NOT\_CHECKABLE[6]	*[6]	*[6]	*[6]	*[6]	2[6]	false[6]	1[6]	*[6]	2[6]	
+18-6	1869-1874	place	6\_NOT\_CHECKABLE[6]	*[6]	*[6]	*[6]	*[6]	2[6]	false[6]	1[6]	*[6]	2[6]	
+18-7	1875-1877	in	_	_	_	_	_	_	_	_	_	_	
+18-8	1878-1881	the	_	_	_	_	_	_	_	_	_	_	
+18-9	1882-1889	Western	_	_	_	_	_	_	_	_	_	_	
+18-10	1890-1900	Conference	_	_	_	_	_	_	_	_	_	_	
+18-11	1901-1905	000s	_	_	_	_	_	_	_	_	_	_	
+18-12	1906-1915	Northwest	_	_	_	_	_	_	_	_	_	_	
+18-13	1916-1924	Division	_	_	_	_	_	_	_	_	_	_	
+18-14	1925-1926	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=They 000re home again on Wednesday for a date with the Utah Jazz .
+19-1	1927-1931	They	_	_	_	_	_	_	_	_	_	_	
+19-2	1932-1937	000re	_	_	_	_	_	_	_	_	_	_	
+19-3	1938-1942	home	_	_	_	_	_	_	_	_	_	_	
+19-4	1943-1948	again	_	_	_	_	_	_	_	_	_	_	
+19-5	1949-1951	on	_	_	_	_	_	_	_	_	_	_	
+19-6	1952-1961	Wednesday	_	_	_	_	_	_	_	_	_	_	
+19-7	1962-1965	for	_	_	_	_	_	_	_	_	_	_	
+19-8	1966-1967	a	_	_	_	_	_	_	_	_	_	_	
+19-9	1968-1972	date	_	_	_	_	_	_	_	_	_	_	
+19-10	1973-1977	with	_	_	_	_	_	_	_	_	_	_	
+19-11	1978-1981	the	_	_	_	_	_	_	_	_	_	_	
+19-12	1982-1986	Utah	1\_NAME[7]	Houston Rockets[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+19-13	1987-1991	Jazz	1\_NAME[7]	Houston Rockets[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+19-14	1992-1993	.	_	_	_	_	_	_	_	_	_	_	

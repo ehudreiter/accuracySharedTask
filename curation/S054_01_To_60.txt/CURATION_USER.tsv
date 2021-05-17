@@ -1,0 +1,547 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Houston Rockets defeated the Charlotte Hornets , 121 - 114 , at Toyota Center on Monday .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-11	Houston	_	_	_	_	_	_	_	_	_	_	
+1-3	12-19	Rockets	_	_	_	_	_	_	_	_	_	_	
+1-4	20-28	defeated	_	_	_	_	_	_	_	_	_	_	
+1-5	29-32	the	_	_	_	_	_	_	_	_	_	_	
+1-6	33-42	Charlotte	_	_	_	_	_	_	_	_	_	_	
+1-7	43-50	Hornets	_	_	_	_	_	_	_	_	_	_	
+1-8	51-52	,	_	_	_	_	_	_	_	_	_	_	
+1-9	53-56	121	_	_	_	_	_	_	_	_	_	_	
+1-10	57-58	-	_	_	_	_	_	_	_	_	_	_	
+1-11	59-62	114	_	_	_	_	_	_	_	_	_	_	
+1-12	63-64	,	_	_	_	_	_	_	_	_	_	_	
+1-13	65-67	at	_	_	_	_	_	_	_	_	_	_	
+1-14	68-74	Toyota	_	_	_	_	_	_	_	_	_	_	
+1-15	75-81	Center	_	_	_	_	_	_	_	_	_	_	
+1-16	82-84	on	_	_	_	_	_	_	_	_	_	_	
+1-17	85-91	Monday	1\_NAME	Tuesday	*	*	*	3	false	3	*	3	
+1-18	92-93	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Rockets ( 31 - 9 ) have been mocked for some time for the " Trust the Process " slogan that has become associated with the win over the past two games .
+2-1	94-97	The	_	_	_	_	_	_	_	_	_	_	
+2-2	98-105	Rockets	_	_	_	_	_	_	_	_	_	_	
+2-3	106-107	(	_	_	_	_	_	_	_	_	_	_	
+2-4	108-110	31	_	_	_	_	_	_	_	_	_	_	
+2-5	111-112	-	_	_	_	_	_	_	_	_	_	_	
+2-6	113-114	9	_	_	_	_	_	_	_	_	_	_	
+2-7	115-116	)	_	_	_	_	_	_	_	_	_	_	
+2-8	117-121	have	_	_	_	_	_	_	_	_	_	_	
+2-9	122-126	been	_	_	_	_	_	_	_	_	_	_	
+2-10	127-133	mocked	_	_	_	_	_	_	_	_	_	_	
+2-11	134-137	for	_	_	_	_	_	_	_	_	_	_	
+2-12	138-142	some	_	_	_	_	_	_	_	_	_	_	
+2-13	143-147	time	_	_	_	_	_	_	_	_	_	_	
+2-14	148-151	for	_	_	_	_	_	_	_	_	_	_	
+2-15	152-155	the	_	_	_	_	_	_	_	_	_	_	
+2-16	156-157	"	_	_	_	_	_	_	_	_	_	_	
+2-17	158-163	Trust	6\_NOT\_CHECKABLE[1]	*[1]	This was the 76ers slogan[1]	2[1]	CT: T1 also noted that this was 76ers slogan[1]	2[1]	false[1]	1[1]	*[1]	1[1]	
+2-18	164-167	the	6\_NOT\_CHECKABLE[1]	*[1]	This was the 76ers slogan[1]	2[1]	CT: T1 also noted that this was 76ers slogan[1]	2[1]	false[1]	1[1]	*[1]	1[1]	
+2-19	168-175	Process	6\_NOT\_CHECKABLE[1]	*[1]	This was the 76ers slogan[1]	2[1]	CT: T1 also noted that this was 76ers slogan[1]	2[1]	false[1]	1[1]	*[1]	1[1]	
+2-20	176-177	"	_	_	_	_	_	_	_	_	_	_	
+2-21	178-184	slogan	_	_	_	_	_	_	_	_	_	_	
+2-22	185-189	that	_	_	_	_	_	_	_	_	_	_	
+2-23	190-193	has	_	_	_	_	_	_	_	_	_	_	
+2-24	194-200	become	_	_	_	_	_	_	_	_	_	_	
+2-25	201-211	associated	_	_	_	_	_	_	_	_	_	_	
+2-26	212-216	with	_	_	_	_	_	_	_	_	_	_	
+2-27	217-220	the	_	_	_	_	_	_	_	_	_	_	
+2-28	221-224	win	_	_	_	_	_	_	_	_	_	_	
+2-29	225-229	over	_	_	_	_	_	_	_	_	_	_	
+2-30	230-233	the	_	_	_	_	_	_	_	_	_	_	
+2-31	234-238	past	_	_	_	_	_	_	_	_	_	_	
+2-32	239-242	two	_	_	_	_	_	_	_	_	_	_	
+2-33	243-248	games	_	_	_	_	_	_	_	_	_	_	
+2-34	249-250	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=However , the Rockets ( 31 - 9 ) were able to pierce Houston 000s armor Friday , touching up Gregg Popovich 000s crew for a season - high 121 points .
+3-1	251-258	However	_	_	_	_	_	_	_	_	_	_	
+3-2	259-260	,	_	_	_	_	_	_	_	_	_	_	
+3-3	261-264	the	_	_	_	_	_	_	_	_	_	_	
+3-4	265-272	Rockets	_	_	_	_	_	_	_	_	_	_	
+3-5	273-274	(	_	_	_	_	_	_	_	_	_	_	
+3-6	275-277	31	_	_	_	_	_	_	_	_	_	_	
+3-7	278-279	-	_	_	_	_	_	_	_	_	_	_	
+3-8	280-281	9	_	_	_	_	_	_	_	_	_	_	
+3-9	282-283	)	_	_	_	_	_	_	_	_	_	_	
+3-10	284-288	were	_	_	_	_	_	_	_	_	_	_	
+3-11	289-293	able	_	_	_	_	_	_	_	_	_	_	
+3-12	294-296	to	_	_	_	_	_	_	_	_	_	_	
+3-13	297-303	pierce	_	_	_	_	_	_	_	_	_	_	
+3-14	304-311	Houston	1\_NAME	Charlotte	*	*	*	3	false	1	*	3	
+3-15	312-316	000s	_	_	_	_	_	_	_	_	_	_	
+3-16	317-322	armor	_	_	_	_	_	_	_	_	_	_	
+3-17	323-329	Friday	1\_NAME	Tuesday	*	*	*	3	false	3	*	3	
+3-18	330-331	,	_	_	_	_	_	_	_	_	_	_	
+3-19	332-340	touching	_	_	_	_	_	_	_	_	_	_	
+3-20	341-343	up	_	_	_	_	_	_	_	_	_	_	
+3-21	344-349	Gregg	1\_NAME[2]	Steve Clifford[2]	*[2]	*[2]	*[2]	3[2]	false[2]	2[2]	*[2]	3[2]	
+3-22	350-358	Popovich	1\_NAME[2]	Steve Clifford[2]	*[2]	*[2]	*[2]	3[2]	false[2]	2[2]	*[2]	3[2]	
+3-23	359-363	000s	_	_	_	_	_	_	_	_	_	_	
+3-24	364-368	crew	_	_	_	_	_	_	_	_	_	_	
+3-25	369-372	for	_	_	_	_	_	_	_	_	_	_	
+3-26	373-374	a	_	_	_	_	_	_	_	_	_	_	
+3-27	375-381	season	6\_NOT\_CHECKABLE[3]	*[3]	*[3]	3[3]	CT: T1 checked and found 140 points[3]	3[3]	true[3]	2[3]	*[3]	2[3]	
+3-28	382-383	-	6\_NOT\_CHECKABLE[3]	*[3]	*[3]	3[3]	CT: T1 checked and found 140 points[3]	3[3]	true[3]	2[3]	*[3]	2[3]	
+3-29	384-388	high	6\_NOT\_CHECKABLE[3]	*[3]	*[3]	3[3]	CT: T1 checked and found 140 points[3]	3[3]	true[3]	2[3]	*[3]	2[3]	
+3-30	389-392	121	_	_	_	_	_	_	_	_	_	_	
+3-31	393-399	points	_	_	_	_	_	_	_	_	_	_	
+3-32	400-401	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=James Harden led the way for the Rockets with a game - high 40 points , which he supplemented with 10 assists and a pair of rebounds .
+4-1	402-407	James	_	_	_	_	_	_	_	_	_	_	
+4-2	408-414	Harden	_	_	_	_	_	_	_	_	_	_	
+4-3	415-418	led	_	_	_	_	_	_	_	_	_	_	
+4-4	419-422	the	_	_	_	_	_	_	_	_	_	_	
+4-5	423-426	way	_	_	_	_	_	_	_	_	_	_	
+4-6	427-430	for	_	_	_	_	_	_	_	_	_	_	
+4-7	431-434	the	_	_	_	_	_	_	_	_	_	_	
+4-8	435-442	Rockets	_	_	_	_	_	_	_	_	_	_	
+4-9	443-447	with	_	_	_	_	_	_	_	_	_	_	
+4-10	448-449	a	_	_	_	_	_	_	_	_	_	_	
+4-11	450-454	game	_	_	_	_	_	_	_	_	_	_	
+4-12	455-456	-	_	_	_	_	_	_	_	_	_	_	
+4-13	457-461	high	_	_	_	_	_	_	_	_	_	_	
+4-14	462-464	40	_	_	_	_	_	_	_	_	_	_	
+4-15	465-471	points	_	_	_	_	_	_	_	_	_	_	
+4-16	472-473	,	_	_	_	_	_	_	_	_	_	_	
+4-17	474-479	which	_	_	_	_	_	_	_	_	_	_	
+4-18	480-482	he	_	_	_	_	_	_	_	_	_	_	
+4-19	483-495	supplemented	_	_	_	_	_	_	_	_	_	_	
+4-20	496-500	with	_	_	_	_	_	_	_	_	_	_	
+4-21	501-503	10	_	_	_	_	_	_	_	_	_	_	
+4-22	504-511	assists	_	_	_	_	_	_	_	_	_	_	
+4-23	512-515	and	_	_	_	_	_	_	_	_	_	_	
+4-24	516-517	a	_	_	_	_	_	_	_	_	_	_	
+4-25	518-522	pair	2\_NUMBER	*	Harden had 15 rebounds	*	*	3	false	2	*	3	
+4-26	523-525	of	_	_	_	_	_	_	_	_	_	_	
+4-27	526-534	rebounds	_	_	_	_	_	_	_	_	_	_	
+4-28	535-536	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Kemba Walker was right behind with 25 points , 10 assists , six rebounds , a steal and a block .
+5-1	537-542	Kemba	4\_CONTEXT[4]	*[4]	Walker plays for the Hornets[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+5-2	543-549	Walker	4\_CONTEXT[4]	*[4]	Walker plays for the Hornets[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+5-3	550-553	was	_	_	_	_	_	_	_	_	_	_	
+5-4	554-559	right	_	_	_	_	_	_	_	_	_	_	
+5-5	560-566	behind	_	_	_	_	_	_	_	_	_	_	
+5-6	567-571	with	_	_	_	_	_	_	_	_	_	_	
+5-7	572-574	25	_	_	_	_	_	_	_	_	_	_	
+5-8	575-581	points	_	_	_	_	_	_	_	_	_	_	
+5-9	582-583	,	_	_	_	_	_	_	_	_	_	_	
+5-10	584-586	10	_	_	_	_	_	_	_	_	_	_	
+5-11	587-594	assists	_	_	_	_	_	_	_	_	_	_	
+5-12	595-596	,	_	_	_	_	_	_	_	_	_	_	
+5-13	597-600	six	_	_	_	_	_	_	_	_	_	_	
+5-14	601-609	rebounds	_	_	_	_	_	_	_	_	_	_	
+5-15	610-611	,	_	_	_	_	_	_	_	_	_	_	
+5-16	612-613	a	_	_	_	_	_	_	_	_	_	_	
+5-17	614-619	steal	_	_	_	_	_	_	_	_	_	_	
+5-18	620-623	and	_	_	_	_	_	_	_	_	_	_	
+5-19	624-625	a	_	_	_	_	_	_	_	_	_	_	
+5-20	626-631	block	_	_	_	_	_	_	_	_	_	_	
+5-21	632-633	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Marvin Williams followed with 16 points , eight rebounds and a steal .
+6-1	634-640	Marvin	_	_	_	_	_	_	_	_	_	_	
+6-2	641-649	Williams	_	_	_	_	_	_	_	_	_	_	
+6-3	650-658	followed	_	_	_	_	_	_	_	_	_	_	
+6-4	659-663	with	_	_	_	_	_	_	_	_	_	_	
+6-5	664-666	16	_	_	_	_	_	_	_	_	_	_	
+6-6	667-673	points	_	_	_	_	_	_	_	_	_	_	
+6-7	674-675	,	_	_	_	_	_	_	_	_	_	_	
+6-8	676-681	eight	_	_	_	_	_	_	_	_	_	_	
+6-9	682-690	rebounds	_	_	_	_	_	_	_	_	_	_	
+6-10	691-694	and	_	_	_	_	_	_	_	_	_	_	
+6-11	695-696	a	_	_	_	_	_	_	_	_	_	_	
+6-12	697-702	steal	_	_	_	_	_	_	_	_	_	_	
+6-13	703-704	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Jeremy Lamb was productive in a reserve role as well with 11 points , five rebounds , four assists and a steal .
+7-1	705-711	Jeremy	_	_	_	_	_	_	_	_	_	_	
+7-2	712-716	Lamb	_	_	_	_	_	_	_	_	_	_	
+7-3	717-720	was	_	_	_	_	_	_	_	_	_	_	
+7-4	721-731	productive	_	_	_	_	_	_	_	_	_	_	
+7-5	732-734	in	_	_	_	_	_	_	_	_	_	_	
+7-6	735-736	a	_	_	_	_	_	_	_	_	_	_	
+7-7	737-744	reserve	3\_WORD[5]	*[5]	Lamb was a starter[5]	*[5]	*[5]	3[5]	false[5]	1[5]	*[5]	3[5]	
+7-8	745-749	role	3\_WORD[5]	*[5]	Lamb was a starter[5]	*[5]	*[5]	3[5]	false[5]	1[5]	*[5]	3[5]	
+7-9	750-752	as	_	_	_	_	_	_	_	_	_	_	
+7-10	753-757	well	_	_	_	_	_	_	_	_	_	_	
+7-11	758-762	with	_	_	_	_	_	_	_	_	_	_	
+7-12	763-765	11	_	_	_	_	_	_	_	_	_	_	
+7-13	766-772	points	_	_	_	_	_	_	_	_	_	_	
+7-14	773-774	,	_	_	_	_	_	_	_	_	_	_	
+7-15	775-779	five	_	_	_	_	_	_	_	_	_	_	
+7-16	780-788	rebounds	_	_	_	_	_	_	_	_	_	_	
+7-17	789-790	,	_	_	_	_	_	_	_	_	_	_	
+7-18	791-795	four	_	_	_	_	_	_	_	_	_	_	
+7-19	796-803	assists	_	_	_	_	_	_	_	_	_	_	
+7-20	804-807	and	_	_	_	_	_	_	_	_	_	_	
+7-21	808-809	a	_	_	_	_	_	_	_	_	_	_	
+7-22	810-815	steal	_	_	_	_	_	_	_	_	_	_	
+7-23	816-817	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Nene Hilario led the second unit with 10 points , five rebounds , one assist , two steals and two blocks .
+8-1	818-822	Nene	4\_CONTEXT[6]	*[6]	Hilario played for the Rockets[6]	*[6]	*[6]	2[6]	false[6]	2[6]	*[6]	2[6]	
+8-2	823-830	Hilario	4\_CONTEXT[6]	*[6]	Hilario played for the Rockets[6]	*[6]	*[6]	2[6]	false[6]	2[6]	*[6]	2[6]	
+8-3	831-834	led	3\_WORD	*	Hilario was not the leading bench scorer	*	*	3	false	3	*	3	
+8-4	835-838	the	_	_	_	_	_	_	_	_	_	_	
+8-5	839-845	second	_	_	_	_	_	_	_	_	_	_	
+8-6	846-850	unit	_	_	_	_	_	_	_	_	_	_	
+8-7	851-855	with	_	_	_	_	_	_	_	_	_	_	
+8-8	856-858	10	_	_	_	_	_	_	_	_	_	_	
+8-9	859-865	points	_	_	_	_	_	_	_	_	_	_	
+8-10	866-867	,	_	_	_	_	_	_	_	_	_	_	
+8-11	868-872	five	_	_	_	_	_	_	_	_	_	_	
+8-12	873-881	rebounds	_	_	_	_	_	_	_	_	_	_	
+8-13	882-883	,	_	_	_	_	_	_	_	_	_	_	
+8-14	884-887	one	_	_	_	_	_	_	_	_	_	_	
+8-15	888-894	assist	_	_	_	_	_	_	_	_	_	_	
+8-16	895-896	,	_	_	_	_	_	_	_	_	_	_	
+8-17	897-900	two	2\_NUMBER	one	*	*	*	3	false	3	*	3	
+8-18	901-907	steals	_	_	_	_	_	_	_	_	_	_	
+8-19	908-911	and	_	_	_	_	_	_	_	_	_	_	
+8-20	912-915	two	_	_	_	_	_	_	_	_	_	_	
+8-21	916-922	blocks	_	_	_	_	_	_	_	_	_	_	
+8-22	923-924	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=James Harden led the Rockets with a 40 - point , 15 - assist double - double that also included 15 rebounds and one block .
+9-1	925-930	James	_	_	_	_	_	_	_	_	_	_	
+9-2	931-937	Harden	_	_	_	_	_	_	_	_	_	_	
+9-3	938-941	led	_	_	_	_	_	_	_	_	_	_	
+9-4	942-945	the	_	_	_	_	_	_	_	_	_	_	
+9-5	946-953	Rockets	_	_	_	_	_	_	_	_	_	_	
+9-6	954-958	with	_	_	_	_	_	_	_	_	_	_	
+9-7	959-960	a	_	_	_	_	_	_	_	_	_	_	
+9-8	961-963	40	_	_	_	_	_	_	_	_	_	_	
+9-9	964-965	-	_	_	_	_	_	_	_	_	_	_	
+9-10	966-971	point	_	_	_	_	_	_	_	_	_	_	
+9-11	972-973	,	_	_	_	_	_	_	_	_	_	_	
+9-12	974-976	15	_	_	_	_	_	_	_	_	_	_	
+9-13	977-978	-	_	_	_	_	_	_	_	_	_	_	
+9-14	979-985	assist	_	_	_	_	_	_	_	_	_	_	
+9-15	986-992	double	3\_WORD[7]	triple-double[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+9-16	993-994	-	3\_WORD[7]	triple-double[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+9-17	995-1001	double	3\_WORD[7]	triple-double[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+9-18	1002-1006	that	_	_	_	_	_	_	_	_	_	_	
+9-19	1007-1011	also	_	_	_	_	_	_	_	_	_	_	
+9-20	1012-1020	included	_	_	_	_	_	_	_	_	_	_	
+9-21	1021-1023	15	_	_	_	_	_	_	_	_	_	_	
+9-22	1024-1032	rebounds	_	_	_	_	_	_	_	_	_	_	
+9-23	1033-1036	and	_	_	_	_	_	_	_	_	_	_	
+9-24	1037-1040	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+9-25	1041-1046	block	_	_	_	_	_	_	_	_	_	_	
+9-26	1047-1048	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Frank Kaminsky III led the bench with 22 points , three rebounds and one assist .
+10-1	1049-1054	Frank	4\_CONTEXT[8]	*[8]	Kaminsky played for the Hornets[8]	*[8]	*[8]	3[8]	false[8]	3[8]	*[8]	3[8]	
+10-2	1055-1063	Kaminsky	4\_CONTEXT[8]	*[8]	Kaminsky played for the Hornets[8]	*[8]	*[8]	3[8]	false[8]	3[8]	*[8]	3[8]	
+10-3	1064-1067	III	4\_CONTEXT[8]	*[8]	Kaminsky played for the Hornets[8]	*[8]	*[8]	3[8]	false[8]	3[8]	*[8]	3[8]	
+10-4	1068-1071	led	_	_	_	_	_	_	_	_	_	_	
+10-5	1072-1075	the	_	_	_	_	_	_	_	_	_	_	
+10-6	1076-1081	bench	_	_	_	_	_	_	_	_	_	_	
+10-7	1082-1086	with	_	_	_	_	_	_	_	_	_	_	
+10-8	1087-1089	22	_	_	_	_	_	_	_	_	_	_	
+10-9	1090-1096	points	_	_	_	_	_	_	_	_	_	_	
+10-10	1097-1098	,	_	_	_	_	_	_	_	_	_	_	
+10-11	1099-1104	three	_	_	_	_	_	_	_	_	_	_	
+10-12	1105-1113	rebounds	_	_	_	_	_	_	_	_	_	_	
+10-13	1114-1117	and	_	_	_	_	_	_	_	_	_	_	
+10-14	1118-1121	one	_	_	_	_	_	_	_	_	_	_	
+10-15	1122-1128	assist	_	_	_	_	_	_	_	_	_	_	
+10-16	1129-1130	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Marvin Williams followed with a 16 - point , eight - rebound double - double that also included one steal , one block and one steal .
+11-1	1131-1137	Marvin	_	_	_	_	_	_	_	_	_	_	
+11-2	1138-1146	Williams	_	_	_	_	_	_	_	_	_	_	
+11-3	1147-1155	followed	_	_	_	_	_	_	_	_	_	_	
+11-4	1156-1160	with	_	_	_	_	_	_	_	_	_	_	
+11-5	1161-1162	a	_	_	_	_	_	_	_	_	_	_	
+11-6	1163-1165	16	_	_	_	_	_	_	_	_	_	_	
+11-7	1166-1167	-	_	_	_	_	_	_	_	_	_	_	
+11-8	1168-1173	point	_	_	_	_	_	_	_	_	_	_	
+11-9	1174-1175	,	_	_	_	_	_	_	_	_	_	_	
+11-10	1176-1181	eight	_	_	_	_	_	_	_	_	_	_	
+11-11	1182-1183	-	_	_	_	_	_	_	_	_	_	_	
+11-12	1184-1191	rebound	_	_	_	_	_	_	_	_	_	_	
+11-13	1192-1198	double	3\_WORD[9]	*[9]	Williams did not have a double-double[9]	*[9]	*[9]	3[9]	false[9]	3[9]	*[9]	3[9]	
+11-14	1199-1200	-	3\_WORD[9]	*[9]	Williams did not have a double-double[9]	*[9]	*[9]	3[9]	false[9]	3[9]	*[9]	3[9]	
+11-15	1201-1207	double	3\_WORD[9]	*[9]	Williams did not have a double-double[9]	*[9]	*[9]	3[9]	false[9]	3[9]	*[9]	3[9]	
+11-16	1208-1212	that	_	_	_	_	_	_	_	_	_	_	
+11-17	1213-1217	also	_	_	_	_	_	_	_	_	_	_	
+11-18	1218-1226	included	_	_	_	_	_	_	_	_	_	_	
+11-19	1227-1230	one	_	_	_	_	_	_	_	_	_	_	
+11-20	1231-1236	steal	_	_	_	_	_	_	_	_	_	_	
+11-21	1237-1238	,	_	_	_	_	_	_	_	_	_	_	
+11-22	1239-1242	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+11-23	1243-1248	block	_	_	_	_	_	_	_	_	_	_	
+11-24	1249-1252	and	_	_	_	_	_	_	_	_	_	_	
+11-25	1253-1256	one	_	_	_	_	_	_	_	_	_	_	
+11-26	1257-1262	steal	_	_	_	_	_	_	_	_	_	_	
+11-27	1263-1264	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Ryan Anderson was next with 13 points , two rebounds , one assist and two steals .
+12-1	1265-1269	Ryan	4\_CONTEXT[10]	*[10]	Anderson played for the Rockets[10]	*[10]	*[10]	2[10]	false[10]	2[10]	*[10]	2[10]	
+12-2	1270-1278	Anderson	4\_CONTEXT[10]	*[10]	Anderson played for the Rockets[10]	*[10]	*[10]	2[10]	false[10]	2[10]	*[10]	2[10]	
+12-3	1279-1282	was	_	_	_	_	_	_	_	_	_	_	
+12-4	1283-1287	next	_	_	_	_	_	_	_	_	_	_	
+12-5	1288-1292	with	_	_	_	_	_	_	_	_	_	_	
+12-6	1293-1295	13	_	_	_	_	_	_	_	_	_	_	
+12-7	1296-1302	points	_	_	_	_	_	_	_	_	_	_	
+12-8	1303-1304	,	_	_	_	_	_	_	_	_	_	_	
+12-9	1305-1308	two	_	_	_	_	_	_	_	_	_	_	
+12-10	1309-1317	rebounds	_	_	_	_	_	_	_	_	_	_	
+12-11	1318-1319	,	_	_	_	_	_	_	_	_	_	_	
+12-12	1320-1323	one	_	_	_	_	_	_	_	_	_	_	
+12-13	1324-1330	assist	_	_	_	_	_	_	_	_	_	_	
+12-14	1331-1334	and	_	_	_	_	_	_	_	_	_	_	
+12-15	1335-1338	two	_	_	_	_	_	_	_	_	_	_	
+12-16	1339-1345	steals	_	_	_	_	_	_	_	_	_	_	
+12-17	1346-1347	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Jeremy Lamb led the second unit with 11 points , five rebounds , four assists and one steal .
+13-1	1348-1354	Jeremy	4\_CONTEXT[11]	*[11]	Lamb played for the Hornets[11]	*[11]	*[11]	2[11]	false[11]	2[11]	*[11]	2[11]	
+13-2	1355-1359	Lamb	4\_CONTEXT[11]	*[11]	Lamb played for the Hornets[11]	*[11]	*[11]	2[11]	false[11]	2[11]	*[11]	2[11]	
+13-3	1360-1363	led	3\_WORD	*	Lamb was not the highest scorer for the starters or second unit	*	*	2	false	2	*	2	
+13-4	1364-1367	the	_	_	_	_	_	_	_	_	_	_	
+13-5	1368-1374	second	3\_WORD[12]	*[12]	Lamb was a starter[12]	*[12]	*[12]	3[12]	false[12]	3[12]	*[12]	3[12]	
+13-6	1375-1379	unit	3\_WORD[12]	*[12]	Lamb was a starter[12]	*[12]	*[12]	3[12]	false[12]	3[12]	*[12]	3[12]	
+13-7	1380-1384	with	_	_	_	_	_	_	_	_	_	_	
+13-8	1385-1387	11	_	_	_	_	_	_	_	_	_	_	
+13-9	1388-1394	points	_	_	_	_	_	_	_	_	_	_	
+13-10	1395-1396	,	_	_	_	_	_	_	_	_	_	_	
+13-11	1397-1401	five	_	_	_	_	_	_	_	_	_	_	
+13-12	1402-1410	rebounds	_	_	_	_	_	_	_	_	_	_	
+13-13	1411-1412	,	_	_	_	_	_	_	_	_	_	_	
+13-14	1413-1417	four	_	_	_	_	_	_	_	_	_	_	
+13-15	1418-1425	assists	_	_	_	_	_	_	_	_	_	_	
+13-16	1426-1429	and	_	_	_	_	_	_	_	_	_	_	
+13-17	1430-1433	one	_	_	_	_	_	_	_	_	_	_	
+13-18	1434-1439	steal	_	_	_	_	_	_	_	_	_	_	
+13-19	1440-1441	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Nene Hilario led the second unit with 10 points , five rebounds , one assist , two blocks and one steal .
+14-1	1442-1446	Nene	4\_CONTEXT[13]	*[13]	Hilario played for the Rockets[13]	*[13]	*[13]	2[13]	false[13]	2[13]	*[13]	2[13]	
+14-2	1447-1454	Hilario	4\_CONTEXT[13]	*[13]	Hilario played for the Rockets[13]	*[13]	*[13]	2[13]	false[13]	2[13]	*[13]	2[13]	
+14-3	1455-1458	led	3\_WORD	*	Hilario did not lead the bench in scoring	*	*	3	false	3	*	3	
+14-4	1459-1462	the	_	_	_	_	_	_	_	_	_	_	
+14-5	1463-1469	second	_	_	_	_	_	_	_	_	_	_	
+14-6	1470-1474	unit	_	_	_	_	_	_	_	_	_	_	
+14-7	1475-1479	with	_	_	_	_	_	_	_	_	_	_	
+14-8	1480-1482	10	_	_	_	_	_	_	_	_	_	_	
+14-9	1483-1489	points	_	_	_	_	_	_	_	_	_	_	
+14-10	1490-1491	,	_	_	_	_	_	_	_	_	_	_	
+14-11	1492-1496	five	_	_	_	_	_	_	_	_	_	_	
+14-12	1497-1505	rebounds	_	_	_	_	_	_	_	_	_	_	
+14-13	1506-1507	,	_	_	_	_	_	_	_	_	_	_	
+14-14	1508-1511	one	_	_	_	_	_	_	_	_	_	_	
+14-15	1512-1518	assist	_	_	_	_	_	_	_	_	_	_	
+14-16	1519-1520	,	_	_	_	_	_	_	_	_	_	_	
+14-17	1521-1524	two	_	_	_	_	_	_	_	_	_	_	
+14-18	1525-1531	blocks	_	_	_	_	_	_	_	_	_	_	
+14-19	1532-1535	and	_	_	_	_	_	_	_	_	_	_	
+14-20	1536-1539	one	_	_	_	_	_	_	_	_	_	_	
+14-21	1540-1545	steal	_	_	_	_	_	_	_	_	_	_	
+14-22	1546-1547	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Nene Hilario led the bench with 10 points , five rebounds , one assist , one steal and one block .
+15-1	1548-1552	Nene	_	_	_	_	_	_	_	_	_	_	
+15-2	1553-1560	Hilario	_	_	_	_	_	_	_	_	_	_	
+15-3	1561-1564	led	3\_WORD	*	Hilario did not lead the bench in scoring	*	*	3	false	3	*	3	
+15-4	1565-1568	the	_	_	_	_	_	_	_	_	_	_	
+15-5	1569-1574	bench	_	_	_	_	_	_	_	_	_	_	
+15-6	1575-1579	with	_	_	_	_	_	_	_	_	_	_	
+15-7	1580-1582	10	_	_	_	_	_	_	_	_	_	_	
+15-8	1583-1589	points	_	_	_	_	_	_	_	_	_	_	
+15-9	1590-1591	,	_	_	_	_	_	_	_	_	_	_	
+15-10	1592-1596	five	_	_	_	_	_	_	_	_	_	_	
+15-11	1597-1605	rebounds	_	_	_	_	_	_	_	_	_	_	
+15-12	1606-1607	,	_	_	_	_	_	_	_	_	_	_	
+15-13	1608-1611	one	_	_	_	_	_	_	_	_	_	_	
+15-14	1612-1618	assist	_	_	_	_	_	_	_	_	_	_	
+15-15	1619-1620	,	_	_	_	_	_	_	_	_	_	_	
+15-16	1621-1624	one	_	_	_	_	_	_	_	_	_	_	
+15-17	1625-1630	steal	_	_	_	_	_	_	_	_	_	_	
+15-18	1631-1634	and	_	_	_	_	_	_	_	_	_	_	
+15-19	1635-1638	one	2\_NUMBER	two	*	*	*	2	false	2	*	2	
+15-20	1639-1644	block	_	_	_	_	_	_	_	_	_	_	
+15-21	1645-1646	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Nene Hilario led the bench with 10 points , five rebounds , one assist , one steal and two blocks .
+16-1	1647-1651	Nene	_	_	_	_	_	_	_	_	_	_	
+16-2	1652-1659	Hilario	_	_	_	_	_	_	_	_	_	_	
+16-3	1660-1663	led	3\_WORD	*	Hilario did not lead the bench in scoring	*	*	3	false	3	*	3	
+16-4	1664-1667	the	_	_	_	_	_	_	_	_	_	_	
+16-5	1668-1673	bench	_	_	_	_	_	_	_	_	_	_	
+16-6	1674-1678	with	_	_	_	_	_	_	_	_	_	_	
+16-7	1679-1681	10	_	_	_	_	_	_	_	_	_	_	
+16-8	1682-1688	points	_	_	_	_	_	_	_	_	_	_	
+16-9	1689-1690	,	_	_	_	_	_	_	_	_	_	_	
+16-10	1691-1695	five	_	_	_	_	_	_	_	_	_	_	
+16-11	1696-1704	rebounds	_	_	_	_	_	_	_	_	_	_	
+16-12	1705-1706	,	_	_	_	_	_	_	_	_	_	_	
+16-13	1707-1710	one	_	_	_	_	_	_	_	_	_	_	
+16-14	1711-1717	assist	_	_	_	_	_	_	_	_	_	_	
+16-15	1718-1719	,	_	_	_	_	_	_	_	_	_	_	
+16-16	1720-1723	one	_	_	_	_	_	_	_	_	_	_	
+16-17	1724-1729	steal	_	_	_	_	_	_	_	_	_	_	
+16-18	1730-1733	and	_	_	_	_	_	_	_	_	_	_	
+16-19	1734-1737	two	_	_	_	_	_	_	_	_	_	_	
+16-20	1738-1744	blocks	_	_	_	_	_	_	_	_	_	_	
+16-21	1745-1746	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Nene Hilario registered 10 points , five rebounds , one assist , two steals and two blocks , while Nene Hilario led the bench with 10 points , five rebounds , one assist , one steal and two blocks .
+17-1	1747-1751	Nene	_	_	_	_	_	_	_	_	_	_	
+17-2	1752-1759	Hilario	_	_	_	_	_	_	_	_	_	_	
+17-3	1760-1770	registered	_	_	_	_	_	_	_	_	_	_	
+17-4	1771-1773	10	_	_	_	_	_	_	_	_	_	_	
+17-5	1774-1780	points	_	_	_	_	_	_	_	_	_	_	
+17-6	1781-1782	,	_	_	_	_	_	_	_	_	_	_	
+17-7	1783-1787	five	_	_	_	_	_	_	_	_	_	_	
+17-8	1788-1796	rebounds	_	_	_	_	_	_	_	_	_	_	
+17-9	1797-1798	,	_	_	_	_	_	_	_	_	_	_	
+17-10	1799-1802	one	_	_	_	_	_	_	_	_	_	_	
+17-11	1803-1809	assist	_	_	_	_	_	_	_	_	_	_	
+17-12	1810-1811	,	_	_	_	_	_	_	_	_	_	_	
+17-13	1812-1815	two	2\_NUMBER	one	*	*	*	3	false	3	*	3	
+17-14	1816-1822	steals	_	_	_	_	_	_	_	_	_	_	
+17-15	1823-1826	and	_	_	_	_	_	_	_	_	_	_	
+17-16	1827-1830	two	_	_	_	_	_	_	_	_	_	_	
+17-17	1831-1837	blocks	_	_	_	_	_	_	_	_	_	_	
+17-18	1838-1839	,	_	_	_	_	_	_	_	_	_	_	
+17-19	1840-1845	while	_	_	_	_	_	_	_	_	_	_	
+17-20	1846-1850	Nene	_	_	_	_	_	_	_	_	_	_	
+17-21	1851-1858	Hilario	_	_	_	_	_	_	_	_	_	_	
+17-22	1859-1862	led	3\_WORD	*	Hilario did not lead the bench in scoring	*	*	3	false	3	*	3	
+17-23	1863-1866	the	_	_	_	_	_	_	_	_	_	_	
+17-24	1867-1872	bench	_	_	_	_	_	_	_	_	_	_	
+17-25	1873-1877	with	_	_	_	_	_	_	_	_	_	_	
+17-26	1878-1880	10	_	_	_	_	_	_	_	_	_	_	
+17-27	1881-1887	points	_	_	_	_	_	_	_	_	_	_	
+17-28	1888-1889	,	_	_	_	_	_	_	_	_	_	_	
+17-29	1890-1894	five	_	_	_	_	_	_	_	_	_	_	
+17-30	1895-1903	rebounds	_	_	_	_	_	_	_	_	_	_	
+17-31	1904-1905	,	_	_	_	_	_	_	_	_	_	_	
+17-32	1906-1909	one	_	_	_	_	_	_	_	_	_	_	
+17-33	1910-1916	assist	_	_	_	_	_	_	_	_	_	_	
+17-34	1917-1918	,	_	_	_	_	_	_	_	_	_	_	
+17-35	1919-1922	one	_	_	_	_	_	_	_	_	_	_	
+17-36	1923-1928	steal	_	_	_	_	_	_	_	_	_	_	
+17-37	1929-1932	and	_	_	_	_	_	_	_	_	_	_	
+17-38	1933-1936	two	_	_	_	_	_	_	_	_	_	_	
+17-39	1937-1943	blocks	_	_	_	_	_	_	_	_	_	_	
+17-40	1944-1945	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Nene Hilario led the bench with 10 points , five rebounds , one assist , two steals and two blocks , in 19 minutes off the bench .
+18-1	1946-1950	Nene	_	_	_	_	_	_	_	_	_	_	
+18-2	1951-1958	Hilario	_	_	_	_	_	_	_	_	_	_	
+18-3	1959-1962	led	3\_WORD	*	Hilario did not lead the bench in scoring	*	*	3	false	3	*	3	
+18-4	1963-1966	the	_	_	_	_	_	_	_	_	_	_	
+18-5	1967-1972	bench	_	_	_	_	_	_	_	_	_	_	
+18-6	1973-1977	with	_	_	_	_	_	_	_	_	_	_	
+18-7	1978-1980	10	_	_	_	_	_	_	_	_	_	_	
+18-8	1981-1987	points	_	_	_	_	_	_	_	_	_	_	
+18-9	1988-1989	,	_	_	_	_	_	_	_	_	_	_	
+18-10	1990-1994	five	_	_	_	_	_	_	_	_	_	_	
+18-11	1995-2003	rebounds	_	_	_	_	_	_	_	_	_	_	
+18-12	2004-2005	,	_	_	_	_	_	_	_	_	_	_	
+18-13	2006-2009	one	_	_	_	_	_	_	_	_	_	_	
+18-14	2010-2016	assist	_	_	_	_	_	_	_	_	_	_	
+18-15	2017-2018	,	_	_	_	_	_	_	_	_	_	_	
+18-16	2019-2022	two	2\_NUMBER	one	*	*	*	3	false	3	*	3	
+18-17	2023-2029	steals	_	_	_	_	_	_	_	_	_	_	
+18-18	2030-2033	and	_	_	_	_	_	_	_	_	_	_	
+18-19	2034-2037	two	_	_	_	_	_	_	_	_	_	_	
+18-20	2038-2044	blocks	_	_	_	_	_	_	_	_	_	_	
+18-21	2045-2046	,	_	_	_	_	_	_	_	_	_	_	
+18-22	2047-2049	in	_	_	_	_	_	_	_	_	_	_	
+18-23	2050-2052	19	_	_	_	_	_	_	_	_	_	_	
+18-24	2053-2060	minutes	_	_	_	_	_	_	_	_	_	_	
+18-25	2061-2064	off	_	_	_	_	_	_	_	_	_	_	
+18-26	2065-2068	the	_	_	_	_	_	_	_	_	_	_	
+18-27	2069-2074	bench	_	_	_	_	_	_	_	_	_	_	
+18-28	2075-2076	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Kemba Walker paced the Rockets with a game - high 25 points , 10 assists , six rebounds , one steal and one block .
+19-1	2077-2082	Kemba	_	_	_	_	_	_	_	_	_	_	
+19-2	2083-2089	Walker	_	_	_	_	_	_	_	_	_	_	
+19-3	2090-2095	paced	_	_	_	_	_	_	_	_	_	_	
+19-4	2096-2099	the	_	_	_	_	_	_	_	_	_	_	
+19-5	2100-2107	Rockets	1\_NAME	Hornets	*	*	*	2	false	2	*	2	
+19-6	2108-2112	with	_	_	_	_	_	_	_	_	_	_	
+19-7	2113-2114	a	_	_	_	_	_	_	_	_	_	_	
+19-8	2115-2119	game	3\_WORD[14]	*[14]	Walker was not the game’s highest scorer[14]	*[14]	*[14]	2[14]	false[14]	2[14]	*[14]	2[14]	
+19-9	2120-2121	-	3\_WORD[14]	*[14]	Walker was not the game’s highest scorer[14]	*[14]	*[14]	2[14]	false[14]	2[14]	*[14]	2[14]	
+19-10	2122-2126	high	3\_WORD[14]	*[14]	Walker was not the game’s highest scorer[14]	*[14]	*[14]	2[14]	false[14]	2[14]	*[14]	2[14]	
+19-11	2127-2129	25	_	_	_	_	_	_	_	_	_	_	
+19-12	2130-2136	points	_	_	_	_	_	_	_	_	_	_	
+19-13	2137-2138	,	_	_	_	_	_	_	_	_	_	_	
+19-14	2139-2141	10	_	_	_	_	_	_	_	_	_	_	
+19-15	2142-2149	assists	_	_	_	_	_	_	_	_	_	_	
+19-16	2150-2151	,	_	_	_	_	_	_	_	_	_	_	
+19-17	2152-2155	six	_	_	_	_	_	_	_	_	_	_	
+19-18	2156-2164	rebounds	_	_	_	_	_	_	_	_	_	_	
+19-19	2165-2166	,	_	_	_	_	_	_	_	_	_	_	
+19-20	2167-2170	one	_	_	_	_	_	_	_	_	_	_	
+19-21	2171-2176	steal	_	_	_	_	_	_	_	_	_	_	
+19-22	2177-2180	and	_	_	_	_	_	_	_	_	_	_	
+19-23	2181-2184	one	_	_	_	_	_	_	_	_	_	_	
+19-24	2185-2190	block	_	_	_	_	_	_	_	_	_	_	
+19-25	2191-2192	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Frank Kaminsky III led the bench with 22 points , three rebounds and one assist .
+20-1	2193-2198	Frank	_	_	_	_	_	_	_	_	_	_	
+20-2	2199-2207	Kaminsky	_	_	_	_	_	_	_	_	_	_	
+20-3	2208-2211	III	_	_	_	_	_	_	_	_	_	_	
+20-4	2212-2215	led	_	_	_	_	_	_	_	_	_	_	
+20-5	2216-2219	the	_	_	_	_	_	_	_	_	_	_	
+20-6	2220-2225	bench	_	_	_	_	_	_	_	_	_	_	
+20-7	2226-2230	with	_	_	_	_	_	_	_	_	_	_	
+20-8	2231-2233	22	_	_	_	_	_	_	_	_	_	_	
+20-9	2234-2240	points	_	_	_	_	_	_	_	_	_	_	
+20-10	2241-2242	,	_	_	_	_	_	_	_	_	_	_	
+20-11	2243-2248	three	_	_	_	_	_	_	_	_	_	_	
+20-12	2249-2257	rebounds	_	_	_	_	_	_	_	_	_	_	
+20-13	2258-2261	and	_	_	_	_	_	_	_	_	_	_	
+20-14	2262-2265	one	_	_	_	_	_	_	_	_	_	_	
+20-15	2266-2272	assist	_	_	_	_	_	_	_	_	_	_	
+20-16	2273-2274	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Marvin Williams supplied 16 points , eight boards and one block .
+21-1	2275-2281	Marvin	_	_	_	_	_	_	_	_	_	_	
+21-2	2282-2290	Williams	_	_	_	_	_	_	_	_	_	_	
+21-3	2291-2299	supplied	_	_	_	_	_	_	_	_	_	_	
+21-4	2300-2302	16	_	_	_	_	_	_	_	_	_	_	
+21-5	2303-2309	points	_	_	_	_	_	_	_	_	_	_	
+21-6	2310-2311	,	_	_	_	_	_	_	_	_	_	_	
+21-7	2312-2317	eight	_	_	_	_	_	_	_	_	_	_	
+21-8	2318-2324	boards	_	_	_	_	_	_	_	_	_	_	
+21-9	2325-2328	and	_	_	_	_	_	_	_	_	_	_	
+21-10	2329-2332	one	2\_NUMBER	zero	*	3	CT: T1 changed block to steal which is incorrected based on NUMBER before WORD	3	false	2	*	2	
+21-11	2333-2338	block	_	_	_	_	_	_	_	_	_	_	
+21-12	2339-2340	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Jeremy Lamb led the second unit with 11 points , five rebounds , four assists and one steal .
+22-1	2341-2347	Jeremy	_	_	_	_	_	_	_	_	_	_	
+22-2	2348-2352	Lamb	_	_	_	_	_	_	_	_	_	_	
+22-3	2353-2356	led	3\_WORD	*	Lamb was not the highest scorer for the starters or second unit	*	*	2	false	2	*	2	
+22-4	2357-2360	the	_	_	_	_	_	_	_	_	_	_	
+22-5	2361-2367	second	3\_WORD[15]	*[15]	Lamb was a starter[15]	*[15]	*[15]	2[15]	false[15]	2[15]	*[15]	2[15]	
+22-6	2368-2372	unit	3\_WORD[15]	*[15]	Lamb was a starter[15]	*[15]	*[15]	2[15]	false[15]	2[15]	*[15]	2[15]	
+22-7	2373-2377	with	_	_	_	_	_	_	_	_	_	_	
+22-8	2378-2380	11	_	_	_	_	_	_	_	_	_	_	
+22-9	2381-2387	points	_	_	_	_	_	_	_	_	_	_	
+22-10	2388-2389	,	_	_	_	_	_	_	_	_	_	_	
+22-11	2390-2394	five	_	_	_	_	_	_	_	_	_	_	
+22-12	2395-2403	rebounds	_	_	_	_	_	_	_	_	_	_	
+22-13	2404-2405	,	_	_	_	_	_	_	_	_	_	_	
+22-14	2406-2410	four	_	_	_	_	_	_	_	_	_	_	
+22-15	2411-2418	assists	_	_	_	_	_	_	_	_	_	_	
+22-16	2419-2422	and	_	_	_	_	_	_	_	_	_	_	
+22-17	2423-2426	one	_	_	_	_	_	_	_	_	_	_	
+22-18	2427-2432	steal	_	_	_	_	_	_	_	_	_	_	
+22-19	2433-2434	.	_	_	_	_	_	_	_	_	_	_	

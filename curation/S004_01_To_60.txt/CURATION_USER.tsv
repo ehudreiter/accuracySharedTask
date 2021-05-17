@@ -1,0 +1,410 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The host Utah Jazz defeated the Los Angeles Lakers , 96 - 89 , at Vivint Smart Home Arena on Friday .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-8	host	_	_	_	_	_	_	_	_	_	_	
+1-3	9-13	Utah	_	_	_	_	_	_	_	_	_	_	
+1-4	14-18	Jazz	_	_	_	_	_	_	_	_	_	_	
+1-5	19-27	defeated	_	_	_	_	_	_	_	_	_	_	
+1-6	28-31	the	_	_	_	_	_	_	_	_	_	_	
+1-7	32-35	Los	_	_	_	_	_	_	_	_	_	_	
+1-8	36-43	Angeles	_	_	_	_	_	_	_	_	_	_	
+1-9	44-50	Lakers	_	_	_	_	_	_	_	_	_	_	
+1-10	51-52	,	_	_	_	_	_	_	_	_	_	_	
+1-11	53-55	96	_	_	_	_	_	_	_	_	_	_	
+1-12	56-57	-	_	_	_	_	_	_	_	_	_	_	
+1-13	58-60	89	_	_	_	_	_	_	_	_	_	_	
+1-14	61-62	,	_	_	_	_	_	_	_	_	_	_	
+1-15	63-65	at	_	_	_	_	_	_	_	_	_	_	
+1-16	66-72	Vivint	_	_	_	_	_	_	_	_	_	_	
+1-17	73-78	Smart	_	_	_	_	_	_	_	_	_	_	
+1-18	79-83	Home	_	_	_	_	_	_	_	_	_	_	
+1-19	84-89	Arena	_	_	_	_	_	_	_	_	_	_	
+1-20	90-92	on	_	_	_	_	_	_	_	_	_	_	
+1-21	93-99	Friday	_	_	_	_	_	_	_	_	_	_	
+1-22	100-101	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Jazz ( 1 - 1 ) have been one of the best teams in the NBA this season , but they were able to prevail with a win .
+2-1	102-105	The	_	_	_	_	_	_	_	_	_	_	
+2-2	106-110	Jazz	_	_	_	_	_	_	_	_	_	_	
+2-3	111-112	(	_	_	_	_	_	_	_	_	_	_	
+2-4	113-114	1	_	_	_	_	_	_	_	_	_	_	
+2-5	115-116	-	_	_	_	_	_	_	_	_	_	_	
+2-6	117-118	1	_	_	_	_	_	_	_	_	_	_	
+2-7	119-120	)	_	_	_	_	_	_	_	_	_	_	
+2-8	121-125	have	_	_	_	_	_	_	_	_	_	_	
+2-9	126-130	been	_	_	_	_	_	_	_	_	_	_	
+2-10	131-134	one	_	_	_	_	_	_	_	_	_	_	
+2-11	135-137	of	_	_	_	_	_	_	_	_	_	_	
+2-12	138-141	the	_	_	_	_	_	_	_	_	_	_	
+2-13	142-146	best	_	_	_	_	_	_	_	_	_	_	
+2-14	147-152	teams	_	_	_	_	_	_	_	_	_	_	
+2-15	153-155	in	_	_	_	_	_	_	_	_	_	_	
+2-16	156-159	the	_	_	_	_	_	_	_	_	_	_	
+2-17	160-163	NBA	_	_	_	_	_	_	_	_	_	_	
+2-18	164-168	this	_	_	_	_	_	_	_	_	_	_	
+2-19	169-175	season	_	_	_	_	_	_	_	_	_	_	
+2-20	176-177	,	_	_	_	_	_	_	_	_	_	_	
+2-21	178-181	but	_	_	_	_	_	_	_	_	_	_	
+2-22	182-186	they	_	_	_	_	_	_	_	_	_	_	
+2-23	187-191	were	_	_	_	_	_	_	_	_	_	_	
+2-24	192-196	able	_	_	_	_	_	_	_	_	_	_	
+2-25	197-199	to	_	_	_	_	_	_	_	_	_	_	
+2-26	200-207	prevail	_	_	_	_	_	_	_	_	_	_	
+2-27	208-212	with	_	_	_	_	_	_	_	_	_	_	
+2-28	213-214	a	_	_	_	_	_	_	_	_	_	_	
+2-29	215-218	win	_	_	_	_	_	_	_	_	_	_	
+2-30	219-220	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=In fact , the Jazz led for the majority of the game , as they outscored the Lakers by 16 in the fourth quarter .
+3-1	221-223	In	_	_	_	_	_	_	_	_	_	_	
+3-2	224-228	fact	_	_	_	_	_	_	_	_	_	_	
+3-3	229-230	,	_	_	_	_	_	_	_	_	_	_	
+3-4	231-234	the	_	_	_	_	_	_	_	_	_	_	
+3-5	235-239	Jazz	_	_	_	_	_	_	_	_	_	_	
+3-6	240-243	led	_	_	_	_	_	_	_	_	_	_	
+3-7	244-247	for	_	_	_	_	_	_	_	_	_	_	
+3-8	248-251	the	_	_	_	_	_	_	_	_	_	_	
+3-9	252-260	majority	_	_	_	_	_	_	_	_	_	_	
+3-10	261-263	of	_	_	_	_	_	_	_	_	_	_	
+3-11	264-267	the	_	_	_	_	_	_	_	_	_	_	
+3-12	268-272	game	_	_	_	_	_	_	_	_	_	_	
+3-13	273-274	,	_	_	_	_	_	_	_	_	_	_	
+3-14	275-277	as	_	_	_	_	_	_	_	_	_	_	
+3-15	278-282	they	_	_	_	_	_	_	_	_	_	_	
+3-16	283-292	outscored	_	_	_	_	_	_	_	_	_	_	
+3-17	293-296	the	_	_	_	_	_	_	_	_	_	_	
+3-18	297-303	Lakers	_	_	_	_	_	_	_	_	_	_	
+3-19	304-306	by	_	_	_	_	_	_	_	_	_	_	
+3-20	307-309	16	2\_NUMBER	7	*	*	*	3	false	3	*	3	
+3-21	310-312	in	_	_	_	_	_	_	_	_	_	_	
+3-22	313-316	the	_	_	_	_	_	_	_	_	_	_	
+3-23	317-323	fourth	_	_	_	_	_	_	_	_	_	_	
+3-24	324-331	quarter	_	_	_	_	_	_	_	_	_	_	
+3-25	332-333	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Rebounding was key for the Jazz , as they held the Lakers to 38 percent from the field and 24 percent from three - point range .
+4-1	334-344	Rebounding	3\_WORD	*	should be “Defense”	2	CT: T1 said context error	2	true	2	3\_WORD	1	
+4-2	345-348	was	_	_	_	_	_	_	_	_	_	_	
+4-3	349-352	key	_	_	_	_	_	_	_	_	_	_	
+4-4	353-356	for	_	_	_	_	_	_	_	_	_	_	
+4-5	357-360	the	_	_	_	_	_	_	_	_	_	_	
+4-6	361-365	Jazz	_	_	_	_	_	_	_	_	_	_	
+4-7	366-367	,	_	_	_	_	_	_	_	_	_	_	
+4-8	368-370	as	_	_	_	_	_	_	_	_	_	_	
+4-9	371-375	they	_	_	_	_	_	_	_	_	_	_	
+4-10	376-380	held	_	_	_	_	_	_	_	_	_	_	
+4-11	381-384	the	_	_	_	_	_	_	_	_	_	_	
+4-12	385-391	Lakers	_	_	_	_	_	_	_	_	_	_	
+4-13	392-394	to	_	_	_	_	_	_	_	_	_	_	
+4-14	395-397	38	_	_	_	_	_	_	_	_	_	_	
+4-15	398-405	percent	_	_	_	_	_	_	_	_	_	_	
+4-16	406-410	from	_	_	_	_	_	_	_	_	_	_	
+4-17	411-414	the	_	_	_	_	_	_	_	_	_	_	
+4-18	415-420	field	_	_	_	_	_	_	_	_	_	_	
+4-19	421-424	and	_	_	_	_	_	_	_	_	_	_	
+4-20	425-427	24	2\_NUMBER	39	*	*	CT: T3 said 40 probably a rounding error	3	true	3	*	3	
+4-21	428-435	percent	_	_	_	_	_	_	_	_	_	_	
+4-22	436-440	from	_	_	_	_	_	_	_	_	_	_	
+4-23	441-446	three	_	_	_	_	_	_	_	_	_	_	
+4-24	447-448	-	_	_	_	_	_	_	_	_	_	_	
+4-25	449-454	point	_	_	_	_	_	_	_	_	_	_	
+4-26	455-460	range	_	_	_	_	_	_	_	_	_	_	
+4-27	461-462	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Rebounding was a huge factor as well , with the Jazz winning that battle , 43 - 24 .
+5-1	463-473	Rebounding	_	_	_	_	_	_	_	_	_	_	
+5-2	474-477	was	_	_	_	_	_	_	_	_	_	_	
+5-3	478-479	a	_	_	_	_	_	_	_	_	_	_	
+5-4	480-484	huge	_	_	_	_	_	_	_	_	_	_	
+5-5	485-491	factor	_	_	_	_	_	_	_	_	_	_	
+5-6	492-494	as	_	_	_	_	_	_	_	_	_	_	
+5-7	495-499	well	_	_	_	_	_	_	_	_	_	_	
+5-8	500-501	,	_	_	_	_	_	_	_	_	_	_	
+5-9	502-506	with	_	_	_	_	_	_	_	_	_	_	
+5-10	507-510	the	_	_	_	_	_	_	_	_	_	_	
+5-11	511-515	Jazz	_	_	_	_	_	_	_	_	_	_	
+5-12	516-523	winning	_	_	_	_	_	_	_	_	_	_	
+5-13	524-528	that	_	_	_	_	_	_	_	_	_	_	
+5-14	529-535	battle	_	_	_	_	_	_	_	_	_	_	
+5-15	536-537	,	_	_	_	_	_	_	_	_	_	_	
+5-16	538-540	43	2\_NUMBER	47	*	*	*	3	false	3	*	3	
+5-17	541-542	-	_	_	_	_	_	_	_	_	_	_	
+5-18	543-545	24	2\_NUMBER	43	*	*	*	3	false	3	*	3	
+5-19	546-547	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Lakers ( 1 - 1 ) had to play this game without Kobe Bryant , but they did n000t have enough offense to pull out the win .
+6-1	548-551	The	_	_	_	_	_	_	_	_	_	_	
+6-2	552-558	Lakers	_	_	_	_	_	_	_	_	_	_	
+6-3	559-560	(	_	_	_	_	_	_	_	_	_	_	
+6-4	561-562	1	_	_	_	_	_	_	_	_	_	_	
+6-5	563-564	-	_	_	_	_	_	_	_	_	_	_	
+6-6	565-566	1	_	_	_	_	_	_	_	_	_	_	
+6-7	567-568	)	_	_	_	_	_	_	_	_	_	_	
+6-8	569-572	had	_	_	_	_	_	_	_	_	_	_	
+6-9	573-575	to	_	_	_	_	_	_	_	_	_	_	
+6-10	576-580	play	_	_	_	_	_	_	_	_	_	_	
+6-11	581-585	this	_	_	_	_	_	_	_	_	_	_	
+6-12	586-590	game	_	_	_	_	_	_	_	_	_	_	
+6-13	591-598	without	_	_	_	_	_	_	_	_	_	_	
+6-14	599-603	Kobe	_	_	_	_	_	_	_	_	_	_	
+6-15	604-610	Bryant	_	_	_	_	_	_	_	_	_	_	
+6-16	611-612	,	_	_	_	_	_	_	_	_	_	_	
+6-17	613-616	but	_	_	_	_	_	_	_	_	_	_	
+6-18	617-621	they	_	_	_	_	_	_	_	_	_	_	
+6-19	622-625	did	_	_	_	_	_	_	_	_	_	_	
+6-20	626-631	n000t	_	_	_	_	_	_	_	_	_	_	
+6-21	632-636	have	_	_	_	_	_	_	_	_	_	_	
+6-22	637-643	enough	_	_	_	_	_	_	_	_	_	_	
+6-23	644-651	offense	_	_	_	_	_	_	_	_	_	_	
+6-24	652-654	to	_	_	_	_	_	_	_	_	_	_	
+6-25	655-659	pull	_	_	_	_	_	_	_	_	_	_	
+6-26	660-663	out	_	_	_	_	_	_	_	_	_	_	
+6-27	664-667	the	_	_	_	_	_	_	_	_	_	_	
+6-28	668-671	win	_	_	_	_	_	_	_	_	_	_	
+6-29	672-673	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=D000Angelo Russell led the team in scoring , as he tallied 17 points , five rebounds and five assists .
+7-1	674-684	D000Angelo	1\_NAME[1]	Lou Williams[1]	*[1]	*[1]	CT: T2 highlighted that this player did not lead and actually had the correct smallest set of annotations[1]	3[1]	true[1]	2[1]	*[1]	2[1]	
+7-2	685-692	Russell	1\_NAME[1]	Lou Williams[1]	*[1]	*[1]	CT: T2 highlighted that this player did not lead and actually had the correct smallest set of annotations[1]	3[1]	true[1]	2[1]	*[1]	2[1]	
+7-3	693-696	led	_	_	_	_	_	_	_	_	_	_	
+7-4	697-700	the	_	_	_	_	_	_	_	_	_	_	
+7-5	701-705	team	_	_	_	_	_	_	_	_	_	_	
+7-6	706-708	in	_	_	_	_	_	_	_	_	_	_	
+7-7	709-716	scoring	_	_	_	_	_	_	_	_	_	_	
+7-8	717-718	,	_	_	_	_	_	_	_	_	_	_	
+7-9	719-721	as	_	_	_	_	_	_	_	_	_	_	
+7-10	722-724	he	_	_	_	_	_	_	_	_	_	_	
+7-11	725-732	tallied	_	_	_	_	_	_	_	_	_	_	
+7-12	733-735	17	_	_	_	_	_	_	_	_	_	_	
+7-13	736-742	points	_	_	_	_	_	_	_	_	_	_	
+7-14	743-744	,	_	_	_	_	_	_	_	_	_	_	
+7-15	745-749	five	2\_NUMBER	zero	*	*	CT: T2 highlighted that this player did not lead and actually had the correct smallest set of annotations	3	true	2	*	2	
+7-16	750-758	rebounds	_	_	_	_	_	_	_	_	_	_	
+7-17	759-762	and	_	_	_	_	_	_	_	_	_	_	
+7-18	763-767	five	2\_NUMBER	six	*	*	CT: T2 highlighted that this player did not lead and actually had the correct smallest set of annotations	3	true	2	*	2	
+7-19	768-775	assists	_	_	_	_	_	_	_	_	_	_	
+7-20	776-777	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Luol Deng was the only other starter in double figures , as he totaled 12 points and 12 rebounds .
+8-1	778-782	Luol	_	_	_	_	_	_	_	_	_	_	
+8-2	783-787	Deng	_	_	_	_	_	_	_	_	_	_	
+8-3	788-791	was	_	_	_	_	_	_	_	_	_	_	
+8-4	792-795	the	_	_	_	_	_	_	_	_	_	_	
+8-5	796-800	only	3\_WORD[2]	*[2]	two starters besides Russell had 10+ pts[2]	*[2]	*[2]	2[2]	false[2]	1[2]	*[2]	2[2]	
+8-6	801-806	other	3\_WORD[2]	*[2]	two starters besides Russell had 10+ pts[2]	*[2]	*[2]	2[2]	false[2]	1[2]	*[2]	2[2]	
+8-7	807-814	starter	_	_	_	_	_	_	_	_	_	_	
+8-8	815-817	in	_	_	_	_	_	_	_	_	_	_	
+8-9	818-824	double	_	_	_	_	_	_	_	_	_	_	
+8-10	825-832	figures	_	_	_	_	_	_	_	_	_	_	
+8-11	833-834	,	_	_	_	_	_	_	_	_	_	_	
+8-12	835-837	as	_	_	_	_	_	_	_	_	_	_	
+8-13	838-840	he	_	_	_	_	_	_	_	_	_	_	
+8-14	841-848	totaled	_	_	_	_	_	_	_	_	_	_	
+8-15	849-851	12	_	_	_	_	_	_	_	_	_	_	
+8-16	852-858	points	_	_	_	_	_	_	_	_	_	_	
+8-17	859-862	and	_	_	_	_	_	_	_	_	_	_	
+8-18	863-865	12	_	_	_	_	_	_	_	_	_	_	
+8-19	866-874	rebounds	_	_	_	_	_	_	_	_	_	_	
+8-20	875-876	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=D000Angelo Russell led the Lakers in scoring , as he tallied 17 points , five rebounds and five assists .
+9-1	877-887	D000Angelo	1\_NAME[3]	Lou Williams[3]	*[3]	*[3]	CT: T2 highlighted that this player did not lead and actually had the correct smallest set of annotations[3]	3[3]	true[3]	2[3]	*[3]	2[3]	
+9-2	888-895	Russell	1\_NAME[3]	Lou Williams[3]	*[3]	*[3]	CT: T2 highlighted that this player did not lead and actually had the correct smallest set of annotations[3]	3[3]	true[3]	2[3]	*[3]	2[3]	
+9-3	896-899	led	_	_	_	_	_	_	_	_	_	_	
+9-4	900-903	the	_	_	_	_	_	_	_	_	_	_	
+9-5	904-910	Lakers	_	_	_	_	_	_	_	_	_	_	
+9-6	911-913	in	_	_	_	_	_	_	_	_	_	_	
+9-7	914-921	scoring	_	_	_	_	_	_	_	_	_	_	
+9-8	922-923	,	_	_	_	_	_	_	_	_	_	_	
+9-9	924-926	as	_	_	_	_	_	_	_	_	_	_	
+9-10	927-929	he	_	_	_	_	_	_	_	_	_	_	
+9-11	930-937	tallied	_	_	_	_	_	_	_	_	_	_	
+9-12	938-940	17	_	_	_	_	_	_	_	_	_	_	
+9-13	941-947	points	_	_	_	_	_	_	_	_	_	_	
+9-14	948-949	,	_	_	_	_	_	_	_	_	_	_	
+9-15	950-954	five	2\_NUMBER	zero	*	*	CT: T2 highlighted that this player did not lead and actually had the correct smallest set of annotations	3	true	2	*	2	
+9-16	955-963	rebounds	_	_	_	_	_	_	_	_	_	_	
+9-17	964-967	and	_	_	_	_	_	_	_	_	_	_	
+9-18	968-972	five	2\_NUMBER	six	*	*	CT: T2 highlighted that this player did not lead and actually had the correct smallest set of annotations	3	true	3	*	3	
+9-19	973-980	assists	_	_	_	_	_	_	_	_	_	_	
+9-20	981-982	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Luol Deng was the only other starter in double figures , as he totaled 12 points and 12 rebounds .
+10-1	983-987	Luol	_	_	_	_	_	_	_	_	_	_	
+10-2	988-992	Deng	_	_	_	_	_	_	_	_	_	_	
+10-3	993-996	was	_	_	_	_	_	_	_	_	_	_	
+10-4	997-1000	the	_	_	_	_	_	_	_	_	_	_	
+10-5	1001-1005	only	3\_WORD[4]	*[4]	two starters besides Russell had 10+ pts[4]	*[4]	*[4]	2[4]	false[4]	1[4]	*[4]	2[4]	
+10-6	1006-1011	other	3\_WORD[4]	*[4]	two starters besides Russell had 10+ pts[4]	*[4]	*[4]	2[4]	false[4]	1[4]	*[4]	2[4]	
+10-7	1012-1019	starter	_	_	_	_	_	_	_	_	_	_	
+10-8	1020-1022	in	_	_	_	_	_	_	_	_	_	_	
+10-9	1023-1029	double	_	_	_	_	_	_	_	_	_	_	
+10-10	1030-1037	figures	_	_	_	_	_	_	_	_	_	_	
+10-11	1038-1039	,	_	_	_	_	_	_	_	_	_	_	
+10-12	1040-1042	as	_	_	_	_	_	_	_	_	_	_	
+10-13	1043-1045	he	_	_	_	_	_	_	_	_	_	_	
+10-14	1046-1053	totaled	_	_	_	_	_	_	_	_	_	_	
+10-15	1054-1056	12	_	_	_	_	_	_	_	_	_	_	
+10-16	1057-1063	points	_	_	_	_	_	_	_	_	_	_	
+10-17	1064-1067	and	_	_	_	_	_	_	_	_	_	_	
+10-18	1068-1070	12	_	_	_	_	_	_	_	_	_	_	
+10-19	1071-1079	rebounds	_	_	_	_	_	_	_	_	_	_	
+10-20	1080-1081	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=On deck for Los Angeles is a home matchup against the Portland Trail Blazers on Sunday .
+11-1	1082-1084	On	_	_	_	_	_	_	_	_	_	_	
+11-2	1085-1089	deck	_	_	_	_	_	_	_	_	_	_	
+11-3	1090-1093	for	_	_	_	_	_	_	_	_	_	_	
+11-4	1094-1097	Los	_	_	_	_	_	_	_	_	_	_	
+11-5	1098-1105	Angeles	_	_	_	_	_	_	_	_	_	_	
+11-6	1106-1108	is	_	_	_	_	_	_	_	_	_	_	
+11-7	1109-1110	a	_	_	_	_	_	_	_	_	_	_	
+11-8	1111-1115	home	3\_WORD	*	The Lakers next game is on the road	*	*	3	false	3	*	3	
+11-9	1116-1123	matchup	_	_	_	_	_	_	_	_	_	_	
+11-10	1124-1131	against	_	_	_	_	_	_	_	_	_	_	
+11-11	1132-1135	the	_	_	_	_	_	_	_	_	_	_	
+11-12	1136-1144	Portland	1\_NAME[5]	Oklahoma City Thunder[5]	*[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+11-13	1145-1150	Trail	1\_NAME[5]	Oklahoma City Thunder[5]	*[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+11-14	1151-1158	Blazers	1\_NAME[5]	Oklahoma City Thunder[5]	*[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+11-15	1159-1161	on	_	_	_	_	_	_	_	_	_	_	
+11-16	1162-1168	Sunday	_	_	_	_	_	_	_	_	_	_	
+11-17	1169-1170	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Jazz ( 1 - 1 ) have now won four of their last five games , as they continue to struggle .
+12-1	1171-1174	The	_	_	_	_	_	_	_	_	_	_	
+12-2	1175-1179	Jazz	_	_	_	_	_	_	_	_	_	_	
+12-3	1180-1181	(	_	_	_	_	_	_	_	_	_	_	
+12-4	1182-1183	1	_	_	_	_	_	_	_	_	_	_	
+12-5	1184-1185	-	_	_	_	_	_	_	_	_	_	_	
+12-6	1186-1187	1	_	_	_	_	_	_	_	_	_	_	
+12-7	1188-1189	)	_	_	_	_	_	_	_	_	_	_	
+12-8	1190-1194	have	_	_	_	_	_	_	_	_	_	_	
+12-9	1195-1198	now	_	_	_	_	_	_	_	_	_	_	
+12-10	1199-1202	won	_	_	_	_	_	_	_	_	_	_	
+12-11	1203-1207	four	2\_NUMBER	ONE	*	*	*	3	false	2	*	3	
+12-12	1208-1210	of	_	_	_	_	_	_	_	_	_	_	
+12-13	1211-1216	their	_	_	_	_	_	_	_	_	_	_	
+12-14	1217-1221	last	_	_	_	_	_	_	_	_	_	_	
+12-15	1222-1226	five	2\_NUMBER	*	*	*	CT: Note that for X of Y workers correct Y usually only if it is nonensical	3	false	2	*	3	
+12-16	1227-1232	games	_	_	_	_	_	_	_	_	_	_	
+12-17	1233-1234	,	_	_	_	_	_	_	_	_	_	_	
+12-18	1235-1237	as	_	_	_	_	_	_	_	_	_	_	
+12-19	1238-1242	they	_	_	_	_	_	_	_	_	_	_	
+12-20	1243-1251	continue	_	_	_	_	_	_	_	_	_	_	
+12-21	1252-1254	to	_	_	_	_	_	_	_	_	_	_	
+12-22	1255-1263	struggle	_	_	_	_	_	_	_	_	_	_	
+12-23	1264-1265	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=George Hill was the player of the game , as he led the team with 23 points , three rebounds and three assists on 7 - of - 14 shooting .
+13-1	1266-1272	George	_	_	_	_	_	_	_	_	_	_	
+13-2	1273-1277	Hill	_	_	_	_	_	_	_	_	_	_	
+13-3	1278-1281	was	_	_	_	_	_	_	_	_	_	_	
+13-4	1282-1285	the	_	_	_	_	_	_	_	_	_	_	
+13-5	1286-1292	player	_	_	_	_	_	_	_	_	_	_	
+13-6	1293-1295	of	_	_	_	_	_	_	_	_	_	_	
+13-7	1296-1299	the	_	_	_	_	_	_	_	_	_	_	
+13-8	1300-1304	game	_	_	_	_	_	_	_	_	_	_	
+13-9	1305-1306	,	_	_	_	_	_	_	_	_	_	_	
+13-10	1307-1309	as	_	_	_	_	_	_	_	_	_	_	
+13-11	1310-1312	he	_	_	_	_	_	_	_	_	_	_	
+13-12	1313-1316	led	_	_	_	_	_	_	_	_	_	_	
+13-13	1317-1320	the	_	_	_	_	_	_	_	_	_	_	
+13-14	1321-1325	team	_	_	_	_	_	_	_	_	_	_	
+13-15	1326-1330	with	_	_	_	_	_	_	_	_	_	_	
+13-16	1331-1333	23	_	_	_	_	_	_	_	_	_	_	
+13-17	1334-1340	points	_	_	_	_	_	_	_	_	_	_	
+13-18	1341-1342	,	_	_	_	_	_	_	_	_	_	_	
+13-19	1343-1348	three	_	_	_	_	_	_	_	_	_	_	
+13-20	1349-1357	rebounds	_	_	_	_	_	_	_	_	_	_	
+13-21	1358-1361	and	_	_	_	_	_	_	_	_	_	_	
+13-22	1362-1367	three	_	_	_	_	_	_	_	_	_	_	
+13-23	1368-1375	assists	_	_	_	_	_	_	_	_	_	_	
+13-24	1376-1378	on	_	_	_	_	_	_	_	_	_	_	
+13-25	1379-1380	7	_	_	_	_	_	_	_	_	_	_	
+13-26	1381-1382	-	_	_	_	_	_	_	_	_	_	_	
+13-27	1383-1385	of	_	_	_	_	_	_	_	_	_	_	
+13-28	1386-1387	-	_	_	_	_	_	_	_	_	_	_	
+13-29	1388-1390	14	_	_	_	_	_	_	_	_	_	_	
+13-30	1391-1399	shooting	_	_	_	_	_	_	_	_	_	_	
+13-31	1400-1401	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Rudy Gobert finished second on the team , totaling 13 points , 13 rebounds and four blocks .
+14-1	1402-1406	Rudy	_	_	_	_	_	_	_	_	_	_	
+14-2	1407-1413	Gobert	_	_	_	_	_	_	_	_	_	_	
+14-3	1414-1422	finished	_	_	_	_	_	_	_	_	_	_	
+14-4	1423-1429	second	2\_NUMBER	fourth	*	*	*	3	false	3	*	3	
+14-5	1430-1432	on	_	_	_	_	_	_	_	_	_	_	
+14-6	1433-1436	the	_	_	_	_	_	_	_	_	_	_	
+14-7	1437-1441	team	_	_	_	_	_	_	_	_	_	_	
+14-8	1442-1443	,	_	_	_	_	_	_	_	_	_	_	
+14-9	1444-1452	totaling	_	_	_	_	_	_	_	_	_	_	
+14-10	1453-1455	13	_	_	_	_	_	_	_	_	_	_	
+14-11	1456-1462	points	_	_	_	_	_	_	_	_	_	_	
+14-12	1463-1464	,	_	_	_	_	_	_	_	_	_	_	
+14-13	1465-1467	13	_	_	_	_	_	_	_	_	_	_	
+14-14	1468-1476	rebounds	_	_	_	_	_	_	_	_	_	_	
+14-15	1477-1480	and	_	_	_	_	_	_	_	_	_	_	
+14-16	1481-1485	four	_	_	_	_	_	_	_	_	_	_	
+14-17	1486-1492	blocks	_	_	_	_	_	_	_	_	_	_	
+14-18	1493-1494	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Rudy Gobert recorded a double - double , totaling 13 points and 13 rebounds .
+15-1	1495-1499	Rudy	_	_	_	_	_	_	_	_	_	_	
+15-2	1500-1506	Gobert	_	_	_	_	_	_	_	_	_	_	
+15-3	1507-1515	recorded	_	_	_	_	_	_	_	_	_	_	
+15-4	1516-1517	a	_	_	_	_	_	_	_	_	_	_	
+15-5	1518-1524	double	_	_	_	_	_	_	_	_	_	_	
+15-6	1525-1526	-	_	_	_	_	_	_	_	_	_	_	
+15-7	1527-1533	double	_	_	_	_	_	_	_	_	_	_	
+15-8	1534-1535	,	_	_	_	_	_	_	_	_	_	_	
+15-9	1536-1544	totaling	_	_	_	_	_	_	_	_	_	_	
+15-10	1545-1547	13	_	_	_	_	_	_	_	_	_	_	
+15-11	1548-1554	points	_	_	_	_	_	_	_	_	_	_	
+15-12	1555-1558	and	_	_	_	_	_	_	_	_	_	_	
+15-13	1559-1561	13	_	_	_	_	_	_	_	_	_	_	
+15-14	1562-1570	rebounds	_	_	_	_	_	_	_	_	_	_	
+15-15	1571-1572	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Rudy Gobert recorded a double - double , totaling 13 points , 13 rebounds and four blocks .
+16-1	1573-1577	Rudy	_	_	_	_	_	_	_	_	_	_	
+16-2	1578-1584	Gobert	_	_	_	_	_	_	_	_	_	_	
+16-3	1585-1593	recorded	_	_	_	_	_	_	_	_	_	_	
+16-4	1594-1595	a	_	_	_	_	_	_	_	_	_	_	
+16-5	1596-1602	double	_	_	_	_	_	_	_	_	_	_	
+16-6	1603-1604	-	_	_	_	_	_	_	_	_	_	_	
+16-7	1605-1611	double	_	_	_	_	_	_	_	_	_	_	
+16-8	1612-1613	,	_	_	_	_	_	_	_	_	_	_	
+16-9	1614-1622	totaling	_	_	_	_	_	_	_	_	_	_	
+16-10	1623-1625	13	_	_	_	_	_	_	_	_	_	_	
+16-11	1626-1632	points	_	_	_	_	_	_	_	_	_	_	
+16-12	1633-1634	,	_	_	_	_	_	_	_	_	_	_	
+16-13	1635-1637	13	_	_	_	_	_	_	_	_	_	_	
+16-14	1638-1646	rebounds	_	_	_	_	_	_	_	_	_	_	
+16-15	1647-1650	and	_	_	_	_	_	_	_	_	_	_	
+16-16	1651-1655	four	_	_	_	_	_	_	_	_	_	_	
+16-17	1656-1662	blocks	_	_	_	_	_	_	_	_	_	_	
+16-18	1663-1664	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Jazz will look to bounce back on Sunday in a home matchup against the Portland Trail Blazers .
+17-1	1665-1668	The	_	_	_	_	_	_	_	_	_	_	
+17-2	1669-1673	Jazz	_	_	_	_	_	_	_	_	_	_	
+17-3	1674-1678	will	_	_	_	_	_	_	_	_	_	_	
+17-4	1679-1683	look	_	_	_	_	_	_	_	_	_	_	
+17-5	1684-1686	to	_	_	_	_	_	_	_	_	_	_	
+17-6	1687-1693	bounce	3\_WORD[6]	*[6]	incorrectly implies that the Jazz lost the game[6]	*[6]	*[6]	3[6]	false[6]	3[6]	*[6]	3[6]	
+17-7	1694-1698	back	3\_WORD[6]	*[6]	incorrectly implies that the Jazz lost the game[6]	*[6]	*[6]	3[6]	false[6]	3[6]	*[6]	3[6]	
+17-8	1699-1701	on	_	_	_	_	_	_	_	_	_	_	
+17-9	1702-1708	Sunday	_	_	_	_	_	_	_	_	_	_	
+17-10	1709-1711	in	_	_	_	_	_	_	_	_	_	_	
+17-11	1712-1713	a	_	_	_	_	_	_	_	_	_	_	
+17-12	1714-1718	home	3\_WORD	road	*	*	*	3	false	3	*	3	
+17-13	1719-1726	matchup	_	_	_	_	_	_	_	_	_	_	
+17-14	1727-1734	against	_	_	_	_	_	_	_	_	_	_	
+17-15	1735-1738	the	_	_	_	_	_	_	_	_	_	_	
+17-16	1739-1747	Portland	1\_NAME[7]	Los Angeles Clippers[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+17-17	1748-1753	Trail	1\_NAME[7]	Los Angeles Clippers[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+17-18	1754-1761	Blazers	1\_NAME[7]	Los Angeles Clippers[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+17-19	1762-1763	.	_	_	_	_	_	_	_	_	_	_	

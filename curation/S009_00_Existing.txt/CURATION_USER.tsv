@@ -1,0 +1,340 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Milwaukee Bucks defeated the Los Angeles Lakers , 122 - 122 , at BMO Harris Bradley Center on Tuesday .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-13	Milwaukee	_	_	_	_	_	_	_	_	_	_	
+1-3	14-19	Bucks	_	_	_	_	_	_	_	_	_	_	
+1-4	20-28	defeated	3\_WORD	lost to	*	*	*	3	false	3	*	3	
+1-5	29-32	the	_	_	_	_	_	_	_	_	_	_	
+1-6	33-36	Los	_	_	_	_	_	_	_	_	_	_	
+1-7	37-44	Angeles	_	_	_	_	_	_	_	_	_	_	
+1-8	45-51	Lakers	_	_	_	_	_	_	_	_	_	_	
+1-9	52-53	,	_	_	_	_	_	_	_	_	_	_	
+1-10	54-57	122	_	_	_	_	_	_	_	_	_	_	
+1-11	58-59	-	_	_	_	_	_	_	_	_	_	_	
+1-12	60-63	122	2\_NUMBER	114	*	*	One annotator transposed the scores based on the "defeated" verb	3	true	2	*	3	
+1-13	64-65	,	_	_	_	_	_	_	_	_	_	_	
+1-14	66-68	at	_	_	_	_	_	_	_	_	_	_	
+1-15	69-72	BMO	_	_	_	_	_	_	_	_	_	_	
+1-16	73-79	Harris	_	_	_	_	_	_	_	_	_	_	
+1-17	80-87	Bradley	_	_	_	_	_	_	_	_	_	_	
+1-18	88-94	Center	_	_	_	_	_	_	_	_	_	_	
+1-19	95-97	on	_	_	_	_	_	_	_	_	_	_	
+1-20	98-105	Tuesday	1\_NAME	Friday	*	*	*	3	false	3	*	3	
+1-21	106-107	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=In a battle between two struggling teams , the Bucks were able to prevail with a huge road win .
+2-1	108-110	In	_	_	_	_	_	_	_	_	_	_	
+2-2	111-112	a	_	_	_	_	_	_	_	_	_	_	
+2-3	113-119	battle	_	_	_	_	_	_	_	_	_	_	
+2-4	120-127	between	_	_	_	_	_	_	_	_	_	_	
+2-5	128-131	two	_	_	_	_	_	_	_	_	_	_	
+2-6	132-142	struggling	_	_	_	_	_	_	_	_	_	_	
+2-7	143-148	teams	_	_	_	_	_	_	_	_	_	_	
+2-8	149-150	,	_	_	_	_	_	_	_	_	_	_	
+2-9	151-154	the	_	_	_	_	_	_	_	_	_	_	
+2-10	155-160	Bucks	1\_NAME	Lakers	*	*	T2 changed the subsequent verb of prevail	3	true	2	*	2	
+2-11	161-165	were	_	_	_	_	_	_	_	_	_	_	
+2-12	166-170	able	_	_	_	_	_	_	_	_	_	_	
+2-13	171-173	to	_	_	_	_	_	_	_	_	_	_	
+2-14	174-181	prevail	_	_	_	_	_	_	_	_	_	_	
+2-15	182-186	with	_	_	_	_	_	_	_	_	_	_	
+2-16	187-188	a	_	_	_	_	_	_	_	_	_	_	
+2-17	189-193	huge	_	_	_	_	_	_	_	_	_	_	
+2-18	194-198	road	_	_	_	_	_	_	_	_	_	_	
+2-19	199-202	win	_	_	_	_	_	_	_	_	_	_	
+2-20	203-204	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=In fact , the Bucks led for the majority of the game , as they led by double - digits for the entirety of the second half .
+3-1	205-207	In	_	_	_	_	_	_	_	_	_	_	
+3-2	208-212	fact	_	_	_	_	_	_	_	_	_	_	
+3-3	213-214	,	_	_	_	_	_	_	_	_	_	_	
+3-4	215-218	the	_	_	_	_	_	_	_	_	_	_	
+3-5	219-224	Bucks	1\_NAME	Lakers	*	*	T2 changed the subsequent word of majority	3	false	2	*	2	
+3-6	225-228	led	_	_	_	_	_	_	_	_	_	_	
+3-7	229-232	for	_	_	_	_	_	_	_	_	_	_	
+3-8	233-236	the	_	_	_	_	_	_	_	_	_	_	
+3-9	237-245	majority	_	_	_	_	_	_	_	_	_	_	
+3-10	246-248	of	_	_	_	_	_	_	_	_	_	_	
+3-11	249-252	the	_	_	_	_	_	_	_	_	_	_	
+3-12	253-257	game	_	_	_	_	_	_	_	_	_	_	
+3-13	258-259	,	_	_	_	_	_	_	_	_	_	_	
+3-14	260-262	as	_	_	_	_	_	_	_	_	_	_	
+3-15	263-267	they	_	_	_	_	_	_	_	_	_	_	
+3-16	268-271	led	_	_	_	_	_	_	_	_	_	_	
+3-17	272-274	by	_	_	_	_	_	_	_	_	_	_	
+3-18	275-281	double	_	_	_	_	_	_	_	_	_	_	
+3-19	282-283	-	_	_	_	_	_	_	_	_	_	_	
+3-20	284-290	digits	_	_	_	_	_	_	_	_	_	_	
+3-21	291-294	for	_	_	_	_	_	_	_	_	_	_	
+3-22	295-298	the	_	_	_	_	_	_	_	_	_	_	
+3-23	299-307	entirety	3\_WORD	*	They did not lead by 10+ points for the whole 2nd half	*	T2 marked: did not lead by double-digits	3	true	2	*	3	
+3-24	308-310	of	_	_	_	_	_	_	_	_	_	_	
+3-25	311-314	the	_	_	_	_	_	_	_	_	_	_	
+3-26	315-321	second	_	_	_	_	_	_	_	_	_	_	
+3-27	322-326	half	_	_	_	_	_	_	_	_	_	_	
+3-28	327-328	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Rebounding was key for the Lakers , as they held the Lakers to 29 percent shooting and forced them to commit 17 turnovers .
+4-1	329-339	Rebounding	_	_	_	_	_	_	_	_	_	_	
+4-2	340-343	was	_	_	_	_	_	_	_	_	_	_	
+4-3	344-347	key	3\_WORD	*	The Bucks had more rebounds than the Lakers	*	T1/T3 changed "key", T2 the thing that was key.	3	false	2	*	3	
+4-4	348-351	for	_	_	_	_	_	_	_	_	_	_	
+4-5	352-355	the	_	_	_	_	_	_	_	_	_	_	
+4-6	356-362	Lakers	_	_	_	_	_	_	_	_	_	_	
+4-7	363-364	,	_	_	_	_	_	_	_	_	_	_	
+4-8	365-367	as	_	_	_	_	_	_	_	_	_	_	
+4-9	368-372	they	_	_	_	_	_	_	_	_	_	_	
+4-10	373-377	held	_	_	_	_	_	_	_	_	_	_	
+4-11	378-381	the	_	_	_	_	_	_	_	_	_	_	
+4-12	382-388	Lakers	1\_NAME	Bucks	*	*	*	2	false	2	*	2	
+4-13	389-391	to	_	_	_	_	_	_	_	_	_	_	
+4-14	392-394	29	2\_NUMBER	53	*	*	Lakers had 52%, Bucks 53%	2	false	2	*	2	
+4-15	395-402	percent	_	_	_	_	_	_	_	_	_	_	
+4-16	403-411	shooting	_	_	_	_	_	_	_	_	_	_	
+4-17	412-415	and	_	_	_	_	_	_	_	_	_	_	
+4-18	416-422	forced	_	_	_	_	_	_	_	_	_	_	
+4-19	423-427	them	_	_	_	_	_	_	_	_	_	_	
+4-20	428-430	to	_	_	_	_	_	_	_	_	_	_	
+4-21	431-437	commit	_	_	_	_	_	_	_	_	_	_	
+4-22	438-440	17	2\_NUMBER	20	*	*	*	2	false	2	*	2	
+4-23	441-450	turnovers	_	_	_	_	_	_	_	_	_	_	
+4-24	451-452	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Lakers ( 19 - 37 ) have now won four of their last five games , as they continue to struggle .
+5-1	453-456	The	_	_	_	_	_	_	_	_	_	_	
+5-2	457-463	Lakers	_	_	_	_	_	_	_	_	_	_	
+5-3	464-465	(	_	_	_	_	_	_	_	_	_	_	
+5-4	466-468	19	_	_	_	_	_	_	_	_	_	_	
+5-5	469-470	-	_	_	_	_	_	_	_	_	_	_	
+5-6	471-473	37	_	_	_	_	_	_	_	_	_	_	
+5-7	474-475	)	_	_	_	_	_	_	_	_	_	_	
+5-8	476-480	have	_	_	_	_	_	_	_	_	_	_	
+5-9	481-484	now	_	_	_	_	_	_	_	_	_	_	
+5-10	485-488	won	_	_	_	_	_	_	_	_	_	_	
+5-11	489-493	four	2\_NUMBER	two	*	*	*	3	false	3	*	3	
+5-12	494-496	of	_	_	_	_	_	_	_	_	_	_	
+5-13	497-502	their	_	_	_	_	_	_	_	_	_	_	
+5-14	503-507	last	_	_	_	_	_	_	_	_	_	_	
+5-15	508-512	five	_	_	_	_	_	_	_	_	_	_	
+5-16	513-518	games	_	_	_	_	_	_	_	_	_	_	
+5-17	519-520	,	_	_	_	_	_	_	_	_	_	_	
+5-18	521-523	as	_	_	_	_	_	_	_	_	_	_	
+5-19	524-528	they	_	_	_	_	_	_	_	_	_	_	
+5-20	529-537	continue	_	_	_	_	_	_	_	_	_	_	
+5-21	538-540	to	_	_	_	_	_	_	_	_	_	_	
+5-22	541-549	struggle	_	_	_	_	_	_	_	_	_	_	
+5-23	550-551	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=D000Angelo Russell was the player of the game , as he tallied 41 points , three rebounds and five assists on 11 - of - 20 shooting .
+6-1	552-562	D000Angelo	1\_NAME[1]	Giannis Antetokounmpo[1]	*[1]	*[1]	T3 marked both NAME and CONTEXT, T2 marked: player of the game[1]	3[1]	false[1]	2[1]	*[1]	2[1]	
+6-2	563-570	Russell	1\_NAME[1]	Giannis Antetokounmpo[1]	*[1]	*[1]	T3 marked both NAME and CONTEXT, T2 marked: player of the game[1]	3[1]	false[1]	2[1]	*[1]	2[1]	
+6-3	571-574	was	_	_	_	_	_	_	_	_	_	_	
+6-4	575-578	the	_	_	_	_	_	_	_	_	_	_	
+6-5	579-585	player	_	_	_	_	_	_	_	_	_	_	
+6-6	586-588	of	_	_	_	_	_	_	_	_	_	_	
+6-7	589-592	the	_	_	_	_	_	_	_	_	_	_	
+6-8	593-597	game	_	_	_	_	_	_	_	_	_	_	
+6-9	598-599	,	_	_	_	_	_	_	_	_	_	_	
+6-10	600-602	as	_	_	_	_	_	_	_	_	_	_	
+6-11	603-605	he	_	_	_	_	_	_	_	_	_	_	
+6-12	606-613	tallied	_	_	_	_	_	_	_	_	_	_	
+6-13	614-616	41	2\_NUMBER	14	*	*	*	2	false	2	*	2	
+6-14	617-623	points	_	_	_	_	_	_	_	_	_	_	
+6-15	624-625	,	_	_	_	_	_	_	_	_	_	_	
+6-16	626-631	three	_	_	_	_	_	_	_	_	_	_	
+6-17	632-640	rebounds	_	_	_	_	_	_	_	_	_	_	
+6-18	641-644	and	_	_	_	_	_	_	_	_	_	_	
+6-19	645-649	five	_	_	_	_	_	_	_	_	_	_	
+6-20	650-657	assists	_	_	_	_	_	_	_	_	_	_	
+6-21	658-660	on	_	_	_	_	_	_	_	_	_	_	
+6-22	661-663	11	2\_NUMBER	4	*	*	*	2	false	2	*	2	
+6-23	664-665	-	_	_	_	_	_	_	_	_	_	_	
+6-24	666-668	of	_	_	_	_	_	_	_	_	_	_	
+6-25	669-670	-	_	_	_	_	_	_	_	_	_	_	
+6-26	671-673	20	2\_NUMBER	9	*	2	*	2	false	2	*	1	
+6-27	674-682	shooting	_	_	_	_	_	_	_	_	_	_	
+6-28	683-684	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Luol Deng was second on the team , as he accrued 26 points , three rebounds and two assists .
+7-1	685-689	Luol	1\_NAME[2]	Nick Young[2]	*[2]	*[2]	*[2]	2[2]	false[2]	2[2]	*[2]	2[2]	
+7-2	690-694	Deng	1\_NAME[2]	Nick Young[2]	*[2]	*[2]	*[2]	2[2]	false[2]	2[2]	*[2]	2[2]	
+7-3	695-698	was	_	_	_	_	_	_	_	_	_	_	
+7-4	699-705	second	2\_NUMBER	first	*	2	*	2	false	2	*	1	
+7-5	706-708	on	_	_	_	_	_	_	_	_	_	_	
+7-6	709-712	the	_	_	_	_	_	_	_	_	_	_	
+7-7	713-717	team	_	_	_	_	_	_	_	_	_	_	
+7-8	718-719	,	_	_	_	_	_	_	_	_	_	_	
+7-9	720-722	as	_	_	_	_	_	_	_	_	_	_	
+7-10	723-725	he	_	_	_	_	_	_	_	_	_	_	
+7-11	726-733	accrued	_	_	_	_	_	_	_	_	_	_	
+7-12	734-736	26	2\_NUMBER	zero	*	*	*	2	true	2	*	2	
+7-13	737-743	points	_	_	_	_	_	_	_	_	_	_	
+7-14	744-745	,	_	_	_	_	_	_	_	_	_	_	
+7-15	746-751	three	2\_NUMBER	two	*	*	*	2	true	2	*	2	
+7-16	752-760	rebounds	_	_	_	_	_	_	_	_	_	_	
+7-17	761-764	and	_	_	_	_	_	_	_	_	_	_	
+7-18	765-768	two	2\_NUMBER	four	*	3	*	3	true	3	*	2	
+7-19	769-776	assists	_	_	_	_	_	_	_	_	_	_	
+7-20	777-778	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=D000Angelo Russell was the only other starter in double figures , as he accrued 14 points , three rebounds and five assists .
+8-1	779-789	D000Angelo	_	_	_	_	_	_	_	_	_	_	
+8-2	790-797	Russell	_	_	_	_	_	_	_	_	_	_	
+8-3	798-801	was	_	_	_	_	_	_	_	_	_	_	
+8-4	802-805	the	_	_	_	_	_	_	_	_	_	_	
+8-5	806-810	only	3\_WORD[3]	*[3]	The Lakers had 2 other starters in double figures[3]	*[3]	*[3]	3[3]	false[3]	1[3]	*[3]	3[3]	
+8-6	811-816	other	3\_WORD[3]	*[3]	The Lakers had 2 other starters in double figures[3]	*[3]	*[3]	3[3]	false[3]	1[3]	*[3]	3[3]	
+8-7	817-824	starter	_	_	_	_	_	_	_	_	_	_	
+8-8	825-827	in	_	_	_	_	_	_	_	_	_	_	
+8-9	828-834	double	_	_	_	_	_	_	_	_	_	_	
+8-10	835-842	figures	_	_	_	_	_	_	_	_	_	_	
+8-11	843-844	,	_	_	_	_	_	_	_	_	_	_	
+8-12	845-847	as	_	_	_	_	_	_	_	_	_	_	
+8-13	848-850	he	_	_	_	_	_	_	_	_	_	_	
+8-14	851-858	accrued	_	_	_	_	_	_	_	_	_	_	
+8-15	859-861	14	_	_	_	_	_	_	_	_	_	_	
+8-16	862-868	points	_	_	_	_	_	_	_	_	_	_	
+8-17	869-870	,	_	_	_	_	_	_	_	_	_	_	
+8-18	871-876	three	_	_	_	_	_	_	_	_	_	_	
+8-19	877-885	rebounds	_	_	_	_	_	_	_	_	_	_	
+8-20	886-889	and	_	_	_	_	_	_	_	_	_	_	
+8-21	890-894	five	_	_	_	_	_	_	_	_	_	_	
+8-22	895-902	assists	_	_	_	_	_	_	_	_	_	_	
+8-23	903-904	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=On deck for Los Angeles is a road matchup with the New Orleans Pelicans on Sunday .
+9-1	905-907	On	_	_	_	_	_	_	_	_	_	_	
+9-2	908-912	deck	_	_	_	_	_	_	_	_	_	_	
+9-3	913-916	for	_	_	_	_	_	_	_	_	_	_	
+9-4	917-920	Los	_	_	_	_	_	_	_	_	_	_	
+9-5	921-928	Angeles	_	_	_	_	_	_	_	_	_	_	
+9-6	929-931	is	_	_	_	_	_	_	_	_	_	_	
+9-7	932-933	a	_	_	_	_	_	_	_	_	_	_	
+9-8	934-938	road	3\_WORD	home	*	*	*	3	false	3	*	3	
+9-9	939-946	matchup	_	_	_	_	_	_	_	_	_	_	
+9-10	947-951	with	_	_	_	_	_	_	_	_	_	_	
+9-11	952-955	the	_	_	_	_	_	_	_	_	_	_	
+9-12	956-959	New	1\_NAME[4]	Sacramento Kings[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+9-13	960-967	Orleans	1\_NAME[4]	Sacramento Kings[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+9-14	968-976	Pelicans	1\_NAME[4]	Sacramento Kings[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+9-15	977-979	on	_	_	_	_	_	_	_	_	_	_	
+9-16	980-986	Sunday	1\_NAME	Tuesday	*	*	*	3	false	3	*	3	
+9-17	987-988	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Milwaukee ( 22 - 30 ) has now lost three of their last five games , as they continue to struggle .
+10-1	989-998	Milwaukee	_	_	_	_	_	_	_	_	_	_	
+10-2	999-1000	(	_	_	_	_	_	_	_	_	_	_	
+10-3	1001-1003	22	_	_	_	_	_	_	_	_	_	_	
+10-4	1004-1005	-	_	_	_	_	_	_	_	_	_	_	
+10-5	1006-1008	30	_	_	_	_	_	_	_	_	_	_	
+10-6	1009-1010	)	_	_	_	_	_	_	_	_	_	_	
+10-7	1011-1014	has	_	_	_	_	_	_	_	_	_	_	
+10-8	1015-1018	now	_	_	_	_	_	_	_	_	_	_	
+10-9	1019-1023	lost	_	_	_	_	_	_	_	_	_	_	
+10-10	1024-1029	three	2\_NUMBER	four	*	*	*	3	false	3	*	3	
+10-11	1030-1032	of	_	_	_	_	_	_	_	_	_	_	
+10-12	1033-1038	their	_	_	_	_	_	_	_	_	_	_	
+10-13	1039-1043	last	_	_	_	_	_	_	_	_	_	_	
+10-14	1044-1048	five	_	_	_	_	_	_	_	_	_	_	
+10-15	1049-1054	games	_	_	_	_	_	_	_	_	_	_	
+10-16	1055-1056	,	_	_	_	_	_	_	_	_	_	_	
+10-17	1057-1059	as	_	_	_	_	_	_	_	_	_	_	
+10-18	1060-1064	they	_	_	_	_	_	_	_	_	_	_	
+10-19	1065-1073	continue	_	_	_	_	_	_	_	_	_	_	
+10-20	1074-1076	to	_	_	_	_	_	_	_	_	_	_	
+10-21	1077-1085	struggle	_	_	_	_	_	_	_	_	_	_	
+10-22	1086-1087	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Giannis Antetokounmpo was the player of the game , as he accumulated 41 points , eight rebounds and six assists .
+11-1	1088-1095	Giannis	_	_	_	_	_	_	_	_	_	_	
+11-2	1096-1109	Antetokounmpo	_	_	_	_	_	_	_	_	_	_	
+11-3	1110-1113	was	_	_	_	_	_	_	_	_	_	_	
+11-4	1114-1117	the	_	_	_	_	_	_	_	_	_	_	
+11-5	1118-1124	player	_	_	_	_	_	_	_	_	_	_	
+11-6	1125-1127	of	_	_	_	_	_	_	_	_	_	_	
+11-7	1128-1131	the	_	_	_	_	_	_	_	_	_	_	
+11-8	1132-1136	game	_	_	_	_	_	_	_	_	_	_	
+11-9	1137-1138	,	_	_	_	_	_	_	_	_	_	_	
+11-10	1139-1141	as	_	_	_	_	_	_	_	_	_	_	
+11-11	1142-1144	he	_	_	_	_	_	_	_	_	_	_	
+11-12	1145-1156	accumulated	_	_	_	_	_	_	_	_	_	_	
+11-13	1157-1159	41	_	_	_	_	_	_	_	_	_	_	
+11-14	1160-1166	points	_	_	_	_	_	_	_	_	_	_	
+11-15	1167-1168	,	_	_	_	_	_	_	_	_	_	_	
+11-16	1169-1174	eight	_	_	_	_	_	_	_	_	_	_	
+11-17	1175-1183	rebounds	_	_	_	_	_	_	_	_	_	_	
+11-18	1184-1187	and	_	_	_	_	_	_	_	_	_	_	
+11-19	1188-1191	six	_	_	_	_	_	_	_	_	_	_	
+11-20	1192-1199	assists	_	_	_	_	_	_	_	_	_	_	
+11-21	1200-1201	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Khris Middleton was second on the team , as he accrued 18 points , six rebounds and six assists .
+12-1	1202-1207	Khris	_	_	_	_	_	_	_	_	_	_	
+12-2	1208-1217	Middleton	_	_	_	_	_	_	_	_	_	_	
+12-3	1218-1221	was	_	_	_	_	_	_	_	_	_	_	
+12-4	1222-1228	second	2\_NUMBER	sixth	*	2	T3 changed the name to who was second	3	false	2	*	1	
+12-5	1229-1231	on	_	_	_	_	_	_	_	_	_	_	
+12-6	1232-1235	the	_	_	_	_	_	_	_	_	_	_	
+12-7	1236-1240	team	_	_	_	_	_	_	_	_	_	_	
+12-8	1241-1242	,	_	_	_	_	_	_	_	_	_	_	
+12-9	1243-1245	as	_	_	_	_	_	_	_	_	_	_	
+12-10	1246-1248	he	_	_	_	_	_	_	_	_	_	_	
+12-11	1249-1256	accrued	_	_	_	_	_	_	_	_	_	_	
+12-12	1257-1259	18	2\_NUMBER	8	*	*	*	3	true	3	*	3	
+12-13	1260-1266	points	_	_	_	_	_	_	_	_	_	_	
+12-14	1267-1268	,	_	_	_	_	_	_	_	_	_	_	
+12-15	1269-1272	six	2\_NUMBER	one	*	*	*	2	true	2	*	2	
+12-16	1273-1281	rebounds	_	_	_	_	_	_	_	_	_	_	
+12-17	1282-1285	and	_	_	_	_	_	_	_	_	_	_	
+12-18	1286-1289	six	_	_	_	_	_	_	_	_	_	_	
+12-19	1290-1297	assists	_	_	_	_	_	_	_	_	_	_	
+12-20	1298-1299	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Greg Monroe was the only other starter in double figures , as he accrued 18 points , five rebounds and three assists .
+13-1	1300-1304	Greg	_	_	_	_	_	_	_	_	_	_	
+13-2	1305-1311	Monroe	_	_	_	_	_	_	_	_	_	_	
+13-3	1312-1315	was	_	_	_	_	_	_	_	_	_	_	
+13-4	1316-1319	the	_	_	_	_	_	_	_	_	_	_	
+13-5	1320-1324	only	_	_	_	_	_	_	_	_	_	_	
+13-6	1325-1330	other	_	_	_	_	_	_	_	_	_	_	
+13-7	1331-1338	starter	3\_WORD	bench player	*	*	*	3	false	3	*	3	
+13-8	1339-1341	in	_	_	_	_	_	_	_	_	_	_	
+13-9	1342-1348	double	_	_	_	_	_	_	_	_	_	_	
+13-10	1349-1356	figures	_	_	_	_	_	_	_	_	_	_	
+13-11	1357-1358	,	_	_	_	_	_	_	_	_	_	_	
+13-12	1359-1361	as	_	_	_	_	_	_	_	_	_	_	
+13-13	1362-1364	he	_	_	_	_	_	_	_	_	_	_	
+13-14	1365-1372	accrued	_	_	_	_	_	_	_	_	_	_	
+13-15	1373-1375	18	2\_NUMBER	8	*	*	*	3	true	3	*	3	
+13-16	1376-1382	points	_	_	_	_	_	_	_	_	_	_	
+13-17	1383-1384	,	_	_	_	_	_	_	_	_	_	_	
+13-18	1385-1389	five	2\_NUMBER	1	*	*	T3 changed the name	3	true	2	*	2	
+13-19	1390-1398	rebounds	_	_	_	_	_	_	_	_	_	_	
+13-20	1399-1402	and	_	_	_	_	_	_	_	_	_	_	
+13-21	1403-1408	three	_	_	_	_	_	_	_	_	_	_	
+13-22	1409-1416	assists	_	_	_	_	_	_	_	_	_	_	
+13-23	1417-1418	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Milwaukee will look to build off this win on Friday in a road matchup with the Orlando Magic .
+14-1	1419-1428	Milwaukee	_	_	_	_	_	_	_	_	_	_	
+14-2	1429-1433	will	_	_	_	_	_	_	_	_	_	_	
+14-3	1434-1438	look	_	_	_	_	_	_	_	_	_	_	
+14-4	1439-1441	to	_	_	_	_	_	_	_	_	_	_	
+14-5	1442-1447	build	_	_	_	_	_	_	_	_	_	_	
+14-6	1448-1451	off	_	_	_	_	_	_	_	_	_	_	
+14-7	1452-1456	this	_	_	_	_	_	_	_	_	_	_	
+14-8	1457-1460	win	3\_WORD	loss	*	*	*	3	true	1	*	2	
+14-9	1461-1463	on	_	_	_	_	_	_	_	_	_	_	
+14-10	1464-1470	Friday	1\_NAME	Saturday	*	*	*	3	true	3	*	3	
+14-11	1471-1473	in	_	_	_	_	_	_	_	_	_	_	
+14-12	1474-1475	a	_	_	_	_	_	_	_	_	_	_	
+14-13	1476-1480	road	_	_	_	_	_	_	_	_	_	_	
+14-14	1481-1488	matchup	_	_	_	_	_	_	_	_	_	_	
+14-15	1489-1493	with	_	_	_	_	_	_	_	_	_	_	
+14-16	1494-1497	the	_	_	_	_	_	_	_	_	_	_	
+14-17	1498-1505	Orlando	1\_NAME[5]	Indiana Pacers[5]	*[5]	*[5]	CT: Sacramento Kings was chosen by T1 after chaning Milwaukee to "The Lakers"[5]	3[5]	true[5]	3[5]	*[5]	3[5]	
+14-18	1506-1511	Magic	1\_NAME[5]	Indiana Pacers[5]	*[5]	*[5]	CT: Sacramento Kings was chosen by T1 after chaning Milwaukee to "The Lakers"[5]	3[5]	true[5]	3[5]	*[5]	3[5]	
+14-19	1512-1513	.	_	_	_	_	_	_	_	_	_	_	

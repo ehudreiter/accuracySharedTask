@@ -1,0 +1,353 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Toronto Raptors defeated the Oklahoma City Thunder , 102 - 123 , at Air Canada Center on Friday .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-11	Toronto	_	_	_	_	_	_	_	_	_	_	
+1-3	12-19	Raptors	_	_	_	_	_	_	_	_	_	_	
+1-4	20-28	defeated	3\_WORD	lost to	*	*	*	3	false	3	*	3	
+1-5	29-32	the	_	_	_	_	_	_	_	_	_	_	
+1-6	33-41	Oklahoma	_	_	_	_	_	_	_	_	_	_	
+1-7	42-46	City	_	_	_	_	_	_	_	_	_	_	
+1-8	47-54	Thunder	_	_	_	_	_	_	_	_	_	_	
+1-9	55-56	,	_	_	_	_	_	_	_	_	_	_	
+1-10	57-60	102	_	_	_	_	_	_	_	_	_	_	
+1-11	61-62	-	_	_	_	_	_	_	_	_	_	_	
+1-12	63-66	123	_	_	_	_	_	_	_	_	_	_	
+1-13	67-68	,	_	_	_	_	_	_	_	_	_	_	
+1-14	69-71	at	_	_	_	_	_	_	_	_	_	_	
+1-15	72-75	Air	_	_	_	_	_	_	_	_	_	_	
+1-16	76-82	Canada	_	_	_	_	_	_	_	_	_	_	
+1-17	83-89	Center	_	_	_	_	_	_	_	_	_	_	
+1-18	90-92	on	_	_	_	_	_	_	_	_	_	_	
+1-19	93-99	Friday	1\_NAME	Thursday	*	*	*	3	false	3	*	3	
+1-20	100-101	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=In a battle between two of the best offenses in the NBA , the Raptors ( 39 - 29 ) held a double - digit lead for the entirety of the second half .
+2-1	102-104	In	_	_	_	_	_	_	_	_	_	_	
+2-2	105-106	a	_	_	_	_	_	_	_	_	_	_	
+2-3	107-113	battle	_	_	_	_	_	_	_	_	_	_	
+2-4	114-121	between	_	_	_	_	_	_	_	_	_	_	
+2-5	122-125	two	_	_	_	_	_	_	_	_	_	_	
+2-6	126-128	of	_	_	_	_	_	_	_	_	_	_	
+2-7	129-132	the	_	_	_	_	_	_	_	_	_	_	
+2-8	133-137	best	6\_NOT\_CHECKABLE[1]	*[1]	*[1]	*[1]	*[1]	2[1]	false[1]	2[1]	*[1]	2[1]	
+2-9	138-146	offenses	6\_NOT\_CHECKABLE[1]	*[1]	*[1]	*[1]	*[1]	2[1]	false[1]	2[1]	*[1]	2[1]	
+2-10	147-149	in	_	_	_	_	_	_	_	_	_	_	
+2-11	150-153	the	_	_	_	_	_	_	_	_	_	_	
+2-12	154-157	NBA	_	_	_	_	_	_	_	_	_	_	
+2-13	158-159	,	_	_	_	_	_	_	_	_	_	_	
+2-14	160-163	the	_	_	_	_	_	_	_	_	_	_	
+2-15	164-171	Raptors	_	_	_	_	_	_	_	_	_	_	
+2-16	172-173	(	_	_	_	_	_	_	_	_	_	_	
+2-17	174-176	39	_	_	_	_	_	_	_	_	_	_	
+2-18	177-178	-	_	_	_	_	_	_	_	_	_	_	
+2-19	179-181	29	_	_	_	_	_	_	_	_	_	_	
+2-20	182-183	)	_	_	_	_	_	_	_	_	_	_	
+2-21	184-188	held	_	_	_	_	_	_	_	_	_	_	
+2-22	189-190	a	_	_	_	_	_	_	_	_	_	_	
+2-23	191-197	double	_	_	_	_	_	_	_	_	_	_	
+2-24	198-199	-	_	_	_	_	_	_	_	_	_	_	
+2-25	200-205	digit	_	_	_	_	_	_	_	_	_	_	
+2-26	206-210	lead	3\_WORD	*	The Raptors did not hold the led for the entire 2nd half	*	*	3	false	2	*	3	
+2-27	211-214	for	_	_	_	_	_	_	_	_	_	_	
+2-28	215-218	the	_	_	_	_	_	_	_	_	_	_	
+2-29	219-227	entirety	_	_	_	_	_	_	_	_	_	_	
+2-30	228-230	of	_	_	_	_	_	_	_	_	_	_	
+2-31	231-234	the	_	_	_	_	_	_	_	_	_	_	
+2-32	235-241	second	_	_	_	_	_	_	_	_	_	_	
+2-33	242-246	half	_	_	_	_	_	_	_	_	_	_	
+2-34	247-248	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=In fact , the Raptors led for the majority of the game , as the Thunder never led by more than 12 points for the entirety of the second half .
+3-1	249-251	In	_	_	_	_	_	_	_	_	_	_	
+3-2	252-256	fact	_	_	_	_	_	_	_	_	_	_	
+3-3	257-258	,	_	_	_	_	_	_	_	_	_	_	
+3-4	259-262	the	_	_	_	_	_	_	_	_	_	_	
+3-5	263-270	Raptors	_	_	_	_	_	_	_	_	_	_	
+3-6	271-274	led	3\_WORD	*	The Raptors were losing for the majority of the game	*	*	3	false	2	*	3	
+3-7	275-278	for	_	_	_	_	_	_	_	_	_	_	
+3-8	279-282	the	_	_	_	_	_	_	_	_	_	_	
+3-9	283-291	majority	_	_	_	_	_	_	_	_	_	_	
+3-10	292-294	of	_	_	_	_	_	_	_	_	_	_	
+3-11	295-298	the	_	_	_	_	_	_	_	_	_	_	
+3-12	299-303	game	_	_	_	_	_	_	_	_	_	_	
+3-13	304-305	,	_	_	_	_	_	_	_	_	_	_	
+3-14	306-308	as	_	_	_	_	_	_	_	_	_	_	
+3-15	309-312	the	_	_	_	_	_	_	_	_	_	_	
+3-16	313-320	Thunder	_	_	_	_	_	_	_	_	_	_	
+3-17	321-326	never	_	_	_	_	_	_	_	_	_	_	
+3-18	327-330	led	_	_	_	_	_	_	_	_	_	_	
+3-19	331-333	by	_	_	_	_	_	_	_	_	_	_	
+3-20	334-338	more	_	_	_	_	_	_	_	_	_	_	
+3-21	339-343	than	_	_	_	_	_	_	_	_	_	_	
+3-22	344-346	12	2\_NUMBER	*	The Thunder won by 21 points, so they definitely had a bigger lead than 12	3	CT: T2 had said WORD: never led by more than 12 points => false	3	false	2	2\_NUMBER	2	
+3-23	347-353	points	_	_	_	_	_	_	_	_	_	_	
+3-24	354-357	for	_	_	_	_	_	_	_	_	_	_	
+3-25	358-361	the	_	_	_	_	_	_	_	_	_	_	
+3-26	362-370	entirety	_	_	_	_	_	_	_	_	_	_	
+3-27	371-373	of	_	_	_	_	_	_	_	_	_	_	
+3-28	374-377	the	_	_	_	_	_	_	_	_	_	_	
+3-29	378-384	second	_	_	_	_	_	_	_	_	_	_	
+3-30	385-389	half	_	_	_	_	_	_	_	_	_	_	
+3-31	390-391	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Raptors ( 39 - 29 ) had to play this game without Kevin Durant , but they simply did n't have enough bullets to win this game .
+4-1	392-395	The	_	_	_	_	_	_	_	_	_	_	
+4-2	396-403	Raptors	_	_	_	_	_	_	_	_	_	_	
+4-3	404-405	(	_	_	_	_	_	_	_	_	_	_	
+4-4	406-408	39	_	_	_	_	_	_	_	_	_	_	
+4-5	409-410	-	_	_	_	_	_	_	_	_	_	_	
+4-6	411-413	29	_	_	_	_	_	_	_	_	_	_	
+4-7	414-415	)	_	_	_	_	_	_	_	_	_	_	
+4-8	416-419	had	_	_	_	_	_	_	_	_	_	_	
+4-9	420-422	to	_	_	_	_	_	_	_	_	_	_	
+4-10	423-427	play	_	_	_	_	_	_	_	_	_	_	
+4-11	428-432	this	_	_	_	_	_	_	_	_	_	_	
+4-12	433-437	game	_	_	_	_	_	_	_	_	_	_	
+4-13	438-445	without	_	_	_	_	_	_	_	_	_	_	
+4-14	446-451	Kevin	4\_CONTEXT[2]	*[2]	Kevin Durant wasn’t on the roster that season[2]	2[2]	CT: T2 wanted to change Raptors to Thunder[2]	3[2]	true[2]	2[2]	*[2]	1[2]	
+4-15	452-458	Durant	4\_CONTEXT[2]	*[2]	Kevin Durant wasn’t on the roster that season[2]	2[2]	CT: T2 wanted to change Raptors to Thunder[2]	3[2]	true[2]	2[2]	*[2]	1[2]	
+4-16	459-460	,	_	_	_	_	_	_	_	_	_	_	
+4-17	461-464	but	_	_	_	_	_	_	_	_	_	_	
+4-18	465-469	they	_	_	_	_	_	_	_	_	_	_	
+4-19	470-476	simply	_	_	_	_	_	_	_	_	_	_	
+4-20	477-480	did	_	_	_	_	_	_	_	_	_	_	
+4-21	481-484	n't	_	_	_	_	_	_	_	_	_	_	
+4-22	485-489	have	_	_	_	_	_	_	_	_	_	_	
+4-23	490-496	enough	_	_	_	_	_	_	_	_	_	_	
+4-24	497-504	bullets	_	_	_	_	_	_	_	_	_	_	
+4-25	505-507	to	_	_	_	_	_	_	_	_	_	_	
+4-26	508-511	win	_	_	_	_	_	_	_	_	_	_	
+4-27	512-516	this	_	_	_	_	_	_	_	_	_	_	
+4-28	517-521	game	_	_	_	_	_	_	_	_	_	_	
+4-29	522-523	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Russell Westbrook once again carried the load , as he tallied 24 points , 10 rebounds and 16 assists .
+5-1	524-531	Russell	_	_	_	_	_	_	_	_	_	_	
+5-2	532-541	Westbrook	_	_	_	_	_	_	_	_	_	_	
+5-3	542-546	once	_	_	_	_	_	_	_	_	_	_	
+5-4	547-552	again	_	_	_	_	_	_	_	_	_	_	
+5-5	553-560	carried	_	_	_	_	_	_	_	_	_	_	
+5-6	561-564	the	_	_	_	_	_	_	_	_	_	_	
+5-7	565-569	load	_	_	_	_	_	_	_	_	_	_	
+5-8	570-571	,	_	_	_	_	_	_	_	_	_	_	
+5-9	572-574	as	_	_	_	_	_	_	_	_	_	_	
+5-10	575-577	he	_	_	_	_	_	_	_	_	_	_	
+5-11	578-585	tallied	_	_	_	_	_	_	_	_	_	_	
+5-12	586-588	24	_	_	_	_	_	_	_	_	_	_	
+5-13	589-595	points	_	_	_	_	_	_	_	_	_	_	
+5-14	596-597	,	_	_	_	_	_	_	_	_	_	_	
+5-15	598-600	10	_	_	_	_	_	_	_	_	_	_	
+5-16	601-609	rebounds	_	_	_	_	_	_	_	_	_	_	
+5-17	610-613	and	_	_	_	_	_	_	_	_	_	_	
+5-18	614-616	16	_	_	_	_	_	_	_	_	_	_	
+5-19	617-624	assists	_	_	_	_	_	_	_	_	_	_	
+5-20	625-626	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Victor Oladipo led the team in scoring , as he accrued 23 points , five rebounds and two assists .
+6-1	627-633	Victor	_	_	_	_	_	_	_	_	_	_	
+6-2	634-641	Oladipo	_	_	_	_	_	_	_	_	_	_	
+6-3	642-645	led	3\_WORD	*	Oladipo did not lead the Thunder in scoring	*	*	3	false	2	*	3	
+6-4	646-649	the	_	_	_	_	_	_	_	_	_	_	
+6-5	650-654	team	_	_	_	_	_	_	_	_	_	_	
+6-6	655-657	in	_	_	_	_	_	_	_	_	_	_	
+6-7	658-665	scoring	_	_	_	_	_	_	_	_	_	_	
+6-8	666-667	,	_	_	_	_	_	_	_	_	_	_	
+6-9	668-670	as	_	_	_	_	_	_	_	_	_	_	
+6-10	671-673	he	_	_	_	_	_	_	_	_	_	_	
+6-11	674-681	accrued	_	_	_	_	_	_	_	_	_	_	
+6-12	682-684	23	_	_	_	_	_	_	_	_	_	_	
+6-13	685-691	points	_	_	_	_	_	_	_	_	_	_	
+6-14	692-693	,	_	_	_	_	_	_	_	_	_	_	
+6-15	694-698	five	_	_	_	_	_	_	_	_	_	_	
+6-16	699-707	rebounds	_	_	_	_	_	_	_	_	_	_	
+6-17	708-711	and	_	_	_	_	_	_	_	_	_	_	
+6-18	712-715	two	_	_	_	_	_	_	_	_	_	_	
+6-19	716-723	assists	_	_	_	_	_	_	_	_	_	_	
+6-20	724-725	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Enes Kanter was second on the team , totaling 14 points and seven rebounds .
+7-1	726-730	Enes	_	_	_	_	_	_	_	_	_	_	
+7-2	731-737	Kanter	_	_	_	_	_	_	_	_	_	_	
+7-3	738-741	was	_	_	_	_	_	_	_	_	_	_	
+7-4	742-748	second	2\_NUMBER	third	*	3	*	3	false	2	*	2	
+7-5	749-751	on	_	_	_	_	_	_	_	_	_	_	
+7-6	752-755	the	_	_	_	_	_	_	_	_	_	_	
+7-7	756-760	team	_	_	_	_	_	_	_	_	_	_	
+7-8	761-762	,	_	_	_	_	_	_	_	_	_	_	
+7-9	763-771	totaling	_	_	_	_	_	_	_	_	_	_	
+7-10	772-774	14	_	_	_	_	_	_	_	_	_	_	
+7-11	775-781	points	_	_	_	_	_	_	_	_	_	_	
+7-12	782-785	and	_	_	_	_	_	_	_	_	_	_	
+7-13	786-791	seven	_	_	_	_	_	_	_	_	_	_	
+7-14	792-800	rebounds	_	_	_	_	_	_	_	_	_	_	
+7-15	801-802	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Taj Gibson was the only other player in double figures , dropping 10 points and four rebounds .
+8-1	803-806	Taj	_	_	_	_	_	_	_	_	_	_	
+8-2	807-813	Gibson	_	_	_	_	_	_	_	_	_	_	
+8-3	814-817	was	_	_	_	_	_	_	_	_	_	_	
+8-4	818-821	the	_	_	_	_	_	_	_	_	_	_	
+8-5	822-826	only	3\_WORD[3]	*[3]	two other players in double figures[3]	*[3]	*[3]	3[3]	false[3]	3[3]	*[3]	3[3]	
+8-6	827-832	other	3\_WORD[3]	*[3]	two other players in double figures[3]	*[3]	*[3]	3[3]	false[3]	3[3]	*[3]	3[3]	
+8-7	833-839	player	_	_	_	_	_	_	_	_	_	_	
+8-8	840-842	in	_	_	_	_	_	_	_	_	_	_	
+8-9	843-849	double	_	_	_	_	_	_	_	_	_	_	
+8-10	850-857	figures	_	_	_	_	_	_	_	_	_	_	
+8-11	858-859	,	_	_	_	_	_	_	_	_	_	_	
+8-12	860-868	dropping	_	_	_	_	_	_	_	_	_	_	
+8-13	869-871	10	_	_	_	_	_	_	_	_	_	_	
+8-14	872-878	points	_	_	_	_	_	_	_	_	_	_	
+8-15	879-882	and	_	_	_	_	_	_	_	_	_	_	
+8-16	883-887	four	_	_	_	_	_	_	_	_	_	_	
+8-17	888-896	rebounds	_	_	_	_	_	_	_	_	_	_	
+8-18	897-898	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=On deck for the Thunder is a road matchup against the Oklahoma City Thunder on Thursday .
+9-1	899-901	On	_	_	_	_	_	_	_	_	_	_	
+9-2	902-906	deck	_	_	_	_	_	_	_	_	_	_	
+9-3	907-910	for	_	_	_	_	_	_	_	_	_	_	
+9-4	911-914	the	_	_	_	_	_	_	_	_	_	_	
+9-5	915-922	Thunder	_	_	_	_	_	_	_	_	_	_	
+9-6	923-925	is	_	_	_	_	_	_	_	_	_	_	
+9-7	926-927	a	_	_	_	_	_	_	_	_	_	_	
+9-8	928-932	road	3\_WORD	home	*	*	*	3	false	3	*	3	
+9-9	933-940	matchup	_	_	_	_	_	_	_	_	_	_	
+9-10	941-948	against	_	_	_	_	_	_	_	_	_	_	
+9-11	949-952	the	_	_	_	_	_	_	_	_	_	_	
+9-12	953-961	Oklahoma	1\_NAME[4]	Sacramento Kings[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+9-13	962-966	City	1\_NAME[4]	Sacramento Kings[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+9-14	967-974	Thunder	1\_NAME[4]	Sacramento Kings[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+9-15	975-977	on	_	_	_	_	_	_	_	_	_	_	
+9-16	978-986	Thursday	1\_NAME	Saturday	*	*	*	3	false	3	*	3	
+9-17	987-988	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Raptors ( 39 - 29 ) have now won five of their last six games , as they continue to climb up the standings .
+10-1	989-992	The	_	_	_	_	_	_	_	_	_	_	
+10-2	993-1000	Raptors	_	_	_	_	_	_	_	_	_	_	
+10-3	1001-1002	(	_	_	_	_	_	_	_	_	_	_	
+10-4	1003-1005	39	_	_	_	_	_	_	_	_	_	_	
+10-5	1006-1007	-	_	_	_	_	_	_	_	_	_	_	
+10-6	1008-1010	29	_	_	_	_	_	_	_	_	_	_	
+10-7	1011-1012	)	_	_	_	_	_	_	_	_	_	_	
+10-8	1013-1017	have	_	_	_	_	_	_	_	_	_	_	
+10-9	1018-1021	now	_	_	_	_	_	_	_	_	_	_	
+10-10	1022-1025	won	6\_NOT\_CHECKABLE[5]	two[5]	*[5]	3[5]	CT: T1 checked[5]	3[5]	false[5]	2[5]	*[5]	2[5]	
+10-11	1026-1030	five	6\_NOT\_CHECKABLE[5]	two[5]	*[5]	3[5]	CT: T1 checked[5]	3[5]	false[5]	2[5]	*[5]	2[5]	
+10-12	1031-1033	of	6\_NOT\_CHECKABLE[5]	two[5]	*[5]	3[5]	CT: T1 checked[5]	3[5]	false[5]	2[5]	*[5]	2[5]	
+10-13	1034-1039	their	6\_NOT\_CHECKABLE[5]	two[5]	*[5]	3[5]	CT: T1 checked[5]	3[5]	false[5]	2[5]	*[5]	2[5]	
+10-14	1040-1044	last	6\_NOT\_CHECKABLE[5]	two[5]	*[5]	3[5]	CT: T1 checked[5]	3[5]	false[5]	2[5]	*[5]	2[5]	
+10-15	1045-1048	six	6\_NOT\_CHECKABLE[5]	two[5]	*[5]	3[5]	CT: T1 checked[5]	3[5]	false[5]	2[5]	*[5]	2[5]	
+10-16	1049-1054	games	6\_NOT\_CHECKABLE[5]	two[5]	*[5]	3[5]	CT: T1 checked[5]	3[5]	false[5]	2[5]	*[5]	2[5]	
+10-17	1055-1056	,	_	_	_	_	_	_	_	_	_	_	
+10-18	1057-1059	as	_	_	_	_	_	_	_	_	_	_	
+10-19	1060-1064	they	_	_	_	_	_	_	_	_	_	_	
+10-20	1065-1073	continue	_	_	_	_	_	_	_	_	_	_	
+10-21	1074-1076	to	_	_	_	_	_	_	_	_	_	_	
+10-22	1077-1082	climb	6\_NOT\_CHECKABLE[6]	*[6]	The Raptors were falling in the standings[6]	2[6]	CT: T1 checked[6]	2[6]	false[6]	2[6]	*[6]	1[6]	
+10-23	1083-1085	up	6\_NOT\_CHECKABLE[6]	*[6]	The Raptors were falling in the standings[6]	2[6]	CT: T1 checked[6]	2[6]	false[6]	2[6]	*[6]	1[6]	
+10-24	1086-1089	the	_	_	_	_	_	_	_	_	_	_	
+10-25	1090-1099	standings	_	_	_	_	_	_	_	_	_	_	
+10-26	1100-1101	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=DeMar DeRozan was the player of the game , as he accumulated 22 points , three rebounds and three assists on 8 - of - 14 shooting .
+11-1	1102-1107	DeMar	_	_	_	_	_	_	_	_	_	_	
+11-2	1108-1115	DeRozan	_	_	_	_	_	_	_	_	_	_	
+11-3	1116-1119	was	_	_	_	_	_	_	_	_	_	_	
+11-4	1120-1123	the	_	_	_	_	_	_	_	_	_	_	
+11-5	1124-1130	player	3\_WORD[7]	*[7]	false (Westbrook had a triple double + victory)[7]	*[7]	*[7]	2[7]	false[7]	2[7]	*[7]	2[7]	
+11-6	1131-1133	of	3\_WORD[7]	*[7]	false (Westbrook had a triple double + victory)[7]	*[7]	*[7]	2[7]	false[7]	2[7]	*[7]	2[7]	
+11-7	1134-1137	the	3\_WORD[7]	*[7]	false (Westbrook had a triple double + victory)[7]	*[7]	*[7]	2[7]	false[7]	2[7]	*[7]	2[7]	
+11-8	1138-1142	game	3\_WORD[7]	*[7]	false (Westbrook had a triple double + victory)[7]	*[7]	*[7]	2[7]	false[7]	2[7]	*[7]	2[7]	
+11-9	1143-1144	,	_	_	_	_	_	_	_	_	_	_	
+11-10	1145-1147	as	_	_	_	_	_	_	_	_	_	_	
+11-11	1148-1150	he	_	_	_	_	_	_	_	_	_	_	
+11-12	1151-1162	accumulated	_	_	_	_	_	_	_	_	_	_	
+11-13	1163-1165	22	_	_	_	_	_	_	_	_	_	_	
+11-14	1166-1172	points	_	_	_	_	_	_	_	_	_	_	
+11-15	1173-1174	,	_	_	_	_	_	_	_	_	_	_	
+11-16	1175-1180	three	_	_	_	_	_	_	_	_	_	_	
+11-17	1181-1189	rebounds	_	_	_	_	_	_	_	_	_	_	
+11-18	1190-1193	and	_	_	_	_	_	_	_	_	_	_	
+11-19	1194-1199	three	_	_	_	_	_	_	_	_	_	_	
+11-20	1200-1207	assists	_	_	_	_	_	_	_	_	_	_	
+11-21	1208-1210	on	_	_	_	_	_	_	_	_	_	_	
+11-22	1211-1212	8	_	_	_	_	_	_	_	_	_	_	
+11-23	1213-1214	-	_	_	_	_	_	_	_	_	_	_	
+11-24	1215-1217	of	_	_	_	_	_	_	_	_	_	_	
+11-25	1218-1219	-	_	_	_	_	_	_	_	_	_	_	
+11-26	1220-1222	14	_	_	_	_	_	_	_	_	_	_	
+11-27	1223-1231	shooting	_	_	_	_	_	_	_	_	_	_	
+11-28	1232-1233	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Serge Ibaka was second on the team , as he accrued 10 points and three rebounds .
+12-1	1234-1239	Serge	_	_	_	_	_	_	_	_	_	_	
+12-2	1240-1245	Ibaka	_	_	_	_	_	_	_	_	_	_	
+12-3	1246-1249	was	_	_	_	_	_	_	_	_	_	_	
+12-4	1250-1256	second	2\_NUMBER	fourth	*	*	*	3	false	3	*	3	
+12-5	1257-1259	on	_	_	_	_	_	_	_	_	_	_	
+12-6	1260-1263	the	_	_	_	_	_	_	_	_	_	_	
+12-7	1264-1268	team	_	_	_	_	_	_	_	_	_	_	
+12-8	1269-1270	,	_	_	_	_	_	_	_	_	_	_	
+12-9	1271-1273	as	_	_	_	_	_	_	_	_	_	_	
+12-10	1274-1276	he	_	_	_	_	_	_	_	_	_	_	
+12-11	1277-1284	accrued	_	_	_	_	_	_	_	_	_	_	
+12-12	1285-1287	10	_	_	_	_	_	_	_	_	_	_	
+12-13	1288-1294	points	_	_	_	_	_	_	_	_	_	_	
+12-14	1295-1298	and	_	_	_	_	_	_	_	_	_	_	
+12-15	1299-1304	three	_	_	_	_	_	_	_	_	_	_	
+12-16	1305-1313	rebounds	_	_	_	_	_	_	_	_	_	_	
+12-17	1314-1315	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Jonas Valanciunas amassed seven points , five rebounds and two blocks .
+13-1	1316-1321	Jonas	_	_	_	_	_	_	_	_	_	_	
+13-2	1322-1333	Valanciunas	_	_	_	_	_	_	_	_	_	_	
+13-3	1334-1341	amassed	_	_	_	_	_	_	_	_	_	_	
+13-4	1342-1347	seven	_	_	_	_	_	_	_	_	_	_	
+13-5	1348-1354	points	_	_	_	_	_	_	_	_	_	_	
+13-6	1355-1356	,	_	_	_	_	_	_	_	_	_	_	
+13-7	1357-1361	five	_	_	_	_	_	_	_	_	_	_	
+13-8	1362-1370	rebounds	_	_	_	_	_	_	_	_	_	_	
+13-9	1371-1374	and	_	_	_	_	_	_	_	_	_	_	
+13-10	1375-1378	two	_	_	_	_	_	_	_	_	_	_	
+13-11	1379-1385	blocks	_	_	_	_	_	_	_	_	_	_	
+13-12	1386-1387	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Cory Joseph was a nice spark off the bench , accruing 11 points , two rebounds and six assists .
+14-1	1388-1392	Cory	_	_	_	_	_	_	_	_	_	_	
+14-2	1393-1399	Joseph	_	_	_	_	_	_	_	_	_	_	
+14-3	1400-1403	was	_	_	_	_	_	_	_	_	_	_	
+14-4	1404-1405	a	_	_	_	_	_	_	_	_	_	_	
+14-5	1406-1410	nice	_	_	_	_	_	_	_	_	_	_	
+14-6	1411-1416	spark	_	_	_	_	_	_	_	_	_	_	
+14-7	1417-1420	off	3\_WORD[8]	*[8]	Joseph started[8]	*[8]	*[8]	3[8]	false[8]	2[8]	*[8]	3[8]	
+14-8	1421-1424	the	3\_WORD[8]	*[8]	Joseph started[8]	*[8]	*[8]	3[8]	false[8]	2[8]	*[8]	3[8]	
+14-9	1425-1430	bench	3\_WORD[8]	*[8]	Joseph started[8]	*[8]	*[8]	3[8]	false[8]	2[8]	*[8]	3[8]	
+14-10	1431-1432	,	_	_	_	_	_	_	_	_	_	_	
+14-11	1433-1441	accruing	_	_	_	_	_	_	_	_	_	_	
+14-12	1442-1444	11	_	_	_	_	_	_	_	_	_	_	
+14-13	1445-1451	points	_	_	_	_	_	_	_	_	_	_	
+14-14	1452-1453	,	_	_	_	_	_	_	_	_	_	_	
+14-15	1454-1457	two	_	_	_	_	_	_	_	_	_	_	
+14-16	1458-1466	rebounds	_	_	_	_	_	_	_	_	_	_	
+14-17	1467-1470	and	_	_	_	_	_	_	_	_	_	_	
+14-18	1471-1474	six	_	_	_	_	_	_	_	_	_	_	
+14-19	1475-1482	assists	_	_	_	_	_	_	_	_	_	_	
+14-20	1483-1484	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Toronto will host the Boston Celtics for their next game on Thursday .
+15-1	1485-1492	Toronto	_	_	_	_	_	_	_	_	_	_	
+15-2	1493-1497	will	_	_	_	_	_	_	_	_	_	_	
+15-3	1498-1502	host	3\_WORD	*	Toronto’s next game is on the road	*	*	3	false	3	*	3	
+15-4	1503-1506	the	_	_	_	_	_	_	_	_	_	_	
+15-5	1507-1513	Boston	1\_NAME[9]	Detroit Pistons[9]	*[9]	*[9]	*[9]	3[9]	false[9]	3[9]	*[9]	3[9]	
+15-6	1514-1521	Celtics	1\_NAME[9]	Detroit Pistons[9]	*[9]	*[9]	*[9]	3[9]	false[9]	3[9]	*[9]	3[9]	
+15-7	1522-1525	for	_	_	_	_	_	_	_	_	_	_	
+15-8	1526-1531	their	_	_	_	_	_	_	_	_	_	_	
+15-9	1532-1536	next	_	_	_	_	_	_	_	_	_	_	
+15-10	1537-1541	game	_	_	_	_	_	_	_	_	_	_	
+15-11	1542-1544	on	_	_	_	_	_	_	_	_	_	_	
+15-12	1545-1553	Thursday	1\_NAME	Friday	*	*	*	3	false	3	*	3	
+15-13	1554-1555	.	_	_	_	_	_	_	_	_	_	_	

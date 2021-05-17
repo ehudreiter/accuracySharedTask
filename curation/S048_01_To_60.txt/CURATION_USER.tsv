@@ -1,0 +1,356 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Oklahoma City Thunder defeated the Detroit Pistons , 106 - 88 , at Chesapeake Energy Arena on Saturday .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-12	Oklahoma	_	_	_	_	_	_	_	_	_	_	
+1-3	13-17	City	_	_	_	_	_	_	_	_	_	_	
+1-4	18-25	Thunder	_	_	_	_	_	_	_	_	_	_	
+1-5	26-34	defeated	_	_	_	_	_	_	_	_	_	_	
+1-6	35-38	the	_	_	_	_	_	_	_	_	_	_	
+1-7	39-46	Detroit	_	_	_	_	_	_	_	_	_	_	
+1-8	47-54	Pistons	_	_	_	_	_	_	_	_	_	_	
+1-9	55-56	,	_	_	_	_	_	_	_	_	_	_	
+1-10	57-60	106	_	_	_	_	_	_	_	_	_	_	
+1-11	61-62	-	_	_	_	_	_	_	_	_	_	_	
+1-12	63-65	88	_	_	_	_	_	_	_	_	_	_	
+1-13	66-67	,	_	_	_	_	_	_	_	_	_	_	
+1-14	68-70	at	_	_	_	_	_	_	_	_	_	_	
+1-15	71-81	Chesapeake	_	_	_	_	_	_	_	_	_	_	
+1-16	82-88	Energy	_	_	_	_	_	_	_	_	_	_	
+1-17	89-94	Arena	_	_	_	_	_	_	_	_	_	_	
+1-18	95-97	on	_	_	_	_	_	_	_	_	_	_	
+1-19	98-106	Saturday	_	_	_	_	_	_	_	_	_	_	
+1-20	107-108	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Thunder ( 10 - 8 ) came in to Tuesday 000s contest with a golden opportunity to keep their faint playoff hopes alive , as the Thunder ( 8 - 8 ) were able to pierce Oklahoma City 000s armor Wednesday , touching up Gregg Popovich 000s crew for a season - high 106 points .
+2-1	109-112	The	_	_	_	_	_	_	_	_	_	_	
+2-2	113-120	Thunder	_	_	_	_	_	_	_	_	_	_	
+2-3	121-122	(	_	_	_	_	_	_	_	_	_	_	
+2-4	123-125	10	_	_	_	_	_	_	_	_	_	_	
+2-5	126-127	-	_	_	_	_	_	_	_	_	_	_	
+2-6	128-129	8	_	_	_	_	_	_	_	_	_	_	
+2-7	130-131	)	_	_	_	_	_	_	_	_	_	_	
+2-8	132-136	came	_	_	_	_	_	_	_	_	_	_	
+2-9	137-139	in	_	_	_	_	_	_	_	_	_	_	
+2-10	140-142	to	_	_	_	_	_	_	_	_	_	_	
+2-11	143-150	Tuesday	1\_NAME	Saturday	*	*	*	2	false	2	*	2	
+2-12	151-155	000s	_	_	_	_	_	_	_	_	_	_	
+2-13	156-163	contest	_	_	_	_	_	_	_	_	_	_	
+2-14	164-168	with	_	_	_	_	_	_	_	_	_	_	
+2-15	169-170	a	_	_	_	_	_	_	_	_	_	_	
+2-16	171-177	golden	_	_	_	_	_	_	_	_	_	_	
+2-17	178-189	opportunity	_	_	_	_	_	_	_	_	_	_	
+2-18	190-192	to	_	_	_	_	_	_	_	_	_	_	
+2-19	193-197	keep	_	_	_	_	_	_	_	_	_	_	
+2-20	198-203	their	_	_	_	_	_	_	_	_	_	_	
+2-21	204-209	faint	3\_WORD[1]	*[1]	It is too early in the season to talk about playoff hopes[1]	*[1]	*[1]	3[1]	false[1]	1[1]	*[1]	3[1]	
+2-22	210-217	playoff	3\_WORD[1]	*[1]	It is too early in the season to talk about playoff hopes[1]	*[1]	*[1]	3[1]	false[1]	1[1]	*[1]	3[1]	
+2-23	218-223	hopes	3\_WORD[1]	*[1]	It is too early in the season to talk about playoff hopes[1]	*[1]	*[1]	3[1]	false[1]	1[1]	*[1]	3[1]	
+2-24	224-229	alive	_	_	_	_	_	_	_	_	_	_	
+2-25	230-231	,	_	_	_	_	_	_	_	_	_	_	
+2-26	232-234	as	_	_	_	_	_	_	_	_	_	_	
+2-27	235-238	the	_	_	_	_	_	_	_	_	_	_	
+2-28	239-246	Thunder	_	_	_	_	_	_	_	_	_	_	
+2-29	247-248	(	_	_	_	_	_	_	_	_	_	_	
+2-30	249-250	8	2\_NUMBER	10	*	*	*	3	false	3	*	3	
+2-31	251-252	-	_	_	_	_	_	_	_	_	_	_	
+2-32	253-254	8	_	_	_	_	_	_	_	_	_	_	
+2-33	255-256	)	_	_	_	_	_	_	_	_	_	_	
+2-34	257-261	were	_	_	_	_	_	_	_	_	_	_	
+2-35	262-266	able	_	_	_	_	_	_	_	_	_	_	
+2-36	267-269	to	_	_	_	_	_	_	_	_	_	_	
+2-37	270-276	pierce	_	_	_	_	_	_	_	_	_	_	
+2-38	277-285	Oklahoma	1\_NAME[2]	Detroit Piston[2]	*[2]	*[2]	*[2]	2[2]	false[2]	2[2]	*[2]	2[2]	
+2-39	286-290	City	1\_NAME[2]	Detroit Piston[2]	*[2]	*[2]	*[2]	2[2]	false[2]	2[2]	*[2]	2[2]	
+2-40	291-295	000s	_	_	_	_	_	_	_	_	_	_	
+2-41	296-301	armor	_	_	_	_	_	_	_	_	_	_	
+2-42	302-311	Wednesday	1\_NAME	Saturday	*	*	*	3	false	3	*	3	
+2-43	312-313	,	_	_	_	_	_	_	_	_	_	_	
+2-44	314-322	touching	_	_	_	_	_	_	_	_	_	_	
+2-45	323-325	up	_	_	_	_	_	_	_	_	_	_	
+2-46	326-331	Gregg	1\_NAME[3]	Billy Donovan[3]	*[3]	*[3]	*[3]	3[3]	false[3]	3[3]	*[3]	3[3]	
+2-47	332-340	Popovich	1\_NAME[3]	Billy Donovan[3]	*[3]	*[3]	*[3]	3[3]	false[3]	3[3]	*[3]	3[3]	
+2-48	341-345	000s	_	_	_	_	_	_	_	_	_	_	
+2-49	346-350	crew	_	_	_	_	_	_	_	_	_	_	
+2-50	351-354	for	_	_	_	_	_	_	_	_	_	_	
+2-51	355-356	a	_	_	_	_	_	_	_	_	_	_	
+2-52	357-363	season	6\_NOT\_CHECKABLE[4]	*[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+2-53	364-365	-	6\_NOT\_CHECKABLE[4]	*[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+2-54	366-370	high	6\_NOT\_CHECKABLE[4]	*[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+2-55	371-374	106	_	_	_	_	_	_	_	_	_	_	
+2-56	375-381	points	_	_	_	_	_	_	_	_	_	_	
+2-57	382-383	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Russell Westbrook 000s 17 - point , 15 - rebound double - double led the way for the Thunder , and he added 13 rebounds , 15 assists , a steal and a block to lead the way for the Thunder .
+3-1	384-391	Russell	_	_	_	_	_	_	_	_	_	_	
+3-2	392-401	Westbrook	_	_	_	_	_	_	_	_	_	_	
+3-3	402-406	000s	_	_	_	_	_	_	_	_	_	_	
+3-4	407-409	17	_	_	_	_	_	_	_	_	_	_	
+3-5	410-411	-	_	_	_	_	_	_	_	_	_	_	
+3-6	412-417	point	_	_	_	_	_	_	_	_	_	_	
+3-7	418-419	,	_	_	_	_	_	_	_	_	_	_	
+3-8	420-422	15	2\_NUMBER	13	*	2	T1 changed rebound to assist	2	true	1	*	1	
+3-9	423-424	-	_	_	_	_	_	_	_	_	_	_	
+3-10	425-432	rebound	_	_	_	_	_	_	_	_	_	_	
+3-11	433-439	double	3\_WORD[5]	triple-double[5]	*[5]	*[5]	CT: I think T2 missed this sentence by mistake[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+3-12	440-441	-	3\_WORD[5]	triple-double[5]	*[5]	*[5]	CT: I think T2 missed this sentence by mistake[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+3-13	442-448	double	3\_WORD[5]	triple-double[5]	*[5]	*[5]	CT: I think T2 missed this sentence by mistake[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+3-14	449-452	led	_	_	_	_	_	_	_	_	_	_	
+3-15	453-456	the	_	_	_	_	_	_	_	_	_	_	
+3-16	457-460	way	_	_	_	_	_	_	_	_	_	_	
+3-17	461-464	for	_	_	_	_	_	_	_	_	_	_	
+3-18	465-468	the	_	_	_	_	_	_	_	_	_	_	
+3-19	469-476	Thunder	_	_	_	_	_	_	_	_	_	_	
+3-20	477-478	,	_	_	_	_	_	_	_	_	_	_	
+3-21	479-482	and	_	_	_	_	_	_	_	_	_	_	
+3-22	483-485	he	_	_	_	_	_	_	_	_	_	_	
+3-23	486-491	added	_	_	_	_	_	_	_	_	_	_	
+3-24	492-494	13	_	_	_	_	_	_	_	_	_	_	
+3-25	495-503	rebounds	_	_	_	_	_	_	_	_	_	_	
+3-26	504-505	,	_	_	_	_	_	_	_	_	_	_	
+3-27	506-508	15	_	_	_	_	_	_	_	_	_	_	
+3-28	509-516	assists	_	_	_	_	_	_	_	_	_	_	
+3-29	517-518	,	_	_	_	_	_	_	_	_	_	_	
+3-30	519-520	a	_	_	_	_	_	_	_	_	_	_	
+3-31	521-526	steal	_	_	_	_	_	_	_	_	_	_	
+3-32	527-530	and	_	_	_	_	_	_	_	_	_	_	
+3-33	531-532	a	_	_	_	_	_	_	_	_	_	_	
+3-34	533-538	block	_	_	_	_	_	_	_	_	_	_	
+3-35	539-541	to	_	_	_	_	_	_	_	_	_	_	
+3-36	542-546	lead	_	_	_	_	_	_	_	_	_	_	
+3-37	547-550	the	_	_	_	_	_	_	_	_	_	_	
+3-38	551-554	way	_	_	_	_	_	_	_	_	_	_	
+3-39	555-558	for	_	_	_	_	_	_	_	_	_	_	
+3-40	559-562	the	_	_	_	_	_	_	_	_	_	_	
+3-41	563-570	Thunder	_	_	_	_	_	_	_	_	_	_	
+3-42	571-572	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Tobias Harris ( 21 points ) and Victor Oladipo ( 18 points ) rounded out the starting five 000s strong night , while Andre Drummond posted a 10 - point , eight - rebound double - double .
+4-1	573-579	Tobias	4\_CONTEXT[6]	*[6]	Harris plays for the Pistons, not the Thunder[6]	*[6]	CT: So much context errors in these that it must have been difficult to annotate[6]	2[6]	false[6]	2[6]	*[6]	2[6]	
+4-2	580-586	Harris	4\_CONTEXT[6]	*[6]	Harris plays for the Pistons, not the Thunder[6]	*[6]	CT: So much context errors in these that it must have been difficult to annotate[6]	2[6]	false[6]	2[6]	*[6]	2[6]	
+4-3	587-588	(	_	_	_	_	_	_	_	_	_	_	
+4-4	589-591	21	_	_	_	_	_	_	_	_	_	_	
+4-5	592-598	points	_	_	_	_	_	_	_	_	_	_	
+4-6	599-600	)	_	_	_	_	_	_	_	_	_	_	
+4-7	601-604	and	_	_	_	_	_	_	_	_	_	_	
+4-8	605-611	Victor	4\_CONTEXT[7]	*[7]	plays for the Thunder, not the Pistons[7]	*[7]	CT: So much context errors in these that it must have been difficult to annotate[7]	2[7]	false[7]	2[7]	*[7]	2[7]	
+4-9	612-619	Oladipo	4\_CONTEXT[7]	*[7]	plays for the Thunder, not the Pistons[7]	*[7]	CT: So much context errors in these that it must have been difficult to annotate[7]	2[7]	false[7]	2[7]	*[7]	2[7]	
+4-10	620-621	(	_	_	_	_	_	_	_	_	_	_	
+4-11	622-624	18	_	_	_	_	_	_	_	_	_	_	
+4-12	625-631	points	_	_	_	_	_	_	_	_	_	_	
+4-13	632-633	)	_	_	_	_	_	_	_	_	_	_	
+4-14	634-641	rounded	_	_	_	_	_	_	_	_	_	_	
+4-15	642-645	out	_	_	_	_	_	_	_	_	_	_	
+4-16	646-649	the	_	_	_	_	_	_	_	_	_	_	
+4-17	650-658	starting	_	_	_	_	_	_	_	_	_	_	
+4-18	659-663	five	_	_	_	_	_	_	_	_	_	_	
+4-19	664-668	000s	_	_	_	_	_	_	_	_	_	_	
+4-20	669-675	strong	_	_	_	_	_	_	_	_	_	_	
+4-21	676-681	night	_	_	_	_	_	_	_	_	_	_	
+4-22	682-683	,	_	_	_	_	_	_	_	_	_	_	
+4-23	684-689	while	_	_	_	_	_	_	_	_	_	_	
+4-24	690-695	Andre	4\_CONTEXT[8]	*[8]	Drummond plays for the Pistons, not the Thunder[8]	*[8]	CT: So much context errors in these that it must have been difficult to annotate[8]	2[8]	false[8]	2[8]	*[8]	2[8]	
+4-25	696-704	Drummond	4\_CONTEXT[8]	*[8]	Drummond plays for the Pistons, not the Thunder[8]	*[8]	CT: So much context errors in these that it must have been difficult to annotate[8]	2[8]	false[8]	2[8]	*[8]	2[8]	
+4-26	705-711	posted	_	_	_	_	_	_	_	_	_	_	
+4-27	712-713	a	_	_	_	_	_	_	_	_	_	_	
+4-28	714-716	10	_	_	_	_	_	_	_	_	_	_	
+4-29	717-718	-	_	_	_	_	_	_	_	_	_	_	
+4-30	719-724	point	_	_	_	_	_	_	_	_	_	_	
+4-31	725-726	,	_	_	_	_	_	_	_	_	_	_	
+4-32	727-732	eight	_	_	_	_	_	_	_	_	_	_	
+4-33	733-734	-	_	_	_	_	_	_	_	_	_	_	
+4-34	735-742	rebound	_	_	_	_	_	_	_	_	_	_	
+4-35	743-749	double	3\_WORD[9]	*[9]	Drummond did not have a double-double[9]	*[9]	*[9]	3[9]	false[9]	3[9]	*[9]	3[9]	
+4-36	750-751	-	3\_WORD[9]	*[9]	Drummond did not have a double-double[9]	*[9]	*[9]	3[9]	false[9]	3[9]	*[9]	3[9]	
+4-37	752-758	double	3\_WORD[9]	*[9]	Drummond did not have a double-double[9]	*[9]	*[9]	3[9]	false[9]	3[9]	*[9]	3[9]	
+4-38	759-760	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Enes Kanter led the second unit with 12 points .
+5-1	761-765	Enes	_	_	_	_	_	_	_	_	_	_	
+5-2	766-772	Kanter	_	_	_	_	_	_	_	_	_	_	
+5-3	773-776	led	3\_WORD	*	Kanter did not have the most bench points	*	*	3	false	3	*	3	
+5-4	777-780	the	_	_	_	_	_	_	_	_	_	_	
+5-5	781-787	second	_	_	_	_	_	_	_	_	_	_	
+5-6	788-792	unit	_	_	_	_	_	_	_	_	_	_	
+5-7	793-797	with	_	_	_	_	_	_	_	_	_	_	
+5-8	798-800	12	_	_	_	_	_	_	_	_	_	_	
+5-9	801-807	points	_	_	_	_	_	_	_	_	_	_	
+5-10	808-809	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Thunder were led by Russell Westbrook 000s 17 points , which he supplemented with 13 rebounds , an assist , a steal and a block .
+6-1	810-813	The	_	_	_	_	_	_	_	_	_	_	
+6-2	814-821	Thunder	_	_	_	_	_	_	_	_	_	_	
+6-3	822-826	were	_	_	_	_	_	_	_	_	_	_	
+6-4	827-830	led	_	_	_	_	_	_	_	_	_	_	
+6-5	831-833	by	_	_	_	_	_	_	_	_	_	_	
+6-6	834-841	Russell	_	_	_	_	_	_	_	_	_	_	
+6-7	842-851	Westbrook	_	_	_	_	_	_	_	_	_	_	
+6-8	852-856	000s	_	_	_	_	_	_	_	_	_	_	
+6-9	857-859	17	_	_	_	_	_	_	_	_	_	_	
+6-10	860-866	points	_	_	_	_	_	_	_	_	_	_	
+6-11	867-868	,	_	_	_	_	_	_	_	_	_	_	
+6-12	869-874	which	_	_	_	_	_	_	_	_	_	_	
+6-13	875-877	he	_	_	_	_	_	_	_	_	_	_	
+6-14	878-890	supplemented	_	_	_	_	_	_	_	_	_	_	
+6-15	891-895	with	_	_	_	_	_	_	_	_	_	_	
+6-16	896-898	13	_	_	_	_	_	_	_	_	_	_	
+6-17	899-907	rebounds	_	_	_	_	_	_	_	_	_	_	
+6-18	908-909	,	_	_	_	_	_	_	_	_	_	_	
+6-19	910-912	an	2\_NUMBER	fifteen	*	*	*	3	false	3	*	3	
+6-20	913-919	assist	_	_	_	_	_	_	_	_	_	_	
+6-21	920-921	,	_	_	_	_	_	_	_	_	_	_	
+6-22	922-923	a	_	_	_	_	_	_	_	_	_	_	
+6-23	924-929	steal	_	_	_	_	_	_	_	_	_	_	
+6-24	930-933	and	_	_	_	_	_	_	_	_	_	_	
+6-25	934-935	a	_	_	_	_	_	_	_	_	_	_	
+6-26	936-941	block	_	_	_	_	_	_	_	_	_	_	
+6-27	942-943	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Victor Oladipo was next with 18 points , six rebounds , two assists and a steal .
+7-1	944-950	Victor	_	_	_	_	_	_	_	_	_	_	
+7-2	951-958	Oladipo	_	_	_	_	_	_	_	_	_	_	
+7-3	959-962	was	_	_	_	_	_	_	_	_	_	_	
+7-4	963-967	next	3\_WORD	*	Oladipo was third on the team in points	*	*	3	false	3	*	3	
+7-5	968-972	with	_	_	_	_	_	_	_	_	_	_	
+7-6	973-975	18	_	_	_	_	_	_	_	_	_	_	
+7-7	976-982	points	_	_	_	_	_	_	_	_	_	_	
+7-8	983-984	,	_	_	_	_	_	_	_	_	_	_	
+7-9	985-988	six	_	_	_	_	_	_	_	_	_	_	
+7-10	989-997	rebounds	_	_	_	_	_	_	_	_	_	_	
+7-11	998-999	,	_	_	_	_	_	_	_	_	_	_	
+7-12	1000-1003	two	_	_	_	_	_	_	_	_	_	_	
+7-13	1004-1011	assists	_	_	_	_	_	_	_	_	_	_	
+7-14	1012-1015	and	_	_	_	_	_	_	_	_	_	_	
+7-15	1016-1017	a	_	_	_	_	_	_	_	_	_	_	
+7-16	1018-1023	steal	_	_	_	_	_	_	_	_	_	_	
+7-17	1024-1025	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Steven Adams posted a 16 - point , 9 - rebound double - double that also included a block .
+8-1	1026-1032	Steven	_	_	_	_	_	_	_	_	_	_	
+8-2	1033-1038	Adams	_	_	_	_	_	_	_	_	_	_	
+8-3	1039-1045	posted	_	_	_	_	_	_	_	_	_	_	
+8-4	1046-1047	a	_	_	_	_	_	_	_	_	_	_	
+8-5	1048-1050	16	_	_	_	_	_	_	_	_	_	_	
+8-6	1051-1052	-	_	_	_	_	_	_	_	_	_	_	
+8-7	1053-1058	point	_	_	_	_	_	_	_	_	_	_	
+8-8	1059-1060	,	_	_	_	_	_	_	_	_	_	_	
+8-9	1061-1062	9	_	_	_	_	_	_	_	_	_	_	
+8-10	1063-1064	-	_	_	_	_	_	_	_	_	_	_	
+8-11	1065-1072	rebound	_	_	_	_	_	_	_	_	_	_	
+8-12	1073-1079	double	3\_WORD[10]	*[10]	Adams did not have a double-double[10]	*[10]	*[10]	3[10]	false[10]	3[10]	*[10]	3[10]	
+8-13	1080-1081	-	3\_WORD[10]	*[10]	Adams did not have a double-double[10]	*[10]	*[10]	3[10]	false[10]	3[10]	*[10]	3[10]	
+8-14	1082-1088	double	3\_WORD[10]	*[10]	Adams did not have a double-double[10]	*[10]	*[10]	3[10]	false[10]	3[10]	*[10]	3[10]	
+8-15	1089-1093	that	_	_	_	_	_	_	_	_	_	_	
+8-16	1094-1098	also	_	_	_	_	_	_	_	_	_	_	
+8-17	1099-1107	included	_	_	_	_	_	_	_	_	_	_	
+8-18	1108-1109	a	2\_NUMBER	zero	*	3	T1 changed block to steal	3	false	2	*	2	
+8-19	1110-1115	block	_	_	_	_	_	_	_	_	_	_	
+8-20	1116-1117	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Enes Kanter led the bench with 12 points , three rebounds and a block .
+9-1	1118-1122	Enes	_	_	_	_	_	_	_	_	_	_	
+9-2	1123-1129	Kanter	_	_	_	_	_	_	_	_	_	_	
+9-3	1130-1133	led	3\_WORD	*	Kanter did not have the most bench points	*	T1 changed the name to the player who led -Tobias Harris	3	true	2	*	2	
+9-4	1134-1137	the	_	_	_	_	_	_	_	_	_	_	
+9-5	1138-1143	bench	_	_	_	_	_	_	_	_	_	_	
+9-6	1144-1148	with	_	_	_	_	_	_	_	_	_	_	
+9-7	1149-1151	12	_	_	_	_	_	_	_	_	_	_	
+9-8	1152-1158	points	_	_	_	_	_	_	_	_	_	_	
+9-9	1159-1160	,	_	_	_	_	_	_	_	_	_	_	
+9-10	1161-1166	three	_	_	_	_	_	_	_	_	_	_	
+9-11	1167-1175	rebounds	_	_	_	_	_	_	_	_	_	_	
+9-12	1176-1179	and	_	_	_	_	_	_	_	_	_	_	
+9-13	1180-1181	a	_	_	_	_	_	_	_	_	_	_	
+9-14	1182-1187	block	_	_	_	_	_	_	_	_	_	_	
+9-15	1188-1189	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Enes Kanter paced the Pistons with 21 points , four rebounds , an assist and three steals .
+10-1	1190-1194	Enes	1\_NAME[11]	Tobias Harris[11]	*[11]	*[11]	*[11]	2[11]	false[11]	2[11]	*[11]	2[11]	
+10-2	1195-1201	Kanter	1\_NAME[11]	Tobias Harris[11]	*[11]	*[11]	*[11]	2[11]	false[11]	2[11]	*[11]	2[11]	
+10-3	1202-1207	paced	_	_	_	_	_	_	_	_	_	_	
+10-4	1208-1211	the	_	_	_	_	_	_	_	_	_	_	
+10-5	1212-1219	Pistons	_	_	_	_	_	_	_	_	_	_	
+10-6	1220-1224	with	_	_	_	_	_	_	_	_	_	_	
+10-7	1225-1227	21	_	_	_	_	_	_	_	_	_	_	
+10-8	1228-1234	points	_	_	_	_	_	_	_	_	_	_	
+10-9	1235-1236	,	_	_	_	_	_	_	_	_	_	_	
+10-10	1237-1241	four	_	_	_	_	_	_	_	_	_	_	
+10-11	1242-1250	rebounds	_	_	_	_	_	_	_	_	_	_	
+10-12	1251-1252	,	_	_	_	_	_	_	_	_	_	_	
+10-13	1253-1255	an	_	_	_	_	_	_	_	_	_	_	
+10-14	1256-1262	assist	_	_	_	_	_	_	_	_	_	_	
+10-15	1263-1266	and	_	_	_	_	_	_	_	_	_	_	
+10-16	1267-1272	three	_	_	_	_	_	_	_	_	_	_	
+10-17	1273-1279	steals	_	_	_	_	_	_	_	_	_	_	
+10-18	1280-1281	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Ish Smith was next with 14 points , three assists and a rebound .
+11-1	1282-1285	Ish	_	_	_	_	_	_	_	_	_	_	
+11-2	1286-1291	Smith	_	_	_	_	_	_	_	_	_	_	
+11-3	1292-1295	was	_	_	_	_	_	_	_	_	_	_	
+11-4	1296-1300	next	_	_	_	_	_	_	_	_	_	_	
+11-5	1301-1305	with	_	_	_	_	_	_	_	_	_	_	
+11-6	1306-1308	14	_	_	_	_	_	_	_	_	_	_	
+11-7	1309-1315	points	_	_	_	_	_	_	_	_	_	_	
+11-8	1316-1317	,	_	_	_	_	_	_	_	_	_	_	
+11-9	1318-1323	three	_	_	_	_	_	_	_	_	_	_	
+11-10	1324-1331	assists	_	_	_	_	_	_	_	_	_	_	
+11-11	1332-1335	and	_	_	_	_	_	_	_	_	_	_	
+11-12	1336-1337	a	_	_	_	_	_	_	_	_	_	_	
+11-13	1338-1345	rebound	_	_	_	_	_	_	_	_	_	_	
+11-14	1346-1347	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Enes Kanter led the second unit with 12 points , three rebounds and a block .
+12-1	1348-1352	Enes	4\_CONTEXT[12]	*[12]	Kanter plays for the Thunder, not Pistons[12]	*[12]	*[12]	2[12]	false[12]	2[12]	*[12]	2[12]	
+12-2	1353-1359	Kanter	4\_CONTEXT[12]	*[12]	Kanter plays for the Thunder, not Pistons[12]	*[12]	*[12]	2[12]	false[12]	2[12]	*[12]	2[12]	
+12-3	1360-1363	led	3\_WORD	*	Kanter did not have the most bench points	*	*	3	false	3	*	3	
+12-4	1364-1367	the	_	_	_	_	_	_	_	_	_	_	
+12-5	1368-1374	second	_	_	_	_	_	_	_	_	_	_	
+12-6	1375-1379	unit	_	_	_	_	_	_	_	_	_	_	
+12-7	1380-1384	with	_	_	_	_	_	_	_	_	_	_	
+12-8	1385-1387	12	_	_	_	_	_	_	_	_	_	_	
+12-9	1388-1394	points	_	_	_	_	_	_	_	_	_	_	
+12-10	1395-1396	,	_	_	_	_	_	_	_	_	_	_	
+12-11	1397-1402	three	_	_	_	_	_	_	_	_	_	_	
+12-12	1403-1411	rebounds	_	_	_	_	_	_	_	_	_	_	
+12-13	1412-1415	and	_	_	_	_	_	_	_	_	_	_	
+12-14	1416-1417	a	_	_	_	_	_	_	_	_	_	_	
+12-15	1418-1423	block	_	_	_	_	_	_	_	_	_	_	
+12-16	1424-1425	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Pistons head back home to tangle with the Golden State Warriors on Friday night , while the Thunder remain home to face the San Antonio Spurs on Monday evening as well .
+13-1	1426-1429	The	_	_	_	_	_	_	_	_	_	_	
+13-2	1430-1437	Pistons	_	_	_	_	_	_	_	_	_	_	
+13-3	1438-1442	head	_	_	_	_	_	_	_	_	_	_	
+13-4	1443-1447	back	3\_WORD[13]	*[13]	travel to Charlotte[13]	*[13]	*[13]	3[13]	false[13]	1[13]	*[13]	3[13]	
+13-5	1448-1452	home	3\_WORD[13]	*[13]	travel to Charlotte[13]	*[13]	*[13]	3[13]	false[13]	1[13]	*[13]	3[13]	
+13-6	1453-1455	to	_	_	_	_	_	_	_	_	_	_	
+13-7	1456-1462	tangle	_	_	_	_	_	_	_	_	_	_	
+13-8	1463-1467	with	_	_	_	_	_	_	_	_	_	_	
+13-9	1468-1471	the	_	_	_	_	_	_	_	_	_	_	
+13-10	1472-1478	Golden	1\_NAME[14]	Charlotte Hornets[14]	*[14]	*[14]	*[14]	3[14]	false[14]	3[14]	*[14]	3[14]	
+13-11	1479-1484	State	1\_NAME[14]	Charlotte Hornets[14]	*[14]	*[14]	*[14]	3[14]	false[14]	3[14]	*[14]	3[14]	
+13-12	1485-1493	Warriors	1\_NAME[14]	Charlotte Hornets[14]	*[14]	*[14]	*[14]	3[14]	false[14]	3[14]	*[14]	3[14]	
+13-13	1494-1496	on	_	_	_	_	_	_	_	_	_	_	
+13-14	1497-1503	Friday	1\_NAME	Tuesday	*	*	*	3	false	3	*	3	
+13-15	1504-1509	night	_	_	_	_	_	_	_	_	_	_	
+13-16	1510-1511	,	_	_	_	_	_	_	_	_	_	_	
+13-17	1512-1517	while	_	_	_	_	_	_	_	_	_	_	
+13-18	1518-1521	the	_	_	_	_	_	_	_	_	_	_	
+13-19	1522-1529	Thunder	_	_	_	_	_	_	_	_	_	_	
+13-20	1530-1536	remain	3\_WORD[15]	*[15]	next game is on the road[15]	*[15]	*[15]	3[15]	false[15]	2[15]	*[15]	3[15]	
+13-21	1537-1541	home	3\_WORD[15]	*[15]	next game is on the road[15]	*[15]	*[15]	3[15]	false[15]	2[15]	*[15]	3[15]	
+13-22	1542-1544	to	_	_	_	_	_	_	_	_	_	_	
+13-23	1545-1549	face	_	_	_	_	_	_	_	_	_	_	
+13-24	1550-1553	the	_	_	_	_	_	_	_	_	_	_	
+13-25	1554-1557	San	1\_NAME[16]	New York Knicks[16]	*[16]	*[16]	*[16]	3[16]	false[16]	3[16]	*[16]	3[16]	
+13-26	1558-1565	Antonio	1\_NAME[16]	New York Knicks[16]	*[16]	*[16]	*[16]	3[16]	false[16]	3[16]	*[16]	3[16]	
+13-27	1566-1571	Spurs	1\_NAME[16]	New York Knicks[16]	*[16]	*[16]	*[16]	3[16]	false[16]	3[16]	*[16]	3[16]	
+13-28	1572-1574	on	_	_	_	_	_	_	_	_	_	_	
+13-29	1575-1581	Monday	_	_	_	_	_	_	_	_	_	_	
+13-30	1582-1589	evening	_	_	_	_	_	_	_	_	_	_	
+13-31	1590-1592	as	_	_	_	_	_	_	_	_	_	_	
+13-32	1593-1597	well	_	_	_	_	_	_	_	_	_	_	
+13-33	1598-1599	.	_	_	_	_	_	_	_	_	_	_	

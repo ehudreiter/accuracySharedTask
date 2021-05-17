@@ -1,0 +1,169 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Washington Wizards ( 36 - 39 ) defeated the Sacramento Kings ( 30 - 45 ) 111 - 120 on Saturday .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-14	Washington	_	_	_	_	_	_	_	_	_	_	
+1-3	15-22	Wizards	_	_	_	_	_	_	_	_	_	_	
+1-4	23-24	(	_	_	_	_	_	_	_	_	_	_	
+1-5	25-27	36	_	_	_	_	_	_	_	_	_	_	
+1-6	28-29	-	_	_	_	_	_	_	_	_	_	_	
+1-7	30-32	39	_	_	_	_	_	_	_	_	_	_	
+1-8	33-34	)	_	_	_	_	_	_	_	_	_	_	
+1-9	35-43	defeated	3\_WORD	*	The Wizards lost this game	*	*	3	false	3	*	3	
+1-10	44-47	the	_	_	_	_	_	_	_	_	_	_	
+1-11	48-58	Sacramento	_	_	_	_	_	_	_	_	_	_	
+1-12	59-64	Kings	_	_	_	_	_	_	_	_	_	_	
+1-13	65-66	(	_	_	_	_	_	_	_	_	_	_	
+1-14	67-69	30	_	_	_	_	_	_	_	_	_	_	
+1-15	70-71	-	_	_	_	_	_	_	_	_	_	_	
+1-16	72-74	45	_	_	_	_	_	_	_	_	_	_	
+1-17	75-76	)	_	_	_	_	_	_	_	_	_	_	
+1-18	77-80	111	_	_	_	_	_	_	_	_	_	_	
+1-19	81-82	-	_	_	_	_	_	_	_	_	_	_	
+1-20	83-86	120	_	_	_	_	_	_	_	_	_	_	
+1-21	87-89	on	_	_	_	_	_	_	_	_	_	_	
+1-22	90-98	Saturday	1\_NAME	Wednesday	*	*	*	3	false	3	*	3	
+1-23	99-100	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Washington has won two straight and three of their last five games .
+2-1	101-111	Washington	_	_	_	_	_	_	_	_	_	_	
+2-2	112-115	has	_	_	_	_	_	_	_	_	_	_	
+2-3	116-119	won	3\_WORD	lost	*	*	*	3	true	2	*	2	
+2-4	120-123	two	_	_	_	_	_	_	_	_	_	_	
+2-5	124-132	straight	_	_	_	_	_	_	_	_	_	_	
+2-6	133-136	and	_	_	_	_	_	_	_	_	_	_	
+2-7	137-142	three	2\_NUMBER	one	*	*	*	3	false	2	*	2	
+2-8	143-145	of	_	_	_	_	_	_	_	_	_	_	
+2-9	146-151	their	_	_	_	_	_	_	_	_	_	_	
+2-10	152-156	last	_	_	_	_	_	_	_	_	_	_	
+2-11	157-161	five	_	_	_	_	_	_	_	_	_	_	
+2-12	162-167	games	_	_	_	_	_	_	_	_	_	_	
+2-13	168-169	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Bradley Beal led the way with a game - high 20 points , while Markieff Morris added 13 points , and Markieff Morris chipped in 13 .
+3-1	170-177	Bradley	_	_	_	_	_	_	_	_	_	_	
+3-2	178-182	Beal	_	_	_	_	_	_	_	_	_	_	
+3-3	183-186	led	_	_	_	_	_	_	_	_	_	_	
+3-4	187-190	the	_	_	_	_	_	_	_	_	_	_	
+3-5	191-194	way	_	_	_	_	_	_	_	_	_	_	
+3-6	195-199	with	_	_	_	_	_	_	_	_	_	_	
+3-7	200-201	a	_	_	_	_	_	_	_	_	_	_	
+3-8	202-206	game	3\_WORD[1]	*[1]	Beal was not the leading scorer in the game[1]	*[1]	*[1]	3[1]	false[1]	3[1]	*[1]	3[1]	
+3-9	207-208	-	3\_WORD[1]	*[1]	Beal was not the leading scorer in the game[1]	*[1]	*[1]	3[1]	false[1]	3[1]	*[1]	3[1]	
+3-10	209-213	high	3\_WORD[1]	*[1]	Beal was not the leading scorer in the game[1]	*[1]	*[1]	3[1]	false[1]	3[1]	*[1]	3[1]	
+3-11	214-216	20	2\_NUMBER	24	*	*	*	3	false	3	*	3	
+3-12	217-223	points	_	_	_	_	_	_	_	_	_	_	
+3-13	224-225	,	_	_	_	_	_	_	_	_	_	_	
+3-14	226-231	while	_	_	_	_	_	_	_	_	_	_	
+3-15	232-240	Markieff	_	_	_	_	_	_	_	_	_	_	
+3-16	241-247	Morris	_	_	_	_	_	_	_	_	_	_	
+3-17	248-253	added	_	_	_	_	_	_	_	_	_	_	
+3-18	254-256	13	_	_	_	_	_	_	_	_	_	_	
+3-19	257-263	points	_	_	_	_	_	_	_	_	_	_	
+3-20	264-265	,	_	_	_	_	_	_	_	_	_	_	
+3-21	266-269	and	_	_	_	_	_	_	_	_	_	_	
+3-22	270-278	Markieff	_	_	_	_	_	_	_	_	_	_	
+3-23	279-285	Morris	_	_	_	_	_	_	_	_	_	_	
+3-24	286-293	chipped	_	_	_	_	_	_	_	_	_	_	
+3-25	294-296	in	_	_	_	_	_	_	_	_	_	_	
+3-26	297-299	13	_	_	_	_	_	_	_	_	_	_	
+3-27	300-301	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Bradley Beal led the way for the Kings with 24 points and 10 rebounds .
+4-1	302-309	Bradley	_	_	_	_	_	_	_	_	_	_	
+4-2	310-314	Beal	_	_	_	_	_	_	_	_	_	_	
+4-3	315-318	led	_	_	_	_	_	_	_	_	_	_	
+4-4	319-322	the	_	_	_	_	_	_	_	_	_	_	
+4-5	323-326	way	_	_	_	_	_	_	_	_	_	_	
+4-6	327-330	for	_	_	_	_	_	_	_	_	_	_	
+4-7	331-334	the	_	_	_	_	_	_	_	_	_	_	
+4-8	335-340	Kings	_	_	_	_	_	_	_	_	_	_	
+4-9	341-345	with	_	_	_	_	_	_	_	_	_	_	
+4-10	346-348	24	_	_	_	_	_	_	_	_	_	_	
+4-11	349-355	points	_	_	_	_	_	_	_	_	_	_	
+4-12	356-359	and	_	_	_	_	_	_	_	_	_	_	
+4-13	360-362	10	2\_NUMBER	4	*	*	CT: T3 changed the NAME to DeMarcus Cousins	3	true	2	*	3	
+4-14	363-371	rebounds	_	_	_	_	_	_	_	_	_	_	
+4-15	372-373	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Rajon Rondo had a double - double of 15 points and 11 assists , and Darren Collison had a double - double of 13 points and 10 assists .
+5-1	374-379	Rajon	_	_	_	_	_	_	_	_	_	_	
+5-2	380-385	Rondo	_	_	_	_	_	_	_	_	_	_	
+5-3	386-389	had	_	_	_	_	_	_	_	_	_	_	
+5-4	390-391	a	_	_	_	_	_	_	_	_	_	_	
+5-5	392-398	double	_	_	_	_	_	_	_	_	_	_	
+5-6	399-400	-	_	_	_	_	_	_	_	_	_	_	
+5-7	401-407	double	_	_	_	_	_	_	_	_	_	_	
+5-8	408-410	of	_	_	_	_	_	_	_	_	_	_	
+5-9	411-413	15	_	_	_	_	_	_	_	_	_	_	
+5-10	414-420	points	_	_	_	_	_	_	_	_	_	_	
+5-11	421-424	and	_	_	_	_	_	_	_	_	_	_	
+5-12	425-427	11	_	_	_	_	_	_	_	_	_	_	
+5-13	428-435	assists	_	_	_	_	_	_	_	_	_	_	
+5-14	436-437	,	_	_	_	_	_	_	_	_	_	_	
+5-15	438-441	and	_	_	_	_	_	_	_	_	_	_	
+5-16	442-448	Darren	_	_	_	_	_	_	_	_	_	_	
+5-17	449-457	Collison	_	_	_	_	_	_	_	_	_	_	
+5-18	458-461	had	_	_	_	_	_	_	_	_	_	_	
+5-19	462-463	a	_	_	_	_	_	_	_	_	_	_	
+5-20	464-470	double	_	_	_	_	_	_	_	_	_	_	
+5-21	471-472	-	_	_	_	_	_	_	_	_	_	_	
+5-22	473-479	double	_	_	_	_	_	_	_	_	_	_	
+5-23	480-482	of	_	_	_	_	_	_	_	_	_	_	
+5-24	483-485	13	_	_	_	_	_	_	_	_	_	_	
+5-25	486-492	points	_	_	_	_	_	_	_	_	_	_	
+5-26	493-496	and	_	_	_	_	_	_	_	_	_	_	
+5-27	497-499	10	_	_	_	_	_	_	_	_	_	_	
+5-28	500-507	assists	_	_	_	_	_	_	_	_	_	_	
+5-29	508-509	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Omri Casspi and Omri Casspi each added 15 points off the bench .
+6-1	510-514	Omri	_	_	_	_	_	_	_	_	_	_	
+6-2	515-521	Casspi	_	_	_	_	_	_	_	_	_	_	
+6-3	522-525	and	_	_	_	_	_	_	_	_	_	_	
+6-4	526-530	Omri	_	_	_	_	_	_	_	_	_	_	
+6-5	531-537	Casspi	_	_	_	_	_	_	_	_	_	_	
+6-6	538-542	each	_	_	_	_	_	_	_	_	_	_	
+6-7	543-548	added	_	_	_	_	_	_	_	_	_	_	
+6-8	549-551	15	_	_	_	_	_	_	_	_	_	_	
+6-9	552-558	points	_	_	_	_	_	_	_	_	_	_	
+6-10	559-562	off	_	_	_	_	_	_	_	_	_	_	
+6-11	563-566	the	_	_	_	_	_	_	_	_	_	_	
+6-12	567-572	bench	_	_	_	_	_	_	_	_	_	_	
+6-13	573-574	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Both teams play on Friday , as the Wizards host the Washington Wizards ( 25 - 36 ) , while the Kings host the Washington Wizards ( 25 - 30 ) .
+7-1	575-579	Both	_	_	_	_	_	_	_	_	_	_	
+7-2	580-585	teams	_	_	_	_	_	_	_	_	_	_	
+7-3	586-590	play	_	_	_	_	_	_	_	_	_	_	
+7-4	591-593	on	_	_	_	_	_	_	_	_	_	_	
+7-5	594-600	Friday	_	_	_	_	_	_	_	_	_	_	
+7-6	601-602	,	_	_	_	_	_	_	_	_	_	_	
+7-7	603-605	as	_	_	_	_	_	_	_	_	_	_	
+7-8	606-609	the	_	_	_	_	_	_	_	_	_	_	
+7-9	610-617	Wizards	_	_	_	_	_	_	_	_	_	_	
+7-10	618-622	host	3\_WORD	*	next game is on the road	*	*	2	false	2	*	2	
+7-11	623-626	the	_	_	_	_	_	_	_	_	_	_	
+7-12	627-637	Washington	1\_NAME[2]	Phoenix Suns[2]	*[2]	*[2]	*[2]	3[2]	false[2]	3[2]	*[2]	3[2]	
+7-13	638-645	Wizards	1\_NAME[2]	Phoenix Suns[2]	*[2]	*[2]	*[2]	3[2]	false[2]	3[2]	*[2]	3[2]	
+7-14	646-647	(	_	_	_	_	_	_	_	_	_	_	
+7-15	648-650	25	2\_NUMBER	20	*	*	CT: Disagreement between T2 and T3 as to whether this is Wizards or Suns record	2	true	2	*	2	
+7-16	651-652	-	_	_	_	_	_	_	_	_	_	_	
+7-17	653-655	36	2\_NUMBER	55	*	*	CT: Disagreement between T2 and T3 as to whether this is Wizards or Suns record	2	true	2	*	2	
+7-18	656-657	)	_	_	_	_	_	_	_	_	_	_	
+7-19	658-659	,	_	_	_	_	_	_	_	_	_	_	
+7-20	660-665	while	_	_	_	_	_	_	_	_	_	_	
+7-21	666-669	the	_	_	_	_	_	_	_	_	_	_	
+7-22	670-675	Kings	_	_	_	_	_	_	_	_	_	_	
+7-23	676-680	host	_	_	_	_	_	_	_	_	_	_	
+7-24	681-684	the	_	_	_	_	_	_	_	_	_	_	
+7-25	685-695	Washington	1\_NAME[3]	Miami Heat[3]	*[3]	*[3]	*[3]	3[3]	false[3]	3[3]	*[3]	3[3]	
+7-26	696-703	Wizards	1\_NAME[3]	Miami Heat[3]	*[3]	*[3]	*[3]	3[3]	false[3]	3[3]	*[3]	3[3]	
+7-27	704-705	(	_	_	_	_	_	_	_	_	_	_	
+7-28	706-708	25	2\_NUMBER	43	*	*	CT: Disagreement between T2 and T3 as to whether this is Wizards or Suns record	2	true	2	*	2	
+7-29	709-710	-	_	_	_	_	_	_	_	_	_	_	
+7-30	711-713	30	2\_NUMBER	31	*	*	CT: Disagreement between T2 and T3 as to whether this is Wizards or Suns record	2	false	2	*	2	
+7-31	714-715	)	_	_	_	_	_	_	_	_	_	_	
+7-32	716-717	.	_	_	_	_	_	_	_	_	_	_	

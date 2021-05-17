@@ -1,0 +1,274 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Hawks held the Magic to a 35 percent success rate from the floor and 26 percent from three - point range , while also eliciting 15 turnovers from the Hawks ( 30 - 21 ) .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-9	Hawks	_	_	_	_	_	_	_	_	_	_	
+1-3	10-14	held	_	_	_	_	_	_	_	_	_	_	
+1-4	15-18	the	_	_	_	_	_	_	_	_	_	_	
+1-5	19-24	Magic	_	_	_	_	_	_	_	_	_	_	
+1-6	25-27	to	_	_	_	_	_	_	_	_	_	_	
+1-7	28-29	a	_	_	_	_	_	_	_	_	_	_	
+1-8	30-32	35	_	_	_	_	_	_	_	_	_	_	
+1-9	33-40	percent	_	_	_	_	_	_	_	_	_	_	
+1-10	41-48	success	_	_	_	_	_	_	_	_	_	_	
+1-11	49-53	rate	_	_	_	_	_	_	_	_	_	_	
+1-12	54-58	from	_	_	_	_	_	_	_	_	_	_	
+1-13	59-62	the	_	_	_	_	_	_	_	_	_	_	
+1-14	63-68	floor	_	_	_	_	_	_	_	_	_	_	
+1-15	69-72	and	_	_	_	_	_	_	_	_	_	_	
+1-16	73-75	26	_	_	_	_	_	_	_	_	_	_	
+1-17	76-83	percent	_	_	_	_	_	_	_	_	_	_	
+1-18	84-88	from	_	_	_	_	_	_	_	_	_	_	
+1-19	89-94	three	_	_	_	_	_	_	_	_	_	_	
+1-20	95-96	-	_	_	_	_	_	_	_	_	_	_	
+1-21	97-102	point	_	_	_	_	_	_	_	_	_	_	
+1-22	103-108	range	_	_	_	_	_	_	_	_	_	_	
+1-23	109-110	,	_	_	_	_	_	_	_	_	_	_	
+1-24	111-116	while	_	_	_	_	_	_	_	_	_	_	
+1-25	117-121	also	_	_	_	_	_	_	_	_	_	_	
+1-26	122-131	eliciting	_	_	_	_	_	_	_	_	_	_	
+1-27	132-134	15	2\_NUMBER	13	*	*	T3 corrected to "eliciting 15" rather than "comitting 13"	3	true	2	*	2	
+1-28	135-144	turnovers	_	_	_	_	_	_	_	_	_	_	
+1-29	145-149	from	_	_	_	_	_	_	_	_	_	_	
+1-30	150-153	the	_	_	_	_	_	_	_	_	_	_	
+1-31	154-159	Hawks	1\_NAME	Magic	*	*	*	2	false	2	*	2	
+1-32	160-161	(	_	_	_	_	_	_	_	_	_	_	
+1-33	162-164	30	_	_	_	_	_	_	_	_	_	_	
+1-34	165-166	-	_	_	_	_	_	_	_	_	_	_	
+1-35	167-169	21	_	_	_	_	_	_	_	_	_	_	
+1-36	170-171	)	_	_	_	_	_	_	_	_	_	_	
+1-37	172-173	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Paul Millsap led the way for the Hawks with a game - high 21 points , which he supplemented with five rebounds , four assists and one steal .
+2-1	174-178	Paul	_	_	_	_	_	_	_	_	_	_	
+2-2	179-186	Millsap	_	_	_	_	_	_	_	_	_	_	
+2-3	187-190	led	_	_	_	_	_	_	_	_	_	_	
+2-4	191-194	the	_	_	_	_	_	_	_	_	_	_	
+2-5	195-198	way	_	_	_	_	_	_	_	_	_	_	
+2-6	199-202	for	_	_	_	_	_	_	_	_	_	_	
+2-7	203-206	the	_	_	_	_	_	_	_	_	_	_	
+2-8	207-212	Hawks	_	_	_	_	_	_	_	_	_	_	
+2-9	213-217	with	_	_	_	_	_	_	_	_	_	_	
+2-10	218-219	a	_	_	_	_	_	_	_	_	_	_	
+2-11	220-224	game	_	_	_	_	_	_	_	_	_	_	
+2-12	225-226	-	_	_	_	_	_	_	_	_	_	_	
+2-13	227-231	high	_	_	_	_	_	_	_	_	_	_	
+2-14	232-234	21	_	_	_	_	_	_	_	_	_	_	
+2-15	235-241	points	_	_	_	_	_	_	_	_	_	_	
+2-16	242-243	,	_	_	_	_	_	_	_	_	_	_	
+2-17	244-249	which	_	_	_	_	_	_	_	_	_	_	
+2-18	250-252	he	_	_	_	_	_	_	_	_	_	_	
+2-19	253-265	supplemented	_	_	_	_	_	_	_	_	_	_	
+2-20	266-270	with	_	_	_	_	_	_	_	_	_	_	
+2-21	271-275	five	_	_	_	_	_	_	_	_	_	_	
+2-22	276-284	rebounds	_	_	_	_	_	_	_	_	_	_	
+2-23	285-286	,	_	_	_	_	_	_	_	_	_	_	
+2-24	287-291	four	_	_	_	_	_	_	_	_	_	_	
+2-25	292-299	assists	_	_	_	_	_	_	_	_	_	_	
+2-26	300-303	and	_	_	_	_	_	_	_	_	_	_	
+2-27	304-307	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+2-28	308-313	steal	_	_	_	_	_	_	_	_	_	_	
+2-29	314-315	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Millsap was right behind him with 21 points , five rebounds , four assists and one steal .
+3-1	316-323	Millsap	_	_	_	_	_	_	_	_	_	_	
+3-2	324-327	was	_	_	_	_	_	_	_	_	_	_	
+3-3	328-333	right	_	_	_	_	_	_	_	_	_	_	
+3-4	334-340	behind	_	_	_	_	_	_	_	_	_	_	
+3-5	341-344	him	_	_	_	_	_	_	_	_	_	_	
+3-6	345-349	with	_	_	_	_	_	_	_	_	_	_	
+3-7	350-352	21	_	_	_	_	_	_	_	_	_	_	
+3-8	353-359	points	_	_	_	_	_	_	_	_	_	_	
+3-9	360-361	,	_	_	_	_	_	_	_	_	_	_	
+3-10	362-366	five	_	_	_	_	_	_	_	_	_	_	
+3-11	367-375	rebounds	_	_	_	_	_	_	_	_	_	_	
+3-12	376-377	,	_	_	_	_	_	_	_	_	_	_	
+3-13	378-382	four	_	_	_	_	_	_	_	_	_	_	
+3-14	383-390	assists	_	_	_	_	_	_	_	_	_	_	
+3-15	391-394	and	_	_	_	_	_	_	_	_	_	_	
+3-16	395-398	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+3-17	399-404	steal	_	_	_	_	_	_	_	_	_	_	
+3-18	405-406	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Dwight Howard posted a 11 - point , 13 - rebound double - double that also included three assists , one steal and one block .
+4-1	407-413	Dwight	_	_	_	_	_	_	_	_	_	_	
+4-2	414-420	Howard	_	_	_	_	_	_	_	_	_	_	
+4-3	421-427	posted	_	_	_	_	_	_	_	_	_	_	
+4-4	428-429	a	_	_	_	_	_	_	_	_	_	_	
+4-5	430-432	11	_	_	_	_	_	_	_	_	_	_	
+4-6	433-434	-	_	_	_	_	_	_	_	_	_	_	
+4-7	435-440	point	_	_	_	_	_	_	_	_	_	_	
+4-8	441-442	,	_	_	_	_	_	_	_	_	_	_	
+4-9	443-445	13	_	_	_	_	_	_	_	_	_	_	
+4-10	446-447	-	_	_	_	_	_	_	_	_	_	_	
+4-11	448-455	rebound	_	_	_	_	_	_	_	_	_	_	
+4-12	456-462	double	_	_	_	_	_	_	_	_	_	_	
+4-13	463-464	-	_	_	_	_	_	_	_	_	_	_	
+4-14	465-471	double	_	_	_	_	_	_	_	_	_	_	
+4-15	472-476	that	_	_	_	_	_	_	_	_	_	_	
+4-16	477-481	also	_	_	_	_	_	_	_	_	_	_	
+4-17	482-490	included	_	_	_	_	_	_	_	_	_	_	
+4-18	491-496	three	_	_	_	_	_	_	_	_	_	_	
+4-19	497-504	assists	_	_	_	_	_	_	_	_	_	_	
+4-20	505-506	,	_	_	_	_	_	_	_	_	_	_	
+4-21	507-510	one	_	_	_	_	_	_	_	_	_	_	
+4-22	511-516	steal	_	_	_	_	_	_	_	_	_	_	
+4-23	517-520	and	_	_	_	_	_	_	_	_	_	_	
+4-24	521-524	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+4-25	525-530	block	_	_	_	_	_	_	_	_	_	_	
+4-26	531-532	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Kent Bazemore led the bench with 27 points , three rebounds , three assists and two steals .
+5-1	533-537	Kent	_	_	_	_	_	_	_	_	_	_	
+5-2	538-546	Bazemore	_	_	_	_	_	_	_	_	_	_	
+5-3	547-550	led	3\_WORD	*	did not lead in scoring	*	*	3	false	2	*	3	
+5-4	551-554	the	_	_	_	_	_	_	_	_	_	_	
+5-5	555-560	bench	3\_WORD	*	Bazemore started	*	*	3	false	1	*	3	
+5-6	561-565	with	_	_	_	_	_	_	_	_	_	_	
+5-7	566-568	27	2\_NUMBER	8	*	*	*	3	false	3	*	3	
+5-8	569-575	points	_	_	_	_	_	_	_	_	_	_	
+5-9	576-577	,	_	_	_	_	_	_	_	_	_	_	
+5-10	578-583	three	_	_	_	_	_	_	_	_	_	_	
+5-11	584-592	rebounds	_	_	_	_	_	_	_	_	_	_	
+5-12	593-594	,	_	_	_	_	_	_	_	_	_	_	
+5-13	595-600	three	_	_	_	_	_	_	_	_	_	_	
+5-14	601-608	assists	_	_	_	_	_	_	_	_	_	_	
+5-15	609-612	and	_	_	_	_	_	_	_	_	_	_	
+5-16	613-616	two	_	_	_	_	_	_	_	_	_	_	
+5-17	617-623	steals	_	_	_	_	_	_	_	_	_	_	
+5-18	624-625	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Kent Bazemore led the second unit with 27 points , three rebounds , three assists and two steals .
+6-1	626-630	Kent	_	_	_	_	_	_	_	_	_	_	
+6-2	631-639	Bazemore	_	_	_	_	_	_	_	_	_	_	
+6-3	640-643	led	_	_	_	_	_	_	_	_	_	_	
+6-4	644-647	the	_	_	_	_	_	_	_	_	_	_	
+6-5	648-654	second	3\_WORD[1]	starters[1]	*[1]	*[1]	T1 looks to have missed this sentence given the errors are fundamentally the same as the previous one[1]	2[1]	false[1]	1[1]	*[1]	2[1]	
+6-6	655-659	unit	3\_WORD[1]	starters[1]	*[1]	*[1]	T1 looks to have missed this sentence given the errors are fundamentally the same as the previous one[1]	2[1]	false[1]	1[1]	*[1]	2[1]	
+6-7	660-664	with	_	_	_	_	_	_	_	_	_	_	
+6-8	665-667	27	2\_NUMBER	8	*	*	*	2	false	2	*	2	
+6-9	668-674	points	_	_	_	_	_	_	_	_	_	_	
+6-10	675-676	,	_	_	_	_	_	_	_	_	_	_	
+6-11	677-682	three	_	_	_	_	_	_	_	_	_	_	
+6-12	683-691	rebounds	_	_	_	_	_	_	_	_	_	_	
+6-13	692-693	,	_	_	_	_	_	_	_	_	_	_	
+6-14	694-699	three	_	_	_	_	_	_	_	_	_	_	
+6-15	700-707	assists	_	_	_	_	_	_	_	_	_	_	
+6-16	708-711	and	_	_	_	_	_	_	_	_	_	_	
+6-17	712-715	two	_	_	_	_	_	_	_	_	_	_	
+6-18	716-722	steals	_	_	_	_	_	_	_	_	_	_	
+6-19	723-724	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Paul Millsap led the way for Orlando with 21 points , five rebounds , four assists , one steal and one block .
+7-1	725-729	Paul	_	_	_	_	_	_	_	_	_	_	
+7-2	730-737	Millsap	_	_	_	_	_	_	_	_	_	_	
+7-3	738-741	led	_	_	_	_	_	_	_	_	_	_	
+7-4	742-745	the	_	_	_	_	_	_	_	_	_	_	
+7-5	746-749	way	_	_	_	_	_	_	_	_	_	_	
+7-6	750-753	for	_	_	_	_	_	_	_	_	_	_	
+7-7	754-761	Orlando	1\_NAME	Atlanta	*	*	*	3	false	3	*	3	
+7-8	762-766	with	_	_	_	_	_	_	_	_	_	_	
+7-9	767-769	21	_	_	_	_	_	_	_	_	_	_	
+7-10	770-776	points	_	_	_	_	_	_	_	_	_	_	
+7-11	777-778	,	_	_	_	_	_	_	_	_	_	_	
+7-12	779-783	five	_	_	_	_	_	_	_	_	_	_	
+7-13	784-792	rebounds	_	_	_	_	_	_	_	_	_	_	
+7-14	793-794	,	_	_	_	_	_	_	_	_	_	_	
+7-15	795-799	four	_	_	_	_	_	_	_	_	_	_	
+7-16	800-807	assists	_	_	_	_	_	_	_	_	_	_	
+7-17	808-809	,	_	_	_	_	_	_	_	_	_	_	
+7-18	810-813	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+7-19	814-819	steal	_	_	_	_	_	_	_	_	_	_	
+7-20	820-823	and	_	_	_	_	_	_	_	_	_	_	
+7-21	824-827	one	2\_NUMBER	zero	*	*	*	2	false	2	*	2	
+7-22	828-833	block	_	_	_	_	_	_	_	_	_	_	
+7-23	834-835	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Dwight Howard posted a 11 - point , 13 - rebound double - double that also included three assists , one steal and one block .
+8-1	836-842	Dwight	_	_	_	_	_	_	_	_	_	_	
+8-2	843-849	Howard	_	_	_	_	_	_	_	_	_	_	
+8-3	850-856	posted	_	_	_	_	_	_	_	_	_	_	
+8-4	857-858	a	_	_	_	_	_	_	_	_	_	_	
+8-5	859-861	11	_	_	_	_	_	_	_	_	_	_	
+8-6	862-863	-	_	_	_	_	_	_	_	_	_	_	
+8-7	864-869	point	_	_	_	_	_	_	_	_	_	_	
+8-8	870-871	,	_	_	_	_	_	_	_	_	_	_	
+8-9	872-874	13	_	_	_	_	_	_	_	_	_	_	
+8-10	875-876	-	_	_	_	_	_	_	_	_	_	_	
+8-11	877-884	rebound	_	_	_	_	_	_	_	_	_	_	
+8-12	885-891	double	_	_	_	_	_	_	_	_	_	_	
+8-13	892-893	-	_	_	_	_	_	_	_	_	_	_	
+8-14	894-900	double	_	_	_	_	_	_	_	_	_	_	
+8-15	901-905	that	_	_	_	_	_	_	_	_	_	_	
+8-16	906-910	also	_	_	_	_	_	_	_	_	_	_	
+8-17	911-919	included	_	_	_	_	_	_	_	_	_	_	
+8-18	920-925	three	_	_	_	_	_	_	_	_	_	_	
+8-19	926-933	assists	_	_	_	_	_	_	_	_	_	_	
+8-20	934-935	,	_	_	_	_	_	_	_	_	_	_	
+8-21	936-939	one	_	_	_	_	_	_	_	_	_	_	
+8-22	940-945	steal	_	_	_	_	_	_	_	_	_	_	
+8-23	946-949	and	_	_	_	_	_	_	_	_	_	_	
+8-24	950-953	one	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+8-25	954-959	block	_	_	_	_	_	_	_	_	_	_	
+8-26	960-961	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Kent Bazemore led the second unit with 12 points , three rebounds , three assists , two steals and one block .
+9-1	962-966	Kent	_	_	_	_	_	_	_	_	_	_	
+9-2	967-975	Bazemore	_	_	_	_	_	_	_	_	_	_	
+9-3	976-979	led	3\_WORD	*	did not lead in scoring	*	*	2	false	2	*	2	
+9-4	980-983	the	_	_	_	_	_	_	_	_	_	_	
+9-5	984-990	second	3\_WORD[2]	*[2]	Bazemore started[2]	*[2]	*[2]	3[2]	false[2]	2[2]	*[2]	3[2]	
+9-6	991-995	unit	3\_WORD[2]	*[2]	Bazemore started[2]	*[2]	*[2]	3[2]	false[2]	2[2]	*[2]	3[2]	
+9-7	996-1000	with	_	_	_	_	_	_	_	_	_	_	
+9-8	1001-1003	12	2\_NUMBER	8	*	*	*	3	false	3	*	3	
+9-9	1004-1010	points	_	_	_	_	_	_	_	_	_	_	
+9-10	1011-1012	,	_	_	_	_	_	_	_	_	_	_	
+9-11	1013-1018	three	_	_	_	_	_	_	_	_	_	_	
+9-12	1019-1027	rebounds	_	_	_	_	_	_	_	_	_	_	
+9-13	1028-1029	,	_	_	_	_	_	_	_	_	_	_	
+9-14	1030-1035	three	_	_	_	_	_	_	_	_	_	_	
+9-15	1036-1043	assists	_	_	_	_	_	_	_	_	_	_	
+9-16	1044-1045	,	_	_	_	_	_	_	_	_	_	_	
+9-17	1046-1049	two	_	_	_	_	_	_	_	_	_	_	
+9-18	1050-1056	steals	_	_	_	_	_	_	_	_	_	_	
+9-19	1057-1060	and	_	_	_	_	_	_	_	_	_	_	
+9-20	1061-1064	one	2\_NUMBER	zero	*	*	*	2	false	2	*	2	
+9-21	1065-1070	block	_	_	_	_	_	_	_	_	_	_	
+9-22	1071-1072	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Magic head back home to face off with the New York Knicks on Monday night , while the Hawks remain home and await the Toronto Raptors on Friday evening as well .
+10-1	1073-1076	The	_	_	_	_	_	_	_	_	_	_	
+10-2	1077-1082	Magic	_	_	_	_	_	_	_	_	_	_	
+10-3	1083-1087	head	_	_	_	_	_	_	_	_	_	_	
+10-4	1088-1092	back	3\_WORD[3]	on the road[3]	*[3]	*[3]	*[3]	3[3]	false[3]	1[3]	*[3]	2[3]	
+10-5	1093-1097	home	3\_WORD[3]	on the road[3]	*[3]	*[3]	*[3]	3[3]	false[3]	1[3]	*[3]	2[3]	
+10-6	1098-1100	to	_	_	_	_	_	_	_	_	_	_	
+10-7	1101-1105	face	_	_	_	_	_	_	_	_	_	_	
+10-8	1106-1109	off	_	_	_	_	_	_	_	_	_	_	
+10-9	1110-1114	with	_	_	_	_	_	_	_	_	_	_	
+10-10	1115-1118	the	_	_	_	_	_	_	_	_	_	_	
+10-11	1119-1122	New	1\_NAME[4]	Houston Rockets[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+10-12	1123-1127	York	1\_NAME[4]	Houston Rockets[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+10-13	1128-1134	Knicks	1\_NAME[4]	Houston Rockets[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+10-14	1135-1137	on	_	_	_	_	_	_	_	_	_	_	
+10-15	1138-1144	Monday	1\_NAME	Tuesday	*	3	*	3	false	3	*	2	
+10-16	1145-1150	night	_	_	_	_	_	_	_	_	_	_	
+10-17	1151-1152	,	_	_	_	_	_	_	_	_	_	_	
+10-18	1153-1158	while	_	_	_	_	_	_	_	_	_	_	
+10-19	1159-1162	the	_	_	_	_	_	_	_	_	_	_	
+10-20	1163-1168	Hawks	_	_	_	_	_	_	_	_	_	_	
+10-21	1169-1175	remain	_	_	_	_	_	_	_	_	_	_	
+10-22	1176-1180	home	_	_	_	_	_	_	_	_	_	_	
+10-23	1181-1184	and	_	_	_	_	_	_	_	_	_	_	
+10-24	1185-1190	await	_	_	_	_	_	_	_	_	_	_	
+10-25	1191-1194	the	_	_	_	_	_	_	_	_	_	_	
+10-26	1195-1202	Toronto	1\_NAME[5]	Utah Jazz[5]	*[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+10-27	1203-1210	Raptors	1\_NAME[5]	Utah Jazz[5]	*[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+10-28	1211-1213	on	_	_	_	_	_	_	_	_	_	_	
+10-29	1214-1220	Friday	1\_NAME	Monday	*	3	*	3	false	3	*	2	
+10-30	1221-1228	evening	_	_	_	_	_	_	_	_	_	_	
+10-31	1229-1231	as	3\_WORD[6]	*[6]	games are on different days[6]	*[6]	*[6]	2[6]	false[6]	2[6]	*[6]	2[6]	
+10-32	1232-1236	well	3\_WORD[6]	*[6]	games are on different days[6]	*[6]	*[6]	2[6]	false[6]	2[6]	*[6]	2[6]	
+10-33	1237-1238	.	_	_	_	_	_	_	_	_	_	_	

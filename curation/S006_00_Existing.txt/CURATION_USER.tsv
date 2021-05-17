@@ -1,0 +1,222 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Houston Rockets ( 10 - 12 ) defeated the Brooklyn Nets ( 6 - 15 ) 110 - 105 on Friday .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-11	Houston	_	_	_	_	_	_	_	_	_	_	
+1-3	12-19	Rockets	_	_	_	_	_	_	_	_	_	_	
+1-4	20-21	(	_	_	_	_	_	_	_	_	_	_	
+1-5	22-24	10	_	_	_	_	_	_	_	_	_	_	
+1-6	25-26	-	_	_	_	_	_	_	_	_	_	_	
+1-7	27-29	12	_	_	_	_	_	_	_	_	_	_	
+1-8	30-31	)	_	_	_	_	_	_	_	_	_	_	
+1-9	32-40	defeated	3\_WORD	lost to	*	*	*	2	false	2	*	2	
+1-10	41-44	the	_	_	_	_	_	_	_	_	_	_	
+1-11	45-53	Brooklyn	_	_	_	_	_	_	_	_	_	_	
+1-12	54-58	Nets	_	_	_	_	_	_	_	_	_	_	
+1-13	59-60	(	_	_	_	_	_	_	_	_	_	_	
+1-14	61-62	6	_	_	_	_	_	_	_	_	_	_	
+1-15	63-64	-	_	_	_	_	_	_	_	_	_	_	
+1-16	65-67	15	_	_	_	_	_	_	_	_	_	_	
+1-17	68-69	)	_	_	_	_	_	_	_	_	_	_	
+1-18	70-73	110	_	_	_	_	_	_	_	_	_	_	
+1-19	74-75	-	_	_	_	_	_	_	_	_	_	_	
+1-20	76-79	105	_	_	_	_	_	_	_	_	_	_	
+1-21	80-82	on	_	_	_	_	_	_	_	_	_	_	
+1-22	83-89	Friday	1\_NAME	Tuesday	*	2	*	2	false	2	*	1	
+1-23	90-91	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Nets came into this game as a double - digit favorite and they did n000t disappoint .
+2-1	92-95	The	_	_	_	_	_	_	_	_	_	_	
+2-2	96-100	Nets	_	_	_	_	_	_	_	_	_	_	
+2-3	101-105	came	_	_	_	_	_	_	_	_	_	_	
+2-4	106-110	into	_	_	_	_	_	_	_	_	_	_	
+2-5	111-115	this	_	_	_	_	_	_	_	_	_	_	
+2-6	116-120	game	_	_	_	_	_	_	_	_	_	_	
+2-7	121-123	as	_	_	_	_	_	_	_	_	_	_	
+2-8	124-125	a	_	_	_	_	_	_	_	_	_	_	
+2-9	126-132	double	6\_NOT\_CHECKABLE[1]	*[1]	*[1]	*[1]	*[1]	2[1]	false[1]	2[1]	*[1]	2[1]	
+2-10	133-134	-	6\_NOT\_CHECKABLE[1]	*[1]	*[1]	*[1]	*[1]	2[1]	false[1]	2[1]	*[1]	2[1]	
+2-11	135-140	digit	6\_NOT\_CHECKABLE[1]	*[1]	*[1]	*[1]	*[1]	2[1]	false[1]	2[1]	*[1]	2[1]	
+2-12	141-149	favorite	6\_NOT\_CHECKABLE[1]	*[1]	*[1]	*[1]	*[1]	2[1]	false[1]	2[1]	*[1]	2[1]	
+2-13	150-153	and	_	_	_	_	_	_	_	_	_	_	
+2-14	154-158	they	_	_	_	_	_	_	_	_	_	_	
+2-15	159-162	did	_	_	_	_	_	_	_	_	_	_	
+2-16	163-168	n000t	_	_	_	_	_	_	_	_	_	_	
+2-17	169-179	disappoint	_	_	_	_	_	_	_	_	_	_	
+2-18	180-181	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=They were led by James Harden , who tallied 10 points , nine assists , three rebounds and three steals in the win .
+3-1	182-186	They	_	_	_	_	_	_	_	_	_	_	
+3-2	187-191	were	_	_	_	_	_	_	_	_	_	_	
+3-3	192-195	led	_	_	_	_	_	_	_	_	_	_	
+3-4	196-198	by	_	_	_	_	_	_	_	_	_	_	
+3-5	199-204	James	4\_CONTEXT[2]	*[2]	James Harden plays for the Rockets[2]	*[2]	*[2]	2[2]	false[2]	2[2]	*[2]	2[2]	
+3-6	205-211	Harden	4\_CONTEXT[2]	*[2]	James Harden plays for the Rockets[2]	*[2]	*[2]	2[2]	false[2]	2[2]	*[2]	2[2]	
+3-7	212-213	,	_	_	_	_	_	_	_	_	_	_	
+3-8	214-217	who	_	_	_	_	_	_	_	_	_	_	
+3-9	218-225	tallied	_	_	_	_	_	_	_	_	_	_	
+3-10	226-228	10	_	_	_	_	_	_	_	_	_	_	
+3-11	229-235	points	_	_	_	_	_	_	_	_	_	_	
+3-12	236-237	,	_	_	_	_	_	_	_	_	_	_	
+3-13	238-242	nine	_	_	_	_	_	_	_	_	_	_	
+3-14	243-250	assists	_	_	_	_	_	_	_	_	_	_	
+3-15	251-252	,	_	_	_	_	_	_	_	_	_	_	
+3-16	253-258	three	_	_	_	_	_	_	_	_	_	_	
+3-17	259-267	rebounds	_	_	_	_	_	_	_	_	_	_	
+3-18	268-271	and	_	_	_	_	_	_	_	_	_	_	
+3-19	272-277	three	_	_	_	_	_	_	_	_	_	_	
+3-20	278-284	steals	_	_	_	_	_	_	_	_	_	_	
+3-21	285-287	in	_	_	_	_	_	_	_	_	_	_	
+3-22	288-291	the	_	_	_	_	_	_	_	_	_	_	
+3-23	292-295	win	3\_WORD	loss	*	*	*	3	false	3	*	3	
+3-24	296-297	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Trevor Ariza was the only other starter in double figures , as he tallied 2 points , four rebounds and four assists in the defeat .
+4-1	298-304	Trevor	_	_	_	_	_	_	_	_	_	_	
+4-2	305-310	Ariza	_	_	_	_	_	_	_	_	_	_	
+4-3	311-314	was	_	_	_	_	_	_	_	_	_	_	
+4-4	315-318	the	_	_	_	_	_	_	_	_	_	_	
+4-5	319-323	only	_	_	_	_	_	_	_	_	_	_	
+4-6	324-329	other	_	_	_	_	_	_	_	_	_	_	
+4-7	330-337	starter	_	_	_	_	_	_	_	_	_	_	
+4-8	338-340	in	_	_	_	_	_	_	_	_	_	_	
+4-9	341-347	double	3\_WORD[3]	*[3]	Trevor Ariza scored 2 points[3]	3[3]	*[3]	3[3]	false[3]	3[3]	*[3]	2[3]	
+4-10	348-355	figures	3\_WORD[3]	*[3]	Trevor Ariza scored 2 points[3]	3[3]	*[3]	3[3]	false[3]	3[3]	*[3]	2[3]	
+4-11	356-357	,	_	_	_	_	_	_	_	_	_	_	
+4-12	358-360	as	_	_	_	_	_	_	_	_	_	_	
+4-13	361-363	he	_	_	_	_	_	_	_	_	_	_	
+4-14	364-371	tallied	_	_	_	_	_	_	_	_	_	_	
+4-15	372-373	2	_	_	_	_	_	_	_	_	_	_	
+4-16	374-380	points	_	_	_	_	_	_	_	_	_	_	
+4-17	381-382	,	_	_	_	_	_	_	_	_	_	_	
+4-18	383-387	four	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+4-19	388-396	rebounds	_	_	_	_	_	_	_	_	_	_	
+4-20	397-400	and	_	_	_	_	_	_	_	_	_	_	
+4-21	401-405	four	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+4-22	406-413	assists	_	_	_	_	_	_	_	_	_	_	
+4-23	414-416	in	_	_	_	_	_	_	_	_	_	_	
+4-24	417-420	the	_	_	_	_	_	_	_	_	_	_	
+4-25	421-427	defeat	_	_	_	_	_	_	_	_	_	_	
+4-26	428-429	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Rockets will look to bounce - back against the Orlando Magic on Wednesday in their next game .
+5-1	430-433	The	_	_	_	_	_	_	_	_	_	_	
+5-2	434-441	Rockets	_	_	_	_	_	_	_	_	_	_	
+5-3	442-446	will	_	_	_	_	_	_	_	_	_	_	
+5-4	447-451	look	_	_	_	_	_	_	_	_	_	_	
+5-5	452-454	to	_	_	_	_	_	_	_	_	_	_	
+5-6	455-461	bounce	_	_	_	_	_	_	_	_	_	_	
+5-7	462-463	-	_	_	_	_	_	_	_	_	_	_	
+5-8	464-468	back	_	_	_	_	_	_	_	_	_	_	
+5-9	469-476	against	_	_	_	_	_	_	_	_	_	_	
+5-10	477-480	the	_	_	_	_	_	_	_	_	_	_	
+5-11	481-488	Orlando	1\_NAME[4]	Washington Wizards[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+5-12	489-494	Magic	1\_NAME[4]	Washington Wizards[4]	*[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+5-13	495-497	on	_	_	_	_	_	_	_	_	_	_	
+5-14	498-507	Wednesday	_	_	_	_	_	_	_	_	_	_	
+5-15	508-510	in	_	_	_	_	_	_	_	_	_	_	
+5-16	511-516	their	_	_	_	_	_	_	_	_	_	_	
+5-17	517-521	next	_	_	_	_	_	_	_	_	_	_	
+5-18	522-526	game	_	_	_	_	_	_	_	_	_	_	
+5-19	527-528	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Nets played this game without Brook Lopez and they simply did n000t have enough offense to keep up with the Nets .
+6-1	529-532	The	_	_	_	_	_	_	_	_	_	_	
+6-2	533-537	Nets	_	_	_	_	_	_	_	_	_	_	
+6-3	538-544	played	_	_	_	_	_	_	_	_	_	_	
+6-4	545-549	this	_	_	_	_	_	_	_	_	_	_	
+6-5	550-554	game	_	_	_	_	_	_	_	_	_	_	
+6-6	555-562	without	3\_WORD	*	Brook Lopez  played in the game	3	*	3	false	3	*	2	
+6-7	563-568	Brook	_	_	_	_	_	_	_	_	_	_	
+6-8	569-574	Lopez	_	_	_	_	_	_	_	_	_	_	
+6-9	575-578	and	_	_	_	_	_	_	_	_	_	_	
+6-10	579-583	they	_	_	_	_	_	_	_	_	_	_	
+6-11	584-590	simply	_	_	_	_	_	_	_	_	_	_	
+6-12	591-594	did	4\_CONTEXT[5]	*[5]	The Nets won the game, so they did have enough offense[5]	3[5]	CT: T3 had this as a context error with "they"[5]	3[5]	true[5]	1[5]	*[5]	2[5]	
+6-13	595-600	n000t	4\_CONTEXT[5]	*[5]	The Nets won the game, so they did have enough offense[5]	3[5]	CT: T3 had this as a context error with "they"[5]	3[5]	true[5]	1[5]	*[5]	2[5]	
+6-14	601-605	have	4\_CONTEXT[5]	*[5]	The Nets won the game, so they did have enough offense[5]	3[5]	CT: T3 had this as a context error with "they"[5]	3[5]	true[5]	1[5]	*[5]	2[5]	
+6-15	606-612	enough	4\_CONTEXT[5]	*[5]	The Nets won the game, so they did have enough offense[5]	3[5]	CT: T3 had this as a context error with "they"[5]	3[5]	true[5]	1[5]	*[5]	2[5]	
+6-16	613-620	offense	4\_CONTEXT[5]	*[5]	The Nets won the game, so they did have enough offense[5]	3[5]	CT: T3 had this as a context error with "they"[5]	3[5]	true[5]	1[5]	*[5]	2[5]	
+6-17	621-623	to	_	_	_	_	_	_	_	_	_	_	
+6-18	624-628	keep	_	_	_	_	_	_	_	_	_	_	
+6-19	629-631	up	_	_	_	_	_	_	_	_	_	_	
+6-20	632-636	with	_	_	_	_	_	_	_	_	_	_	
+6-21	637-640	the	_	_	_	_	_	_	_	_	_	_	
+6-22	641-645	Nets	1\_NAME	Rockets	*	*	T3 highlighted "they" CONTEXT and wrote: the Rockets, while this implies the Nets	2	false	2	*	2	
+6-23	646-647	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Brook Lopez did all he could to keep the Nets in this game , as he tallied 24 points , eight rebounds and five blocks in the win .
+7-1	648-653	Brook	_	_	_	_	_	_	_	_	_	_	
+7-2	654-659	Lopez	_	_	_	_	_	_	_	_	_	_	
+7-3	660-663	did	_	_	_	_	_	_	_	_	_	_	
+7-4	664-667	all	_	_	_	_	_	_	_	_	_	_	
+7-5	668-670	he	_	_	_	_	_	_	_	_	_	_	
+7-6	671-676	could	_	_	_	_	_	_	_	_	_	_	
+7-7	677-679	to	_	_	_	_	_	_	_	_	_	_	
+7-8	680-684	keep	_	_	_	_	_	_	_	_	_	_	
+7-9	685-688	the	_	_	_	_	_	_	_	_	_	_	
+7-10	689-693	Nets	_	_	_	_	_	_	_	_	_	_	
+7-11	694-696	in	_	_	_	_	_	_	_	_	_	_	
+7-12	697-701	this	_	_	_	_	_	_	_	_	_	_	
+7-13	702-706	game	_	_	_	_	_	_	_	_	_	_	
+7-14	707-708	,	_	_	_	_	_	_	_	_	_	_	
+7-15	709-711	as	_	_	_	_	_	_	_	_	_	_	
+7-16	712-714	he	_	_	_	_	_	_	_	_	_	_	
+7-17	715-722	tallied	_	_	_	_	_	_	_	_	_	_	
+7-18	723-725	24	_	_	_	_	_	_	_	_	_	_	
+7-19	726-732	points	_	_	_	_	_	_	_	_	_	_	
+7-20	733-734	,	_	_	_	_	_	_	_	_	_	_	
+7-21	735-740	eight	_	_	_	_	_	_	_	_	_	_	
+7-22	741-749	rebounds	_	_	_	_	_	_	_	_	_	_	
+7-23	750-753	and	_	_	_	_	_	_	_	_	_	_	
+7-24	754-758	five	_	_	_	_	_	_	_	_	_	_	
+7-25	759-765	blocks	_	_	_	_	_	_	_	_	_	_	
+7-26	766-768	in	_	_	_	_	_	_	_	_	_	_	
+7-27	769-772	the	_	_	_	_	_	_	_	_	_	_	
+7-28	773-776	win	_	_	_	_	_	_	_	_	_	_	
+7-29	777-778	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Thaddeus Young was the only other starter in double figures , as he amassed 20 points , 12 rebounds and five assists .
+8-1	779-787	Thaddeus	_	_	_	_	_	_	_	_	_	_	
+8-2	788-793	Young	_	_	_	_	_	_	_	_	_	_	
+8-3	794-797	was	_	_	_	_	_	_	_	_	_	_	
+8-4	798-801	the	_	_	_	_	_	_	_	_	_	_	
+8-5	802-806	only	3\_WORD[6]	*[6]	All 5 starters were in double figures for the Nets[6]	3[6]	CT - This should be a WORD mistake[6]	3[6]	false[6]	0[6]	*[6]	1[6]	
+8-6	807-812	other	3\_WORD[6]	*[6]	All 5 starters were in double figures for the Nets[6]	3[6]	CT - This should be a WORD mistake[6]	3[6]	false[6]	0[6]	*[6]	1[6]	
+8-7	813-820	starter	_	_	_	_	_	_	_	_	_	_	
+8-8	821-823	in	_	_	_	_	_	_	_	_	_	_	
+8-9	824-830	double	_	_	_	_	_	_	_	_	_	_	
+8-10	831-838	figures	_	_	_	_	_	_	_	_	_	_	
+8-11	839-840	,	_	_	_	_	_	_	_	_	_	_	
+8-12	841-843	as	_	_	_	_	_	_	_	_	_	_	
+8-13	844-846	he	_	_	_	_	_	_	_	_	_	_	
+8-14	847-854	amassed	_	_	_	_	_	_	_	_	_	_	
+8-15	855-857	20	_	_	_	_	_	_	_	_	_	_	
+8-16	858-864	points	_	_	_	_	_	_	_	_	_	_	
+8-17	865-866	,	_	_	_	_	_	_	_	_	_	_	
+8-18	867-869	12	_	_	_	_	_	_	_	_	_	_	
+8-19	870-878	rebounds	_	_	_	_	_	_	_	_	_	_	
+8-20	879-882	and	_	_	_	_	_	_	_	_	_	_	
+8-21	883-887	five	_	_	_	_	_	_	_	_	_	_	
+8-22	888-895	assists	_	_	_	_	_	_	_	_	_	_	
+8-23	896-897	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Nets will look to keep this momentum going against the Atlanta Hawks on Friday .
+9-1	898-901	The	_	_	_	_	_	_	_	_	_	_	
+9-2	902-906	Nets	_	_	_	_	_	_	_	_	_	_	
+9-3	907-911	will	_	_	_	_	_	_	_	_	_	_	
+9-4	912-916	look	_	_	_	_	_	_	_	_	_	_	
+9-5	917-919	to	_	_	_	_	_	_	_	_	_	_	
+9-6	920-924	keep	_	_	_	_	_	_	_	_	_	_	
+9-7	925-929	this	_	_	_	_	_	_	_	_	_	_	
+9-8	930-938	momentum	_	_	_	_	_	_	_	_	_	_	
+9-9	939-944	going	_	_	_	_	_	_	_	_	_	_	
+9-10	945-952	against	_	_	_	_	_	_	_	_	_	_	
+9-11	953-956	the	_	_	_	_	_	_	_	_	_	_	
+9-12	957-964	Atlanta	1\_NAME[7]	Philadelphia 76ers[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+9-13	965-970	Hawks	1\_NAME[7]	Philadelphia 76ers[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+9-14	971-973	on	_	_	_	_	_	_	_	_	_	_	
+9-15	974-980	Friday	1\_NAME	Thursday	*	*	*	3	false	3	*	3	
+9-16	981-982	.	_	_	_	_	_	_	_	_	_	_	

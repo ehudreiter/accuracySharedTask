@@ -1,0 +1,352 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Atlanta Hawks defeated the Atlanta Hawks , 110 - 110 , at Quicken Loans Arena on Saturday night .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-11	Atlanta	_	_	_	_	_	_	_	_	_	_	
+1-3	12-17	Hawks	_	_	_	_	_	_	_	_	_	_	
+1-4	18-26	defeated	_	_	_	_	_	_	_	_	_	_	
+1-5	27-30	the	_	_	_	_	_	_	_	_	_	_	
+1-6	31-38	Atlanta	1\_NAME[1]	Cleveland Cavaliers[1]	*[1]	*[1]	CT: T1 did mention that the Cavs score should be 206 but did not highlight this[1]	2[1]	false[1]	2[1]	*[1]	2[1]	
+1-7	39-44	Hawks	1\_NAME[1]	Cleveland Cavaliers[1]	*[1]	*[1]	CT: T1 did mention that the Cavs score should be 206 but did not highlight this[1]	2[1]	false[1]	2[1]	*[1]	2[1]	
+1-8	45-46	,	_	_	_	_	_	_	_	_	_	_	
+1-9	47-50	110	_	_	_	_	_	_	_	_	_	_	
+1-10	51-52	-	_	_	_	_	_	_	_	_	_	_	
+1-11	53-56	110	2\_NUMBER	106	*	*	*	3	false	3	*	3	
+1-12	57-58	,	_	_	_	_	_	_	_	_	_	_	
+1-13	59-61	at	_	_	_	_	_	_	_	_	_	_	
+1-14	62-69	Quicken	_	_	_	_	_	_	_	_	_	_	
+1-15	70-75	Loans	_	_	_	_	_	_	_	_	_	_	
+1-16	76-81	Arena	_	_	_	_	_	_	_	_	_	_	
+1-17	82-84	on	_	_	_	_	_	_	_	_	_	_	
+1-18	85-93	Saturday	1\_NAME	Tuesday	*	*	*	3	false	3	*	3	
+1-19	94-99	night	_	_	_	_	_	_	_	_	_	_	
+1-20	100-101	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=In a battle between two struggling teams , the Hawks were able to prevail with a huge road win .
+2-1	102-104	In	_	_	_	_	_	_	_	_	_	_	
+2-2	105-106	a	_	_	_	_	_	_	_	_	_	_	
+2-3	107-113	battle	_	_	_	_	_	_	_	_	_	_	
+2-4	114-121	between	_	_	_	_	_	_	_	_	_	_	
+2-5	122-125	two	_	_	_	_	_	_	_	_	_	_	
+2-6	126-136	struggling	3\_WORD[2]	*[2]	both teams have winning records[2]	*[2]	*[2]	3[2]	false[2]	1[2]	*[2]	3[2]	
+2-7	137-142	teams	3\_WORD[2]	*[2]	both teams have winning records[2]	*[2]	*[2]	3[2]	false[2]	1[2]	*[2]	3[2]	
+2-8	143-144	,	_	_	_	_	_	_	_	_	_	_	
+2-9	145-148	the	_	_	_	_	_	_	_	_	_	_	
+2-10	149-154	Hawks	_	_	_	_	_	_	_	_	_	_	
+2-11	155-159	were	_	_	_	_	_	_	_	_	_	_	
+2-12	160-164	able	_	_	_	_	_	_	_	_	_	_	
+2-13	165-167	to	_	_	_	_	_	_	_	_	_	_	
+2-14	168-175	prevail	_	_	_	_	_	_	_	_	_	_	
+2-15	176-180	with	_	_	_	_	_	_	_	_	_	_	
+2-16	181-182	a	_	_	_	_	_	_	_	_	_	_	
+2-17	183-187	huge	_	_	_	_	_	_	_	_	_	_	
+2-18	188-192	road	_	_	_	_	_	_	_	_	_	_	
+2-19	193-196	win	_	_	_	_	_	_	_	_	_	_	
+2-20	197-198	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=In fact , the Hawks outscored the Hawks , 37 - 20 , in the fourth quarter .
+3-1	199-201	In	_	_	_	_	_	_	_	_	_	_	
+3-2	202-206	fact	_	_	_	_	_	_	_	_	_	_	
+3-3	207-208	,	_	_	_	_	_	_	_	_	_	_	
+3-4	209-212	the	_	_	_	_	_	_	_	_	_	_	
+3-5	213-218	Hawks	_	_	_	_	_	_	_	_	_	_	
+3-6	219-228	outscored	_	_	_	_	_	_	_	_	_	_	
+3-7	229-232	the	_	_	_	_	_	_	_	_	_	_	
+3-8	233-238	Hawks	1\_NAME	Cavaliers	*	*	*	3	false	3	*	3	
+3-9	239-240	,	_	_	_	_	_	_	_	_	_	_	
+3-10	241-243	37	2\_NUMBER	27	*	*	CT: T3 felt that fourth quarter should be changed to second quarter and corrected numbers accordingly	3	true	3	*	3	
+3-11	244-245	-	_	_	_	_	_	_	_	_	_	_	
+3-12	246-248	20	2\_NUMBER	26	*	*	CT: T3 felt that fourth quarter should be changed to second quarter and corrected numbers accordingly	3	true	3	*	3	
+3-13	249-250	,	_	_	_	_	_	_	_	_	_	_	
+3-14	251-253	in	_	_	_	_	_	_	_	_	_	_	
+3-15	254-257	the	_	_	_	_	_	_	_	_	_	_	
+3-16	258-264	fourth	_	_	_	_	_	_	_	_	_	_	
+3-17	265-272	quarter	_	_	_	_	_	_	_	_	_	_	
+3-18	273-274	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The assist - to - turnover ratio was the decisive statistic , with the Hawks recording 21 assists to 19 turnovers , while the Cavaliers committed 19 turnovers to just 21 assists .
+4-1	275-278	The	_	_	_	_	_	_	_	_	_	_	
+4-2	279-285	assist	_	_	_	_	_	_	_	_	_	_	
+4-3	286-287	-	_	_	_	_	_	_	_	_	_	_	
+4-4	288-290	to	_	_	_	_	_	_	_	_	_	_	
+4-5	291-292	-	_	_	_	_	_	_	_	_	_	_	
+4-6	293-301	turnover	_	_	_	_	_	_	_	_	_	_	
+4-7	302-307	ratio	_	_	_	_	_	_	_	_	_	_	
+4-8	308-311	was	_	_	_	_	_	_	_	_	_	_	
+4-9	312-315	the	_	_	_	_	_	_	_	_	_	_	
+4-10	316-324	decisive	_	_	_	_	_	_	_	_	_	_	
+4-11	325-334	statistic	_	_	_	_	_	_	_	_	_	_	
+4-12	335-336	,	_	_	_	_	_	_	_	_	_	_	
+4-13	337-341	with	_	_	_	_	_	_	_	_	_	_	
+4-14	342-345	the	_	_	_	_	_	_	_	_	_	_	
+4-15	346-351	Hawks	_	_	_	_	_	_	_	_	_	_	
+4-16	352-361	recording	_	_	_	_	_	_	_	_	_	_	
+4-17	362-364	21	2\_NUMBER	22	*	*	*	3	false	3	*	3	
+4-18	365-372	assists	_	_	_	_	_	_	_	_	_	_	
+4-19	373-375	to	_	_	_	_	_	_	_	_	_	_	
+4-20	376-378	19	_	_	_	_	_	_	_	_	_	_	
+4-21	379-388	turnovers	_	_	_	_	_	_	_	_	_	_	
+4-22	389-390	,	_	_	_	_	_	_	_	_	_	_	
+4-23	391-396	while	_	_	_	_	_	_	_	_	_	_	
+4-24	397-400	the	_	_	_	_	_	_	_	_	_	_	
+4-25	401-410	Cavaliers	_	_	_	_	_	_	_	_	_	_	
+4-26	411-420	committed	_	_	_	_	_	_	_	_	_	_	
+4-27	421-423	19	2\_NUMBER	6	*	*	*	3	false	3	*	3	
+4-28	424-433	turnovers	_	_	_	_	_	_	_	_	_	_	
+4-29	434-436	to	_	_	_	_	_	_	_	_	_	_	
+4-30	437-441	just	_	_	_	_	_	_	_	_	_	_	
+4-31	442-444	21	_	_	_	_	_	_	_	_	_	_	
+4-32	445-452	assists	_	_	_	_	_	_	_	_	_	_	
+4-33	453-454	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Hawks ( 5 - 2 ) have now won three of their last five games , as they continue to struggle .
+5-1	455-458	The	_	_	_	_	_	_	_	_	_	_	
+5-2	459-464	Hawks	_	_	_	_	_	_	_	_	_	_	
+5-3	465-466	(	_	_	_	_	_	_	_	_	_	_	
+5-4	467-468	5	_	_	_	_	_	_	_	_	_	_	
+5-5	469-470	-	_	_	_	_	_	_	_	_	_	_	
+5-6	471-472	2	_	_	_	_	_	_	_	_	_	_	
+5-7	473-474	)	_	_	_	_	_	_	_	_	_	_	
+5-8	475-479	have	_	_	_	_	_	_	_	_	_	_	
+5-9	480-483	now	_	_	_	_	_	_	_	_	_	_	
+5-10	484-487	won	_	_	_	_	_	_	_	_	_	_	
+5-11	488-493	three	_	_	_	_	_	_	_	_	_	_	
+5-12	494-496	of	_	_	_	_	_	_	_	_	_	_	
+5-13	497-502	their	_	_	_	_	_	_	_	_	_	_	
+5-14	503-507	last	_	_	_	_	_	_	_	_	_	_	
+5-15	508-512	five	_	_	_	_	_	_	_	_	_	_	
+5-16	513-518	games	_	_	_	_	_	_	_	_	_	_	
+5-17	519-520	,	_	_	_	_	_	_	_	_	_	_	
+5-18	521-523	as	_	_	_	_	_	_	_	_	_	_	
+5-19	524-528	they	_	_	_	_	_	_	_	_	_	_	
+5-20	529-537	continue	_	_	_	_	_	_	_	_	_	_	
+5-21	538-540	to	_	_	_	_	_	_	_	_	_	_	
+5-22	541-549	struggle	3\_WORD	*	the Hawks have a winning recording	*	*	3	false	2	*	3	
+5-23	550-551	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Dwight Howard was the player of the game , as he tallied 17 points , 17 rebounds and three blocks on 3 - of - 5 shooting .
+6-1	552-558	Dwight	_	_	_	_	_	_	_	_	_	_	
+6-2	559-565	Howard	_	_	_	_	_	_	_	_	_	_	
+6-3	566-569	was	_	_	_	_	_	_	_	_	_	_	
+6-4	570-573	the	_	_	_	_	_	_	_	_	_	_	
+6-5	574-580	player	_	_	_	_	_	_	_	_	_	_	
+6-6	581-583	of	_	_	_	_	_	_	_	_	_	_	
+6-7	584-587	the	_	_	_	_	_	_	_	_	_	_	
+6-8	588-592	game	_	_	_	_	_	_	_	_	_	_	
+6-9	593-594	,	_	_	_	_	_	_	_	_	_	_	
+6-10	595-597	as	_	_	_	_	_	_	_	_	_	_	
+6-11	598-600	he	_	_	_	_	_	_	_	_	_	_	
+6-12	601-608	tallied	_	_	_	_	_	_	_	_	_	_	
+6-13	609-611	17	2\_NUMBER	7	*	*	*	3	false	3	*	3	
+6-14	612-618	points	_	_	_	_	_	_	_	_	_	_	
+6-15	619-620	,	_	_	_	_	_	_	_	_	_	_	
+6-16	621-623	17	_	_	_	_	_	_	_	_	_	_	
+6-17	624-632	rebounds	_	_	_	_	_	_	_	_	_	_	
+6-18	633-636	and	_	_	_	_	_	_	_	_	_	_	
+6-19	637-642	three	_	_	_	_	_	_	_	_	_	_	
+6-20	643-649	blocks	_	_	_	_	_	_	_	_	_	_	
+6-21	650-652	on	_	_	_	_	_	_	_	_	_	_	
+6-22	653-654	3	_	_	_	_	_	_	_	_	_	_	
+6-23	655-656	-	_	_	_	_	_	_	_	_	_	_	
+6-24	657-659	of	_	_	_	_	_	_	_	_	_	_	
+6-25	660-661	-	_	_	_	_	_	_	_	_	_	_	
+6-26	662-663	5	_	_	_	_	_	_	_	_	_	_	
+6-27	664-672	shooting	_	_	_	_	_	_	_	_	_	_	
+6-28	673-674	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Kent Bazemore was n000t far behind , tallying 25 points , six rebounds and three assists .
+7-1	675-679	Kent	_	_	_	_	_	_	_	_	_	_	
+7-2	680-688	Bazemore	_	_	_	_	_	_	_	_	_	_	
+7-3	689-692	was	_	_	_	_	_	_	_	_	_	_	
+7-4	693-698	n000t	_	_	_	_	_	_	_	_	_	_	
+7-5	699-702	far	_	_	_	_	_	_	_	_	_	_	
+7-6	703-709	behind	3\_WORD	*	Bazemore scored more points than Howard	*	*	2	false	2	*	2	
+7-7	710-711	,	_	_	_	_	_	_	_	_	_	_	
+7-8	712-720	tallying	_	_	_	_	_	_	_	_	_	_	
+7-9	721-723	25	_	_	_	_	_	_	_	_	_	_	
+7-10	724-730	points	_	_	_	_	_	_	_	_	_	_	
+7-11	731-732	,	_	_	_	_	_	_	_	_	_	_	
+7-12	733-736	six	_	_	_	_	_	_	_	_	_	_	
+7-13	737-745	rebounds	_	_	_	_	_	_	_	_	_	_	
+7-14	746-749	and	_	_	_	_	_	_	_	_	_	_	
+7-15	750-755	three	_	_	_	_	_	_	_	_	_	_	
+7-16	756-763	assists	_	_	_	_	_	_	_	_	_	_	
+7-17	764-765	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Kent Bazemore was the only other starter in double figures , totaling 25 points , six rebounds and three assists .
+8-1	766-770	Kent	_	_	_	_	_	_	_	_	_	_	
+8-2	771-779	Bazemore	_	_	_	_	_	_	_	_	_	_	
+8-3	780-783	was	_	_	_	_	_	_	_	_	_	_	
+8-4	784-787	the	_	_	_	_	_	_	_	_	_	_	
+8-5	788-792	only	3\_WORD[3]	*[3]	three starters scored in double figures[3]	*[3]	*[3]	2[3]	false[3]	2[3]	*[3]	2[3]	
+8-6	793-798	other	3\_WORD[3]	*[3]	three starters scored in double figures[3]	*[3]	*[3]	2[3]	false[3]	2[3]	*[3]	2[3]	
+8-7	799-806	starter	_	_	_	_	_	_	_	_	_	_	
+8-8	807-809	in	_	_	_	_	_	_	_	_	_	_	
+8-9	810-816	double	_	_	_	_	_	_	_	_	_	_	
+8-10	817-824	figures	_	_	_	_	_	_	_	_	_	_	
+8-11	825-826	,	_	_	_	_	_	_	_	_	_	_	
+8-12	827-835	totaling	_	_	_	_	_	_	_	_	_	_	
+8-13	836-838	25	_	_	_	_	_	_	_	_	_	_	
+8-14	839-845	points	_	_	_	_	_	_	_	_	_	_	
+8-15	846-847	,	_	_	_	_	_	_	_	_	_	_	
+8-16	848-851	six	_	_	_	_	_	_	_	_	_	_	
+8-17	852-860	rebounds	_	_	_	_	_	_	_	_	_	_	
+8-18	861-864	and	_	_	_	_	_	_	_	_	_	_	
+8-19	865-870	three	_	_	_	_	_	_	_	_	_	_	
+8-20	871-878	assists	_	_	_	_	_	_	_	_	_	_	
+8-21	879-880	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Atlanta will look to bounce back on Sunday in a home matchup against the Toronto Raptors .
+9-1	881-888	Atlanta	_	_	_	_	_	_	_	_	_	_	
+9-2	889-893	will	_	_	_	_	_	_	_	_	_	_	
+9-3	894-898	look	_	_	_	_	_	_	_	_	_	_	
+9-4	899-901	to	_	_	_	_	_	_	_	_	_	_	
+9-5	902-908	bounce	3\_WORD[4]	*[4]	incorrectly implies that Atlanta lost[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+9-6	909-913	back	3\_WORD[4]	*[4]	incorrectly implies that Atlanta lost[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+9-7	914-916	on	_	_	_	_	_	_	_	_	_	_	
+9-8	917-923	Sunday	1\_NAME	Wednesday	*	*	*	3	false	3	*	3	
+9-9	924-926	in	_	_	_	_	_	_	_	_	_	_	
+9-10	927-928	a	_	_	_	_	_	_	_	_	_	_	
+9-11	929-933	home	_	_	_	_	_	_	_	_	_	_	
+9-12	934-941	matchup	_	_	_	_	_	_	_	_	_	_	
+9-13	942-949	against	_	_	_	_	_	_	_	_	_	_	
+9-14	950-953	the	_	_	_	_	_	_	_	_	_	_	
+9-15	954-961	Toronto	1\_NAME[5]	Chicago Bulls[5]	*[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+9-16	962-969	Raptors	1\_NAME[5]	Chicago Bulls[5]	*[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+9-17	970-971	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Cavaliers ( 6 - 1 ) have now won three of their last five games , as they continue to struggle .
+10-1	972-975	The	_	_	_	_	_	_	_	_	_	_	
+10-2	976-985	Cavaliers	_	_	_	_	_	_	_	_	_	_	
+10-3	986-987	(	_	_	_	_	_	_	_	_	_	_	
+10-4	988-989	6	_	_	_	_	_	_	_	_	_	_	
+10-5	990-991	-	_	_	_	_	_	_	_	_	_	_	
+10-6	992-993	1	_	_	_	_	_	_	_	_	_	_	
+10-7	994-995	)	_	_	_	_	_	_	_	_	_	_	
+10-8	996-1000	have	_	_	_	_	_	_	_	_	_	_	
+10-9	1001-1004	now	_	_	_	_	_	_	_	_	_	_	
+10-10	1005-1008	won	_	_	_	_	_	_	_	_	_	_	
+10-11	1009-1014	three	2\_NUMBER	four	*	*	CT: T3 said not checkable and T1 said 5 and T2 said 4 which is correct	3	true	2	*	2	
+10-12	1015-1017	of	_	_	_	_	_	_	_	_	_	_	
+10-13	1018-1023	their	_	_	_	_	_	_	_	_	_	_	
+10-14	1024-1028	last	_	_	_	_	_	_	_	_	_	_	
+10-15	1029-1033	five	_	_	_	_	_	_	_	_	_	_	
+10-16	1034-1039	games	_	_	_	_	_	_	_	_	_	_	
+10-17	1040-1041	,	_	_	_	_	_	_	_	_	_	_	
+10-18	1042-1044	as	_	_	_	_	_	_	_	_	_	_	
+10-19	1045-1049	they	_	_	_	_	_	_	_	_	_	_	
+10-20	1050-1058	continue	_	_	_	_	_	_	_	_	_	_	
+10-21	1059-1061	to	_	_	_	_	_	_	_	_	_	_	
+10-22	1062-1070	struggle	3\_WORD	*	Cavs are 6-1	*	*	3	false	2	*	3	
+10-23	1071-1072	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=LeBron James did all he could for Cleveland , as he led the team with 23 points , nine rebounds and five assists .
+11-1	1073-1079	LeBron	_	_	_	_	_	_	_	_	_	_	
+11-2	1080-1085	James	_	_	_	_	_	_	_	_	_	_	
+11-3	1086-1089	did	_	_	_	_	_	_	_	_	_	_	
+11-4	1090-1093	all	_	_	_	_	_	_	_	_	_	_	
+11-5	1094-1096	he	_	_	_	_	_	_	_	_	_	_	
+11-6	1097-1102	could	_	_	_	_	_	_	_	_	_	_	
+11-7	1103-1106	for	_	_	_	_	_	_	_	_	_	_	
+11-8	1107-1116	Cleveland	_	_	_	_	_	_	_	_	_	_	
+11-9	1117-1118	,	_	_	_	_	_	_	_	_	_	_	
+11-10	1119-1121	as	_	_	_	_	_	_	_	_	_	_	
+11-11	1122-1124	he	_	_	_	_	_	_	_	_	_	_	
+11-12	1125-1128	led	3\_WORD	*	James didn’t lead the team in scoring	*	*	3	false	1	*	3	
+11-13	1129-1132	the	_	_	_	_	_	_	_	_	_	_	
+11-14	1133-1137	team	_	_	_	_	_	_	_	_	_	_	
+11-15	1138-1142	with	_	_	_	_	_	_	_	_	_	_	
+11-16	1143-1145	23	_	_	_	_	_	_	_	_	_	_	
+11-17	1146-1152	points	_	_	_	_	_	_	_	_	_	_	
+11-18	1153-1154	,	_	_	_	_	_	_	_	_	_	_	
+11-19	1155-1159	nine	_	_	_	_	_	_	_	_	_	_	
+11-20	1160-1168	rebounds	_	_	_	_	_	_	_	_	_	_	
+11-21	1169-1172	and	_	_	_	_	_	_	_	_	_	_	
+11-22	1173-1177	five	_	_	_	_	_	_	_	_	_	_	
+11-23	1178-1185	assists	_	_	_	_	_	_	_	_	_	_	
+11-24	1186-1187	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Kyrie Irving was second on the team , as he accrued 29 points , four rebounds and four assists .
+12-1	1188-1193	Kyrie	_	_	_	_	_	_	_	_	_	_	
+12-2	1194-1200	Irving	_	_	_	_	_	_	_	_	_	_	
+12-3	1201-1204	was	_	_	_	_	_	_	_	_	_	_	
+12-4	1205-1211	second	3\_WORD	first	*	3	CT: this is a number which should be corrected to first	3	false	2	2\_NUMBER	3	
+12-5	1212-1214	on	_	_	_	_	_	_	_	_	_	_	
+12-6	1215-1218	the	_	_	_	_	_	_	_	_	_	_	
+12-7	1219-1223	team	_	_	_	_	_	_	_	_	_	_	
+12-8	1224-1225	,	_	_	_	_	_	_	_	_	_	_	
+12-9	1226-1228	as	_	_	_	_	_	_	_	_	_	_	
+12-10	1229-1231	he	_	_	_	_	_	_	_	_	_	_	
+12-11	1232-1239	accrued	_	_	_	_	_	_	_	_	_	_	
+12-12	1240-1242	29	_	_	_	_	_	_	_	_	_	_	
+12-13	1243-1249	points	_	_	_	_	_	_	_	_	_	_	
+12-14	1250-1251	,	_	_	_	_	_	_	_	_	_	_	
+12-15	1252-1256	four	2\_NUMBER	one	*	*	*	3	false	3	*	3	
+12-16	1257-1265	rebounds	_	_	_	_	_	_	_	_	_	_	
+12-17	1266-1269	and	_	_	_	_	_	_	_	_	_	_	
+12-18	1270-1274	four	_	_	_	_	_	_	_	_	_	_	
+12-19	1275-1282	assists	_	_	_	_	_	_	_	_	_	_	
+12-20	1283-1284	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Kevin Love finished second on the team , collecting 24 points , 11 rebounds and three steals .
+13-1	1285-1290	Kevin	_	_	_	_	_	_	_	_	_	_	
+13-2	1291-1295	Love	_	_	_	_	_	_	_	_	_	_	
+13-3	1296-1304	finished	_	_	_	_	_	_	_	_	_	_	
+13-4	1305-1311	second	_	_	_	_	_	_	_	_	_	_	
+13-5	1312-1314	on	_	_	_	_	_	_	_	_	_	_	
+13-6	1315-1318	the	_	_	_	_	_	_	_	_	_	_	
+13-7	1319-1323	team	_	_	_	_	_	_	_	_	_	_	
+13-8	1324-1325	,	_	_	_	_	_	_	_	_	_	_	
+13-9	1326-1336	collecting	_	_	_	_	_	_	_	_	_	_	
+13-10	1337-1339	24	_	_	_	_	_	_	_	_	_	_	
+13-11	1340-1346	points	_	_	_	_	_	_	_	_	_	_	
+13-12	1347-1348	,	_	_	_	_	_	_	_	_	_	_	
+13-13	1349-1351	11	2\_NUMBER	12	*	*	*	3	false	3	*	3	
+13-14	1352-1360	rebounds	_	_	_	_	_	_	_	_	_	_	
+13-15	1361-1364	and	_	_	_	_	_	_	_	_	_	_	
+13-16	1365-1370	three	_	_	_	_	_	_	_	_	_	_	
+13-17	1371-1377	steals	_	_	_	_	_	_	_	_	_	_	
+13-18	1378-1379	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Tristan Thompson was a nice spark off the bench , providing 25 points , two rebounds and four assists .
+14-1	1380-1387	Tristan	_	_	_	_	_	_	_	_	_	_	
+14-2	1388-1396	Thompson	_	_	_	_	_	_	_	_	_	_	
+14-3	1397-1400	was	_	_	_	_	_	_	_	_	_	_	
+14-4	1401-1402	a	_	_	_	_	_	_	_	_	_	_	
+14-5	1403-1407	nice	_	_	_	_	_	_	_	_	_	_	
+14-6	1408-1413	spark	_	_	_	_	_	_	_	_	_	_	
+14-7	1414-1417	off	3\_WORD[6]	*[6]	Thompson was a starter[6]	*[6]	*[6]	3[6]	false[6]	2[6]	*[6]	3[6]	
+14-8	1418-1421	the	3\_WORD[6]	*[6]	Thompson was a starter[6]	*[6]	*[6]	3[6]	false[6]	2[6]	*[6]	3[6]	
+14-9	1422-1427	bench	3\_WORD[6]	*[6]	Thompson was a starter[6]	*[6]	*[6]	3[6]	false[6]	2[6]	*[6]	3[6]	
+14-10	1428-1429	,	_	_	_	_	_	_	_	_	_	_	
+14-11	1430-1439	providing	_	_	_	_	_	_	_	_	_	_	
+14-12	1440-1442	25	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+14-13	1443-1449	points	_	_	_	_	_	_	_	_	_	_	
+14-14	1450-1451	,	_	_	_	_	_	_	_	_	_	_	
+14-15	1452-1455	two	_	_	_	_	_	_	_	_	_	_	
+14-16	1456-1464	rebounds	_	_	_	_	_	_	_	_	_	_	
+14-17	1465-1468	and	_	_	_	_	_	_	_	_	_	_	
+14-18	1469-1473	four	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+14-19	1474-1481	assists	_	_	_	_	_	_	_	_	_	_	
+14-20	1482-1483	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Cleveland will look to bounce back on Sunday in a home matchup against the Orlando Magic .
+15-1	1484-1493	Cleveland	_	_	_	_	_	_	_	_	_	_	
+15-2	1494-1498	will	_	_	_	_	_	_	_	_	_	_	
+15-3	1499-1503	look	_	_	_	_	_	_	_	_	_	_	
+15-4	1504-1506	to	_	_	_	_	_	_	_	_	_	_	
+15-5	1507-1513	bounce	_	_	_	_	_	_	_	_	_	_	
+15-6	1514-1518	back	_	_	_	_	_	_	_	_	_	_	
+15-7	1519-1521	on	_	_	_	_	_	_	_	_	_	_	
+15-8	1522-1528	Sunday	1\_NAME	Friday	*	*	*	3	false	3	*	3	
+15-9	1529-1531	in	_	_	_	_	_	_	_	_	_	_	
+15-10	1532-1533	a	_	_	_	_	_	_	_	_	_	_	
+15-11	1534-1538	home	3\_WORD	*	next game is on the road	*	*	3	false	3	*	3	
+15-12	1539-1546	matchup	_	_	_	_	_	_	_	_	_	_	
+15-13	1547-1554	against	_	_	_	_	_	_	_	_	_	_	
+15-14	1555-1558	the	_	_	_	_	_	_	_	_	_	_	
+15-15	1559-1566	Orlando	1\_NAME[7]	Washington Wizards[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+15-16	1567-1572	Magic	1\_NAME[7]	Washington Wizards[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+15-17	1573-1574	.	_	_	_	_	_	_	_	_	_	_	

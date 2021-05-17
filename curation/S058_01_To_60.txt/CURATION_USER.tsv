@@ -1,0 +1,408 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Memphis Grizzlies ( 31 - 12 ) defeated the Philadelphia 76ers ( 8 - 36 ) 101 - 83 on Friday .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-11	Memphis	_	_	_	_	_	_	_	_	_	_	
+1-3	12-21	Grizzlies	_	_	_	_	_	_	_	_	_	_	
+1-4	22-23	(	_	_	_	_	_	_	_	_	_	_	
+1-5	24-26	31	_	_	_	_	_	_	_	_	_	_	
+1-6	27-28	-	_	_	_	_	_	_	_	_	_	_	
+1-7	29-31	12	_	_	_	_	_	_	_	_	_	_	
+1-8	32-33	)	_	_	_	_	_	_	_	_	_	_	
+1-9	34-42	defeated	_	_	_	_	_	_	_	_	_	_	
+1-10	43-46	the	_	_	_	_	_	_	_	_	_	_	
+1-11	47-59	Philadelphia	_	_	_	_	_	_	_	_	_	_	
+1-12	60-65	76ers	_	_	_	_	_	_	_	_	_	_	
+1-13	66-67	(	_	_	_	_	_	_	_	_	_	_	
+1-14	68-69	8	_	_	_	_	_	_	_	_	_	_	
+1-15	70-71	-	_	_	_	_	_	_	_	_	_	_	
+1-16	72-74	36	_	_	_	_	_	_	_	_	_	_	
+1-17	75-76	)	_	_	_	_	_	_	_	_	_	_	
+1-18	77-80	101	_	_	_	_	_	_	_	_	_	_	
+1-19	81-82	-	_	_	_	_	_	_	_	_	_	_	
+1-20	83-85	83	_	_	_	_	_	_	_	_	_	_	
+1-21	86-88	on	_	_	_	_	_	_	_	_	_	_	
+1-22	89-95	Friday	1\_NAME	Saturday	*	*	*	3	false	3	*	3	
+1-23	96-97	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=In a battle between two bad defenses , the offenses really struggled .
+2-1	98-100	In	_	_	_	_	_	_	_	_	_	_	
+2-2	101-102	a	_	_	_	_	_	_	_	_	_	_	
+2-3	103-109	battle	_	_	_	_	_	_	_	_	_	_	
+2-4	110-117	between	_	_	_	_	_	_	_	_	_	_	
+2-5	118-121	two	2\_NUMBER	*	only the 76ers had a bad defense	2	CT: I think there was confusion as to whether the defences were bad in this game or in general	2	true	1	*	1	
+2-6	122-125	bad	_	_	_	_	_	_	_	_	_	_	
+2-7	126-134	defenses	_	_	_	_	_	_	_	_	_	_	
+2-8	135-136	,	_	_	_	_	_	_	_	_	_	_	
+2-9	137-140	the	_	_	_	_	_	_	_	_	_	_	
+2-10	141-149	offenses	_	_	_	_	_	_	_	_	_	_	
+2-11	150-156	really	_	_	_	_	_	_	_	_	_	_	
+2-12	157-166	struggled	3\_WORD	*	Memphis did not struggle offensively	*	*	2	false	1	*	2	
+2-13	167-168	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Especially Philadelphia , as they shot 47 percent from the field and just 55 percent from the free - throw line .
+3-1	169-179	Especially	_	_	_	_	_	_	_	_	_	_	
+3-2	180-192	Philadelphia	_	_	_	_	_	_	_	_	_	_	
+3-3	193-194	,	_	_	_	_	_	_	_	_	_	_	
+3-4	195-197	as	_	_	_	_	_	_	_	_	_	_	
+3-5	198-202	they	_	_	_	_	_	_	_	_	_	_	
+3-6	203-207	shot	_	_	_	_	_	_	_	_	_	_	
+3-7	208-210	47	2\_NUMBER	38	*	*	*	3	false	3	*	3	
+3-8	211-218	percent	_	_	_	_	_	_	_	_	_	_	
+3-9	219-223	from	_	_	_	_	_	_	_	_	_	_	
+3-10	224-227	the	_	_	_	_	_	_	_	_	_	_	
+3-11	228-233	field	_	_	_	_	_	_	_	_	_	_	
+3-12	234-237	and	_	_	_	_	_	_	_	_	_	_	
+3-13	238-242	just	_	_	_	_	_	_	_	_	_	_	
+3-14	243-245	55	_	_	_	_	_	_	_	_	_	_	
+3-15	246-253	percent	_	_	_	_	_	_	_	_	_	_	
+3-16	254-258	from	_	_	_	_	_	_	_	_	_	_	
+3-17	259-262	the	_	_	_	_	_	_	_	_	_	_	
+3-18	263-267	free	_	_	_	_	_	_	_	_	_	_	
+3-19	268-269	-	_	_	_	_	_	_	_	_	_	_	
+3-20	270-275	throw	_	_	_	_	_	_	_	_	_	_	
+3-21	276-280	line	_	_	_	_	_	_	_	_	_	_	
+3-22	281-282	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The key for Memphis was the rebounding , as they snatched down 47 boards to the 76ers 48 .
+4-1	283-286	The	_	_	_	_	_	_	_	_	_	_	
+4-2	287-290	key	3\_WORD	*	Memphis lost the rebound battle, so it couldn’t have been key	*	*	3	false	3	*	3	
+4-3	291-294	for	_	_	_	_	_	_	_	_	_	_	
+4-4	295-302	Memphis	_	_	_	_	_	_	_	_	_	_	
+4-5	303-306	was	_	_	_	_	_	_	_	_	_	_	
+4-6	307-310	the	_	_	_	_	_	_	_	_	_	_	
+4-7	311-321	rebounding	_	_	_	_	_	_	_	_	_	_	
+4-8	322-323	,	_	_	_	_	_	_	_	_	_	_	
+4-9	324-326	as	_	_	_	_	_	_	_	_	_	_	
+4-10	327-331	they	_	_	_	_	_	_	_	_	_	_	
+4-11	332-340	snatched	_	_	_	_	_	_	_	_	_	_	
+4-12	341-345	down	_	_	_	_	_	_	_	_	_	_	
+4-13	346-348	47	_	_	_	_	_	_	_	_	_	_	
+4-14	349-355	boards	_	_	_	_	_	_	_	_	_	_	
+4-15	356-358	to	_	_	_	_	_	_	_	_	_	_	
+4-16	359-362	the	_	_	_	_	_	_	_	_	_	_	
+4-17	363-368	76ers	_	_	_	_	_	_	_	_	_	_	
+4-18	369-371	48	_	_	_	_	_	_	_	_	_	_	
+4-19	372-373	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Philadelphia has been playing better lately , but this was one of their best games of the season is just what the doctor ordered .
+5-1	374-386	Philadelphia	_	_	_	_	_	_	_	_	_	_	
+5-2	387-390	has	_	_	_	_	_	_	_	_	_	_	
+5-3	391-395	been	_	_	_	_	_	_	_	_	_	_	
+5-4	396-403	playing	_	_	_	_	_	_	_	_	_	_	
+5-5	404-410	better	_	_	_	_	_	_	_	_	_	_	
+5-6	411-417	lately	_	_	_	_	_	_	_	_	_	_	
+5-7	418-419	,	_	_	_	_	_	_	_	_	_	_	
+5-8	420-423	but	_	_	_	_	_	_	_	_	_	_	
+5-9	424-428	this	_	_	_	_	_	_	_	_	_	_	
+5-10	429-432	was	_	_	_	_	_	_	_	_	_	_	
+5-11	433-436	one	_	_	_	_	_	_	_	_	_	_	
+5-12	437-439	of	_	_	_	_	_	_	_	_	_	_	
+5-13	440-445	their	_	_	_	_	_	_	_	_	_	_	
+5-14	446-450	best	3\_WORD	*	This was a bad game for the 76ers	*	*	3	false	3	*	3	
+5-15	451-456	games	_	_	_	_	_	_	_	_	_	_	
+5-16	457-459	of	_	_	_	_	_	_	_	_	_	_	
+5-17	460-463	the	_	_	_	_	_	_	_	_	_	_	
+5-18	464-470	season	_	_	_	_	_	_	_	_	_	_	
+5-19	471-473	is	_	_	_	_	_	_	_	_	_	_	
+5-20	474-478	just	_	_	_	_	_	_	_	_	_	_	
+5-21	479-483	what	_	_	_	_	_	_	_	_	_	_	
+5-22	484-487	the	_	_	_	_	_	_	_	_	_	_	
+5-23	488-494	doctor	_	_	_	_	_	_	_	_	_	_	
+5-24	495-502	ordered	_	_	_	_	_	_	_	_	_	_	
+5-25	503-504	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Zach Randolph was the player of the game , as he led the team with 17 points and 14 rebounds on 8 - of - 11 shooting .
+6-1	505-509	Zach	_	_	_	_	_	_	_	_	_	_	
+6-2	510-518	Randolph	_	_	_	_	_	_	_	_	_	_	
+6-3	519-522	was	_	_	_	_	_	_	_	_	_	_	
+6-4	523-526	the	_	_	_	_	_	_	_	_	_	_	
+6-5	527-533	player	_	_	_	_	_	_	_	_	_	_	
+6-6	534-536	of	_	_	_	_	_	_	_	_	_	_	
+6-7	537-540	the	_	_	_	_	_	_	_	_	_	_	
+6-8	541-545	game	_	_	_	_	_	_	_	_	_	_	
+6-9	546-547	,	_	_	_	_	_	_	_	_	_	_	
+6-10	548-550	as	_	_	_	_	_	_	_	_	_	_	
+6-11	551-553	he	_	_	_	_	_	_	_	_	_	_	
+6-12	554-557	led	3\_WORD	*	2nd leading scorer	*	*	3	false	2	*	3	
+6-13	558-561	the	_	_	_	_	_	_	_	_	_	_	
+6-14	562-566	team	_	_	_	_	_	_	_	_	_	_	
+6-15	567-571	with	_	_	_	_	_	_	_	_	_	_	
+6-16	572-574	17	_	_	_	_	_	_	_	_	_	_	
+6-17	575-581	points	_	_	_	_	_	_	_	_	_	_	
+6-18	582-585	and	_	_	_	_	_	_	_	_	_	_	
+6-19	586-588	14	_	_	_	_	_	_	_	_	_	_	
+6-20	589-597	rebounds	_	_	_	_	_	_	_	_	_	_	
+6-21	598-600	on	_	_	_	_	_	_	_	_	_	_	
+6-22	601-602	8	_	_	_	_	_	_	_	_	_	_	
+6-23	603-604	-	_	_	_	_	_	_	_	_	_	_	
+6-24	605-607	of	_	_	_	_	_	_	_	_	_	_	
+6-25	608-609	-	_	_	_	_	_	_	_	_	_	_	
+6-26	610-612	11	_	_	_	_	_	_	_	_	_	_	
+6-27	613-621	shooting	_	_	_	_	_	_	_	_	_	_	
+6-28	622-623	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Jeff Green was the only other starter in double figures , as he accumulated 18 points , a rebound and an assist .
+7-1	624-628	Jeff	_	_	_	_	_	_	_	_	_	_	
+7-2	629-634	Green	_	_	_	_	_	_	_	_	_	_	
+7-3	635-638	was	_	_	_	_	_	_	_	_	_	_	
+7-4	639-642	the	_	_	_	_	_	_	_	_	_	_	
+7-5	643-647	only	_	_	_	_	_	_	_	_	_	_	
+7-6	648-653	other	_	_	_	_	_	_	_	_	_	_	
+7-7	654-661	starter	_	_	_	_	_	_	_	_	_	_	
+7-8	662-664	in	_	_	_	_	_	_	_	_	_	_	
+7-9	665-671	double	_	_	_	_	_	_	_	_	_	_	
+7-10	672-679	figures	_	_	_	_	_	_	_	_	_	_	
+7-11	680-681	,	_	_	_	_	_	_	_	_	_	_	
+7-12	682-684	as	_	_	_	_	_	_	_	_	_	_	
+7-13	685-687	he	_	_	_	_	_	_	_	_	_	_	
+7-14	688-699	accumulated	_	_	_	_	_	_	_	_	_	_	
+7-15	700-702	18	_	_	_	_	_	_	_	_	_	_	
+7-16	703-709	points	_	_	_	_	_	_	_	_	_	_	
+7-17	710-711	,	_	_	_	_	_	_	_	_	_	_	
+7-18	712-713	a	_	_	_	_	_	_	_	_	_	_	
+7-19	714-721	rebound	_	_	_	_	_	_	_	_	_	_	
+7-20	722-725	and	_	_	_	_	_	_	_	_	_	_	
+7-21	726-728	an	_	_	_	_	_	_	_	_	_	_	
+7-22	729-735	assist	_	_	_	_	_	_	_	_	_	_	
+7-23	736-737	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Jerami Grant was a nice spark off the bench , as he amassed 13 points , six rebounds and three steals .
+8-1	738-744	Jerami	4\_CONTEXT[1]	*[1]	Grant played for the 76ers[1]	*[1]	T3 changed the name to Vince Carter[1]	3[1]	true[1]	2[1]	*[1]	3[1]	
+8-2	745-750	Grant	4\_CONTEXT[1]	*[1]	Grant played for the 76ers[1]	*[1]	T3 changed the name to Vince Carter[1]	3[1]	true[1]	2[1]	*[1]	3[1]	
+8-3	751-754	was	_	_	_	_	_	_	_	_	_	_	
+8-4	755-756	a	_	_	_	_	_	_	_	_	_	_	
+8-5	757-761	nice	_	_	_	_	_	_	_	_	_	_	
+8-6	762-767	spark	_	_	_	_	_	_	_	_	_	_	
+8-7	768-771	off	_	_	_	_	_	_	_	_	_	_	
+8-8	772-775	the	_	_	_	_	_	_	_	_	_	_	
+8-9	776-781	bench	_	_	_	_	_	_	_	_	_	_	
+8-10	782-783	,	_	_	_	_	_	_	_	_	_	_	
+8-11	784-786	as	_	_	_	_	_	_	_	_	_	_	
+8-12	787-789	he	_	_	_	_	_	_	_	_	_	_	
+8-13	790-797	amassed	_	_	_	_	_	_	_	_	_	_	
+8-14	798-800	13	2\_NUMBER	16	*	*	T3 changed the name to Vince Carter	3	true	2	*	2	
+8-15	801-807	points	_	_	_	_	_	_	_	_	_	_	
+8-16	808-809	,	_	_	_	_	_	_	_	_	_	_	
+8-17	810-813	six	2\_NUMBER	two	*	*	T3 changed the name to Vince Carter	3	true	2	*	2	
+8-18	814-822	rebounds	_	_	_	_	_	_	_	_	_	_	
+8-19	823-826	and	_	_	_	_	_	_	_	_	_	_	
+8-20	827-832	three	2\_NUMBER	zero	*	*	T3 changed the name to Vince Carter	3	true	2	*	2	
+8-21	833-839	steals	_	_	_	_	_	_	_	_	_	_	
+8-22	840-841	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Philadelphia will look to build off this win when they take on the San Antonio Spurs on Monday .
+9-1	842-854	Philadelphia	_	_	_	_	_	_	_	_	_	_	
+9-2	855-859	will	_	_	_	_	_	_	_	_	_	_	
+9-3	860-864	look	_	_	_	_	_	_	_	_	_	_	
+9-4	865-867	to	_	_	_	_	_	_	_	_	_	_	
+9-5	868-873	build	_	_	_	_	_	_	_	_	_	_	
+9-6	874-877	off	_	_	_	_	_	_	_	_	_	_	
+9-7	878-882	this	_	_	_	_	_	_	_	_	_	_	
+9-8	883-886	win	3\_WORD	loss	*	*	*	3	false	3	*	3	
+9-9	887-891	when	_	_	_	_	_	_	_	_	_	_	
+9-10	892-896	they	_	_	_	_	_	_	_	_	_	_	
+9-11	897-901	take	_	_	_	_	_	_	_	_	_	_	
+9-12	902-904	on	_	_	_	_	_	_	_	_	_	_	
+9-13	905-908	the	_	_	_	_	_	_	_	_	_	_	
+9-14	909-912	San	1\_NAME[2]	New orleans Pelicans[2]	*[2]	*[2]	*[2]	3[2]	false[2]	3[2]	*[2]	3[2]	
+9-15	913-920	Antonio	1\_NAME[2]	New orleans Pelicans[2]	*[2]	*[2]	*[2]	3[2]	false[2]	3[2]	*[2]	3[2]	
+9-16	921-926	Spurs	1\_NAME[2]	New orleans Pelicans[2]	*[2]	*[2]	*[2]	3[2]	false[2]	3[2]	*[2]	3[2]	
+9-17	927-929	on	_	_	_	_	_	_	_	_	_	_	
+9-18	930-936	Monday	_	_	_	_	_	_	_	_	_	_	
+9-19	937-938	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Grizzlies ( 8 - 36 ) have now lost four - straight games , as this was a season - high .
+10-1	939-942	The	_	_	_	_	_	_	_	_	_	_	
+10-2	943-952	Grizzlies	1\_NAME	76ers	*	*	T1 changed the record W-L as well as lost-WORD and four-NUMBER	3	true	2	*	2	
+10-3	953-954	(	_	_	_	_	_	_	_	_	_	_	
+10-4	955-956	8	_	_	_	_	_	_	_	_	_	_	
+10-5	957-958	-	_	_	_	_	_	_	_	_	_	_	
+10-6	959-961	36	_	_	_	_	_	_	_	_	_	_	
+10-7	962-963	)	_	_	_	_	_	_	_	_	_	_	
+10-8	964-968	have	_	_	_	_	_	_	_	_	_	_	
+10-9	969-972	now	_	_	_	_	_	_	_	_	_	_	
+10-10	973-977	lost	_	_	_	_	_	_	_	_	_	_	
+10-11	978-982	four	_	_	_	_	_	_	_	_	_	_	
+10-12	983-984	-	_	_	_	_	_	_	_	_	_	_	
+10-13	985-993	straight	_	_	_	_	_	_	_	_	_	_	
+10-14	994-999	games	_	_	_	_	_	_	_	_	_	_	
+10-15	1000-1001	,	_	_	_	_	_	_	_	_	_	_	
+10-16	1002-1004	as	_	_	_	_	_	_	_	_	_	_	
+10-17	1005-1009	this	_	_	_	_	_	_	_	_	_	_	
+10-18	1010-1013	was	_	_	_	_	_	_	_	_	_	_	
+10-19	1014-1015	a	_	_	_	_	_	_	_	_	_	_	
+10-20	1016-1022	season	6\_NOT\_CHECKABLE[3]	*[3]	*[3]	2[3]	*[3]	2[3]	true[3]	2[3]	*[3]	1[3]	
+10-21	1023-1024	-	6\_NOT\_CHECKABLE[3]	*[3]	*[3]	2[3]	*[3]	2[3]	true[3]	2[3]	*[3]	1[3]	
+10-22	1025-1029	high	6\_NOT\_CHECKABLE[3]	*[3]	*[3]	2[3]	*[3]	2[3]	true[3]	2[3]	*[3]	1[3]	
+10-23	1030-1031	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Zach Randolph was the lone bright spot in the loss , as he tallied 17 points , 14 rebounds and four assists in the win .
+11-1	1032-1036	Zach	_	_	_	_	_	_	_	_	_	_	
+11-2	1037-1045	Randolph	_	_	_	_	_	_	_	_	_	_	
+11-3	1046-1049	was	_	_	_	_	_	_	_	_	_	_	
+11-4	1050-1053	the	_	_	_	_	_	_	_	_	_	_	
+11-5	1054-1058	lone	3\_WORD	*	The Grizzlies had other players (Green/Carter) play well	*	*	2	false	1	*	2	
+11-6	1059-1065	bright	_	_	_	_	_	_	_	_	_	_	
+11-7	1066-1070	spot	_	_	_	_	_	_	_	_	_	_	
+11-8	1071-1073	in	_	_	_	_	_	_	_	_	_	_	
+11-9	1074-1077	the	_	_	_	_	_	_	_	_	_	_	
+11-10	1078-1082	loss	3\_WORD	win	*	*	*	3	false	3	*	3	
+11-11	1083-1084	,	_	_	_	_	_	_	_	_	_	_	
+11-12	1085-1087	as	_	_	_	_	_	_	_	_	_	_	
+11-13	1088-1090	he	_	_	_	_	_	_	_	_	_	_	
+11-14	1091-1098	tallied	_	_	_	_	_	_	_	_	_	_	
+11-15	1099-1101	17	_	_	_	_	_	_	_	_	_	_	
+11-16	1102-1108	points	_	_	_	_	_	_	_	_	_	_	
+11-17	1109-1110	,	_	_	_	_	_	_	_	_	_	_	
+11-18	1111-1113	14	_	_	_	_	_	_	_	_	_	_	
+11-19	1114-1122	rebounds	_	_	_	_	_	_	_	_	_	_	
+11-20	1123-1126	and	_	_	_	_	_	_	_	_	_	_	
+11-21	1127-1131	four	_	_	_	_	_	_	_	_	_	_	
+11-22	1132-1139	assists	_	_	_	_	_	_	_	_	_	_	
+11-23	1140-1142	in	_	_	_	_	_	_	_	_	_	_	
+11-24	1143-1146	the	_	_	_	_	_	_	_	_	_	_	
+11-25	1147-1150	win	_	_	_	_	_	_	_	_	_	_	
+11-26	1151-1152	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Zach Randolph recorded a double - double off the bench , totaling 17 points and 14 rebounds .
+12-1	1153-1157	Zach	_	_	_	_	_	_	_	_	_	_	
+12-2	1158-1166	Randolph	_	_	_	_	_	_	_	_	_	_	
+12-3	1167-1175	recorded	_	_	_	_	_	_	_	_	_	_	
+12-4	1176-1177	a	_	_	_	_	_	_	_	_	_	_	
+12-5	1178-1184	double	_	_	_	_	_	_	_	_	_	_	
+12-6	1185-1186	-	_	_	_	_	_	_	_	_	_	_	
+12-7	1187-1193	double	_	_	_	_	_	_	_	_	_	_	
+12-8	1194-1197	off	3\_WORD[4]	*[4]	Randolph was a starter[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+12-9	1198-1201	the	3\_WORD[4]	*[4]	Randolph was a starter[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+12-10	1202-1207	bench	3\_WORD[4]	*[4]	Randolph was a starter[4]	*[4]	*[4]	3[4]	false[4]	3[4]	*[4]	3[4]	
+12-11	1208-1209	,	_	_	_	_	_	_	_	_	_	_	
+12-12	1210-1218	totaling	_	_	_	_	_	_	_	_	_	_	
+12-13	1219-1221	17	_	_	_	_	_	_	_	_	_	_	
+12-14	1222-1228	points	_	_	_	_	_	_	_	_	_	_	
+12-15	1229-1232	and	_	_	_	_	_	_	_	_	_	_	
+12-16	1233-1235	14	_	_	_	_	_	_	_	_	_	_	
+12-17	1236-1244	rebounds	_	_	_	_	_	_	_	_	_	_	
+12-18	1245-1246	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Jeff Green led the team in scoring off the bench , as he dropped 18 points on 6 - of - 11 shooting .
+13-1	1247-1251	Jeff	_	_	_	_	_	_	_	_	_	_	
+13-2	1252-1257	Green	_	_	_	_	_	_	_	_	_	_	
+13-3	1258-1261	led	_	_	_	_	_	_	_	_	_	_	
+13-4	1262-1265	the	_	_	_	_	_	_	_	_	_	_	
+13-5	1266-1270	team	_	_	_	_	_	_	_	_	_	_	
+13-6	1271-1273	in	_	_	_	_	_	_	_	_	_	_	
+13-7	1274-1281	scoring	_	_	_	_	_	_	_	_	_	_	
+13-8	1282-1285	off	_	_	_	_	_	_	_	_	_	_	
+13-9	1286-1289	the	_	_	_	_	_	_	_	_	_	_	
+13-10	1290-1295	bench	3\_WORD	*	Green was a starter	*	*	3	false	3	*	3	
+13-11	1296-1297	,	_	_	_	_	_	_	_	_	_	_	
+13-12	1298-1300	as	_	_	_	_	_	_	_	_	_	_	
+13-13	1301-1303	he	_	_	_	_	_	_	_	_	_	_	
+13-14	1304-1311	dropped	_	_	_	_	_	_	_	_	_	_	
+13-15	1312-1314	18	_	_	_	_	_	_	_	_	_	_	
+13-16	1315-1321	points	_	_	_	_	_	_	_	_	_	_	
+13-17	1322-1324	on	_	_	_	_	_	_	_	_	_	_	
+13-18	1325-1326	6	_	_	_	_	_	_	_	_	_	_	
+13-19	1327-1328	-	_	_	_	_	_	_	_	_	_	_	
+13-20	1329-1331	of	_	_	_	_	_	_	_	_	_	_	
+13-21	1332-1333	-	_	_	_	_	_	_	_	_	_	_	
+13-22	1334-1336	11	_	_	_	_	_	_	_	_	_	_	
+13-23	1337-1345	shooting	_	_	_	_	_	_	_	_	_	_	
+13-24	1346-1347	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Michael Carter-Williams was the only other starter in double figures , as he collected 10 points , three rebounds and six assists .
+14-1	1348-1355	Michael	4\_CONTEXT[5]	*[5]	Carter-Williams plays for the 76ers, not Grizzlies[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+14-2	1356-1371	Carter-Williams	4\_CONTEXT[5]	*[5]	Carter-Williams plays for the 76ers, not Grizzlies[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+14-3	1372-1375	was	_	_	_	_	_	_	_	_	_	_	
+14-4	1376-1379	the	_	_	_	_	_	_	_	_	_	_	
+14-5	1380-1384	only	_	_	_	_	_	_	_	_	_	_	
+14-6	1385-1390	other	_	_	_	_	_	_	_	_	_	_	
+14-7	1391-1398	starter	_	_	_	_	_	_	_	_	_	_	
+14-8	1399-1401	in	_	_	_	_	_	_	_	_	_	_	
+14-9	1402-1408	double	_	_	_	_	_	_	_	_	_	_	
+14-10	1409-1416	figures	_	_	_	_	_	_	_	_	_	_	
+14-11	1417-1418	,	_	_	_	_	_	_	_	_	_	_	
+14-12	1419-1421	as	_	_	_	_	_	_	_	_	_	_	
+14-13	1422-1424	he	_	_	_	_	_	_	_	_	_	_	
+14-14	1425-1434	collected	_	_	_	_	_	_	_	_	_	_	
+14-15	1435-1437	10	_	_	_	_	_	_	_	_	_	_	
+14-16	1438-1444	points	_	_	_	_	_	_	_	_	_	_	
+14-17	1445-1446	,	_	_	_	_	_	_	_	_	_	_	
+14-18	1447-1452	three	_	_	_	_	_	_	_	_	_	_	
+14-19	1453-1461	rebounds	_	_	_	_	_	_	_	_	_	_	
+14-20	1462-1465	and	_	_	_	_	_	_	_	_	_	_	
+14-21	1466-1469	six	_	_	_	_	_	_	_	_	_	_	
+14-22	1470-1477	assists	_	_	_	_	_	_	_	_	_	_	
+14-23	1478-1479	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Vince Carter was the only other starter in double figures , as he amassed 16 points , six rebounds and three assists .
+15-1	1480-1485	Vince	_	_	_	_	_	_	_	_	_	_	
+15-2	1486-1492	Carter	_	_	_	_	_	_	_	_	_	_	
+15-3	1493-1496	was	_	_	_	_	_	_	_	_	_	_	
+15-4	1497-1500	the	_	_	_	_	_	_	_	_	_	_	
+15-5	1501-1505	only	_	_	_	_	_	_	_	_	_	_	
+15-6	1506-1511	other	_	_	_	_	_	_	_	_	_	_	
+15-7	1512-1519	starter	3\_WORD	*	Carter came off the bench	*	*	3	false	3	*	3	
+15-8	1520-1522	in	_	_	_	_	_	_	_	_	_	_	
+15-9	1523-1529	double	_	_	_	_	_	_	_	_	_	_	
+15-10	1530-1537	figures	_	_	_	_	_	_	_	_	_	_	
+15-11	1538-1539	,	_	_	_	_	_	_	_	_	_	_	
+15-12	1540-1542	as	_	_	_	_	_	_	_	_	_	_	
+15-13	1543-1545	he	_	_	_	_	_	_	_	_	_	_	
+15-14	1546-1553	amassed	_	_	_	_	_	_	_	_	_	_	
+15-15	1554-1556	16	2\_NUMBER	13	*	*	*	3	false	3	*	3	
+15-16	1557-1563	points	_	_	_	_	_	_	_	_	_	_	
+15-17	1564-1565	,	_	_	_	_	_	_	_	_	_	_	
+15-18	1566-1569	six	_	_	_	_	_	_	_	_	_	_	
+15-19	1570-1578	rebounds	_	_	_	_	_	_	_	_	_	_	
+15-20	1579-1582	and	_	_	_	_	_	_	_	_	_	_	
+15-21	1583-1588	three	_	_	_	_	_	_	_	_	_	_	
+15-22	1589-1596	assists	_	_	_	_	_	_	_	_	_	_	
+15-23	1597-1598	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Marc Gasol recorded a double - double , totaling nine points , seven rebounds , four assists , two steals and four blocks .
+16-1	1599-1603	Marc	_	_	_	_	_	_	_	_	_	_	
+16-2	1604-1609	Gasol	_	_	_	_	_	_	_	_	_	_	
+16-3	1610-1618	recorded	_	_	_	_	_	_	_	_	_	_	
+16-4	1619-1620	a	_	_	_	_	_	_	_	_	_	_	
+16-5	1621-1627	double	3\_WORD[6]	*[6]	Gasol did not have a double-double[6]	*[6]	*[6]	3[6]	false[6]	3[6]	*[6]	3[6]	
+16-6	1628-1629	-	3\_WORD[6]	*[6]	Gasol did not have a double-double[6]	*[6]	*[6]	3[6]	false[6]	3[6]	*[6]	3[6]	
+16-7	1630-1636	double	3\_WORD[6]	*[6]	Gasol did not have a double-double[6]	*[6]	*[6]	3[6]	false[6]	3[6]	*[6]	3[6]	
+16-8	1637-1638	,	_	_	_	_	_	_	_	_	_	_	
+16-9	1639-1647	totaling	_	_	_	_	_	_	_	_	_	_	
+16-10	1648-1652	nine	_	_	_	_	_	_	_	_	_	_	
+16-11	1653-1659	points	_	_	_	_	_	_	_	_	_	_	
+16-12	1660-1661	,	_	_	_	_	_	_	_	_	_	_	
+16-13	1662-1667	seven	_	_	_	_	_	_	_	_	_	_	
+16-14	1668-1676	rebounds	_	_	_	_	_	_	_	_	_	_	
+16-15	1677-1678	,	_	_	_	_	_	_	_	_	_	_	
+16-16	1679-1683	four	_	_	_	_	_	_	_	_	_	_	
+16-17	1684-1691	assists	_	_	_	_	_	_	_	_	_	_	
+16-18	1692-1693	,	_	_	_	_	_	_	_	_	_	_	
+16-19	1694-1697	two	_	_	_	_	_	_	_	_	_	_	
+16-20	1698-1704	steals	_	_	_	_	_	_	_	_	_	_	
+16-21	1705-1708	and	_	_	_	_	_	_	_	_	_	_	
+16-22	1709-1713	four	_	_	_	_	_	_	_	_	_	_	
+16-23	1714-1720	blocks	_	_	_	_	_	_	_	_	_	_	
+16-24	1721-1722	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=On deck for Memphis is a home matchup against the Los Angeles Lakers on Sunday .
+17-1	1723-1725	On	_	_	_	_	_	_	_	_	_	_	
+17-2	1726-1730	deck	_	_	_	_	_	_	_	_	_	_	
+17-3	1731-1734	for	_	_	_	_	_	_	_	_	_	_	
+17-4	1735-1742	Memphis	_	_	_	_	_	_	_	_	_	_	
+17-5	1743-1745	is	_	_	_	_	_	_	_	_	_	_	
+17-6	1746-1747	a	_	_	_	_	_	_	_	_	_	_	
+17-7	1748-1752	home	_	_	_	_	_	_	_	_	_	_	
+17-8	1753-1760	matchup	_	_	_	_	_	_	_	_	_	_	
+17-9	1761-1768	against	_	_	_	_	_	_	_	_	_	_	
+17-10	1769-1772	the	_	_	_	_	_	_	_	_	_	_	
+17-11	1773-1776	Los	1\_NAME[7]	Orlando Magic[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+17-12	1777-1784	Angeles	1\_NAME[7]	Orlando Magic[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+17-13	1785-1791	Lakers	1\_NAME[7]	Orlando Magic[7]	*[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+17-14	1792-1794	on	_	_	_	_	_	_	_	_	_	_	
+17-15	1795-1801	Sunday	1\_NAME	Monday	*	*	*	3	false	3	*	3	
+17-16	1802-1803	.	_	_	_	_	_	_	_	_	_	_	

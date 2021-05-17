@@ -1,0 +1,517 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Phoenix Suns defeated the host Phoenix Suns , 111 - 106 , at Smoothie King Center on Friday .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-11	Phoenix	1\_NAME[1]	New orleans Pelicans[1]	*[1]	*[1]	*[1]	2[1]	false[1]	2[1]	*[1]	2[1]	
+1-3	12-16	Suns	1\_NAME[1]	New orleans Pelicans[1]	*[1]	*[1]	*[1]	2[1]	false[1]	2[1]	*[1]	2[1]	
+1-4	17-25	defeated	_	_	_	_	_	_	_	_	_	_	
+1-5	26-29	the	_	_	_	_	_	_	_	_	_	_	
+1-6	30-34	host	3\_WORD	*	New Orleans was the host	*	*	2	false	2	*	2	
+1-7	35-42	Phoenix	_	_	_	_	_	_	_	_	_	_	
+1-8	43-47	Suns	_	_	_	_	_	_	_	_	_	_	
+1-9	48-49	,	_	_	_	_	_	_	_	_	_	_	
+1-10	50-53	111	_	_	_	_	_	_	_	_	_	_	
+1-11	54-55	-	_	_	_	_	_	_	_	_	_	_	
+1-12	56-59	106	_	_	_	_	_	_	_	_	_	_	
+1-13	60-61	,	_	_	_	_	_	_	_	_	_	_	
+1-14	62-64	at	_	_	_	_	_	_	_	_	_	_	
+1-15	65-73	Smoothie	_	_	_	_	_	_	_	_	_	_	
+1-16	74-78	King	_	_	_	_	_	_	_	_	_	_	
+1-17	79-85	Center	_	_	_	_	_	_	_	_	_	_	
+1-18	86-88	on	_	_	_	_	_	_	_	_	_	_	
+1-19	89-95	Friday	1\_NAME	Monday	*	*	*	3	false	3	*	3	
+1-20	96-97	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Pelicans ( 16 - 32 ) checked in to Friday 000s contest with a disappointing loss to the Pelicans ( 16 - 32 ) , but they were able to pull away in the second half .
+2-1	98-101	The	_	_	_	_	_	_	_	_	_	_	
+2-2	102-110	Pelicans	_	_	_	_	_	_	_	_	_	_	
+2-3	111-112	(	_	_	_	_	_	_	_	_	_	_	
+2-4	113-115	16	2\_NUMBER	20	*	*	*	3	true	2	*	3	
+2-5	116-117	-	_	_	_	_	_	_	_	_	_	_	
+2-6	118-120	32	_	_	_	_	_	_	_	_	_	_	
+2-7	121-122	)	_	_	_	_	_	_	_	_	_	_	
+2-8	123-130	checked	_	_	_	_	_	_	_	_	_	_	
+2-9	131-133	in	_	_	_	_	_	_	_	_	_	_	
+2-10	134-136	to	_	_	_	_	_	_	_	_	_	_	
+2-11	137-143	Friday	1\_NAME	Monday	*	*	*	2	false	1	*	2	
+2-12	144-148	000s	_	_	_	_	_	_	_	_	_	_	
+2-13	149-156	contest	_	_	_	_	_	_	_	_	_	_	
+2-14	157-161	with	_	_	_	_	_	_	_	_	_	_	
+2-15	162-163	a	_	_	_	_	_	_	_	_	_	_	
+2-16	164-177	disappointing	_	_	_	_	_	_	_	_	_	_	
+2-17	178-182	loss	_	_	_	_	_	_	_	_	_	_	
+2-18	183-185	to	_	_	_	_	_	_	_	_	_	_	
+2-19	186-189	the	_	_	_	_	_	_	_	_	_	_	
+2-20	190-198	Pelicans	1\_NAME	Wizards	*	*	*	2	false	2	*	2	
+2-21	199-200	(	_	_	_	_	_	_	_	_	_	_	
+2-22	201-203	16	_	_	_	_	_	_	_	_	_	_	
+2-23	204-205	-	_	_	_	_	_	_	_	_	_	_	
+2-24	206-208	32	_	_	_	_	_	_	_	_	_	_	
+2-25	209-210	)	_	_	_	_	_	_	_	_	_	_	
+2-26	211-212	,	_	_	_	_	_	_	_	_	_	_	
+2-27	213-216	but	_	_	_	_	_	_	_	_	_	_	
+2-28	217-221	they	_	_	_	_	_	_	_	_	_	_	
+2-29	222-226	were	_	_	_	_	_	_	_	_	_	_	
+2-30	227-231	able	_	_	_	_	_	_	_	_	_	_	
+2-31	232-234	to	_	_	_	_	_	_	_	_	_	_	
+2-32	235-239	pull	_	_	_	_	_	_	_	_	_	_	
+2-33	240-244	away	_	_	_	_	_	_	_	_	_	_	
+2-34	245-247	in	_	_	_	_	_	_	_	_	_	_	
+2-35	248-251	the	_	_	_	_	_	_	_	_	_	_	
+2-36	252-258	second	_	_	_	_	_	_	_	_	_	_	
+2-37	259-263	half	_	_	_	_	_	_	_	_	_	_	
+2-38	264-265	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=However , the Pelicans were able to pull away in the second half , outscoring the Suns by a 34 - 18 margin over the final 12 minutes .
+3-1	266-273	However	_	_	_	_	_	_	_	_	_	_	
+3-2	274-275	,	_	_	_	_	_	_	_	_	_	_	
+3-3	276-279	the	_	_	_	_	_	_	_	_	_	_	
+3-4	280-288	Pelicans	_	_	_	_	_	_	_	_	_	_	
+3-5	289-293	were	_	_	_	_	_	_	_	_	_	_	
+3-6	294-298	able	_	_	_	_	_	_	_	_	_	_	
+3-7	299-301	to	_	_	_	_	_	_	_	_	_	_	
+3-8	302-306	pull	_	_	_	_	_	_	_	_	_	_	
+3-9	307-311	away	_	_	_	_	_	_	_	_	_	_	
+3-10	312-314	in	_	_	_	_	_	_	_	_	_	_	
+3-11	315-318	the	_	_	_	_	_	_	_	_	_	_	
+3-12	319-325	second	_	_	_	_	_	_	_	_	_	_	
+3-13	326-330	half	_	_	_	_	_	_	_	_	_	_	
+3-14	331-332	,	_	_	_	_	_	_	_	_	_	_	
+3-15	333-343	outscoring	_	_	_	_	_	_	_	_	_	_	
+3-16	344-347	the	_	_	_	_	_	_	_	_	_	_	
+3-17	348-352	Suns	_	_	_	_	_	_	_	_	_	_	
+3-18	353-355	by	_	_	_	_	_	_	_	_	_	_	
+3-19	356-357	a	_	_	_	_	_	_	_	_	_	_	
+3-20	358-360	34	_	_	_	_	_	_	_	_	_	_	
+3-21	361-362	-	_	_	_	_	_	_	_	_	_	_	
+3-22	363-365	18	2\_NUMBER	32	*	*	*	3	false	3	*	3	
+3-23	366-372	margin	_	_	_	_	_	_	_	_	_	_	
+3-24	373-377	over	_	_	_	_	_	_	_	_	_	_	
+3-25	378-381	the	_	_	_	_	_	_	_	_	_	_	
+3-26	382-387	final	_	_	_	_	_	_	_	_	_	_	
+3-27	388-390	12	_	_	_	_	_	_	_	_	_	_	
+3-28	391-398	minutes	_	_	_	_	_	_	_	_	_	_	
+3-29	399-400	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=However , the Pelicans battled back in the second , outscoring the Pelicans by a 34 - 18 margin over the final 12 minutes .
+4-1	401-408	However	_	_	_	_	_	_	_	_	_	_	
+4-2	409-410	,	_	_	_	_	_	_	_	_	_	_	
+4-3	411-414	the	_	_	_	_	_	_	_	_	_	_	
+4-4	415-423	Pelicans	_	_	_	_	_	_	_	_	_	_	
+4-5	424-431	battled	3\_WORD[2]	*[2]	they were outscored in the 2nd period, and had equal points in the second half[2]	*[2]	*[2]	2[2]	false[2]	2[2]	*[2]	2[2]	
+4-6	432-436	back	3\_WORD[2]	*[2]	they were outscored in the 2nd period, and had equal points in the second half[2]	*[2]	*[2]	2[2]	false[2]	2[2]	*[2]	2[2]	
+4-7	437-439	in	_	_	_	_	_	_	_	_	_	_	
+4-8	440-443	the	_	_	_	_	_	_	_	_	_	_	
+4-9	444-450	second	_	_	_	_	_	_	_	_	_	_	
+4-10	451-452	,	_	_	_	_	_	_	_	_	_	_	
+4-11	453-463	outscoring	_	_	_	_	_	_	_	_	_	_	
+4-12	464-467	the	_	_	_	_	_	_	_	_	_	_	
+4-13	468-476	Pelicans	1\_NAME	Suns	*	*	*	2	false	2	*	2	
+4-14	477-479	by	_	_	_	_	_	_	_	_	_	_	
+4-15	480-481	a	_	_	_	_	_	_	_	_	_	_	
+4-16	482-484	34	_	_	_	_	_	_	_	_	_	_	
+4-17	485-486	-	_	_	_	_	_	_	_	_	_	_	
+4-18	487-489	18	2\_NUMBER	32	*	*	*	3	false	3	*	3	
+4-19	490-496	margin	_	_	_	_	_	_	_	_	_	_	
+4-20	497-501	over	_	_	_	_	_	_	_	_	_	_	
+4-21	502-505	the	_	_	_	_	_	_	_	_	_	_	
+4-22	506-511	final	_	_	_	_	_	_	_	_	_	_	
+4-23	512-514	12	_	_	_	_	_	_	_	_	_	_	
+4-24	515-522	minutes	_	_	_	_	_	_	_	_	_	_	
+4-25	523-524	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Pelicans were led by Eric Bledsoe 000s 14 points , which he supplemented with seven rebounds , five assists and a pair of blocks .
+5-1	525-528	The	_	_	_	_	_	_	_	_	_	_	
+5-2	529-537	Pelicans	1\_NAME	Suns	*	*	*	3	false	3	*	3	
+5-3	538-542	were	_	_	_	_	_	_	_	_	_	_	
+5-4	543-546	led	3\_WORD	*	Bledsoe did not lead the Suns in scoring	*	*	3	false	3	*	3	
+5-5	547-549	by	_	_	_	_	_	_	_	_	_	_	
+5-6	550-554	Eric	_	_	_	_	_	_	_	_	_	_	
+5-7	555-562	Bledsoe	_	_	_	_	_	_	_	_	_	_	
+5-8	563-567	000s	_	_	_	_	_	_	_	_	_	_	
+5-9	568-570	14	_	_	_	_	_	_	_	_	_	_	
+5-10	571-577	points	_	_	_	_	_	_	_	_	_	_	
+5-11	578-579	,	_	_	_	_	_	_	_	_	_	_	
+5-12	580-585	which	_	_	_	_	_	_	_	_	_	_	
+5-13	586-588	he	_	_	_	_	_	_	_	_	_	_	
+5-14	589-601	supplemented	_	_	_	_	_	_	_	_	_	_	
+5-15	602-606	with	_	_	_	_	_	_	_	_	_	_	
+5-16	607-612	seven	_	_	_	_	_	_	_	_	_	_	
+5-17	613-621	rebounds	_	_	_	_	_	_	_	_	_	_	
+5-18	622-623	,	_	_	_	_	_	_	_	_	_	_	
+5-19	624-628	five	_	_	_	_	_	_	_	_	_	_	
+5-20	629-636	assists	_	_	_	_	_	_	_	_	_	_	
+5-21	637-640	and	_	_	_	_	_	_	_	_	_	_	
+5-22	641-642	a	_	_	_	_	_	_	_	_	_	_	
+5-23	643-647	pair	2\_NUMBER	*	Bledsoe had no blocks	*	*	3	false	2	*	3	
+5-24	648-650	of	_	_	_	_	_	_	_	_	_	_	
+5-25	651-657	blocks	_	_	_	_	_	_	_	_	_	_	
+5-26	658-659	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Devin Booker was right behind him with 14 points , five assists , two rebounds and a steal .
+6-1	660-665	Devin	_	_	_	_	_	_	_	_	_	_	
+6-2	666-672	Booker	_	_	_	_	_	_	_	_	_	_	
+6-3	673-676	was	_	_	_	_	_	_	_	_	_	_	
+6-4	677-682	right	3\_WORD[3]	*[3]	Booker and Bledsoe scored the same number points[3]	*[3]	*[3]	3[3]	false[3]	2[3]	*[3]	3[3]	
+6-5	683-689	behind	3\_WORD[3]	*[3]	Booker and Bledsoe scored the same number points[3]	*[3]	*[3]	3[3]	false[3]	2[3]	*[3]	3[3]	
+6-6	690-693	him	_	_	_	_	_	_	_	_	_	_	
+6-7	694-698	with	_	_	_	_	_	_	_	_	_	_	
+6-8	699-701	14	_	_	_	_	_	_	_	_	_	_	
+6-9	702-708	points	_	_	_	_	_	_	_	_	_	_	
+6-10	709-710	,	_	_	_	_	_	_	_	_	_	_	
+6-11	711-715	five	_	_	_	_	_	_	_	_	_	_	
+6-12	716-723	assists	_	_	_	_	_	_	_	_	_	_	
+6-13	724-725	,	_	_	_	_	_	_	_	_	_	_	
+6-14	726-729	two	_	_	_	_	_	_	_	_	_	_	
+6-15	730-738	rebounds	_	_	_	_	_	_	_	_	_	_	
+6-16	739-742	and	_	_	_	_	_	_	_	_	_	_	
+6-17	743-744	a	_	_	_	_	_	_	_	_	_	_	
+6-18	745-750	steal	_	_	_	_	_	_	_	_	_	_	
+6-19	751-752	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Marquese Chriss followed with 12 points , three rebounds , two assists , a steal and a block .
+7-1	753-761	Marquese	_	_	_	_	_	_	_	_	_	_	
+7-2	762-768	Chriss	_	_	_	_	_	_	_	_	_	_	
+7-3	769-777	followed	_	_	_	_	_	_	_	_	_	_	
+7-4	778-782	with	_	_	_	_	_	_	_	_	_	_	
+7-5	783-785	12	2\_NUMBER	6	*	*	*	3	false	3	*	3	
+7-6	786-792	points	_	_	_	_	_	_	_	_	_	_	
+7-7	793-794	,	_	_	_	_	_	_	_	_	_	_	
+7-8	795-800	three	_	_	_	_	_	_	_	_	_	_	
+7-9	801-809	rebounds	_	_	_	_	_	_	_	_	_	_	
+7-10	810-811	,	_	_	_	_	_	_	_	_	_	_	
+7-11	812-815	two	_	_	_	_	_	_	_	_	_	_	
+7-12	816-823	assists	_	_	_	_	_	_	_	_	_	_	
+7-13	824-825	,	_	_	_	_	_	_	_	_	_	_	
+7-14	826-827	a	_	_	_	_	_	_	_	_	_	_	
+7-15	828-833	steal	_	_	_	_	_	_	_	_	_	_	
+7-16	834-837	and	_	_	_	_	_	_	_	_	_	_	
+7-17	838-839	a	_	_	_	_	_	_	_	_	_	_	
+7-18	840-845	block	_	_	_	_	_	_	_	_	_	_	
+7-19	846-847	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=PJ Tucker led the bench with 12 points , five rebounds , an assist and a steal .
+8-1	848-850	PJ	_	_	_	_	_	_	_	_	_	_	
+8-2	851-857	Tucker	_	_	_	_	_	_	_	_	_	_	
+8-3	858-861	led	3\_WORD	*	Tucker did not lead the bench in scoring	*	*	3	false	2	*	3	
+8-4	862-865	the	_	_	_	_	_	_	_	_	_	_	
+8-5	866-871	bench	_	_	_	_	_	_	_	_	_	_	
+8-6	872-876	with	_	_	_	_	_	_	_	_	_	_	
+8-7	877-879	12	2\_NUMBER	6	*	*	*	2	false	2	*	2	
+8-8	880-886	points	_	_	_	_	_	_	_	_	_	_	
+8-9	887-888	,	_	_	_	_	_	_	_	_	_	_	
+8-10	889-893	five	_	_	_	_	_	_	_	_	_	_	
+8-11	894-902	rebounds	_	_	_	_	_	_	_	_	_	_	
+8-12	903-904	,	_	_	_	_	_	_	_	_	_	_	
+8-13	905-907	an	_	_	_	_	_	_	_	_	_	_	
+8-14	908-914	assist	_	_	_	_	_	_	_	_	_	_	
+8-15	915-918	and	_	_	_	_	_	_	_	_	_	_	
+8-16	919-920	a	2\_NUMBER	two	*	*	*	3	false	3	*	3	
+8-17	921-926	steal	_	_	_	_	_	_	_	_	_	_	
+8-18	927-928	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Phoenix was led by Eric Bledsoe 000s 14 points , which he supplemented with seven rebounds , five assists , a steal and a block .
+9-1	929-936	Phoenix	_	_	_	_	_	_	_	_	_	_	
+9-2	937-940	was	_	_	_	_	_	_	_	_	_	_	
+9-3	941-944	led	3\_WORD	*	Bledsoe did not lead the Suns in scoring	*	*	3	false	3	*	3	
+9-4	945-947	by	_	_	_	_	_	_	_	_	_	_	
+9-5	948-952	Eric	_	_	_	_	_	_	_	_	_	_	
+9-6	953-960	Bledsoe	_	_	_	_	_	_	_	_	_	_	
+9-7	961-965	000s	_	_	_	_	_	_	_	_	_	_	
+9-8	966-968	14	_	_	_	_	_	_	_	_	_	_	
+9-9	969-975	points	_	_	_	_	_	_	_	_	_	_	
+9-10	976-977	,	_	_	_	_	_	_	_	_	_	_	
+9-11	978-983	which	_	_	_	_	_	_	_	_	_	_	
+9-12	984-986	he	_	_	_	_	_	_	_	_	_	_	
+9-13	987-999	supplemented	_	_	_	_	_	_	_	_	_	_	
+9-14	1000-1004	with	_	_	_	_	_	_	_	_	_	_	
+9-15	1005-1010	seven	_	_	_	_	_	_	_	_	_	_	
+9-16	1011-1019	rebounds	_	_	_	_	_	_	_	_	_	_	
+9-17	1020-1021	,	_	_	_	_	_	_	_	_	_	_	
+9-18	1022-1026	five	_	_	_	_	_	_	_	_	_	_	
+9-19	1027-1034	assists	_	_	_	_	_	_	_	_	_	_	
+9-20	1035-1036	,	_	_	_	_	_	_	_	_	_	_	
+9-21	1037-1038	a	2\_NUMBER	no	*	*	*	3	false	3	*	3	
+9-22	1039-1044	steal	_	_	_	_	_	_	_	_	_	_	
+9-23	1045-1048	and	_	_	_	_	_	_	_	_	_	_	
+9-24	1049-1050	a	2\_NUMBER	no	*	*	*	3	false	3	*	3	
+9-25	1051-1056	block	_	_	_	_	_	_	_	_	_	_	
+9-26	1057-1058	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Marquese Chriss followed with 12 points , three rebounds , two assists and a block .
+10-1	1059-1067	Marquese	_	_	_	_	_	_	_	_	_	_	
+10-2	1068-1074	Chriss	_	_	_	_	_	_	_	_	_	_	
+10-3	1075-1083	followed	_	_	_	_	_	_	_	_	_	_	
+10-4	1084-1088	with	_	_	_	_	_	_	_	_	_	_	
+10-5	1089-1091	12	2\_NUMBER	6	*	*	*	3	false	3	*	3	
+10-6	1092-1098	points	_	_	_	_	_	_	_	_	_	_	
+10-7	1099-1100	,	_	_	_	_	_	_	_	_	_	_	
+10-8	1101-1106	three	_	_	_	_	_	_	_	_	_	_	
+10-9	1107-1115	rebounds	_	_	_	_	_	_	_	_	_	_	
+10-10	1116-1117	,	_	_	_	_	_	_	_	_	_	_	
+10-11	1118-1121	two	_	_	_	_	_	_	_	_	_	_	
+10-12	1122-1129	assists	_	_	_	_	_	_	_	_	_	_	
+10-13	1130-1133	and	_	_	_	_	_	_	_	_	_	_	
+10-14	1134-1135	a	_	_	_	_	_	_	_	_	_	_	
+10-15	1136-1141	block	_	_	_	_	_	_	_	_	_	_	
+10-16	1142-1143	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Marquese Chriss was productive in a reserve role as well with 14 points , three rebounds , two assists and a block .
+11-1	1144-1152	Marquese	_	_	_	_	_	_	_	_	_	_	
+11-2	1153-1159	Chriss	_	_	_	_	_	_	_	_	_	_	
+11-3	1160-1163	was	_	_	_	_	_	_	_	_	_	_	
+11-4	1164-1174	productive	_	_	_	_	_	_	_	_	_	_	
+11-5	1175-1177	in	_	_	_	_	_	_	_	_	_	_	
+11-6	1178-1179	a	_	_	_	_	_	_	_	_	_	_	
+11-7	1180-1187	reserve	3\_WORD	starting	*	*	CT: T3 changed the name at the the start of the sentence	3	true	1	*	2	
+11-8	1188-1192	role	_	_	_	_	_	_	_	_	_	_	
+11-9	1193-1195	as	_	_	_	_	_	_	_	_	_	_	
+11-10	1196-1200	well	_	_	_	_	_	_	_	_	_	_	
+11-11	1201-1205	with	_	_	_	_	_	_	_	_	_	_	
+11-12	1206-1208	14	2\_NUMBER	6	*	*	CT: T3 changed the name at the the start of the sentence	3	true	2	*	2	
+11-13	1209-1215	points	_	_	_	_	_	_	_	_	_	_	
+11-14	1216-1217	,	_	_	_	_	_	_	_	_	_	_	
+11-15	1218-1223	three	_	_	_	_	_	_	_	_	_	_	
+11-16	1224-1232	rebounds	_	_	_	_	_	_	_	_	_	_	
+11-17	1233-1234	,	_	_	_	_	_	_	_	_	_	_	
+11-18	1235-1238	two	_	_	_	_	_	_	_	_	_	_	
+11-19	1239-1246	assists	_	_	_	_	_	_	_	_	_	_	
+11-20	1247-1250	and	_	_	_	_	_	_	_	_	_	_	
+11-21	1251-1252	a	_	_	_	_	_	_	_	_	_	_	
+11-22	1253-1258	block	_	_	_	_	_	_	_	_	_	_	
+11-23	1259-1260	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Phoenix was led by Brandon Knight 000s 12 points , six assists , two rebounds and a pair of steals .
+12-1	1261-1268	Phoenix	_	_	_	_	_	_	_	_	_	_	
+12-2	1269-1272	was	_	_	_	_	_	_	_	_	_	_	
+12-3	1273-1276	led	3\_WORD	*	Knight did not lead the Suns in scoring	*	*	3	false	3	*	3	
+12-4	1277-1279	by	_	_	_	_	_	_	_	_	_	_	
+12-5	1280-1287	Brandon	_	_	_	_	_	_	_	_	_	_	
+12-6	1288-1294	Knight	_	_	_	_	_	_	_	_	_	_	
+12-7	1295-1299	000s	_	_	_	_	_	_	_	_	_	_	
+12-8	1300-1302	12	_	_	_	_	_	_	_	_	_	_	
+12-9	1303-1309	points	_	_	_	_	_	_	_	_	_	_	
+12-10	1310-1311	,	_	_	_	_	_	_	_	_	_	_	
+12-11	1312-1315	six	_	_	_	_	_	_	_	_	_	_	
+12-12	1316-1323	assists	_	_	_	_	_	_	_	_	_	_	
+12-13	1324-1325	,	_	_	_	_	_	_	_	_	_	_	
+12-14	1326-1329	two	_	_	_	_	_	_	_	_	_	_	
+12-15	1330-1338	rebounds	_	_	_	_	_	_	_	_	_	_	
+12-16	1339-1342	and	_	_	_	_	_	_	_	_	_	_	
+12-17	1343-1344	a	_	_	_	_	_	_	_	_	_	_	
+12-18	1345-1349	pair	2\_NUMBER	*	Knight had 0 steals	*	*	3	false	2	*	3	
+12-19	1350-1352	of	_	_	_	_	_	_	_	_	_	_	
+12-20	1353-1359	steals	_	_	_	_	_	_	_	_	_	_	
+12-21	1360-1361	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Eric Bledsoe was right behind him with 14 points , seven assists , seven rebounds and a pair of blocks .
+13-1	1362-1366	Eric	_	_	_	_	_	_	_	_	_	_	
+13-2	1367-1374	Bledsoe	_	_	_	_	_	_	_	_	_	_	
+13-3	1375-1378	was	_	_	_	_	_	_	_	_	_	_	
+13-4	1379-1384	right	_	_	_	_	_	_	_	_	_	_	
+13-5	1385-1391	behind	3\_WORD[4]	*[4]	incorrectly implies that Bledsoe scored fewer pts than Knight[4]	*[4]	*[4]	3[4]	false[4]	1[4]	*[4]	3[4]	
+13-6	1392-1395	him	3\_WORD[4]	*[4]	incorrectly implies that Bledsoe scored fewer pts than Knight[4]	*[4]	*[4]	3[4]	false[4]	1[4]	*[4]	3[4]	
+13-7	1396-1400	with	_	_	_	_	_	_	_	_	_	_	
+13-8	1401-1403	14	_	_	_	_	_	_	_	_	_	_	
+13-9	1404-1410	points	_	_	_	_	_	_	_	_	_	_	
+13-10	1411-1412	,	_	_	_	_	_	_	_	_	_	_	
+13-11	1413-1418	seven	2\_NUMBER	five	*	*	*	3	false	3	*	3	
+13-12	1419-1426	assists	_	_	_	_	_	_	_	_	_	_	
+13-13	1427-1428	,	_	_	_	_	_	_	_	_	_	_	
+13-14	1429-1434	seven	_	_	_	_	_	_	_	_	_	_	
+13-15	1435-1443	rebounds	_	_	_	_	_	_	_	_	_	_	
+13-16	1444-1447	and	_	_	_	_	_	_	_	_	_	_	
+13-17	1448-1449	a	_	_	_	_	_	_	_	_	_	_	
+13-18	1450-1454	pair	2\_NUMBER	*	Bledsoe had no blocks	*	*	3	false	2	*	3	
+13-19	1455-1457	of	_	_	_	_	_	_	_	_	_	_	
+13-20	1458-1464	blocks	_	_	_	_	_	_	_	_	_	_	
+13-21	1465-1466	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Terrence Jones was next with a near double - double of 12 points , nine rebounds , six assists , two steals and a block .
+14-1	1467-1475	Terrence	4\_CONTEXT[5]	*[5]	Jones played for the Pelicans[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+14-2	1476-1481	Jones	4\_CONTEXT[5]	*[5]	Jones played for the Pelicans[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+14-3	1482-1485	was	_	_	_	_	_	_	_	_	_	_	
+14-4	1486-1490	next	_	_	_	_	_	_	_	_	_	_	
+14-5	1491-1495	with	_	_	_	_	_	_	_	_	_	_	
+14-6	1496-1497	a	_	_	_	_	_	_	_	_	_	_	
+14-7	1498-1502	near	3\_WORD[6]	*[6]	he only had 5 points, 9 rebounds, and 0 assists[6]	*[6]	*[6]	2[6]	false[6]	1[6]	*[6]	2[6]	
+14-8	1503-1509	double	3\_WORD[6]	*[6]	he only had 5 points, 9 rebounds, and 0 assists[6]	*[6]	*[6]	2[6]	false[6]	1[6]	*[6]	2[6]	
+14-9	1510-1511	-	3\_WORD[6]	*[6]	he only had 5 points, 9 rebounds, and 0 assists[6]	*[6]	*[6]	2[6]	false[6]	1[6]	*[6]	2[6]	
+14-10	1512-1518	double	3\_WORD[6]	*[6]	he only had 5 points, 9 rebounds, and 0 assists[6]	*[6]	*[6]	2[6]	false[6]	1[6]	*[6]	2[6]	
+14-11	1519-1521	of	_	_	_	_	_	_	_	_	_	_	
+14-12	1522-1524	12	2\_NUMBER	5	*	*	*	3	false	3	*	3	
+14-13	1525-1531	points	_	_	_	_	_	_	_	_	_	_	
+14-14	1532-1533	,	_	_	_	_	_	_	_	_	_	_	
+14-15	1534-1538	nine	_	_	_	_	_	_	_	_	_	_	
+14-16	1539-1547	rebounds	_	_	_	_	_	_	_	_	_	_	
+14-17	1548-1549	,	_	_	_	_	_	_	_	_	_	_	
+14-18	1550-1553	six	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+14-19	1554-1561	assists	_	_	_	_	_	_	_	_	_	_	
+14-20	1562-1563	,	_	_	_	_	_	_	_	_	_	_	
+14-21	1564-1567	two	_	_	_	_	_	_	_	_	_	_	
+14-22	1568-1574	steals	_	_	_	_	_	_	_	_	_	_	
+14-23	1575-1578	and	_	_	_	_	_	_	_	_	_	_	
+14-24	1579-1580	a	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+14-25	1581-1586	block	_	_	_	_	_	_	_	_	_	_	
+14-26	1587-1588	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Buddy Hield led the second unit with 11 points , five rebounds , four assists and a steal .
+15-1	1589-1594	Buddy	_	_	_	_	_	_	_	_	_	_	
+15-2	1595-1600	Hield	_	_	_	_	_	_	_	_	_	_	
+15-3	1601-1604	led	3\_WORD	*	he was not the leading scorer for starters, and was outscored by someone on the second unit	*	*	2	false	2	*	2	
+15-4	1605-1608	the	_	_	_	_	_	_	_	_	_	_	
+15-5	1609-1615	second	3\_WORD[7]	*[7]	Hield was a starter[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+15-6	1616-1620	unit	3\_WORD[7]	*[7]	Hield was a starter[7]	*[7]	*[7]	3[7]	false[7]	3[7]	*[7]	3[7]	
+15-7	1621-1625	with	_	_	_	_	_	_	_	_	_	_	
+15-8	1626-1628	11	_	_	_	_	_	_	_	_	_	_	
+15-9	1629-1635	points	_	_	_	_	_	_	_	_	_	_	
+15-10	1636-1637	,	_	_	_	_	_	_	_	_	_	_	
+15-11	1638-1642	five	2\_NUMBER	three	*	*	*	3	false	3	*	3	
+15-12	1643-1651	rebounds	_	_	_	_	_	_	_	_	_	_	
+15-13	1652-1653	,	_	_	_	_	_	_	_	_	_	_	
+15-14	1654-1658	four	_	_	_	_	_	_	_	_	_	_	
+15-15	1659-1666	assists	_	_	_	_	_	_	_	_	_	_	
+15-16	1667-1670	and	_	_	_	_	_	_	_	_	_	_	
+15-17	1671-1672	a	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+15-18	1673-1678	steal	_	_	_	_	_	_	_	_	_	_	
+15-19	1679-1680	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Suns remain in last place in the Western Conference 000s Southwest Division .
+16-1	1681-1684	The	_	_	_	_	_	_	_	_	_	_	
+16-2	1685-1689	Suns	_	_	_	_	_	_	_	_	_	_	
+16-3	1690-1696	remain	_	_	_	_	_	_	_	_	_	_	
+16-4	1697-1699	in	_	_	_	_	_	_	_	_	_	_	
+16-5	1700-1704	last	6\_NOT\_CHECKABLE[8]	*[8]	*[8]	*[8]	*[8]	2[8]	false[8]	2[8]	*[8]	2[8]	
+16-6	1705-1710	place	6\_NOT\_CHECKABLE[8]	*[8]	*[8]	*[8]	*[8]	2[8]	false[8]	2[8]	*[8]	2[8]	
+16-7	1711-1713	in	_	_	_	_	_	_	_	_	_	_	
+16-8	1714-1717	the	_	_	_	_	_	_	_	_	_	_	
+16-9	1718-1725	Western	_	_	_	_	_	_	_	_	_	_	
+16-10	1726-1736	Conference	_	_	_	_	_	_	_	_	_	_	
+16-11	1737-1741	000s	_	_	_	_	_	_	_	_	_	_	
+16-12	1742-1751	Southwest	_	_	_	_	_	_	_	_	_	_	
+16-13	1752-1760	Division	_	_	_	_	_	_	_	_	_	_	
+16-14	1761-1762	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=They head to Minnesota to take on the Timberwolves on Monday .
+17-1	1763-1767	They	_	_	_	_	_	_	_	_	_	_	
+17-2	1768-1772	head	_	_	_	_	_	_	_	_	_	_	
+17-3	1773-1775	to	_	_	_	_	_	_	_	_	_	_	
+17-4	1776-1785	Minnesota	1\_NAME	Memphis	*	*	*	3	false	3	*	3	
+17-5	1786-1788	to	_	_	_	_	_	_	_	_	_	_	
+17-6	1789-1793	take	_	_	_	_	_	_	_	_	_	_	
+17-7	1794-1796	on	_	_	_	_	_	_	_	_	_	_	
+17-8	1797-1800	the	_	_	_	_	_	_	_	_	_	_	
+17-9	1801-1813	Timberwolves	1\_NAME	Grizzlies	*	*	*	3	false	3	*	3	
+17-10	1814-1816	on	_	_	_	_	_	_	_	_	_	_	
+17-11	1817-1823	Monday	1\_NAME	Wednesday	*	*	*	3	false	3	*	3	
+17-12	1824-1825	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Davis led the way for the Pelicans with 34 points , nine rebounds , an assist and five blocks .
+18-1	1826-1831	Davis	_	_	_	_	_	_	_	_	_	_	
+18-2	1832-1835	led	_	_	_	_	_	_	_	_	_	_	
+18-3	1836-1839	the	_	_	_	_	_	_	_	_	_	_	
+18-4	1840-1843	way	_	_	_	_	_	_	_	_	_	_	
+18-5	1844-1847	for	_	_	_	_	_	_	_	_	_	_	
+18-6	1848-1851	the	_	_	_	_	_	_	_	_	_	_	
+18-7	1852-1860	Pelicans	_	_	_	_	_	_	_	_	_	_	
+18-8	1861-1865	with	_	_	_	_	_	_	_	_	_	_	
+18-9	1866-1868	34	_	_	_	_	_	_	_	_	_	_	
+18-10	1869-1875	points	_	_	_	_	_	_	_	_	_	_	
+18-11	1876-1877	,	_	_	_	_	_	_	_	_	_	_	
+18-12	1878-1882	nine	_	_	_	_	_	_	_	_	_	_	
+18-13	1883-1891	rebounds	_	_	_	_	_	_	_	_	_	_	
+18-14	1892-1893	,	_	_	_	_	_	_	_	_	_	_	
+18-15	1894-1896	an	_	_	_	_	_	_	_	_	_	_	
+18-16	1897-1903	assist	_	_	_	_	_	_	_	_	_	_	
+18-17	1904-1907	and	_	_	_	_	_	_	_	_	_	_	
+18-18	1908-1912	five	_	_	_	_	_	_	_	_	_	_	
+18-19	1913-1919	blocks	_	_	_	_	_	_	_	_	_	_	
+18-20	1920-1921	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Jrue Holiday followed with 20 points , seven assists , four rebounds and three steals .
+19-1	1922-1926	Jrue	_	_	_	_	_	_	_	_	_	_	
+19-2	1927-1934	Holiday	_	_	_	_	_	_	_	_	_	_	
+19-3	1935-1943	followed	_	_	_	_	_	_	_	_	_	_	
+19-4	1944-1948	with	_	_	_	_	_	_	_	_	_	_	
+19-5	1949-1951	20	2\_NUMBER	30	*	*	*	3	false	3	*	3	
+19-6	1952-1958	points	_	_	_	_	_	_	_	_	_	_	
+19-7	1959-1960	,	_	_	_	_	_	_	_	_	_	_	
+19-8	1961-1966	seven	_	_	_	_	_	_	_	_	_	_	
+19-9	1967-1974	assists	_	_	_	_	_	_	_	_	_	_	
+19-10	1975-1976	,	_	_	_	_	_	_	_	_	_	_	
+19-11	1977-1981	four	2\_NUMBER	ten	*	*	*	3	false	3	*	3	
+19-12	1982-1990	rebounds	_	_	_	_	_	_	_	_	_	_	
+19-13	1991-1994	and	_	_	_	_	_	_	_	_	_	_	
+19-14	1995-2000	three	2\_NUMBER	two	*	*	*	3	false	3	*	3	
+19-15	2001-2007	steals	_	_	_	_	_	_	_	_	_	_	
+19-16	2008-2009	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Buddy Hield followed with 11 points , four assists , a rebound and a steal .
+20-1	2010-2015	Buddy	_	_	_	_	_	_	_	_	_	_	
+20-2	2016-2021	Hield	_	_	_	_	_	_	_	_	_	_	
+20-3	2022-2030	followed	_	_	_	_	_	_	_	_	_	_	
+20-4	2031-2035	with	_	_	_	_	_	_	_	_	_	_	
+20-5	2036-2038	11	_	_	_	_	_	_	_	_	_	_	
+20-6	2039-2045	points	_	_	_	_	_	_	_	_	_	_	
+20-7	2046-2047	,	_	_	_	_	_	_	_	_	_	_	
+20-8	2048-2052	four	_	_	_	_	_	_	_	_	_	_	
+20-9	2053-2060	assists	_	_	_	_	_	_	_	_	_	_	
+20-10	2061-2062	,	_	_	_	_	_	_	_	_	_	_	
+20-11	2063-2064	a	2\_NUMBER	three	*	*	*	3	false	3	*	3	
+20-12	2065-2072	rebound	_	_	_	_	_	_	_	_	_	_	
+20-13	2073-2076	and	_	_	_	_	_	_	_	_	_	_	
+20-14	2077-2078	a	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+20-15	2079-2084	steal	_	_	_	_	_	_	_	_	_	_	
+20-16	2085-2086	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Buddy Hield led the bench with 11 points , four assists , a rebound and a steal .
+21-1	2087-2092	Buddy	_	_	_	_	_	_	_	_	_	_	
+21-2	2093-2098	Hield	_	_	_	_	_	_	_	_	_	_	
+21-3	2099-2102	led	3\_WORD	*	Hield was not the leading scorer for the bench (or starters)	*	*	2	false	2	*	2	
+21-4	2103-2106	the	_	_	_	_	_	_	_	_	_	_	
+21-5	2107-2112	bench	_	_	_	_	_	_	_	_	_	_	
+21-6	2113-2117	with	_	_	_	_	_	_	_	_	_	_	
+21-7	2118-2120	11	_	_	_	_	_	_	_	_	_	_	
+21-8	2121-2127	points	_	_	_	_	_	_	_	_	_	_	
+21-9	2128-2129	,	_	_	_	_	_	_	_	_	_	_	
+21-10	2130-2134	four	_	_	_	_	_	_	_	_	_	_	
+21-11	2135-2142	assists	_	_	_	_	_	_	_	_	_	_	
+21-12	2143-2144	,	_	_	_	_	_	_	_	_	_	_	
+21-13	2145-2146	a	2\_NUMBER	three	*	*	*	3	false	3	*	3	
+21-14	2147-2154	rebound	_	_	_	_	_	_	_	_	_	_	
+21-15	2155-2158	and	_	_	_	_	_	_	_	_	_	_	
+21-16	2159-2160	a	2\_NUMBER	zero	*	*	*	3	false	3	*	3	
+21-17	2161-2166	steal	_	_	_	_	_	_	_	_	_	_	
+21-18	2167-2168	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Pelicans remain in last place in the Western Conference 000s Southwest Division .
+22-1	2169-2172	The	_	_	_	_	_	_	_	_	_	_	
+22-2	2173-2181	Pelicans	_	_	_	_	_	_	_	_	_	_	
+22-3	2182-2188	remain	_	_	_	_	_	_	_	_	_	_	
+22-4	2189-2191	in	_	_	_	_	_	_	_	_	_	_	
+22-5	2192-2196	last	6\_NOT\_CHECKABLE[9]	*[9]	*[9]	*[9]	*[9]	2[9]	false[9]	2[9]	*[9]	2[9]	
+22-6	2197-2202	place	6\_NOT\_CHECKABLE[9]	*[9]	*[9]	*[9]	*[9]	2[9]	false[9]	2[9]	*[9]	2[9]	
+22-7	2203-2205	in	_	_	_	_	_	_	_	_	_	_	
+22-8	2206-2209	the	_	_	_	_	_	_	_	_	_	_	
+22-9	2210-2217	Western	_	_	_	_	_	_	_	_	_	_	
+22-10	2218-2228	Conference	_	_	_	_	_	_	_	_	_	_	
+22-11	2229-2233	000s	_	_	_	_	_	_	_	_	_	_	
+22-12	2234-2243	Southwest	_	_	_	_	_	_	_	_	_	_	
+22-13	2244-2252	Division	_	_	_	_	_	_	_	_	_	_	
+22-14	2253-2254	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=They remain home to face the Golden State Warriors on Monday .
+23-1	2255-2259	They	_	_	_	_	_	_	_	_	_	_	
+23-2	2260-2266	remain	_	_	_	_	_	_	_	_	_	_	
+23-3	2267-2271	home	_	_	_	_	_	_	_	_	_	_	
+23-4	2272-2274	to	_	_	_	_	_	_	_	_	_	_	
+23-5	2275-2279	face	_	_	_	_	_	_	_	_	_	_	
+23-6	2280-2283	the	_	_	_	_	_	_	_	_	_	_	
+23-7	2284-2290	Golden	1\_NAME[10]	Utah Jazz[10]	*[10]	*[10]	*[10]	3[10]	false[10]	3[10]	*[10]	3[10]	
+23-8	2291-2296	State	1\_NAME[10]	Utah Jazz[10]	*[10]	*[10]	*[10]	3[10]	false[10]	3[10]	*[10]	3[10]	
+23-9	2297-2305	Warriors	1\_NAME[10]	Utah Jazz[10]	*[10]	*[10]	*[10]	3[10]	false[10]	3[10]	*[10]	3[10]	
+23-10	2306-2308	on	_	_	_	_	_	_	_	_	_	_	
+23-11	2309-2315	Monday	1\_NAME	Monday	*	*	*	3	false	3	*	3	
+23-12	2316-2317	.	_	_	_	_	_	_	_	_	_	_	

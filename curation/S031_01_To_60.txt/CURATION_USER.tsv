@@ -1,0 +1,304 @@
+#FORMAT=WebAnno TSV 3.2
+#T_SP=webanno.custom.Errors|A_Type|B_Correction|C_Comment|G_Corrected_Types|G_Problem|H_FOUND_ERR|I_Correction_Disagreement|I_Spans_Match|J_Corrected_Type|J_Types_Match
+
+
+#Text=The Boston Celtics defeated the Chicago Bulls , 100 - 80 , at TD Garden on Wednesday .
+1-1	0-3	The	_	_	_	_	_	_	_	_	_	_	
+1-2	4-10	Boston	_	_	_	_	_	_	_	_	_	_	
+1-3	11-18	Celtics	_	_	_	_	_	_	_	_	_	_	
+1-4	19-27	defeated	_	_	_	_	_	_	_	_	_	_	
+1-5	28-31	the	_	_	_	_	_	_	_	_	_	_	
+1-6	32-39	Chicago	_	_	_	_	_	_	_	_	_	_	
+1-7	40-45	Bulls	_	_	_	_	_	_	_	_	_	_	
+1-8	46-47	,	_	_	_	_	_	_	_	_	_	_	
+1-9	48-51	100	_	_	_	_	_	_	_	_	_	_	
+1-10	52-53	-	_	_	_	_	_	_	_	_	_	_	
+1-11	54-56	80	_	_	_	_	_	_	_	_	_	_	
+1-12	57-58	,	_	_	_	_	_	_	_	_	_	_	
+1-13	59-61	at	_	_	_	_	_	_	_	_	_	_	
+1-14	62-64	TD	_	_	_	_	_	_	_	_	_	_	
+1-15	65-71	Garden	_	_	_	_	_	_	_	_	_	_	
+1-16	72-74	on	_	_	_	_	_	_	_	_	_	_	
+1-17	75-84	Wednesday	1\_NAME	Sunday	*	*	*	3	false	3	*	3	
+1-18	85-86	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Celtics ( 42 - 25 ) checked in to Tuesday 000s contest with a win over the Bulls ( 31 - 35 ) , but they 000ve now won five of their last seven games .
+2-1	87-90	The	_	_	_	_	_	_	_	_	_	_	
+2-2	91-98	Celtics	_	_	_	_	_	_	_	_	_	_	
+2-3	99-100	(	_	_	_	_	_	_	_	_	_	_	
+2-4	101-103	42	_	_	_	_	_	_	_	_	_	_	
+2-5	104-105	-	_	_	_	_	_	_	_	_	_	_	
+2-6	106-108	25	_	_	_	_	_	_	_	_	_	_	
+2-7	109-110	)	_	_	_	_	_	_	_	_	_	_	
+2-8	111-118	checked	_	_	_	_	_	_	_	_	_	_	
+2-9	119-121	in	_	_	_	_	_	_	_	_	_	_	
+2-10	122-124	to	_	_	_	_	_	_	_	_	_	_	
+2-11	125-132	Tuesday	1\_NAME	Sunday	*	*	*	3	false	3	*	3	
+2-12	133-137	000s	_	_	_	_	_	_	_	_	_	_	
+2-13	138-145	contest	_	_	_	_	_	_	_	_	_	_	
+2-14	146-150	with	_	_	_	_	_	_	_	_	_	_	
+2-15	151-152	a	_	_	_	_	_	_	_	_	_	_	
+2-16	153-156	win	_	_	_	_	_	_	_	_	_	_	
+2-17	157-161	over	_	_	_	_	_	_	_	_	_	_	
+2-18	162-165	the	_	_	_	_	_	_	_	_	_	_	
+2-19	166-171	Bulls	_	_	_	_	_	_	_	_	_	_	
+2-20	172-173	(	_	_	_	_	_	_	_	_	_	_	
+2-21	174-176	31	_	_	_	_	_	_	_	_	_	_	
+2-22	177-178	-	_	_	_	_	_	_	_	_	_	_	
+2-23	179-181	35	_	_	_	_	_	_	_	_	_	_	
+2-24	182-183	)	_	_	_	_	_	_	_	_	_	_	
+2-25	184-185	,	_	_	_	_	_	_	_	_	_	_	
+2-26	186-189	but	_	_	_	_	_	_	_	_	_	_	
+2-27	190-194	they	_	_	_	_	_	_	_	_	_	_	
+2-28	195-200	000ve	_	_	_	_	_	_	_	_	_	_	
+2-29	201-204	now	_	_	_	_	_	_	_	_	_	_	
+2-30	205-208	won	_	_	_	_	_	_	_	_	_	_	
+2-31	209-213	five	6\_NOT\_CHECKABLE	four	*	3	One annotator checked	3	false	1	*	2	
+2-32	214-216	of	_	_	_	_	_	_	_	_	_	_	
+2-33	217-222	their	_	_	_	_	_	_	_	_	_	_	
+2-34	223-227	last	_	_	_	_	_	_	_	_	_	_	
+2-35	228-233	seven	_	_	_	_	_	_	_	_	_	_	
+2-36	234-239	games	_	_	_	_	_	_	_	_	_	_	
+2-37	240-241	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=However , the Celtics ( 42 - 35 ) were able to pull away in the second half , outscoring them by a 30 - 17 margin over the final 12 minutes .
+3-1	242-249	However	_	_	_	_	_	_	_	_	_	_	
+3-2	250-251	,	_	_	_	_	_	_	_	_	_	_	
+3-3	252-255	the	_	_	_	_	_	_	_	_	_	_	
+3-4	256-263	Celtics	_	_	_	_	_	_	_	_	_	_	
+3-5	264-265	(	_	_	_	_	_	_	_	_	_	_	
+3-6	266-268	42	_	_	_	_	_	_	_	_	_	_	
+3-7	269-270	-	_	_	_	_	_	_	_	_	_	_	
+3-8	271-273	35	_	_	_	_	_	_	_	_	_	_	
+3-9	274-275	)	_	_	_	_	_	_	_	_	_	_	
+3-10	276-280	were	_	_	_	_	_	_	_	_	_	_	
+3-11	281-285	able	_	_	_	_	_	_	_	_	_	_	
+3-12	286-288	to	_	_	_	_	_	_	_	_	_	_	
+3-13	289-293	pull	3\_WORD[1]	*[1]	The teams both scored 54 points in the 2nd half[1]	*[1]	*[1]	2[1]	false[1]	1[1]	*[1]	2[1]	
+3-14	294-298	away	3\_WORD[1]	*[1]	The teams both scored 54 points in the 2nd half[1]	*[1]	*[1]	2[1]	false[1]	1[1]	*[1]	2[1]	
+3-15	299-301	in	_	_	_	_	_	_	_	_	_	_	
+3-16	302-305	the	_	_	_	_	_	_	_	_	_	_	
+3-17	306-312	second	_	_	_	_	_	_	_	_	_	_	
+3-18	313-317	half	_	_	_	_	_	_	_	_	_	_	
+3-19	318-319	,	_	_	_	_	_	_	_	_	_	_	
+3-20	320-330	outscoring	_	_	_	_	_	_	_	_	_	_	
+3-21	331-335	them	_	_	_	_	_	_	_	_	_	_	
+3-22	336-338	by	_	_	_	_	_	_	_	_	_	_	
+3-23	339-340	a	_	_	_	_	_	_	_	_	_	_	
+3-24	341-343	30	2\_NUMBER	24	*	*	*	3	false	3	*	3	
+3-25	344-345	-	_	_	_	_	_	_	_	_	_	_	
+3-26	346-348	17	2\_NUMBER	23	*	*	*	3	false	3	*	3	
+3-27	349-355	margin	_	_	_	_	_	_	_	_	_	_	
+3-28	356-360	over	_	_	_	_	_	_	_	_	_	_	
+3-29	361-364	the	_	_	_	_	_	_	_	_	_	_	
+3-30	365-370	final	_	_	_	_	_	_	_	_	_	_	
+3-31	371-373	12	_	_	_	_	_	_	_	_	_	_	
+3-32	374-381	minutes	_	_	_	_	_	_	_	_	_	_	
+3-33	382-383	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=However , the Celtics battled back in the second half , outscoring the Bulls by a 31 - 17 margin over the final 12 minutes .
+4-1	384-391	However	_	_	_	_	_	_	_	_	_	_	
+4-2	392-393	,	_	_	_	_	_	_	_	_	_	_	
+4-3	394-397	the	_	_	_	_	_	_	_	_	_	_	
+4-4	398-405	Celtics	_	_	_	_	_	_	_	_	_	_	
+4-5	406-413	battled	3\_WORD[2]	*[2]	The Celtics were ahead at halftime[2]	*[2]	*[2]	3[2]	false[2]	3[2]	*[2]	3[2]	
+4-6	414-418	back	3\_WORD[2]	*[2]	The Celtics were ahead at halftime[2]	*[2]	*[2]	3[2]	false[2]	3[2]	*[2]	3[2]	
+4-7	419-421	in	_	_	_	_	_	_	_	_	_	_	
+4-8	422-425	the	_	_	_	_	_	_	_	_	_	_	
+4-9	426-432	second	_	_	_	_	_	_	_	_	_	_	
+4-10	433-437	half	_	_	_	_	_	_	_	_	_	_	
+4-11	438-439	,	_	_	_	_	_	_	_	_	_	_	
+4-12	440-450	outscoring	_	_	_	_	_	_	_	_	_	_	
+4-13	451-454	the	_	_	_	_	_	_	_	_	_	_	
+4-14	455-460	Bulls	_	_	_	_	_	_	_	_	_	_	
+4-15	461-463	by	_	_	_	_	_	_	_	_	_	_	
+4-16	464-465	a	_	_	_	_	_	_	_	_	_	_	
+4-17	466-468	31	2\_NUMBER	24	*	*	*	3	false	3	*	3	
+4-18	469-470	-	_	_	_	_	_	_	_	_	_	_	
+4-19	471-473	17	2\_NUMBER	23	*	*	*	3	false	3	*	3	
+4-20	474-480	margin	_	_	_	_	_	_	_	_	_	_	
+4-21	481-485	over	_	_	_	_	_	_	_	_	_	_	
+4-22	486-489	the	_	_	_	_	_	_	_	_	_	_	
+4-23	490-495	final	_	_	_	_	_	_	_	_	_	_	
+4-24	496-498	12	_	_	_	_	_	_	_	_	_	_	
+4-25	499-506	minutes	_	_	_	_	_	_	_	_	_	_	
+4-26	507-508	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=However , the Celtics battled back to make it a one - point game with three minutes left in the fourth , but the Celtics battled back to make it a one - point game with three seconds remaining .
+5-1	509-516	However	_	_	_	_	_	_	_	_	_	_	
+5-2	517-518	,	_	_	_	_	_	_	_	_	_	_	
+5-3	519-522	the	_	_	_	_	_	_	_	_	_	_	
+5-4	523-530	Celtics	_	_	_	_	_	_	_	_	_	_	
+5-5	531-538	battled	3\_WORD[3]	*[3]	The Celtics were ahead at halftime[3]	*[3]	*[3]	3[3]	false[3]	3[3]	*[3]	3[3]	
+5-6	539-543	back	3\_WORD[3]	*[3]	The Celtics were ahead at halftime[3]	*[3]	*[3]	3[3]	false[3]	3[3]	*[3]	3[3]	
+5-7	544-546	to	_	_	_	_	_	_	_	_	_	_	
+5-8	547-551	make	_	_	_	_	_	_	_	_	_	_	
+5-9	552-554	it	_	_	_	_	_	_	_	_	_	_	
+5-10	555-556	a	_	_	_	_	_	_	_	_	_	_	
+5-11	557-560	one	2\_NUMBER[4]	*[4]	The game was never within 3 points in the 4th quarter[4]	*[4]	*[4]	3[4]	false[4]	2[4]	*[4]	3[4]	
+5-12	561-562	-	2\_NUMBER[4]	*[4]	The game was never within 3 points in the 4th quarter[4]	*[4]	*[4]	3[4]	false[4]	2[4]	*[4]	3[4]	
+5-13	563-568	point	2\_NUMBER[4]	*[4]	The game was never within 3 points in the 4th quarter[4]	*[4]	*[4]	3[4]	false[4]	2[4]	*[4]	3[4]	
+5-14	569-573	game	_	_	_	_	_	_	_	_	_	_	
+5-15	574-578	with	_	_	_	_	_	_	_	_	_	_	
+5-16	579-584	three	_	_	_	_	_	_	_	_	_	_	
+5-17	585-592	minutes	_	_	_	_	_	_	_	_	_	_	
+5-18	593-597	left	_	_	_	_	_	_	_	_	_	_	
+5-19	598-600	in	_	_	_	_	_	_	_	_	_	_	
+5-20	601-604	the	_	_	_	_	_	_	_	_	_	_	
+5-21	605-611	fourth	_	_	_	_	_	_	_	_	_	_	
+5-22	612-613	,	_	_	_	_	_	_	_	_	_	_	
+5-23	614-617	but	_	_	_	_	_	_	_	_	_	_	
+5-24	618-621	the	_	_	_	_	_	_	_	_	_	_	
+5-25	622-629	Celtics	_	_	_	_	_	_	_	_	_	_	
+5-26	630-637	battled	3\_WORD[5]	*[5]	The Celtics were ahead at halftime[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+5-27	638-642	back	3\_WORD[5]	*[5]	The Celtics were ahead at halftime[5]	*[5]	*[5]	3[5]	false[5]	3[5]	*[5]	3[5]	
+5-28	643-645	to	_	_	_	_	_	_	_	_	_	_	
+5-29	646-650	make	_	_	_	_	_	_	_	_	_	_	
+5-30	651-653	it	_	_	_	_	_	_	_	_	_	_	
+5-31	654-655	a	_	_	_	_	_	_	_	_	_	_	
+5-32	656-659	one	2\_NUMBER[6]	*[6]	The game was never within 3 points in the 4th quarter[6]	*[6]	*[6]	3[6]	false[6]	2[6]	*[6]	3[6]	
+5-33	660-661	-	2\_NUMBER[6]	*[6]	The game was never within 3 points in the 4th quarter[6]	*[6]	*[6]	3[6]	false[6]	2[6]	*[6]	3[6]	
+5-34	662-667	point	2\_NUMBER[6]	*[6]	The game was never within 3 points in the 4th quarter[6]	*[6]	*[6]	3[6]	false[6]	2[6]	*[6]	3[6]	
+5-35	668-672	game	_	_	_	_	_	_	_	_	_	_	
+5-36	673-677	with	_	_	_	_	_	_	_	_	_	_	
+5-37	678-683	three	_	_	_	_	_	_	_	_	_	_	
+5-38	684-691	seconds	_	_	_	_	_	_	_	_	_	_	
+5-39	692-701	remaining	_	_	_	_	_	_	_	_	_	_	
+5-40	702-703	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Celtics were led by Al Horford 000s 12 points , which he supplemented with seven rebounds , six assists , two blocks and a steal .
+6-1	704-707	The	_	_	_	_	_	_	_	_	_	_	
+6-2	708-715	Celtics	_	_	_	_	_	_	_	_	_	_	
+6-3	716-720	were	_	_	_	_	_	_	_	_	_	_	
+6-4	721-724	led	3\_WORD	*	Isaiah Thomas was the leading scorer	*	*	3	false	3	*	3	
+6-5	725-727	by	_	_	_	_	_	_	_	_	_	_	
+6-6	728-730	Al	_	_	_	_	_	_	_	_	_	_	
+6-7	731-738	Horford	_	_	_	_	_	_	_	_	_	_	
+6-8	739-743	000s	_	_	_	_	_	_	_	_	_	_	
+6-9	744-746	12	_	_	_	_	_	_	_	_	_	_	
+6-10	747-753	points	_	_	_	_	_	_	_	_	_	_	
+6-11	754-755	,	_	_	_	_	_	_	_	_	_	_	
+6-12	756-761	which	_	_	_	_	_	_	_	_	_	_	
+6-13	762-764	he	_	_	_	_	_	_	_	_	_	_	
+6-14	765-777	supplemented	_	_	_	_	_	_	_	_	_	_	
+6-15	778-782	with	_	_	_	_	_	_	_	_	_	_	
+6-16	783-788	seven	_	_	_	_	_	_	_	_	_	_	
+6-17	789-797	rebounds	_	_	_	_	_	_	_	_	_	_	
+6-18	798-799	,	_	_	_	_	_	_	_	_	_	_	
+6-19	800-803	six	_	_	_	_	_	_	_	_	_	_	
+6-20	804-811	assists	_	_	_	_	_	_	_	_	_	_	
+6-21	812-813	,	_	_	_	_	_	_	_	_	_	_	
+6-22	814-817	two	_	_	_	_	_	_	_	_	_	_	
+6-23	818-824	blocks	_	_	_	_	_	_	_	_	_	_	
+6-24	825-828	and	_	_	_	_	_	_	_	_	_	_	
+6-25	829-830	a	_	_	_	_	_	_	_	_	_	_	
+6-26	831-836	steal	_	_	_	_	_	_	_	_	_	_	
+6-27	837-838	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Horford was next with 12 points , seven rebounds , six assists and a pair of blocks .
+7-1	839-846	Horford	_	_	_	_	_	_	_	_	_	_	
+7-2	847-850	was	_	_	_	_	_	_	_	_	_	_	
+7-3	851-855	next	_	_	_	_	_	_	_	_	_	_	
+7-4	856-860	with	_	_	_	_	_	_	_	_	_	_	
+7-5	861-863	12	_	_	_	_	_	_	_	_	_	_	
+7-6	864-870	points	_	_	_	_	_	_	_	_	_	_	
+7-7	871-872	,	_	_	_	_	_	_	_	_	_	_	
+7-8	873-878	seven	_	_	_	_	_	_	_	_	_	_	
+7-9	879-887	rebounds	_	_	_	_	_	_	_	_	_	_	
+7-10	888-889	,	_	_	_	_	_	_	_	_	_	_	
+7-11	890-893	six	_	_	_	_	_	_	_	_	_	_	
+7-12	894-901	assists	_	_	_	_	_	_	_	_	_	_	
+7-13	902-905	and	_	_	_	_	_	_	_	_	_	_	
+7-14	906-907	a	_	_	_	_	_	_	_	_	_	_	
+7-15	908-912	pair	_	_	_	_	_	_	_	_	_	_	
+7-16	913-915	of	_	_	_	_	_	_	_	_	_	_	
+7-17	916-922	blocks	_	_	_	_	_	_	_	_	_	_	
+7-18	923-924	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Al Horford was next with 12 points , seven rebounds , six assists and a pair of blocks .
+8-1	925-927	Al	_	_	_	_	_	_	_	_	_	_	
+8-2	928-935	Horford	_	_	_	_	_	_	_	_	_	_	
+8-3	936-939	was	_	_	_	_	_	_	_	_	_	_	
+8-4	940-944	next	_	_	_	_	_	_	_	_	_	_	
+8-5	945-949	with	_	_	_	_	_	_	_	_	_	_	
+8-6	950-952	12	_	_	_	_	_	_	_	_	_	_	
+8-7	953-959	points	_	_	_	_	_	_	_	_	_	_	
+8-8	960-961	,	_	_	_	_	_	_	_	_	_	_	
+8-9	962-967	seven	_	_	_	_	_	_	_	_	_	_	
+8-10	968-976	rebounds	_	_	_	_	_	_	_	_	_	_	
+8-11	977-978	,	_	_	_	_	_	_	_	_	_	_	
+8-12	979-982	six	_	_	_	_	_	_	_	_	_	_	
+8-13	983-990	assists	_	_	_	_	_	_	_	_	_	_	
+8-14	991-994	and	_	_	_	_	_	_	_	_	_	_	
+8-15	995-996	a	_	_	_	_	_	_	_	_	_	_	
+8-16	997-1001	pair	_	_	_	_	_	_	_	_	_	_	
+8-17	1002-1004	of	_	_	_	_	_	_	_	_	_	_	
+8-18	1005-1011	blocks	_	_	_	_	_	_	_	_	_	_	
+8-19	1012-1013	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=Kelly Olynyk led the second unit with 11 points , three rebounds , three assists and a steal .
+9-1	1014-1019	Kelly	_	_	_	_	_	_	_	_	_	_	
+9-2	1020-1026	Olynyk	_	_	_	_	_	_	_	_	_	_	
+9-3	1027-1030	led	3\_WORD	*	he was outscored by Marcus Smart	*	*	3	false	3	*	3	
+9-4	1031-1034	the	_	_	_	_	_	_	_	_	_	_	
+9-5	1035-1041	second	_	_	_	_	_	_	_	_	_	_	
+9-6	1042-1046	unit	_	_	_	_	_	_	_	_	_	_	
+9-7	1047-1051	with	_	_	_	_	_	_	_	_	_	_	
+9-8	1052-1054	11	_	_	_	_	_	_	_	_	_	_	
+9-9	1055-1061	points	_	_	_	_	_	_	_	_	_	_	
+9-10	1062-1063	,	_	_	_	_	_	_	_	_	_	_	
+9-11	1064-1069	three	2\_NUMBER	ten	*	*	*	3	false	3	*	3	
+9-12	1070-1078	rebounds	_	_	_	_	_	_	_	_	_	_	
+9-13	1079-1080	,	_	_	_	_	_	_	_	_	_	_	
+9-14	1081-1086	three	_	_	_	_	_	_	_	_	_	_	
+9-15	1087-1094	assists	_	_	_	_	_	_	_	_	_	_	
+9-16	1095-1098	and	_	_	_	_	_	_	_	_	_	_	
+9-17	1099-1100	a	_	_	_	_	_	_	_	_	_	_	
+9-18	1101-1106	steal	_	_	_	_	_	_	_	_	_	_	
+9-19	1107-1108	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=The Celtics remain in second place in the Eastern Conference 000s Atlantic Division , and are currently slotted in the fourth seed in the conference as well .
+10-1	1109-1112	The	_	_	_	_	_	_	_	_	_	_	
+10-2	1113-1120	Celtics	_	_	_	_	_	_	_	_	_	_	
+10-3	1121-1127	remain	_	_	_	_	_	_	_	_	_	_	
+10-4	1128-1130	in	_	_	_	_	_	_	_	_	_	_	
+10-5	1131-1137	second	6\_NOT\_CHECKABLE[7]	*[7]	*[7]	*[7]	*[7]	2[7]	false[7]	1[7]	*[7]	2[7]	
+10-6	1138-1143	place	6\_NOT\_CHECKABLE[7]	*[7]	*[7]	*[7]	*[7]	2[7]	false[7]	1[7]	*[7]	2[7]	
+10-7	1144-1146	in	_	_	_	_	_	_	_	_	_	_	
+10-8	1147-1150	the	_	_	_	_	_	_	_	_	_	_	
+10-9	1151-1158	Eastern	_	_	_	_	_	_	_	_	_	_	
+10-10	1159-1169	Conference	_	_	_	_	_	_	_	_	_	_	
+10-11	1170-1174	000s	_	_	_	_	_	_	_	_	_	_	
+10-12	1175-1183	Atlantic	_	_	_	_	_	_	_	_	_	_	
+10-13	1184-1192	Division	_	_	_	_	_	_	_	_	_	_	
+10-14	1193-1194	,	_	_	_	_	_	_	_	_	_	_	
+10-15	1195-1198	and	_	_	_	_	_	_	_	_	_	_	
+10-16	1199-1202	are	_	_	_	_	_	_	_	_	_	_	
+10-17	1203-1212	currently	_	_	_	_	_	_	_	_	_	_	
+10-18	1213-1220	slotted	_	_	_	_	_	_	_	_	_	_	
+10-19	1221-1223	in	_	_	_	_	_	_	_	_	_	_	
+10-20	1224-1227	the	_	_	_	_	_	_	_	_	_	_	
+10-21	1228-1234	fourth	6\_NOT\_CHECKABLE	*	*	*	*	2	false	1	*	2	
+10-22	1235-1239	seed	_	_	_	_	_	_	_	_	_	_	
+10-23	1240-1242	in	_	_	_	_	_	_	_	_	_	_	
+10-24	1243-1246	the	_	_	_	_	_	_	_	_	_	_	
+10-25	1247-1257	conference	_	_	_	_	_	_	_	_	_	_	
+10-26	1258-1260	as	_	_	_	_	_	_	_	_	_	_	
+10-27	1261-1265	well	_	_	_	_	_	_	_	_	_	_	
+10-28	1266-1267	.	_	_	_	_	_	_	_	_	_	_	
+
+#Text=They 000re home again on Wednesday for a showdown with the Orlando Magic .
+11-1	1268-1272	They	_	_	_	_	_	_	_	_	_	_	
+11-2	1273-1278	000re	_	_	_	_	_	_	_	_	_	_	
+11-3	1279-1283	home	_	_	_	_	_	_	_	_	_	_	
+11-4	1284-1289	again	_	_	_	_	_	_	_	_	_	_	
+11-5	1290-1292	on	_	_	_	_	_	_	_	_	_	_	
+11-6	1293-1302	Wednesday	_	_	_	_	_	_	_	_	_	_	
+11-7	1303-1306	for	_	_	_	_	_	_	_	_	_	_	
+11-8	1307-1308	a	_	_	_	_	_	_	_	_	_	_	
+11-9	1309-1317	showdown	_	_	_	_	_	_	_	_	_	_	
+11-10	1318-1322	with	_	_	_	_	_	_	_	_	_	_	
+11-11	1323-1326	the	_	_	_	_	_	_	_	_	_	_	
+11-12	1327-1334	Orlando	1\_NAME[8]	Minnesota Timberwolves[8]	*[8]	*[8]	*[8]	3[8]	false[8]	3[8]	*[8]	3[8]	
+11-13	1335-1340	Magic	1\_NAME[8]	Minnesota Timberwolves[8]	*[8]	*[8]	*[8]	3[8]	false[8]	3[8]	*[8]	3[8]	
+11-14	1341-1342	.	_	_	_	_	_	_	_	_	_	_	

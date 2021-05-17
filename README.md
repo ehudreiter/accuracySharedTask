@@ -84,6 +84,13 @@ Overlapping spans within one mistake list are not allowed.  For example, a submi
 
 We will also calculate per-category recall and precision
 
+### Tokenization
+Our texts (GENERATED_TEXT) are already tokenized then joined with spaces.  The only sentence delimiting character is the period.  The [evaluate.py](https://github.com/ehudreiter/accuracySharedTask/blob/main/evaluate.py) script will be updated such that it uses document level token ids rather than sentence level ones.  This will make no difference to the way submisions are evaluated, but will mean participants who do not wish to consider sentence breaks do not have to.  It is, however, important that any submissions use the same tokenization as our original texts.
+
+Additional info / background:  The original Rotowire corpus, and texts generated from it, used the nltk tokenizer.  The corpus includes tokenized text as a list with no original format texts.  However, the nltk tokenizer performs poorly on this dataset, tripping over names like C.J. Miles and sometimes not splitting tokens correctly (the vocabulary inludes things like "game.The" as one token).  The spaCy parser also struggles with such names, as does whichever parser WebAnno uses, they end sentences after "C.J.".  WebAnno also tried to split tokens differently, with words like "didn't" becoming three tokens where nltk and spaCy created two.  Therefore, since different parsers not only split sentences differently, but also tokens, we need to use a simple, standard scheme.  The training texts are already formatted by this scheme (albeit joined by whitespace so they are still human readble), and the test texts will be processed in the same way.  If you want to use tools like spaCy to perform, for example, some kind of dependency analysis, then you can, but make sure your submitted token ids align with those from the simple tokenization scheme above.
+
+Note on tokens containing the characters "000":  Because WebAnno was attempting to apply additional tokenization over our already tokenized text, we had to replace apostrophe characters with "000" (a sequence of characters not otherwise in the corpus).  We then replaced this special sequence with apostrophes after the WebAnno export.  However, three of the files in the [texts](https://github.com/ehudreiter/accuracySharedTask/blob/main/texts) directory appear to not have had this replacement applied.  These tokens were never part of any marked errors in the GSML, which is why the test script missed them (it has been updated to check for this, and to check our tokenization scheme wrt the WebAnno export).  The most recent commit has rectified this.  Such tokens are till present in the WebAnno [curations](https://github.com/ehudreiter/accuracySharedTask/blob/main/curations) which are now also included in the repo in their raw export form.
+
 ### Reading the Box Score (fields in shared_task.jsonl)
 Below are definitions of field labels which might not be familiar if you do not follow basketball.  They come from the [Box Score](https://en.wikipedia.org/wiki/Box_score), and whilst some of the headers can differ slightly depending on the source, the ones in the [Rotowire](https://github.com/harvardnlp/boxscore-data), which is the format our data is in are:
 
@@ -115,9 +122,6 @@ There are also shooting percentages.  All such fields end in "_PCT", such as "FG
 
 #### Names
 The data also includes player, team, and place names, those should be self-explanatory.
-
-<!-- ### Evaluation Script
-We will release the python script which we will use in the final evaluation to compare participant submitted annotations with the GSML.  This will be available by the end of March.  When comparing submitted annotations against the GSML we will accept annotations as correct where their spans overlap with annotations in the GSML.  In the case where one submitted annotation overlaps with two or more GSML annotations, particpants will only be credited with a single matched error.  Please note that there are no overlapping error spans in the GSML.  We are releasing this script in advance of the release of the withheld test set so that participants can test their submitted annotations are in the correct format (just running against training data to do so). -->
 
 ### SQL Query for SportSett to get game_ids from rotowire line numbers
 Note that playoff games are not currently available in SportSett.  It will, however, give complete access to every regular season game, including the league structure and schedule.  All games in the shared task are regular season games.  
