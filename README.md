@@ -12,7 +12,9 @@ For detailed information on the shared task, see https://www.aclweb.org/antholog
 * 1 March 2021: Deadline for notifying us that you intend to participate in the shared task (please email   e.reiter@abdn.ac.uk )
 * 31 March 2021: Evaluation script to be realeased.
 * 15 June 2021: Submission of techniques (metrics and protocols).  We will release the test set (without annotations), and ask participants to try their techniques on the test set and give us results within 2 weeks.   We will compare the results against our gold-standard human annotations of inaccuracies, and compute recall and precision statistics.
+* 12 July 2021: (Optional) Submission of short papers about shared task entries.  These should follow the format of INLG short papers, but do not need to be anonymised.  We will review and provide comments by 26 July
 * 1 August 2021: Results announced
+* 12 August 2021: Camera-ready versions of (optional) short papers due
 * 20-24 Sept 2021: Presentation of shared task at INLG 2021 (https://inlg2021.github.io/)
 
 For more information or to register interest, please email Ehud Reiter at   e.reiter@abdn.ac.uk
