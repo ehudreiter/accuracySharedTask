@@ -7,6 +7,10 @@ The texts we use are descriptions of basketball games produced three different n
 
 For detailed information on the shared task, see https://www.aclweb.org/anthology/2020.inlg-1.28/
 
+## News
+* 17 May - added section about Tokenization
+* 16 May - added information about accompanying papers to Shared task schedule
+
 ## Shared task schedule
 * 15 December 2020: Shared task officially launched at INLG 2020
 * 1 March 2021: Deadline for notifying us that you intend to participate in the shared task (please email   e.reiter@abdn.ac.uk )
@@ -19,8 +23,6 @@ For detailed information on the shared task, see https://www.aclweb.org/antholog
 
 For more information or to register interest, please email Ehud Reiter at   e.reiter@abdn.ac.uk
 
-## Important Updates:
-Please note that prior to the commits on Monday 22nd February, the line for S042 in [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/games.csv) was incorrect (it referred to an incorrect game which is not part of the shared task).  There was also an issue with the GSML for S029.  Both of these have been fixed, but please make sure you are on the most recent version of this repository.
 
 ## What is in this repo
 This repository contains a set of 60 accuracy-annotated texts for the shared task, some of which were extracted from https://github.com/nlgcat/evaluating_accuracy. 
@@ -33,6 +35,8 @@ This repository contains a set of 60 accuracy-annotated texts for the shared tas
 * evaluation script ([evaluate.py](https://github.com/ehudreiter/accuracySharedTask/blob/main/evaluate.py)) and a sample task submission [submitted_gsml.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/submitted_gsml.csv): To demonstrate how recall and precision are calculated.
 
 Data for all games is available at [Rotowire](https://github.com/harvardnlp/boxscore-data) (original Rotowire JSON data).  it is also available at [SportSett](https://github.com/nlgcat/sport_sett_basketball) (extended relational database).  Please note that SportSett currently does not included playoff games, but does provide much more information on regular season games.
+
+Please note that prior to the commits on Monday 22nd February, the line for S042 in [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/games.csv) was incorrect (it referred to an incorrect game which is not part of the shared task).  There was also an issue with the GSML for S029.  Both of these have been fixed, but please make sure you are on the most recent version of this repository.
 
 ### [games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv) columns
 1. DOC_ID: The ID for the summary within our shared task.  These match the filenames in [texts](https://github.com/ehudreiter/accuracySharedTask/blob/main/texts).
