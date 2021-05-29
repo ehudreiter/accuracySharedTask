@@ -84,7 +84,7 @@ It is possible for two submitted mistakes to overlap the same GSML mistake.  For
 
 Overlapping spans within one mistake list are not allowed.  For example, a submission cannot include "The Miami" and "Miami Heat" as mistakes on the sequential tokens "The Miami Heat".
 
-We will also calculate per-category recall and precision
+We also calculate per-category recall and precision, the console output first shows the results overall, followed by the results for each category individually.  Some example submissions for testing this script can be found in [https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions) with an additional [README](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions/README.md) detailing their content.
 
 ### Tokenization
 Our texts (GENERATED_TEXT) are already tokenized then joined with spaces.  The only sentence delimiting character is the period.  The [evaluate.py](https://github.com/ehudreiter/accuracySharedTask/blob/main/evaluate.py) script will be updated such that it uses document level token ids rather than sentence level ones.  This will make no difference to the way submisions are evaluated, but will mean participants who do not wish to consider sentence breaks do not have to.  It is, however, important that any submissions use the same tokenization as our original texts.
@@ -97,7 +97,7 @@ Note on tokens containing the characters "000":  Because WebAnno was attempting 
 Below are definitions of field labels which might not be familiar if you do not follow basketball.  They come from the [Box Score](https://en.wikipedia.org/wiki/Box_score), and whilst some of the headers can differ slightly depending on the source, the ones in the [Rotowire](https://github.com/harvardnlp/boxscore-data), which is the format our data is in are:
 
 #### Basic statistics
-* PTS: [Points](https://en.wikipedia.org/wiki/Point_(basketball)) scored ((2*FGM) + FTM + FG3M)
+* PTS: [Points](https://en.wikipedia.org/wiki/Point_(basketball)) scored ((2&ast;FGM) + FTM + FG3M)
 * REB: total [Rebounds](https://en.wikipedia.org/wiki/Rebound_(basketball))
 * AST: total [Assists](https://en.wikipedia.org/wiki/Assist_(basketball))
 * BLK: total [Blocks](https://en.wikipedia.org/wiki/Block_(basketball))
@@ -120,7 +120,7 @@ There are also shooting statistics, which show how many types of each shot a per
 The three-point shooting statistics should be read as: "Of the total field goals, how many of them were worth three points"
 
 #### Shooting percentages
-There are also shooting percentages.  All such fields end in "_PCT", such as "FG_PCT", FG3_PCT", and "FT_PCT".  In all cases, they are simply derived from MADE/ATTEMPTED.
+There are also shooting percentages.  All such fields end in "&lowbar;PCT", such as "FG&lowbar;PCT", FG3&lowbar;PCT", and "FT&lowbar;PCT".  In all cases, they are simply derived from MADE/ATTEMPTED.
 
 #### Names
 The data also includes player, team, and place names, those should be self-explanatory.
