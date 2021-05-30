@@ -96,10 +96,13 @@ def create_mistake_dict(filename, categories, token_lookup):
 
       if text_id not in mistake_dict: mistake_dict[text_id] = {}
       if sentence_id not in mistake_dict[text_id]: mistake_dict[text_id][sentence_id] = {}
-      mistake_dict[text_id][sentence_id][sent_start_idx] = {
-        'set':            set(range(sent_start_idx, sent_end_idx+1)),
+      mistake_dict[text_id][sentence_id][doc_start_idx] = {
+        'set':            set(range(doc_start_idx, doc_end_idx+1)),
         'category':       category,
         'sent_start_idx': sent_start_idx,
+        'sent_end_idx':   sent_start_idx,
+        'doc_start_idx':  doc_start_idx,
+        'doc_end_idx':    doc_end_idx,
         'sentence_id':    sentence_id,
         'annotation_id':  annotation_id,
         'tokens':         tokens,
@@ -119,30 +122,30 @@ def match_mistake_dicts(gsml, submitted):
 
   for text_id, gsml_text_data in gsml.items():
     for sentence_id, gsml_sentence_data in gsml_text_data.items():
-      # Within a sentence, record submitted_sent_start_idx that have been used for correct recall
+      # Within a sentence, record submitted_doc_start_idx that have been used for correct recall
       used_submissions = set([])
-      for sent_start_idx, gsml_error_data in gsml_sentence_data.items():
+      for doc_start_idx, gsml_error_data in gsml_sentence_data.items():
         recall_match = False
         precision_matches = set([])
         if text_id in submitted and sentence_id in submitted[text_id]:
-          for submitted_sent_start_idx, submitted_error_data in submitted[text_id][sentence_id].items():
+          for submitted_doc_start_idx, submitted_error_data in submitted[text_id][sentence_id].items():
             isect = submitted_error_data['set'].intersection(gsml_error_data['set'])
             if isect:
               # Award correct precision regardless
-              precision_matches.add(submitted_sent_start_idx)
+              precision_matches.add(submitted_doc_start_idx)
               overlaps.append(float(len(isect)) / float(len(gsml_error_data['set'])))
 
               # If the submission has been used already for correct recall, do not use it again
-              if submitted_sent_start_idx not in used_submissions:
+              if submitted_doc_start_idx not in used_submissions:
                 # Do not consume multiple submitted mistakes, only the first
                 if not recall_match:
                   gsml_tokens = gsml_error_data['tokens']
                   submitted_tokens = submitted_error_data['tokens']
                   recall_match = True
-                  used_submissions.add(submitted_sent_start_idx)
+                  used_submissions.add(submitted_doc_start_idx)
 
-        per_gsml_recall_matches[f'{text_id}_{sentence_id}_{sent_start_idx}'] = recall_match
-        per_submitted_precision_matches[f'{text_id}_{sentence_id}_{sent_start_idx}'] = precision_matches
+        per_gsml_recall_matches[f'{text_id}_{doc_start_idx}'] = recall_match
+        per_submitted_precision_matches[f'{text_id}_{doc_start_idx}'] = precision_matches
   return per_gsml_recall_matches, per_submitted_precision_matches, overlaps
 
 """
@@ -191,7 +194,7 @@ def calculate_recall_and_precision(gsml_filename, submitted_filename, token_look
       'of_total': submitted_num_lines
     },
     'overlap': {
-      'value': precision,
+      'value': mean_overlap,
       'sum_overlap': sum_overlap,
       'len_overlap': len_overlap
     }
@@ -232,8 +235,9 @@ for categories in categories_list:
   recall = format_result_value(result['recall']['value'])
   precision = format_result_value(result['precision']['value'])
   mean_overlap = format_result_value(result['overlap']['value'])
-  print(f'\t\trecall => {recall}, precision => {precision}, overlap => {mean_overlap}')
+  print(f'\tsummary: recall => {recall}, precision => {precision}, overlap => {mean_overlap}')
+  print('\tbreakdown:')
   for k, v in result.items():
-    print(f'\t\t\t{k}')
-    for sub_k, sub_v in result.items():
-      print(f'\t\t\t\t{sub_k} => {sub_v}')
+    print(f'\t\t{k}')
+    for sub_k, sub_v in v.items():
+      print(f'\t\t\t{sub_k} => {sub_v}')
