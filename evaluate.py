@@ -95,8 +95,7 @@ def create_mistake_dict(filename, categories, token_lookup):
         continue
 
       if text_id not in mistake_dict: mistake_dict[text_id] = {}
-      if sentence_id not in mistake_dict[text_id]: mistake_dict[text_id][sentence_id] = {}
-      mistake_dict[text_id][sentence_id][doc_start_idx] = {
+      mistake_dict[text_id][doc_start_idx] = {
         'set':            set(range(doc_start_idx, doc_end_idx+1)),
         'category':       category,
         'sent_start_idx': sent_start_idx,
@@ -110,6 +109,22 @@ def create_mistake_dict(filename, categories, token_lookup):
       num_mistakes += 1
   return mistake_dict, num_mistakes
 
+
+def create_document_tokens(gsml, submitted, token_lookup):
+  document_tokens = {}
+  for text_id, text_tokens in token_lookup['doc_to_sent'].items():
+    document_tokens[text_id] = {i:{'gsml': False, 'submitted': False} for i, _v in text_tokens.items()}
+  mark_document_tokens(gsml, document_tokens, 'gsml')
+  mark_document_tokens(submitted, document_tokens, 'submitted')
+  return document_tokens
+
+def mark_document_tokens(data, document_tokens, mode):
+  for text_id, text_data in data.items():
+    for doc_start_idx, error_data in text_data.items():
+      doc_end_idx = error_data['doc_end_idx']
+      for token_id in range(doc_start_idx, doc_end_idx+1):
+        document_tokens[text_id][token_id][mode] = True
+
 """
   Recall is when at least one submitted mistake overlaps the GSML mistake
   - once a submitted mistake has been used for correct recall, it cannot be used again (it is consumed).
@@ -118,35 +133,36 @@ def create_mistake_dict(filename, categories, token_lookup):
 def match_mistake_dicts(gsml, submitted):
   per_gsml_recall_matches = {}
   per_submitted_precision_matches = {}
-  overlaps = []
+  token_level_recall = {}
+  token_level_precision = {}
 
   for text_id, gsml_text_data in gsml.items():
-    for sentence_id, gsml_sentence_data in gsml_text_data.items():
-      # Within a sentence, record submitted_doc_start_idx that have been used for correct recall
-      used_submissions = set([])
-      for doc_start_idx, gsml_error_data in gsml_sentence_data.items():
-        recall_match = False
-        precision_matches = set([])
-        if text_id in submitted and sentence_id in submitted[text_id]:
-          for submitted_doc_start_idx, submitted_error_data in submitted[text_id][sentence_id].items():
-            isect = submitted_error_data['set'].intersection(gsml_error_data['set'])
-            if isect:
-              # Award correct precision regardless
-              precision_matches.add(submitted_doc_start_idx)
-              overlaps.append(float(len(isect)) / float(len(gsml_error_data['set'])))
+    # mistake level - match each submission to at most one gold mistake
+    used_submissions = set([])
+    for doc_start_idx, gsml_error_data in gsml_text_data.items():
+      recall_match = False
+      precision_matches = set([])
+      if text_id in submitted:
+        for submitted_doc_start_idx, submitted_error_data in submitted[text_id].items():
+          isect = submitted_error_data['set'].intersection(gsml_error_data['set'])
+          if isect:
+            # Award correct precision regardless
+            # precision_matches.add(submitted_doc_start_idx)
+            # overlaps.append(float(len(isect)) / float(len(gsml_error_data['set'])))
 
-              # If the submission has been used already for correct recall, do not use it again
-              if submitted_doc_start_idx not in used_submissions:
-                # Do not consume multiple submitted mistakes, only the first
-                if not recall_match:
-                  gsml_tokens = gsml_error_data['tokens']
-                  submitted_tokens = submitted_error_data['tokens']
-                  recall_match = True
-                  used_submissions.add(submitted_doc_start_idx)
+            # If the submission has been used already for correct recall, do not use it again
+            if submitted_doc_start_idx not in used_submissions:
+              # Do not consume multiple submitted mistakes, only the first
+              if not recall_match:
+                gsml_tokens = gsml_error_data['tokens']
+                submitted_tokens = submitted_error_data['tokens']
+                recall_match = True
+                used_submissions.add(submitted_doc_start_idx)
+                precision_matches.add(submitted_doc_start_idx)
 
-        per_gsml_recall_matches[f'{text_id}_{doc_start_idx}'] = recall_match
-        per_submitted_precision_matches[f'{text_id}_{doc_start_idx}'] = precision_matches
-  return per_gsml_recall_matches, per_submitted_precision_matches, overlaps
+      per_gsml_recall_matches[f'{text_id}_{doc_start_idx}'] = recall_match
+      per_submitted_precision_matches[f'{text_id}_{doc_start_idx}'] = precision_matches
+  return per_gsml_recall_matches, per_submitted_precision_matches
 
 """
   Returns a dict containing sub-dicts of recall, precision and overlaps between a GSML and a submission
@@ -155,10 +171,13 @@ def match_mistake_dicts(gsml, submitted):
 """
 def calculate_recall_and_precision(gsml_filename, submitted_filename, token_lookup, categories=[]):
   gsml, gsml_num_lines = create_mistake_dict(gsml_filename, categories, token_lookup)
-  submitted_gsml, submitted_num_lines = create_mistake_dict(submitted_filename, categories, token_lookup)
-  recall_matches, precision_matches, overlaps = match_mistake_dicts(gsml, submitted_gsml)
+  submitted, submitted_num_lines = create_mistake_dict(submitted_filename, categories, token_lookup)
+  
+  # Mistake level
+  recall_matches, precision_matches = match_mistake_dicts(gsml, submitted)
+  
 
-  # Recall
+  # Mistake Level Recall
   correct_recall = len([k for k, v in recall_matches.items() if v])
   incorrect_recall = len([k for k, v in recall_matches.items() if not v])
   assert (correct_recall + incorrect_recall) == gsml_num_lines
@@ -167,20 +186,43 @@ def calculate_recall_and_precision(gsml_filename, submitted_filename, token_look
   else:
     recall = None
 
-  # Precision
+  # Mistake Level Precision
   correct_precision = sum([len(v) for k, v in precision_matches.items()])
   if submitted_num_lines > 0:
     precision = correct_precision / submitted_num_lines
   else:
     precision = None
 
-  sum_overlap = float(sum(overlaps))
-  len_overlap = float(len(overlaps))
-  # Overlaps
-  if len(overlaps):
-    mean_overlap = sum_overlap / len_overlap
-  else:
-    mean_overlap = None
+  # Token Level
+  document_tokens = create_document_tokens(gsml, submitted, token_lookup)
+
+  # Token Level Recall
+  total_error_tokens = 0
+  recalled_error_tokens = 0
+  precision_error_tokens = 0
+  for text_id, d in document_tokens.items():
+    for token_id, modes in d.items():
+      if modes['gsml']:
+        # GSML mistake tokens / recall denominator
+        total_error_tokens += 1
+
+        if modes['submitted']:
+          # Correct recall
+          recalled_error_tokens += 1
+      
+      if modes['submitted']:
+        # Submitted mistake tokens / recision denominator
+        precision_error_tokens += 1
+
+  token_recall = None
+  token_precision = None
+
+  if total_error_tokens:
+    token_recall = recalled_error_tokens / total_error_tokens
+
+  if precision_error_tokens:
+    token_precision = recalled_error_tokens / precision_error_tokens
+
 
   return {
     'recall': {
@@ -193,11 +235,16 @@ def calculate_recall_and_precision(gsml_filename, submitted_filename, token_look
       'correct': correct_precision,
       'of_total': submitted_num_lines
     },
-    'overlap': {
-      'value': mean_overlap,
-      'sum_overlap': sum_overlap,
-      'len_overlap': len_overlap
-    }
+    'token_recall': {
+      'value': token_recall,
+      'correct': recalled_error_tokens,
+      'of_total': total_error_tokens
+    },
+    'token_precision': {
+      'value': token_precision,
+      'correct': recalled_error_tokens,
+      'of_total': precision_error_tokens
+    },
   }
 
 
@@ -234,8 +281,9 @@ for categories in categories_list:
   result = calculate_recall_and_precision(gsml_filename, submitted_filename, token_lookup, categories)
   recall = format_result_value(result['recall']['value'])
   precision = format_result_value(result['precision']['value'])
-  mean_overlap = format_result_value(result['overlap']['value'])
-  print(f'\tsummary: recall => {recall}, precision => {precision}, overlap => {mean_overlap}')
+  token_recall = format_result_value(result['token_recall']['value'])
+  token_precision = format_result_value(result['token_precision']['value'])
+  print(f'\tsummary: recall => {recall}, precision => {precision}, token_recall => {token_recall}, token_precision => {token_precision}')
   print('\tbreakdown:')
   for k, v in result.items():
     print(f'\t\t{k}')

@@ -80,11 +80,12 @@ In order to familiarize yourself with the problem, as well as the process by whi
 Python script to calculate recall and precision of submitted annotations against the GSML.  An example submission is provided ([submitted_gsml.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/submitted_gsml.csv)).
 
 This script outputs three things:
-1. Recall - We consider correct recall as when a submitted mistake overlaps a GSML mistake.  Once a submitted mistake recalls a GSML mistake, the submitted mistake is consumed (it cannot be used to for recall of future GSML mistakes).  Mistakes are iterated left-to-right based on the SENT_TOKEN_START value.  None of the GSML mistakes span multiple sentences.  Please remember that overlapping mistake spans are not permitted.
-2. Precision - We consider correct precision where a submitted mistake overlaps a GSML mistake.  For precision, multiple submitted mistakes can overlap a single GSML mistake and we will count it as correct (GSML mistakes are not consumed like submitted mistakes are for recall)
-3. Overlap - When a submitted mistakes is matched to a GSML mistake for recall, the percentage of token overlap is recorded.  The overlap value is the mean of these percentages.
+1. Mistake Recall - We consider correct recall as when a submitted mistake overlaps a GSML mistake.  Once a submitted mistake recalls a GSML mistake, the submitted mistake is consumed (it cannot be used to for recall of future GSML mistakes).  Mistakes are iterated left-to-right based on the DOC_TOKEN_START value.  None of the GSML mistakes span multiple sentences.  Please remember that overlapping mistake spans are not permitted.
+2. Mistake Precision - Mistakes are consumed in the same way.
+3. Token Recall - The recall at the token level (where mistakes are not consumed, as tokens are our atomic units).
+4. Token Precision - The precision at the token level
 
-It is possible for two submitted mistakes to overlap the same GSML mistake.  For example, "Miami Heat" [NAME] could be the gold error, but a submission could have separate submissions of "Miami" [NAME] and "Heat" [NAME].  In this case we would award one instance of correct recall (the single GSML mistake was found) and two instances of correct precision (both submitted mistakes found the gold mistake).
+It is possible for two submitted mistakes to overlap the same GSML mistake.  For example, "Miami Heat" [NAME] could be the gold error, but a submission could have separate submissions of "Miami" [NAME] and "Heat" [NAME].  In this case we would award one instance of both correct recall and precision at the mistake level.  At the token level, two instances of both recall and precision would be awarded.
 
 Overlapping spans within one mistake list are not allowed.  For example, a submission cannot include "The Miami" and "Miami Heat" as mistakes on the sequential tokens "The Miami Heat".
 
