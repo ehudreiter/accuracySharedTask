@@ -79,15 +79,18 @@ In order to familiarize yourself with the problem, as well as the process by whi
 ### [evaluate.py](https://github.com/ehudreiter/accuracySharedTask/blob/main/evaluate.py)
 Python script to calculate recall and precision of submitted annotations against the GSML.  An example submission is provided ([submitted_gsml.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/submitted_gsml.csv)).
 
-This script outputs three things:
+Example use:
+`python evaluate.py --gsml=gsml.csv --submitted=example_submissions/submission.csv --token_lookup=token_lookup.yaml`
+
+This script outputs:
 1. Mistake Recall - We consider correct recall as when a submitted mistake overlaps a GSML mistake.  Once a submitted mistake recalls a GSML mistake, the submitted mistake is consumed (it cannot be used to for recall of future GSML mistakes).  Mistakes are iterated left-to-right based on the DOC_TOKEN_START value.  None of the GSML mistakes span multiple sentences.  Please remember that overlapping mistake spans are not permitted.
 2. Mistake Precision - Mistakes are consumed in the same way.
 3. Token Recall - The recall at the token level (where mistakes are not consumed, as tokens are our atomic units).
 4. Token Precision - The precision at the token level
 
-It is possible for two submitted mistakes to overlap the same GSML mistake.  For example, "Miami Heat" [NAME] could be the gold error, but a submission could have separate submissions of "Miami" [NAME] and "Heat" [NAME].  In this case we would award one instance of both correct recall and precision at the mistake level.  At the token level, two instances of both recall and precision would be awarded.
+It is possible for two submitted mistakes to overlap the same GSML mistake.  For example, "Miami Heat" [NAME] could be the gold error, but a submission could have separate submissions of "Miami" [NAME] and "Heat" [NAME].  In this case we would award one instance of both correct recall and precision at the mistake level.  At the token level this is not an issue.
 
-Overlapping spans within one mistake list are not allowed.  For example, a submission cannot include "The Miami" and "Miami Heat" as mistakes on the sequential tokens "The Miami Heat".
+Overlapping token spans within one mistake list are not allowed.  For example, a submission cannot include "The Miami" and "Miami Heat" as mistakes on the sequential tokens "The Miami Heat".
 
 We also calculate per-category recall and precision, the console output first shows the results overall, followed by the results for each category individually.  Some example submissions for testing this script can be found in [https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions) with an additional [README](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions/README.md) detailing their content.
 

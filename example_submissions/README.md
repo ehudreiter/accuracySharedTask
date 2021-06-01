@@ -5,7 +5,9 @@ This directory contains several example submissions for testing the [evaluate.py
 
 In bash, you can run this on all example submissions (from the root directory of the repo) with:
 
-`for F in example_submissions/*.csv; do python evaluate.py gsml.csv $F ;done`
+`for F in example_submissions/submission*.csv; do python evaluate.py --gsml=gsml.csv --submitted=$F --token_lookup=token_lookup.yaml ;done`
+
+
 
 The script performs all evaluation at the sentence level.  But, if you submit only document level ids they will be automatically converted based on on our [token_lookup](https://github.com/ehudreiter/accuracySharedTask/blob/main/token_lookup.yaml).
 

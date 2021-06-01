@@ -4,6 +4,12 @@ import pprint
 import sys
 import yaml
 from copy import deepcopy
+import argparse
+
+# Instantiate the parser
+parser = argparse.ArgumentParser(description='Optional app description')
+
+# Create the pretty printer
 pp = pprint.PrettyPrinter(indent=4)
 
 """
@@ -26,6 +32,7 @@ def all_categories():
 def csv_int(x):
   return int(x) if x else None
 
+''' Helper that checks that either DOC or SENT based tokenization is used throughout'''
 def consistent_tokenization(tokenization_mode, current_line_mode):
   if tokenization_mode not in {None, current_line_mode}:
     raise Exception('You must consistently use either document-based, sentence-based or both for the tokenization method.')
@@ -34,10 +41,8 @@ def consistent_tokenization(tokenization_mode, current_line_mode):
 """
   Creates and returns a dictionary representation of the mistake list (GSML or Submission)
   The dictiory is structured as:
-  TEXT_ID
-    SENTENCE_ID
-      START_IDX
-        MISTAKE_DATA
+  - TEXT_ID, TEXT_DATA
+    - START_IDX, MISTAKE_DATA
   The function returns a tuple where the first element is the dict, and the second is num_mistakes
 """
 def create_mistake_dict(filename, categories, token_lookup):
@@ -80,9 +85,6 @@ def create_mistake_dict(filename, categories, token_lookup):
         tokenization_mode = consistent_tokenization(tokenization_mode, 'SENT')
         doc_start_idx = token_lookup['sent_to_doc'][text_id][sentence_id][sent_start_idx]
         doc_end_idx   = token_lookup['sent_to_doc'][text_id][sentence_id][sent_end_idx]
-        # row[6] = doc_start_idx
-        # row[7] = doc_end_idx
-        # print('"' + '","'.join(str(r) for r in row) + '"')
       elif doc_given:
         tokenization_mode = consistent_tokenization(tokenization_mode, 'DOC')
         sentence_id = token_lookup['doc_to_sent'][text_id][doc_start_idx]['sentence_id']
@@ -109,60 +111,105 @@ def create_mistake_dict(filename, categories, token_lookup):
       num_mistakes += 1
   return mistake_dict, num_mistakes
 
-
-def create_document_tokens(gsml, submitted, token_lookup):
-  document_tokens = {}
-  for text_id, text_tokens in token_lookup['doc_to_sent'].items():
-    document_tokens[text_id] = {i:{'gsml': False, 'submitted': False} for i, _v in text_tokens.items()}
-  mark_document_tokens(gsml, document_tokens, 'gsml')
-  mark_document_tokens(submitted, document_tokens, 'submitted')
-  return document_tokens
-
-def mark_document_tokens(data, document_tokens, mode):
-  for text_id, text_data in data.items():
-    for doc_start_idx, error_data in text_data.items():
-      doc_end_idx = error_data['doc_end_idx']
-      for token_id in range(doc_start_idx, doc_end_idx+1):
-        document_tokens[text_id][token_id][mode] = True
-
 """
   Recall is when at least one submitted mistake overlaps the GSML mistake
   - once a submitted mistake has been used for correct recall, it cannot be used again (it is consumed).
   Precision is when a submitted mistake overlaps any GSML mistake.
 """
 def match_mistake_dicts(gsml, submitted):
-  per_gsml_recall_matches = {}
-  per_submitted_precision_matches = {}
-  token_level_recall = {}
-  token_level_precision = {}
+  per_category_matches = {k:{} for k in all_categories()}
+
+  # Copy this because the algorithm consumes elements
+  # - this can break the token level calcs if done in wrong order
+  # - so copy for least surprise
+  copy_submitted = deepcopy(submitted)
 
   for text_id, gsml_text_data in gsml.items():
     # mistake level - match each submission to at most one gold mistake
     used_submissions = set([])
     for doc_start_idx, gsml_error_data in gsml_text_data.items():
-      recall_match = False
-      precision_matches = set([])
-      if text_id in submitted:
-        for submitted_doc_start_idx, submitted_error_data in submitted[text_id].items():
-          isect = submitted_error_data['set'].intersection(gsml_error_data['set'])
-          if isect:
-            # Award correct precision regardless
-            # precision_matches.add(submitted_doc_start_idx)
-            # overlaps.append(float(len(isect)) / float(len(gsml_error_data['set'])))
+      doc_end_idx = gsml_error_data['doc_end_idx']
+      category = gsml_error_data['category']
+      assert category in per_category_matches
 
-            # If the submission has been used already for correct recall, do not use it again
-            if submitted_doc_start_idx not in used_submissions:
-              # Do not consume multiple submitted mistakes, only the first
-              if not recall_match:
-                gsml_tokens = gsml_error_data['tokens']
-                submitted_tokens = submitted_error_data['tokens']
-                recall_match = True
-                used_submissions.add(submitted_doc_start_idx)
-                precision_matches.add(submitted_doc_start_idx)
+      pop_key = None
+      if text_id in copy_submitted:
+        for submitted_doc_start_idx, submitted_error_data in copy_submitted[text_id].items():
+          # TODO - this is pretty brute force, it loops needlessly, but it works so ...
 
-      per_gsml_recall_matches[f'{text_id}_{doc_start_idx}'] = recall_match
-      per_submitted_precision_matches[f'{text_id}_{doc_start_idx}'] = precision_matches
-  return per_gsml_recall_matches, per_submitted_precision_matches
+          # Check if the submitted error intersects the GSML error 
+          if submitted_error_data['set'].intersection(gsml_error_data['set']):
+            # Only use a submission once, it cannot recall multiple gold mistakes
+            pop_key = submitted_doc_start_idx
+            break
+
+      match = pop_key != None
+      if match:
+        # Remove the submission so it will not be used again
+        copy_submitted[text_id].pop(pop_key, None)
+
+      per_category_matches[category][f'{text_id}_{doc_start_idx}'] = match
+  return per_category_matches
+
+
+
+'''Returns the correct and incorrect recall totals'''
+def get_recall(matches):
+  correct = {k:0 for k in all_categories()}
+  incorrect = {k:0 for k in all_categories()}
+  for category, h in matches.items():
+    for mistake_id_str, v in h.items():
+      if v:
+        correct[category] += 1
+      else:
+        incorrect[category] += 1
+  return correct, incorrect
+
+def get_document_tokens(token_lookup):
+  document_tokens = {}
+  for text_id, token_data in token_lookup['doc_to_sent'].items():
+    document_tokens[text_id] = {}
+    for doc_token_id in token_data.keys():
+      document_tokens[text_id][doc_token_id] = {
+        'gsml': False,
+        'submitted': False
+      }
+  return document_tokens
+
+def match_tokens(data, document_tokens, mode):
+  for text_id, text_data in data.items():
+    for start_idx, error_data in text_data.items():
+      for x in range(error_data['doc_start_idx'], error_data['doc_end_idx']+1):
+        document_tokens[text_id][x][mode] = True
+
+def get_token_level_result(gsml, submitted, token_lookup):
+  document_tokens = get_document_tokens(token_lookup)
+  match_tokens(gsml, document_tokens, 'gsml')
+  match_tokens(submitted, document_tokens, 'submitted')
+
+  recall = 0
+  recall_denominator = 0
+  precision_denominator = 0
+
+  for text_id, data in document_tokens.items():
+    for token_id, v in data.items():
+      if v['gsml'] and v['submitted']:
+        recall += 1
+      if v['gsml']:
+        recall_denominator += 1
+      if v['submitted']:
+        precision_denominator += 1
+
+  return {
+    'recall': recall,
+    'recall_denominator': recall_denominator,
+    'precision_denominator': precision_denominator,
+  }
+
+def safe_divide(x, y):
+  if y > 0:
+    return x / y
+  return None
 
 """
   Returns a dict containing sub-dicts of recall, precision and overlaps between a GSML and a submission
@@ -172,58 +219,25 @@ def match_mistake_dicts(gsml, submitted):
 def calculate_recall_and_precision(gsml_filename, submitted_filename, token_lookup, categories=[]):
   gsml, gsml_num_lines = create_mistake_dict(gsml_filename, categories, token_lookup)
   submitted, submitted_num_lines = create_mistake_dict(submitted_filename, categories, token_lookup)
-  
+
   # Mistake level
-  recall_matches, precision_matches = match_mistake_dicts(gsml, submitted)
-  
+  per_category_matches = match_mistake_dicts(gsml, submitted)
 
-  # Mistake Level Recall
-  correct_recall = len([k for k, v in recall_matches.items() if v])
-  incorrect_recall = len([k for k, v in recall_matches.items() if not v])
+  correct_recall_h, incorrect_recall_h = get_recall(per_category_matches)
+  correct_recall = sum(correct_recall_h.values())
+  incorrect_recall = sum(incorrect_recall_h.values())
+
   assert (correct_recall + incorrect_recall) == gsml_num_lines
-  if gsml_num_lines > 0:
-    recall = correct_recall / gsml_num_lines
-  else:
-    recall = None
 
-  # Mistake Level Precision
-  correct_precision = sum([len(v) for k, v in precision_matches.items()])
-  if submitted_num_lines > 0:
-    precision = correct_precision / submitted_num_lines
-  else:
-    precision = None
+  recall = safe_divide(correct_recall, gsml_num_lines)
+  precision = safe_divide(correct_recall, submitted_num_lines)
 
-  # Token Level
-  document_tokens = create_document_tokens(gsml, submitted, token_lookup)
+  # Token level
+  token_result = get_token_level_result(gsml, submitted, token_lookup)
+  token_recall = safe_divide(token_result['recall'], token_result['recall_denominator'])
+  token_precision = safe_divide(token_result['recall'], token_result['precision_denominator'])
 
-  # Token Level Recall
-  total_error_tokens = 0
-  recalled_error_tokens = 0
-  precision_error_tokens = 0
-  for text_id, d in document_tokens.items():
-    for token_id, modes in d.items():
-      if modes['gsml']:
-        # GSML mistake tokens / recall denominator
-        total_error_tokens += 1
-
-        if modes['submitted']:
-          # Correct recall
-          recalled_error_tokens += 1
-      
-      if modes['submitted']:
-        # Submitted mistake tokens / recision denominator
-        precision_error_tokens += 1
-
-  token_recall = None
-  token_precision = None
-
-  if total_error_tokens:
-    token_recall = recalled_error_tokens / total_error_tokens
-
-  if precision_error_tokens:
-    token_precision = recalled_error_tokens / precision_error_tokens
-
-
+  # Values to display
   return {
     'recall': {
       'value': recall,
@@ -232,47 +246,60 @@ def calculate_recall_and_precision(gsml_filename, submitted_filename, token_look
     },
     'precision': {
       'value': precision,
-      'correct': correct_precision,
+      'correct': correct_recall,
       'of_total': submitted_num_lines
     },
     'token_recall': {
       'value': token_recall,
-      'correct': recalled_error_tokens,
-      'of_total': total_error_tokens
+      'correct': token_result['recall'],
+      'of_total': token_result['recall_denominator']
     },
     'token_precision': {
       'value': token_precision,
-      'correct': recalled_error_tokens,
-      'of_total': precision_error_tokens
+      'correct': token_result['recall'],
+      'of_total': token_result['precision_denominator']
     },
+    'correct_recall_debug': correct_recall_h,
+    'incorrect_recall_debug': incorrect_recall_h
   }
 
+def format_result_value(value, dcp=3):
+  if value:
+    return round(value, dcp)
+  return None
 
-"""
-  Load the token_lookup from YAML
-"""
 
-with open('token_lookup.yaml', 'r') as fh:
+
+
+
+
+
+
+# CLI args
+parser.add_argument('--gsml', type=str,
+                    help='The GSML file path (CSV)')
+
+parser.add_argument('--submitted', type=str, nargs='?',
+                    help='The submitted file path (CSV)')
+
+parser.add_argument('--token_lookup', type=str,
+                    help='The tokenization file (YAML)')
+
+args = parser.parse_args()
+gsml_filename = args.gsml
+submitted_filename = args.submitted
+token_lookup_filename = args.token_lookup
+
+with open(token_lookup_filename, 'r') as fh:
   token_lookup = yaml.full_load(fh)
-
-"""
-  Check all catogories combined, as well as each category individually
-"""
-categories_list = [all_categories()] + [[x] for x in all_categories()]
-
-# Pass the GSML and the submission and CSL args
-gsml_filename = sys.argv[1]
-submitted_filename = sys.argv[2]
 
 print('\n\n')
 print('-' * 80)
 print('GSML: EVALUATE')
 print(f'comparing GSML => "{gsml_filename}" to submission => "{submitted_filename}"')
 
-def format_result_value(value, dcp=3):
-  if value:
-    return round(value, dcp)
-  return None
+# Check all catogories combined, as well as each category individually
+categories_list = [all_categories()] + [[x] for x in all_categories()]
 
 for categories in categories_list:
   category_display_str = ', '.join(categories)

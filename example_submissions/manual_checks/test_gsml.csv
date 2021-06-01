@@ -1,0 +1,17 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S001.txt,1,413,Wednesday,18,18,18,18,NAME,Friday,
+S001.txt,2,414,30,35,35,54,54,NUMBER,6,
+S001.txt,3,415,six,16,16,82,82,NUMBER,four,
+S001.txt,4,416,right behind him,4,6,94,96,WORD,,Horford was the 4th highest scorer
+S001.txt,5,417,12,11,11,120,120,NUMBER,6,
+S001.txt,5,418,double - double,14,16,123,125,WORD,,Crowder did not have a  double-double
+S001.txt,5,419,a,26,26,135,135,NUMBER,zero,
+S001.txt,9,420,led,3,3,191,191,WORD,,Olynyk was not the highest bench scorer
+S001.txt,9,421,10,8,8,196,196,NUMBER,7,
+S001.txt,9,422,pair,18,18,206,206,NUMBER,,Olynyk had 0 steals
+S001.txt,10,423,home,5,5,214,214,WORD,,The Lakers next game is on the road
+S001.txt,10,424,Detroit Pistons,11,12,220,221,NAME,New York Knicks,
+S001.txt,10,425,Friday,14,14,223,223,NAME,Monday,
+S001.txt,10,426,Toronto Raptors,25,26,234,235,NAME,LA Clippers,
+S001.txt,10,427,Wednesday,29,29,238,238,NAME,Sunday,
+S001.txt,10,428,night,30,30,239,239,WORD,afternoon,
