@@ -33,7 +33,7 @@ This repository contains a set of 60 accuracy-annotated texts for the shared tas
 * appropriate subset of Rotowire JSON: For convenience, we have included the file [shared_task.jsonl](https://github.com/ehudreiter/accuracySharedTask/blob/main/shared_task.jsonl) which includes the lines from the Rotowire test set, for each of our annotated documents.
 * game information ([games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv)): Information on the games we annotated to create the GSML.
 * example annotation exercise ([example_exercise](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise)):  An example annotation exercise to familiarize yourself with the task.
-* evaluation script ([evaluate.py](https://github.com/ehudreiter/accuracySharedTask/blob/main/evaluate.py)) and a sample task submission [submitted_gsml.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/submitted_gsml.csv): To demonstrate how recall and precision are calculated.
+* evaluation script ([evaluate.py](https://github.com/ehudreiter/accuracySharedTask/blob/main/evaluate.py)) and [example_submissions](https://github.com/ehudreiter/accuracySharedTask/tree/main/example_submissions): To demonstrate how recall and precision are calculated.
 
 Data for all games is available at [Rotowire](https://github.com/harvardnlp/boxscore-data) (original Rotowire JSON data).  it is also available at [SportSett](https://github.com/nlgcat/sport_sett_basketball) (extended relational database).  Please note that SportSett currently does not included playoff games, but does provide much more information on regular season games.
 
@@ -78,7 +78,7 @@ This file is in the the same format as [Rotowire](https://github.com/harvardnlp/
 In order to familiarize yourself with the problem, as well as the process by which our GSML was created, we suggest that participants annotate one text manually for errors themselves.  For this purpose, we have included an updated version of the qualifying task which we used to screen our crowd-source workers.  The [Example Annotation Exercise](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise/Example_Annotation_Exercise.docx) file contains the instructions we gave to workers, an example annotated text, then a text for you to annotate yourself.  This is not a requirement, although we do think it is a very useful exercise to do, and should only take about 20-30 minutes.  We have provided our solution in the [Example Annotation Solution](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise/Example_Annotation_Solution.docx) document.  This example exercise only differs slightly from that which our MTurk workers when they first started doing annotations for us.  Since then, we have made some minor clarifications to our instructions, it is these updated instructions which have been included here.
 
 ### [evaluate.py](https://github.com/ehudreiter/accuracySharedTask/blob/main/evaluate.py)
-Python script to calculate recall and precision of submitted annotations against the GSML.  An example submission is provided ([submitted_gsml.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/submitted_gsml.csv)).
+Python script to calculate recall and precision of submitted annotations against the GSML.  Example submissions are provided ([example_submissions](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions)).  The token_lookup.yml file contains a mapping from sentence to document based tokenization and vice versa.
 
 Example use:
 `python evaluate.py --gsml=gsml.csv --submitted=example_submissions/submission.csv --token_lookup=token_lookup.yaml`
@@ -93,7 +93,7 @@ It is possible for two submitted mistakes to overlap the same GSML mistake.  For
 
 Overlapping token spans within one mistake list are not allowed.  For example, a submission cannot include "The Miami" and "Miami Heat" as mistakes on the sequential tokens "The Miami Heat".
 
-We also calculate per-category recall and precision, the console output first shows the results overall, followed by the results for each category individually.  Some example submissions for testing this script can be found in [https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions) with an additional [README](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions/README.md) detailing their content.
+We also calculate per-category recall and precision, the console output first shows the results overall, followed by the results for each category individually.  Some example submissions for testing this script can be found in [example_submissions](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions) with an additional [README](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions/README.md) detailing their content.
 
 PLEASE NOTE:  Results are calculated using document level token IDs, although if you only include sentence level token IDs (and sentence numbers), and this matches our tokenization scheme, then document level IDs will be calculated automatically.
 
