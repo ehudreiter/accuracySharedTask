@@ -8,6 +8,7 @@ The texts we use are descriptions of basketball games produced three different n
 For detailed information on the shared task, see https://www.aclweb.org/anthology/2020.inlg-1.28/
 
 ## News
+* 1 June - evaluate.py updated to work at document level and report additional info about recall/precision at token level
 * 17 May - added section about Tokenization
 * 16 May - added information about accompanying papers to Shared task schedule
 
