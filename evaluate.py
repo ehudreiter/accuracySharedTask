@@ -47,6 +47,7 @@ def consistent_tokenization(tokenization_mode, current_line_mode):
 """
 def create_mistake_dict(filename, categories, token_lookup):
   mistake_dict = {}
+  tokens_used = {}
   matches = 0
   with open(filename, newline='') as csvfile:
     reader = csv.reader(csvfile, delimiter=',', quotechar='"')
@@ -96,7 +97,19 @@ def create_mistake_dict(filename, categories, token_lookup):
       if category not in categories:
         continue
 
-      if text_id not in mistake_dict: mistake_dict[text_id] = {}
+      # For detecting overlapping spans
+      if text_id not in tokens_used:
+        tokens_used[text_id] = set([])
+
+      for x in range(doc_start_idx, doc_end_idx+1):
+        if x in tokens_used[text_id]:
+          raise Exception(f'Token {x} already used, duplicate on {text_id}:{i}')
+        tokens_used[text_id].add(x)
+
+      # The mistake data structure
+      if text_id not in mistake_dict:
+        mistake_dict[text_id] = {}
+
       mistake_dict[text_id][doc_start_idx] = {
         'set':            set(range(doc_start_idx, doc_end_idx+1)),
         'category':       category,
