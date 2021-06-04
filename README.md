@@ -8,6 +8,7 @@ The texts we use are descriptions of basketball games produced three different n
 For detailed information on the shared task, see https://www.aclweb.org/anthology/2020.inlg-1.28/
 
 ## News
+* 4 June - Submission: we will release the test set on 15 June, and ask you to email us your results by 29 June; we will compute precision/recall against gold-standard error annotations (these wpnt be released on 15 June).   Please also email us your code (for metrics) or protocol (for human evals) on or before 15 June.  We dont intend to run this ourselves, but want a record in case concerns arise about participants changing metric/protocol after seeing the test set.
 * 1 June - evaluate.py updated to work at document level and report additional info about recall/precision at token level
 * 17 May - added section about Tokenization
 * 16 May - added information about accompanying papers to Shared task schedule
