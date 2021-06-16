@@ -21,7 +21,7 @@ with open('games.csv', newline='') as csvfile, open('shared_task.jsonl') as fh:
     print(text_id)
     home_name = row[1]
     vis_name = row[2]
-    generated_text = row[4]
+    generated_text = row[4].strip()
     the_date = row[6]
     
     # Check vs JSON data
@@ -71,7 +71,8 @@ with open('gsml.csv', newline='') as csvfile:
         texts[text_id] = fh_t.read().split()
       found = ' '.join(texts[text_id][start:end])
       if found != target:
-        raise Exception(f'No MATCH {text_id}, {i}, {start}, {start}, "{found}", "{target}"')
+        ex_str = f'No MATCH {text_id}, {i}, {start}, {end}, "{found}", "{target}"'
+        raise Exception(ex_str)
       else:
         print(f'matched ({text_id}): {found} == {target}')
         matches += 1
@@ -132,9 +133,22 @@ with open('games.csv', newline='') as csvfile:
                 # We used the special token 000 (which does not appear in the corpus) to
                 #   replace apostrophes for loading into WebAnno, as it was splitting them
                 #   into sep tokens.  These should not be in the texts folder, but will be in WebAnno data:
-                if '000' in sentence_lookup[sentence_id][token_id]:
-                  raise Exception(f'000 character found {sentence_lookup[sentence_id][token_id]}')
-                webanno_token_text = webanno_row[2].replace('000','\'')
+                replacements = {
+                  '000':  "'",
+                  'NULL': 'N/A',
+                  'COLON': ':',
+                }
+
+                webanno_token_text = webanno_row[2]
+
+                for rep_from, rep_to in replacements.items():
+                  if rep_from in sentence_lookup[sentence_id][token_id]:
+                    ext_str =f'{rep_from} character found {sentence_lookup[sentence_id][token_id]}'
+                    print(ext_str)
+                    raise Exception(ext_str)
+
+                  webanno_token_text = webanno_token_text.replace(rep_from, rep_to)
+
                 sentence_token_text = sentence_lookup[sentence_id][token_id]
                 if webanno_token_text != sentence_token_text:
                   print(webanno_row)
