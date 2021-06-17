@@ -12,6 +12,7 @@ For detailed information on the shared task, see https://www.aclweb.org/antholog
 * 1 June - evaluate.py updated to work at document level and report additional info about recall/precision at token level
 * 17 May - added section about Tokenization
 * 16 May - added information about accompanying papers to Shared task schedule
+* 17 June - Added information in the Tokenization section to explain how you can check your submission is correctly tokenized using evaluate.py
 
 ## Shared task schedule
 * 15 December 2020: Shared task officially launched at INLG 2020
@@ -104,6 +105,14 @@ Our texts (GENERATED_TEXT) are already tokenized then joined with spaces.  The o
 Additional info / background:  The original Rotowire corpus, and texts generated from it, used the nltk tokenizer.  The corpus includes tokenized text as a list with no original format texts.  However, the nltk tokenizer performs poorly on this dataset, tripping over names like C.J. Miles and sometimes not splitting tokens correctly (the vocabulary inludes things like "game.The" as one token).  The spaCy parser also struggles with such names, as does whichever parser WebAnno uses, they end sentences after "C.J.".  WebAnno also tried to split tokens differently, with words like "didn't" becoming three tokens where nltk and spaCy created two.  Therefore, since different parsers not only split sentences differently, but also tokens, we need to use a simple, standard scheme.  The training texts are already formatted by this scheme (albeit joined by whitespace so they are still human readble), and the test texts will be processed in the same way.  If you want to use tools like spaCy to perform, for example, some kind of dependency analysis, then you can, but make sure your submitted token ids align with those from the simple tokenization scheme above.
 
 Note on tokens containing the characters "000":  Because WebAnno was attempting to apply additional tokenization over our already tokenized text, we had to replace apostrophe characters with "000" (a sequence of characters not otherwise in the corpus).  We then replaced this special sequence with apostrophes after the WebAnno export.  However, three of the files in the [texts](https://github.com/ehudreiter/accuracySharedTask/blob/main/texts) directory appear to not have had this replacement applied.  These tokens were never part of any marked errors in the GSML, which is why the test script missed them (it has been updated to check for this, and to check our tokenization scheme wrt the WebAnno export).  The most recent commit has rectified this.  Such tokens are till present in the WebAnno [curations](https://github.com/ehudreiter/accuracySharedTask/blob/main/curations) which are now also included in the repo in their raw export form.
+
+To check that your submission is correctly tokenized, you can use evaluate.py to compare your submission to itself.  Obviously this will yield 1.0 recall and precision, but it will also check that the tokens you report in the TOKENS field match those that we find when we lookup in the raw text using the DOC_TOKEN_START and DOC_TOKEN_END.
+
+make sure that you point texts and token_lookup to those from the appropriate data partition (training or test).
+
+`python evaluate.py --gsml=submission.csv --submitted=submission.csv --token_lookup=token_lookup.yaml --text_dir=texts`
+
+The script will fail with an assert if there are problems.
 
 ### Reading the Box Score (fields in shared_task.jsonl)
 Below are definitions of field labels which might not be familiar if you do not follow basketball.  They come from the [Box Score](https://en.wikipedia.org/wiki/Box_score), and whilst some of the headers can differ slightly depending on the source, the ones in the [Rotowire](https://github.com/harvardnlp/boxscore-data), which is the format our data is in are:

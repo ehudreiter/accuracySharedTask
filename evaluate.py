@@ -224,14 +224,42 @@ def safe_divide(x, y):
     return x / y
   return None
 
+
+"""
+  checks that the token text in the submssion matches that which is retrieved by DOCUMENT level IDs
+"""
+def check_token_ids(mistake_dict, text_dir):
+  for text_id, text_errors in mistake_dict.items():
+    with open(f'{text_dir}/{text_id}.txt', 'r') as fh:
+      raw_text = fh.read()
+      raw_tokens = raw_text.split()
+      for doc_start_idx, h in text_errors.items():
+        assert doc_start_idx == h['doc_start_idx']
+        tokens = h['tokens'].split()
+        for i, t  in enumerate(tokens):
+          # Check the token reported matches the one in the raw text
+          # - Token IDs in submission start at 1 (because of WebAnno)
+          x = doc_start_idx+i-1
+          print(f'{text_id}:{x} => {raw_tokens[doc_start_idx+i-1]} == {t}')
+          assert raw_tokens[x] == t
+
+
 """
   Returns a dict containing sub-dicts of recall, precision and overlaps between a GSML and a submission
   Takes as input dicts created with match_mistake_dicts(), plus a list of categories
   Only the categories given will be checked.
 """
-def calculate_recall_and_precision(gsml_filename, submitted_filename, token_lookup, categories=[]):
+def calculate_recall_and_precision(gsml_filename, submitted_filename, token_lookup, text_dir, categories=[]):
   gsml, gsml_num_lines = create_mistake_dict(gsml_filename, categories, token_lookup)
   submitted, submitted_num_lines = create_mistake_dict(submitted_filename, categories, token_lookup)
+
+  if text_dir != None:
+    print('\n\n------------------------------------')
+    print('Checking GSML for token match against raw texts:')
+    check_token_ids(gsml, text_dir)
+    print('\n\n------------------------------------')
+    print('Checking Submitted for token match against raw texts:')
+    check_token_ids(submitted, text_dir)
 
   # Mistake level
   per_category_matches = match_mistake_dicts(gsml, submitted)
@@ -298,10 +326,14 @@ parser.add_argument('--submitted', type=str, nargs='?',
 parser.add_argument('--token_lookup', type=str,
                     help='The tokenization file (YAML)')
 
+parser.add_argument('--text_dir', type=str,
+                    help='The directory where the raw texts are')
+
 args = parser.parse_args()
 gsml_filename = args.gsml
 submitted_filename = args.submitted
 token_lookup_filename = args.token_lookup
+text_dir = args.text_dir
 
 with open(token_lookup_filename, 'r') as fh:
   token_lookup = yaml.full_load(fh)
@@ -318,7 +350,7 @@ for categories in categories_list:
   category_display_str = ', '.join(categories)
   print(f'\n\t-- GSML for categories: [{category_display_str}]')
 
-  result = calculate_recall_and_precision(gsml_filename, submitted_filename, token_lookup, categories)
+  result = calculate_recall_and_precision(gsml_filename, submitted_filename, token_lookup, text_dir, categories)
   recall = format_result_value(result['recall']['value'])
   precision = format_result_value(result['precision']['value'])
   token_recall = format_result_value(result['token_recall']['value'])
