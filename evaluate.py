@@ -240,7 +240,7 @@ def check_token_ids(mistake_dict, text_dir):
           # Check the token reported matches the one in the raw text
           # - Token IDs in submission start at 1 (because of WebAnno)
           x = doc_start_idx+i-1
-          print(f'{text_id}:{x} => {raw_tokens[doc_start_idx+i-1]} == {t}')
+          # print(f'{text_id}:{x} => {raw_tokens[doc_start_idx+i-1]} == {t}')
           assert raw_tokens[x] == t
 
 
@@ -254,11 +254,9 @@ def calculate_recall_and_precision(gsml_filename, submitted_filename, token_look
   submitted, submitted_num_lines = create_mistake_dict(submitted_filename, categories, token_lookup)
 
   if text_dir != None:
-    print('\n\n------------------------------------')
-    print('Checking GSML for token match against raw texts:')
+    print('\tChecking GSML for token match against raw texts:')
     check_token_ids(gsml, text_dir)
-    print('\n\n------------------------------------')
-    print('Checking Submitted for token match against raw texts:')
+    print('\tChecking Submitted for token match against raw texts:')
     check_token_ids(submitted, text_dir)
 
   # Mistake level
@@ -329,11 +327,15 @@ parser.add_argument('--token_lookup', type=str,
 parser.add_argument('--text_dir', type=str,
                     help='The directory where the raw texts are')
 
+parser.add_argument('--csv_out', type=str,
+                    help='Path to an output CSV file for stats (optional)')
+
 args = parser.parse_args()
 gsml_filename = args.gsml
 submitted_filename = args.submitted
 token_lookup_filename = args.token_lookup
 text_dir = args.text_dir
+csv_out = args.csv_out
 
 with open(token_lookup_filename, 'r') as fh:
   token_lookup = yaml.full_load(fh)
@@ -345,19 +347,52 @@ print(f'comparing GSML => "{gsml_filename}" to submission => "{submitted_filenam
 
 # Check all catogories combined, as well as each category individually
 categories_list = [all_categories()] + [[x] for x in all_categories()]
+csv_lines = [
+  [
+    'categories',
+    'recall',
+    'precision',
+    'token_recall',
+    'token_precision',
+    'submitted_filename',
+    'gsml_filename',
+    'token_lookup_filename',
+    'text_dir',
+  ]
+]
 
 for categories in categories_list:
   category_display_str = ', '.join(categories)
-  print(f'\n\t-- GSML for categories: [{category_display_str}]')
+  print('\n\n--------------------------------------------')
+  print(f'-- GSML for categories: [{category_display_str}]')
 
   result = calculate_recall_and_precision(gsml_filename, submitted_filename, token_lookup, text_dir, categories)
   recall = format_result_value(result['recall']['value'])
   precision = format_result_value(result['precision']['value'])
   token_recall = format_result_value(result['token_recall']['value'])
   token_precision = format_result_value(result['token_precision']['value'])
+
+  csv_lines.append(
+    [
+      '|'.join(categories),
+      str(recall),
+      str(precision),
+      str(token_recall),
+      str(token_precision),
+      submitted_filename,
+      gsml_filename,
+      text_dir,
+    ]
+  )
+
   print(f'\tsummary: recall => {recall}, precision => {precision}, token_recall => {token_recall}, token_precision => {token_precision}')
   print('\tbreakdown:')
   for k, v in result.items():
     print(f'\t\t{k}')
     for sub_k, sub_v in v.items():
       print(f'\t\t\t{sub_k} => {sub_v}')
+
+if csv_out != None:
+  with open(csv_out, 'w') as fh:
+    s = '\n'.join([','.join(arr) for arr in csv_lines])
+    fh.write(f'{s}\n')

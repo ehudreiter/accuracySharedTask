@@ -99,6 +99,10 @@ We also calculate per-category recall and precision, the console output first sh
 
 PLEASE NOTE:  Results are calculated using document level token IDs, although if you only include sentence level token IDs (and sentence numbers), and this matches our tokenization scheme, then document level IDs will be calculated automatically.
 
+There is now also an option to output the results to a CSV file, usage is:
+
+`python evaluate.py --gsml=gsml.csv --submitted=example_submissions/submission.csv --token_lookup=token_lookup.yaml --csv_out=example_submissions/results.csv`
+
 ### Tokenization
 Our texts (GENERATED_TEXT) are already tokenized then joined with spaces.  The only sentence delimiting character is the period.  The [evaluate.py](https://github.com/ehudreiter/accuracySharedTask/blob/main/evaluate.py) script will be updated such that it uses document level token ids rather than sentence level ones.  This will make no difference to the way submisions are evaluated, but will mean participants who do not wish to consider sentence breaks do not have to.  It is, however, important that any submissions use the same tokenization as our original texts.
 
