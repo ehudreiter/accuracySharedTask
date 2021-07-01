@@ -1,6 +1,6 @@
 # Shared Task Test set
 
-This zip folder contains the shared task test set.  It includes the same types of files that were included in the repository for the training data, but for a different 30 texts/games.
+This folder contains the shared task test set.  It includes the same types of files that were included in the repository for the training data, but for a different 30 texts/games.
 
 We include here:
 - games.csv => The list of games, with the links to external resources.
