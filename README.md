@@ -8,6 +8,7 @@ The texts we use are descriptions of basketball games produced three different n
 For detailed information on the shared task, see https://www.aclweb.org/anthology/2020.inlg-1.28/
 
 ## News
+* 1 July - test set added to public Github site
 * 4 June - Submission: we will release the test set on 15 June, and ask you to email us your results by 29 June; we will compute precision/recall against gold-standard error annotations (these wpnt be released on 15 June).   Please also email us your code (for metrics) or protocol (for human evals) on or before 15 June.  We dont intend to run this ourselves, but want a record in case concerns arise about participants changing metric/protocol after seeing the test set.
 * 1 June - evaluate.py updated to work at document level and report additional info about recall/precision at token level
 * 17 May - added section about Tokenization
@@ -19,7 +20,7 @@ For detailed information on the shared task, see https://www.aclweb.org/antholog
 * 1 March 2021: Deadline for notifying us that you intend to participate in the shared task (please email   e.reiter@abdn.ac.uk )
 * 31 March 2021: Evaluation script to be realeased.
 * 15 June 2021: Submission of techniques (metrics and protocols).  We will release the test set (without annotations), and ask participants to try their techniques on the test set and give us results within 2 weeks.   We will compare the results against our gold-standard human annotations of inaccuracies, and compute recall and precision statistics.
-* 12 July 2021: (Optional) Submission of short papers about shared task entries.  These should follow the format of INLG short papers, but do not need to be anonymised.  We will review and provide comments by 26 July
+* 18 July 2021: (Optional) Submission of short papers about shared task entries.  These should follow the format of INLG short papers, but do not need to be anonymised.  We will review and provide comments by 26 July
 * 1 August 2021: Results announced
 * 12 August 2021: Camera-ready versions of (optional) short papers due
 * 20-24 Sept 2021: Presentation of shared task at INLG 2021 (https://inlg2021.github.io/)
@@ -28,7 +29,7 @@ For more information or to register interest, please email Ehud Reiter at   e.re
 
 
 ## What is in this repo
-This repository contains a set of 60 accuracy-annotated texts for the shared task, some of which were extracted from https://github.com/nlgcat/evaluating_accuracy. 
+This repository contains a set of 60 accuracy-annotated texts for the shared task, some of which were extracted from https://github.com/nlgcat/evaluating_accuracy. An additional 30 accuracy-annotated texts are available as a separate test set (which was not visible to participants during the task)
 * texts: the source [texts](https://github.com/ehudreiter/accuracySharedTask/blob/main/texts) produced by neural NLG systems, which describe basketball box score data
 * word_docs: word documents used in human experiments.  Page 6 includes the texts (same as in texts directory) and links which human subjects can use to get data about the games
 * gold-standard markup list ([gsml.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/gsml.csv)), which lists mistakes in these texts.  This is a comma separated file, with cells encased in double quotes.
