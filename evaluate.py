@@ -92,7 +92,8 @@ def create_mistake_dict(filename, categories, token_lookup):
         sent_start_idx = token_lookup['doc_to_sent'][text_id][doc_start_idx]['token_id']
         sent_end_idx = token_lookup['doc_to_sent'][text_id][doc_end_idx]['token_id']
       else:
-        raise Exception(f'You must provide either document or sentence based token ids on {filename} row {i}')
+        err_str = f'You must provide either document or sentence based token ids on {filename} row {i}'
+        raise Exception(err_str)
 
       if category not in categories:
         continue
@@ -103,7 +104,8 @@ def create_mistake_dict(filename, categories, token_lookup):
 
       for x in range(doc_start_idx, doc_end_idx+1):
         if x in tokens_used[text_id]:
-          raise Exception(f'Token {x} already used, duplicate on {text_id}:{i}')
+          err_str = f'Token {x} already used, duplicate on {text_id}:{i}'
+          raise Exception(err_str)
         tokens_used[text_id].add(x)
 
       # The mistake data structure
