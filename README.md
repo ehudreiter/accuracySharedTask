@@ -37,6 +37,7 @@ This repository contains a set of 60 accuracy-annotated texts for the shared tas
 * game information ([games.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/games.csv)): Information on the games we annotated to create the GSML.
 * example annotation exercise ([example_exercise](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_exercise)):  An example annotation exercise to familiarize yourself with the task.
 * evaluation script ([evaluate.py](https://github.com/ehudreiter/accuracySharedTask/blob/main/evaluate.py)) and [example_submissions](https://github.com/ehudreiter/accuracySharedTask/tree/main/example_submissions): To demonstrate how recall and precision are calculated.
+* [test set](https://github.com/ehudreiter/accuracySharedTask/blob/main/test_set): held-out test data for shared task
 
 Data for all games is available at [Rotowire](https://github.com/harvardnlp/boxscore-data) (original Rotowire JSON data).  it is also available at [SportSett](https://github.com/nlgcat/sport_sett_basketball) (extended relational database).  Please note that SportSett currently does not included playoff games, but does provide much more information on regular season games.
 
