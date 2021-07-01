@@ -1,15 +1,16 @@
 # Shared Task Test set
 
-This zip folder contains the files you will need to apply your submitted to techniques to the shared task test set.  We have included the same types of file that were included in the repository for the training data, except for a different 30 texts/games.
+This zip folder contains the shared task test set.  It includes the same types of files that were included in the repository for the training data, but for a different 30 texts/games.
 
 We include here:
 - games.csv => The list of games, with the links to external resources.
-- token_lookup.yaml => A lookup of sentence based token ids to document based ones and vice versa.
-- texts => A directory containing the unannotated texts for the test set.
+- gsml.csv => This contains the errors our human annotors found in the 30 test texts.
 - shared_task.jsonl => The training data that was used to generate the text.  In JSONL format (one dictionary per line, in order based on the text IDs)
+- texts => A directory containing the unannotated texts for the test set.
+- token_lookup.yaml => A lookup of sentence based token ids to document based ones and vice versa.
 
-We do not include:
-- gsml.csv => This contains the errors our human annotors found in the 30 test texts.  We will compare your submissions against this when you return them.  After the task, we will upload this file to GitHub.
+# Instructions for participants
+
 
 ## What we need from you
 We need a CSV file in the same format as the GSML.  An example can be found in [example_submissions/submission.csv](https://github.com/ehudreiter/accuracySharedTask/blob/main/example_submissions/submission.csv) of the Git repo.  Your submission must include the following columns, in this order:
