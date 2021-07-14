@@ -62,13 +62,13 @@ Team & recall & precision \\ \hline -->
             <td>0.523</td>
             <td>0.494</td>
       </tr>
-      <!-- Ohio State & 0.330 & 0.452 \\ -->
+      <!-- Ohio State & 0.330 & 0.452 
       <tr>
             <td>Ohio State</td>
             <td>metric</td>
             <td>0.330</td>
             <td>0.452</td>
-      </tr>
+      </tr> \\ -->
       <!-- Eurocom & 0.080 & 0.311  \\ \hline -->
       <tr>
             <td>Eurocom</td>
