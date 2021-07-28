@@ -44,7 +44,7 @@ Team & recall & precision \\ \hline -->
       <!-- Laval University * & 0.841 & 0.879  \\ -->
       <tr>
             <td>Laval University</td>
-            <td>hybrid eval</td>
+            <td>human&metric</td>
             <td>0.841</td>
             <td>0.879</td>
       </tr>
@@ -58,7 +58,7 @@ Team & recall & precision \\ \hline -->
       <!-- Laval University (metric) \\ -->
       <tr>
             <td>Laval University</td>
-            <td>hybrid eval</td>
+            <td>metric</td>
             <td>0.503</td>
             <td>0.334</td>
       </tr>
