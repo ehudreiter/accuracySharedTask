@@ -55,19 +55,19 @@ Team & recall & precision \\ \hline -->
             <td>0.691</td>
             <td>0.756</td>
       </tr>
-      <!-- Laval University (metric) \\ -->
-      <tr>
-            <td>Laval University</td>
-            <td>metric</td>
-            <td>0.503</td>
-            <td>0.334</td>
-      </tr>
       <!-- NIJL & 0.523 & 0.494  \\ -->
       <tr>
             <td>NIJL</td>
             <td>metric</td>
             <td>0.523</td>
             <td>0.494</td>
+      </tr>
+      <!-- Laval University (metric) \\ -->
+      <tr>
+            <td>Laval University</td>
+            <td>metric</td>
+            <td>0.503</td>
+            <td>0.334</td>
       </tr>
       <!-- Ohio State & 0.330 & 0.452 
       <tr>
@@ -76,9 +76,9 @@ Team & recall & precision \\ \hline -->
             <td>0.330</td>
             <td>0.452</td>
       </tr> \\ -->
-      <!-- Eurocom & 0.080 & 0.311  \\ \hline -->
+      <!-- Eurecom & 0.080 & 0.311  \\ \hline -->
       <tr>
-            <td>Eurocom</td>
+            <td>Eurecom</td>
             <td>metric</td>
             <td>0.080</td>
             <td>0.311</td>
