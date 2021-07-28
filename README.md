@@ -44,16 +44,23 @@ Team & recall & precision \\ \hline -->
       <!-- Laval University * & 0.841 & 0.879  \\ -->
       <tr>
             <td>Laval University</td>
-            <td>human eval</td>
+            <td>hybrid eval</td>
             <td>0.841</td>
             <td>0.879</td>
       </tr>
       <!-- Charles University & 0.691 & 0.756  \\ -->
       <tr>
-            <td>Charles University</td>
+            <td>Charles-UPF</td>
             <td>metric</td>
             <td>0.691</td>
             <td>0.756</td>
+      </tr>
+      <!-- Laval University (metric) \\ -->
+      <tr>
+            <td>Laval University</td>
+            <td>hybrid eval</td>
+            <td>0.503</td>
+            <td>0.334</td>
       </tr>
       <!-- NIJL & 0.523 & 0.494  \\ -->
       <tr>
