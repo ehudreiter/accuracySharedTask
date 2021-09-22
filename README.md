@@ -5,9 +5,16 @@ As training and development data, we provide a set of generated texts which have
 
 The texts we use are descriptions of basketball games produced three different neural NLG systems, from box-score data.  The descriptions are 300 words long on average.
 
-For detailed information on the shared task, see https://www.aclweb.org/anthology/2020.inlg-1.28/
+For detailed information on the shared task, see https://www.aclweb.org/anthology/2020.inlg-1.28
 
-Results of the shared task are presented in  https://arxiv.org/abs/2108.05644
+Results of the shared task are presented in  https://aclanthology.org/2021.inlg-1.23
+
+Submission papers:
+
+* Kasner et al. (Charles/UPF) https://aclanthology.org/2021.inlg-1.25
+* Garneau et al. (Laval) https://aclanthology.org/2021.inlg-1.26
+* Rezgui et al. (EURECOM) https://aclanthology.org/2021.inlg-1.27
+* Nomoto (NIJL) https://aclanthology.org/2021.inlg-1.28
 
 ## News
 * 13 August - results of shared task are presented in  https://arxiv.org/abs/2108.05644
@@ -79,9 +86,9 @@ Team & recall & precision \\ \hline -->
             <td>0.330</td>
             <td>0.452</td>
       </tr> \\ -->
-      <!-- Eurecom & 0.080 & 0.311  \\ \hline -->
+      <!-- EURECOM & 0.080 & 0.311  \\ \hline -->
       <tr>
-            <td>Eurecom</td>
+            <td>EURECOM</td>
             <td>metric</td>
             <td>0.080</td>
             <td>0.311</td>
